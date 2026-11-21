@@ -1,1 +1,284 @@
-{"items":[{"author":"GM","folder":"sf3_ryu","id":"sf3_ryu","name":"Ryu","size":"4.2 MB","type":"char","url":"https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ryu.zip"},{"author":"GM","folder":"sf3_ken","id":"sf3_ken","name":"Ken","size":"4.2 MB","type":"char","url":"https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ken.zip"},{"author":"GM","folder":"sf3_gouki","id":"sf3_gouki","name":"Gouki (Akuma)","size":"4.7 MB","type":"char","url":"https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_gouki.zip"},{"author":"GM","folder":"sf3_ibuki","id":"sf3_ibuki","name":"Ibuki","size":"4.3 MB","type":"char","url":"https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ibuki.zip"},{"author":"GM","folder":"sf3_alex","id":"sf3_alex","name":"Alex","size":"4.6 MB","type":"char","url":"https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_alex.zip"},{"author":"GM","folder":"sf3_hugo","id":"sf3_hugo","name":"Hugo","size":"5.5 MB","type":"char","url":"https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_hugo.zip"},{"author":"GM","folder":"sf3_gill","id":"sf3_gill","name":"Gill","size":"6.8 MB","type":"char","url":"https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_gill.zip"},{"author":"NeoGouki","def":"suzaku.def","id":"suzaku","name":"Suzaku Castle","size":"0.1 MB","type":"stage","url":"https://raw.githubusercontent.com/yusib147/sf3-content/main/suzaku.zip"}],"version":1}
+{
+  "items": [
+    {
+      "author": "GM",
+      "folder": "sf3_ryu",
+      "id": "sf3_ryu",
+      "name": "Ryu",
+      "size": "4.2 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ryu.zip"
+    },
+    {
+      "author": "GM",
+      "folder": "sf3_ken",
+      "id": "sf3_ken",
+      "name": "Ken",
+      "size": "4.2 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ken.zip"
+    },
+    {
+      "author": "GM",
+      "folder": "sf3_gouki",
+      "id": "sf3_gouki",
+      "name": "Gouki (Akuma)",
+      "size": "4.7 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_gouki.zip"
+    },
+    {
+      "author": "GM",
+      "folder": "sf3_ibuki",
+      "id": "sf3_ibuki",
+      "name": "Ibuki",
+      "size": "4.3 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ibuki.zip"
+    },
+    {
+      "author": "GM",
+      "folder": "sf3_alex",
+      "id": "sf3_alex",
+      "name": "Alex",
+      "size": "4.6 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_alex.zip"
+    },
+    {
+      "author": "GM",
+      "folder": "sf3_hugo",
+      "id": "sf3_hugo",
+      "name": "Hugo",
+      "size": "5.5 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_hugo.zip"
+    },
+    {
+      "author": "GM",
+      "folder": "sf3_gill",
+      "id": "sf3_gill",
+      "name": "Gill",
+      "size": "6.8 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_gill.zip"
+    },
+    {
+      "author": "NeoGouki",
+      "def": "suzaku.def",
+      "id": "suzaku",
+      "name": "Suzaku Castle",
+      "size": "0.1 MB",
+      "type": "stage",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/suzaku.zip"
+    },
+    {
+      "id": "music_kobu",
+      "name": "Kobu \u2014 SF3 Theme",
+      "type": "music",
+      "file": "kobu.mp3",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-kobu-theme.zip",
+      "size": "3.3 MB",
+      "author": "Skepter Fightcade"
+    },
+    {
+      "id": "music_arcade_loop",
+      "name": "Arcade Loop (chiptune)",
+      "type": "music",
+      "file": "arcade-loop.mp3",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-arcade-loop.zip",
+      "size": "0.2 MB",
+      "author": "Skepter Fightcade"
+    },
+    {
+      "id": "skin_sunset_crimson",
+      "name": "Sunset Crimson",
+      "type": "skin",
+      "folder": "sunset_crimson",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-sunset-crimson.zip",
+      "size": "0.1 MB",
+      "author": "Skepter Fightcade"
+    },
+    {
+      "id": "skin_neon_night",
+      "name": "Neon Night",
+      "type": "skin",
+      "folder": "neon_night",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-neon-night.zip",
+      "size": "0.1 MB",
+      "author": "Skepter Fightcade"
+    },
+    {
+      "author": "Aice-Man",
+      "folder": "mk_scorpion",
+      "id": "mk_scorpion",
+      "name": "Scorpion (MKII)",
+      "size": "2.9 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_scorpion.zip"
+    },
+    {
+      "author": "Aice-Man (mod)",
+      "folder": "mk_subzero",
+      "id": "mk_subzero",
+      "name": "Sub-Zero (MKII)",
+      "size": "3.1 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_subzero.zip"
+    },
+    {
+      "author": "reptile",
+      "folder": "mk_liukang",
+      "id": "mk_liukang",
+      "name": "Liu Kang (MKII)",
+      "size": "4.0 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_liukang.zip"
+    },
+    {
+      "author": "MKP team",
+      "folder": "mk_raiden",
+      "id": "mk_raiden",
+      "name": "Raiden (MKII)",
+      "size": "3.3 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_raiden.zip"
+    },
+    {
+      "author": "MKP team",
+      "folder": "mk_cage",
+      "id": "mk_cage",
+      "name": "Johnny Cage (MKII)",
+      "size": "2.6 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_cage.zip"
+    },
+    {
+      "author": "Warusaki3",
+      "folder": "svc_karate",
+      "id": "svc_karate",
+      "name": "Mr. Karate (SvC Chaos)",
+      "size": "4.3 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_karate.zip"
+    },
+    {
+      "author": "Tin",
+      "folder": "svc_shiki",
+      "id": "svc_shiki",
+      "name": "Shiki (SvC Chaos)",
+      "size": "2.8 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_shiki.zip"
+    },
+    {
+      "author": "Tin",
+      "folder": "svc_genjuro",
+      "id": "svc_genjuro",
+      "name": "Genjuro Kibagami (SvC Chaos)",
+      "size": "3.8 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_genjuro.zip"
+    },
+    {
+      "author": "Mouser",
+      "folder": "svc_sagat",
+      "id": "svc_sagat",
+      "name": "Sagat (SvC Chaos)",
+      "size": "2.6 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_sagat.zip"
+    },
+    {
+      "author": "H",
+      "folder": "svc_vega",
+      "id": "svc_vega",
+      "name": "M. Bison (SvC Chaos)",
+      "size": "3.1 MB",
+      "type": "char",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_vega.zip"
+    },
+    {
+      "author": "NeoGouki",
+      "def": "3rd_alex.def",
+      "id": "3rd_alex",
+      "name": "New York Subway Station (SF3)",
+      "size": "0.1 MB",
+      "type": "stage",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/3rd_alex.zip"
+    },
+    {
+      "author": "NeoGouki",
+      "def": "3rd_chun.def",
+      "id": "3rd_chun",
+      "name": "Chinese Restaurant (SF3)",
+      "size": "0.2 MB",
+      "type": "stage",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/3rd_chun.zip"
+    },
+    {
+      "author": "NeoGouki",
+      "def": "3rd_yun.def",
+      "id": "3rd_yun",
+      "name": "Hong Kong Shopping District (SF3)",
+      "size": "0.3 MB",
+      "type": "stage",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/3rd_yun.zip"
+    },
+    {
+      "author": "MKP team",
+      "def": "mk2_deadpool.def",
+      "id": "mk2_deadpool",
+      "name": "The Dead Pool (MKII)",
+      "size": "0.9 MB",
+      "type": "stage",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk2_deadpool.zip"
+    },
+    {
+      "author": "MKP team",
+      "def": "mk2_livingforest.def",
+      "id": "mk2_livingforest",
+      "name": "Living Forest (MKII)",
+      "size": "0.1 MB",
+      "type": "stage",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk2_livingforest.zip"
+    },
+    {
+      "author": "MKP team",
+      "def": "mk1_pit.def",
+      "id": "mk1_pit",
+      "name": "The Pit (MK1)",
+      "size": "0.1 MB",
+      "type": "stage",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk1_pit.zip"
+    },
+    {
+      "author": "SvC Ultimate pack",
+      "def": "geese_tower.def",
+      "id": "geese_tower",
+      "name": "Geese Tower",
+      "size": "0.2 MB",
+      "type": "stage",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/geese_tower.zip"
+    },
+    {
+      "author": "SvC Ultimate pack",
+      "def": "sagat_stage.def",
+      "id": "sagat_stage",
+      "name": "Sagat's Stage (Thailand)",
+      "size": "0.1 MB",
+      "type": "stage",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sagat_stage.zip"
+    },
+    {
+      "author": "SvC Ultimate pack",
+      "def": "chaos_stage.def",
+      "id": "chaos_stage",
+      "name": "Chaos Stadium (KOF '96 Ruins)",
+      "size": "0.2 MB",
+      "type": "stage",
+      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/chaos_stage.zip"
+    }
+  ],
+  "version": 3
+}

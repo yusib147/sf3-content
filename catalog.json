@@ -1,1553 +1,2363 @@
 {
-  "items": [
-    {
-      "author": "GM",
-      "folder": "sf3_ryu",
-      "id": "sf3_ryu",
-      "name": "Ryu",
-      "size": "4.2 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ryu.zip"
-    },
-    {
-      "author": "GM",
-      "folder": "sf3_ken",
-      "id": "sf3_ken",
-      "name": "Ken",
-      "size": "4.2 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ken.zip"
-    },
-    {
-      "author": "GM",
-      "folder": "sf3_gouki",
-      "id": "sf3_gouki",
-      "name": "Gouki (Akuma)",
-      "size": "4.7 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_gouki.zip"
-    },
-    {
-      "author": "GM",
-      "folder": "sf3_ibuki",
-      "id": "sf3_ibuki",
-      "name": "Ibuki",
-      "size": "4.3 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ibuki.zip"
-    },
-    {
-      "author": "GM",
-      "folder": "sf3_alex",
-      "id": "sf3_alex",
-      "name": "Alex",
-      "size": "4.6 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_alex.zip"
-    },
-    {
-      "author": "GM",
-      "folder": "sf3_hugo",
-      "id": "sf3_hugo",
-      "name": "Hugo",
-      "size": "5.5 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_hugo.zip"
-    },
-    {
-      "author": "GM",
-      "folder": "sf3_gill",
-      "id": "sf3_gill",
-      "name": "Gill",
-      "size": "6.8 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_gill.zip"
-    },
-    {
-      "author": "NeoGouki",
-      "def": "suzaku.def",
-      "id": "suzaku",
-      "name": "Suzaku Castle",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/suzaku.zip"
-    },
-    {
-      "author": "Skepter Fightcade",
-      "file": "kobu.mp3",
-      "id": "music_kobu",
-      "name": "Kobu \u2014 SF3 Theme",
-      "size": "3.3 MB",
-      "type": "music",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-kobu-theme.zip"
-    },
-    {
-      "author": "Skepter Fightcade",
-      "file": "arcade-loop.mp3",
-      "id": "music_arcade_loop",
-      "name": "Arcade Loop (chiptune)",
-      "size": "0.2 MB",
-      "type": "music",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-arcade-loop.zip"
-    },
-    {
-      "author": "Skepter Fightcade",
-      "folder": "sunset_crimson",
-      "id": "skin_sunset_crimson",
-      "name": "Sunset Crimson",
-      "size": "0.1 MB",
-      "type": "skin",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-sunset-crimson.zip"
-    },
-    {
-      "author": "Skepter Fightcade",
-      "folder": "neon_night",
-      "id": "skin_neon_night",
-      "name": "Neon Night",
-      "size": "0.1 MB",
-      "type": "skin",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-neon-night.zip"
-    },
-    {
-      "author": "Aice-Man",
-      "folder": "mk_scorpion",
-      "id": "mk_scorpion",
-      "name": "Scorpion (MKII)",
-      "size": "2.9 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_scorpion.zip"
-    },
-    {
-      "author": "Aice-Man (mod)",
-      "folder": "mk_subzero",
-      "id": "mk_subzero",
-      "name": "Sub-Zero (MKII)",
-      "size": "3.1 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_subzero.zip"
-    },
-    {
-      "author": "reptile",
-      "folder": "mk_liukang",
-      "id": "mk_liukang",
-      "name": "Liu Kang (MKII)",
-      "size": "4.0 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_liukang.zip"
-    },
-    {
-      "author": "MKP team",
-      "folder": "mk_raiden",
-      "id": "mk_raiden",
-      "name": "Raiden (MKII)",
-      "size": "3.3 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_raiden.zip"
-    },
-    {
-      "author": "MKP team",
-      "folder": "mk_cage",
-      "id": "mk_cage",
-      "name": "Johnny Cage (MKII)",
-      "size": "2.6 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_cage.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "svc_karate",
-      "id": "svc_karate",
-      "name": "Mr. Karate (SvC Chaos)",
-      "size": "4.3 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_karate.zip"
-    },
-    {
-      "author": "Tin",
-      "folder": "svc_shiki",
-      "id": "svc_shiki",
-      "name": "Shiki (SvC Chaos)",
-      "size": "2.8 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_shiki.zip"
-    },
-    {
-      "author": "Tin",
-      "folder": "svc_genjuro",
-      "id": "svc_genjuro",
-      "name": "Genjuro Kibagami (SvC Chaos)",
-      "size": "3.8 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_genjuro.zip"
-    },
-    {
-      "author": "Mouser",
-      "folder": "svc_sagat",
-      "id": "svc_sagat",
-      "name": "Sagat (SvC Chaos)",
-      "size": "2.6 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_sagat.zip"
-    },
-    {
-      "author": "H",
-      "folder": "svc_vega",
-      "id": "svc_vega",
-      "name": "M. Bison (SvC Chaos)",
-      "size": "3.1 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_vega.zip"
-    },
-    {
-      "author": "NeoGouki",
-      "def": "3rd_alex.def",
-      "id": "3rd_alex",
-      "name": "New York Subway Station (SF3)",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/3rd_alex.zip"
-    },
-    {
-      "author": "NeoGouki",
-      "def": "3rd_chun.def",
-      "id": "3rd_chun",
-      "name": "Chinese Restaurant (SF3)",
-      "size": "0.2 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/3rd_chun.zip"
-    },
-    {
-      "author": "NeoGouki",
-      "def": "3rd_yun.def",
-      "id": "3rd_yun",
-      "name": "Hong Kong Shopping District (SF3)",
-      "size": "0.3 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/3rd_yun.zip"
-    },
-    {
-      "author": "MKP team",
-      "def": "mk2_deadpool.def",
-      "id": "mk2_deadpool",
-      "name": "The Dead Pool (MKII)",
-      "size": "0.9 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk2_deadpool.zip"
-    },
-    {
-      "author": "MKP team",
-      "def": "mk2_livingforest.def",
-      "id": "mk2_livingforest",
-      "name": "Living Forest (MKII)",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk2_livingforest.zip"
-    },
-    {
-      "author": "MKP team",
-      "def": "mk1_pit.def",
-      "id": "mk1_pit",
-      "name": "The Pit (MK1)",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk1_pit.zip"
-    },
-    {
-      "author": "SvC Ultimate pack",
-      "def": "geese_tower.def",
-      "id": "geese_tower",
-      "name": "Geese Tower",
-      "size": "0.2 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/geese_tower.zip"
-    },
-    {
-      "author": "SvC Ultimate pack",
-      "def": "sagat_stage.def",
-      "id": "sagat_stage",
-      "name": "Sagat's Stage (Thailand)",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sagat_stage.zip"
-    },
-    {
-      "author": "SvC Ultimate pack",
-      "def": "chaos_stage.def",
-      "id": "chaos_stage",
-      "name": "Chaos Stadium (KOF '96 Ruins)",
-      "size": "0.2 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/chaos_stage.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_terry",
-      "id": "cvs_terry",
-      "name": "Terry Bogard (CvS)",
-      "size": "8.7 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_terry.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_kyo",
-      "id": "cvs_kyo",
-      "name": "Kyo Kusanagi (CvS)",
-      "size": "23.0 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_kyo.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_rock",
-      "id": "cvs_rock",
-      "name": "Rock Howard (CvS)",
-      "size": "8.6 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_rock.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_geese",
-      "id": "cvs_geese",
-      "name": "Geese Howard (CvS)",
-      "size": "16.1 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_geese.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_guile",
-      "id": "cvs_guile",
-      "name": "Guile (CvS)",
-      "size": "7.8 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_guile.zip"
-    },
-    {
-      "author": "Hh",
-      "folder": "cvs_mai",
-      "id": "cvs_mai",
-      "name": "Mai Shiranui (CvS)",
-      "size": "9.2 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_mai.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_cammy",
-      "id": "cvs_cammy",
-      "name": "Cammy (CvS)",
-      "size": "7.7 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_cammy.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_chunli",
-      "id": "cvs_chunli",
-      "name": "Chun-Li (CvS)",
-      "size": "7.3 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_chunli.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_sakura",
-      "id": "cvs_sakura",
-      "name": "Sakura (CvS)",
-      "size": "15.0 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_sakura.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_nash",
-      "id": "cvs_nash",
-      "name": "Charlie Nash (CvS)",
-      "size": "7.8 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_nash.zip"
-    },
-    {
-      "author": "Hh",
-      "folder": "cvs_maki",
-      "id": "cvs_maki",
-      "name": "Maki (CvS)",
-      "size": "8.9 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_maki.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_yuri",
-      "id": "cvs_yuri",
-      "name": "Yuri Sakazaki (CvS)",
-      "size": "9.1 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_yuri.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_haohmaru",
-      "id": "cvs_haohmaru",
-      "name": "Haohmaru (CvS)",
-      "size": "24.6 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_haohmaru.zip"
-    },
-    {
-      "author": "IKEISLEGEND",
-      "folder": "cvs_yang",
-      "id": "cvs_yang",
-      "name": "Yang (CvS)",
-      "size": "16.1 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_yang.zip"
-    },
-    {
-      "author": "Hh",
-      "folder": "cvs_iori",
-      "id": "cvs_iori",
-      "name": "Iori Yagami (CvS)",
-      "size": "7.2 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_iori.zip"
-    },
-    {
-      "author": "Dick Buckus",
-      "folder": "sf3_yun",
-      "id": "sf3_yun",
-      "name": "Yun (SF3)",
-      "size": "7.0 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_yun.zip"
-    },
-    {
-      "author": "Dick Buckus",
-      "folder": "sf3_yang",
-      "id": "sf3_yang",
-      "name": "Yang (SF3)",
-      "size": "8.7 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_yang.zip"
-    },
-    {
-      "author": "Dick Buckus",
-      "folder": "sf3_sean",
-      "id": "sf3_sean",
-      "name": "Sean (SF3)",
-      "size": "7.4 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_sean.zip"
-    },
-    {
-      "author": "Dick Buckus",
-      "folder": "sf3_dudley",
-      "id": "sf3_dudley",
-      "name": "Dudley (SF3)",
-      "size": "5.4 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_dudley.zip"
-    },
-    {
-      "author": "bad darkness",
-      "folder": "svc_demitri",
-      "id": "svc_demitri",
-      "name": "Demitri (SvC)",
-      "size": "2.0 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_demitri.zip"
-    },
-    {
-      "author": "N64Mario",
-      "folder": "svc_zero",
-      "id": "svc_zero",
-      "name": "Zero (SvC)",
-      "size": "3.3 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_zero.zip"
-    },
-    {
-      "author": "NHK",
-      "folder": "svc_tessa",
-      "id": "svc_tessa",
-      "name": "Tessa (SvC)",
-      "size": "2.7 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_tessa.zip"
-    },
-    {
-      "author": "YongMing",
-      "folder": "kof_goenitz",
-      "id": "kof_goenitz",
-      "name": "Goenitz (KOF)",
-      "size": "1.4 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/kof_goenitz.zip"
-    },
-    {
-      "author": "SNK",
-      "def": "kof98_mideast.def",
-      "id": "kof98_mideast",
-      "name": "Middle East Market (KOF '98)",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/kof98_mideast.zip"
-    },
-    {
-      "author": "SNK",
-      "def": "rugal_carrier.def",
-      "id": "rugal_carrier",
-      "name": "Rugal's Carrier",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/rugal_carrier.zip"
-    },
-    {
-      "author": "Mugen Archive",
-      "def": "chinatown_evening.def",
-      "id": "chinatown_evening",
-      "name": "Chinatown Evening",
-      "size": "0.2 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/chinatown_evening.zip"
-    },
-    {
-      "author": "SNK",
-      "def": "kof2002_sky_noah.def",
-      "id": "kof2002_sky_noah",
-      "name": "Sky Noah (KOF 2002)",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/kof2002_sky_noah.zip"
-    },
-    {
-      "author": "Capcom",
-      "def": "sfa3_bison.def",
-      "id": "sfa3_bison",
-      "name": "Bison's Storm (SFA3)",
-      "size": "0.2 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sfa3_bison.zip"
-    },
-    {
-      "author": "SNK",
-      "def": "japan_night.def",
-      "id": "japan_night",
-      "name": "Japan Night",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/japan_night.zip"
-    },
-    {
-      "author": "SNK",
-      "def": "orochi_stage.def",
-      "id": "orochi_stage",
-      "name": "Orochi's Void",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/orochi_stage.zip"
-    },
-    {
-      "author": "Mugen Archive",
-      "def": "beach.def",
-      "id": "beach",
-      "name": "Beach",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/beach.zip"
-    },
-    {
-      "author": "NetherRealm",
-      "def": "mk2_kombat_tomb.def",
-      "id": "mk2_kombat_tomb",
-      "name": "Kombat Tomb (MKII)",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk2_kombat_tomb.zip"
-    },
-    {
-      "author": "NetherRealm",
-      "def": "mk1_warrior_shrine.def",
-      "id": "mk1_warrior_shrine",
-      "name": "Warrior Shrine (MK1)",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk1_warrior_shrine.zip"
-    },
-    {
-      "author": "NetherRealm",
-      "def": "mk2_kahn_arena.def",
-      "id": "mk2_kahn_arena",
-      "name": "Kahn's Arena (MKII)",
-      "size": "0.1 MB",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk2_kahn_arena.zip"
-    },
-    {
-      "author": "Capcom",
-      "file": "jazzy-nyc.mp3",
-      "id": "music_jazzy_nyc",
-      "name": "Jazzy NYC '99 \u2014 Alex & Ken Theme (SF3)",
-      "size": "5.3 MB",
-      "type": "music",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-jazzy-nyc.zip"
-    },
-    {
-      "author": "Capcom",
-      "file": "china-vox.mp3",
-      "id": "music_china_vox",
-      "name": "China Vox \u2014 Chun-Li Theme (SF3)",
-      "size": "5.1 MB",
-      "type": "music",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-china-vox.zip"
-    },
-    {
-      "author": "Skepter Fightcade",
-      "file": "megaman-megamix.mp3",
-      "id": "music_megaman_mix",
-      "name": "MegaMan II MegaMix (Chiptune)",
-      "size": "2.3 MB",
-      "type": "music",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-megaman-megamix.zip"
-    },
-    {
-      "author": "Skepter Fightcade",
-      "file": "epic-battle.mp3",
-      "id": "music_epic_battle",
-      "name": "A Never Ending Battle (Orchestral)",
-      "size": "3.3 MB",
-      "type": "music",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-epic-battle.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_commando",
-      "id": "cvs_commando",
-      "name": "Captain Commando",
-      "size": "11.1 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_commando.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_jill",
-      "id": "cvs_jill",
-      "name": "Jill Valentine",
-      "size": "10.6 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_jill.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_psylocke",
-      "id": "cvs_psylocke",
-      "name": "Psylocke",
-      "size": "13.4 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_psylocke.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "jojo_dio",
-      "id": "jojo_dio",
-      "name": "Dio Brando",
-      "size": "3.8 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/jojo_dio.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "jojo_jotaro",
-      "id": "jojo_jotaro",
-      "name": "Jotaro Kujo",
-      "size": "3.6 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/jojo_jotaro.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_hayato",
-      "id": "cvs_hayato",
-      "name": "Hayato",
-      "size": "11.9 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_hayato.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_lilith",
-      "id": "cvs_lilith",
-      "name": "Lilith",
-      "size": "12.4 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_lilith.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_nakoruru",
-      "id": "cvs_nakoruru",
-      "name": "Nakoruru",
-      "size": "14.4 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_nakoruru.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_galford",
-      "id": "ss_galford",
-      "name": "Galford",
-      "size": "6.0 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_galford.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_ukyo",
-      "id": "ss_ukyo",
-      "name": "Ukyo Tachibana",
-      "size": "5.1 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_ukyo.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_charlotte",
-      "id": "ss_charlotte",
-      "name": "Charlotte",
-      "size": "5.5 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_charlotte.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_tamtam",
-      "id": "ss_tamtam",
-      "name": "Tam Tam",
-      "size": "6.1 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_tamtam.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_kim",
-      "id": "cvs_kim",
-      "name": "Kim Kaphwan",
-      "size": "8.1 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_kim.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_ryo",
-      "id": "cvs_ryo",
-      "name": "Ryo Sakazaki",
-      "size": "8.0 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_ryo.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_athena",
-      "id": "cvs_athena",
-      "name": "Athena Asamiya",
-      "size": "8.0 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_athena.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_king",
-      "id": "cvs_king",
-      "name": "King",
-      "size": "7.9 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_king.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_benimaru",
-      "id": "cvs_benimaru",
-      "name": "Benimaru Nikaido",
-      "size": "8.3 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_benimaru.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_rugal",
-      "id": "cvs_rugal",
-      "name": "Rugal Bernstein",
-      "size": "14.0 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_rugal.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_yamazaki",
-      "id": "cvs_yamazaki",
-      "name": "Ryuji Yamazaki",
-      "size": "13.0 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_yamazaki.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_hotaru",
-      "id": "cvs_hotaru",
-      "name": "Hotaru Futaba",
-      "size": "8.9 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_hotaru.zip"
-    },
-    {
-      "author": "Mouser",
-      "folder": "cvs_hibiki",
-      "id": "cvs_hibiki",
-      "name": "Hibiki Takane",
-      "size": "11.9 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_hibiki.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_zangief",
-      "id": "cvs_zangief",
-      "name": "Zangief",
-      "size": "17.2 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_zangief.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_guy",
-      "id": "cvs_guy",
-      "name": "Guy",
-      "size": "7.4 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_guy.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_dan",
-      "id": "cvs_dan",
-      "name": "Dan Hibiki",
-      "size": "8.2 MB",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_dan.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_decapre",
-      "id": "cvs_decapre",
-      "name": "Decapre (CvS)",
-      "size": "21.4",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_decapre.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_ingrid",
-      "id": "cvs_ingrid",
-      "name": "Ingrid (CvS)",
-      "size": "11.6",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_ingrid.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_karin",
-      "id": "cvs_karin",
-      "name": "Karin (CvS)",
-      "size": "8.7",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_karin.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_mika",
-      "id": "cvs_mika",
-      "name": "R. Mika (CvS)",
-      "size": "8.0",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_mika.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_rolento",
-      "id": "cvs_rolento",
-      "name": "Rolento (CvS)",
-      "size": "12.7",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_rolento.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_thawk",
-      "id": "cvs_thawk",
-      "name": "T. Hawk (CvS)",
-      "size": "9.3",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_thawk.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_vice",
-      "id": "cvs_vice",
-      "name": "Vice (CvS)",
-      "size": "11.1",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_vice.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_yoko",
-      "id": "cvs_yoko",
-      "name": "Yoko Littner (CvS)",
-      "size": "14.8",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_yoko.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_jubei",
-      "id": "ss_jubei",
-      "name": "Jubei (Samurai Shodown)",
-      "size": "5.6",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_jubei.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_yoshitora",
-      "id": "ss_yoshitora",
-      "name": "Yoshitora (Samurai Shodown)",
-      "size": "6.8",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_yoshitora.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_iroha",
-      "id": "ss_iroha",
-      "name": "Iroha (Samurai Shodown)",
-      "size": "6.0",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_iroha.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_juni",
-      "id": "cvs_juni",
-      "name": "Juni (CvS)",
-      "size": "7.9",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_juni.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "cvs_todo",
-      "id": "cvs_todo",
-      "name": "Todo (CvS)",
-      "size": "8.1",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_todo.zip"
-    },
-    {
-      "author": "Li_Kun & DivineWolf",
-      "folder": "ds_morrigan",
-      "id": "ds_morrigan",
-      "name": "Morrigan (Darkstalkers)",
-      "size": "21.4",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_morrigan.zip"
-    },
-    {
-      "author": "Jesuszilla & varo_hades",
-      "folder": "ds_felicia",
-      "id": "ds_felicia",
-      "name": "Felicia (Darkstalkers)",
-      "size": "5.3",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_felicia.zip"
-    },
-    {
-      "author": "Phantom.of.the.Server & varo_hades",
-      "folder": "ds_hsienko",
-      "id": "ds_hsienko",
-      "name": "Hsien-Ko (Darkstalkers)",
-      "size": "5.7",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_hsienko.zip"
-    },
-    {
-      "author": "varo_hades",
-      "folder": "ds_anakaris",
-      "id": "ds_anakaris",
-      "name": "Anakaris (Darkstalkers)",
-      "size": "6.8",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_anakaris.zip"
-    },
-    {
-      "author": "varo_hades",
-      "folder": "ds_bishamon",
-      "id": "ds_bishamon",
-      "name": "Bishamon (Darkstalkers)",
-      "size": "10.2",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_bishamon.zip"
-    },
-    {
-      "author": "Zelgadis296",
-      "folder": "ds_donovan",
-      "id": "ds_donovan",
-      "name": "Donovan (Darkstalkers)",
-      "size": "6.1",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_donovan.zip"
-    },
-    {
-      "author": "Izumo",
-      "folder": "ds_jedah",
-      "id": "ds_jedah",
-      "name": "Jedah (Darkstalkers)",
-      "size": "8.5",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_jedah.zip"
-    },
-    {
-      "author": "varo_hades",
-      "folder": "ds_qbee",
-      "id": "ds_qbee",
-      "name": "Q.Bee (Darkstalkers)",
-      "size": "5.0",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_qbee.zip"
-    },
-    {
-      "author": "Koldskool",
-      "folder": "ds_raptor",
-      "id": "ds_raptor",
-      "name": "Lord Raptor (Darkstalkers)",
-      "size": "8.0",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_raptor.zip"
-    },
-    {
-      "author": "varo_hades",
-      "folder": "ds_sasquatch",
-      "id": "ds_sasquatch",
-      "name": "Sasquatch (Darkstalkers)",
-      "size": "4.4",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_sasquatch.zip"
-    },
-    {
-      "author": "Jesuszilla",
-      "folder": "ds_talbain",
-      "id": "ds_talbain",
-      "name": "Jon Talbain (Darkstalkers)",
-      "size": "13.4",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_talbain.zip"
-    },
-    {
-      "author": "varo_hades",
-      "folder": "ds_victor",
-      "id": "ds_victor",
-      "name": "Victor (Darkstalkers)",
-      "size": "4.7",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_victor.zip"
-    },
-    {
-      "author": "muteki",
-      "folder": "gg_sol",
-      "id": "gg_sol",
-      "name": "Sol Badguy (Guilty Gear)",
-      "size": "12.1",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_sol.zip"
-    },
-    {
-      "author": "muteki",
-      "folder": "gg_ky",
-      "id": "gg_ky",
-      "name": "Ky Kiske (Guilty Gear)",
-      "size": "12.0",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_ky.zip"
-    },
-    {
-      "author": "muteki",
-      "folder": "gg_millia",
-      "id": "gg_millia",
-      "name": "Millia Rage (Guilty Gear)",
-      "size": "11.5",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_millia.zip"
-    },
-    {
-      "author": "muteki",
-      "folder": "gg_may",
-      "id": "gg_may",
-      "name": "May (Guilty Gear)",
-      "size": "13.0",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_may.zip"
-    },
-    {
-      "author": "muteki",
-      "folder": "gg_dizzy",
-      "id": "gg_dizzy",
-      "name": "Dizzy (Guilty Gear)",
-      "size": "13.9",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_dizzy.zip"
-    },
-    {
-      "author": "muteki",
-      "folder": "gg_ino",
-      "id": "gg_ino",
-      "name": "I-No (Guilty Gear)",
-      "size": "13.6",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_ino.zip"
-    },
-    {
-      "author": "muteki",
-      "folder": "gg_baiken",
-      "id": "gg_baiken",
-      "name": "Baiken (Guilty Gear)",
-      "size": "12.2",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_baiken.zip"
-    },
-    {
-      "author": "muteki",
-      "folder": "gg_axl",
-      "id": "gg_axl",
-      "name": "Axl Low (Guilty Gear)",
-      "size": "12.0",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_axl.zip"
-    },
-    {
-      "author": "muteki",
-      "folder": "gg_faust",
-      "id": "gg_faust",
-      "name": "Faust (Guilty Gear)",
-      "size": "11.9",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_faust.zip"
-    },
-    {
-      "author": "muteki",
-      "folder": "gg_potemkin",
-      "id": "gg_potemkin",
-      "name": "Potemkin (Guilty Gear)",
-      "size": "12.5",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_potemkin.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "jojo_polnareff",
-      "id": "jojo_polnareff",
-      "name": "Black Polnareff (JoJo)",
-      "size": "3.5",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/jojo_polnareff.zip"
-    },
-    {
-      "author": "Warusaki3",
-      "folder": "jojo_vanillaice",
-      "id": "jojo_vanillaice",
-      "name": "Vanilla Ice (JoJo)",
-      "size": "3.6",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/jojo_vanillaice.zip"
-    },
-    {
-      "author": "chuchoryu",
-      "folder": "ki_jago",
-      "id": "ki_jago",
-      "name": "Jago (Killer Instinct 3D)",
-      "size": "10.5",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_jago.zip"
-    },
-    {
-      "author": "AHRIMANES",
-      "folder": "ki_orchid",
-      "id": "ki_orchid",
-      "name": "B. Orchid (Killer Instinct 3D)",
-      "size": "3.5",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_orchid.zip"
-    },
-    {
-      "author": "Nexus Games/Gartanham",
-      "folder": "ki_sabrewulf",
-      "id": "ki_sabrewulf",
-      "name": "Sabrewulf (Killer Instinct 3D)",
-      "size": "7.4",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_sabrewulf.zip"
-    },
-    {
-      "author": "CARNAGE777 & Nexus Games",
-      "folder": "ki_glacius",
-      "id": "ki_glacius",
-      "name": "Glacius (Killer Instinct 3D)",
-      "size": "13.5",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_glacius.zip"
-    },
-    {
-      "author": "Fabry Taz",
-      "folder": "ki_fulgore",
-      "id": "ki_fulgore",
-      "name": "Fulgore (Killer Instinct 3D)",
-      "size": "5.5",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_fulgore.zip"
-    },
-    {
-      "author": "Gartanham/Nexus Games",
-      "folder": "ki_tjcombo",
-      "id": "ki_tjcombo",
-      "name": "TJ Combo (Killer Instinct 3D)",
-      "size": "9.3",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_tjcombo.zip"
-    },
-    {
-      "author": "CARNAGE777 & Nexus Games",
-      "folder": "ki_cinder",
-      "id": "ki_cinder",
-      "name": "Cinder (Killer Instinct 3D)",
-      "size": "7.9",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_cinder.zip"
-    },
-    {
-      "author": "chuchoryu",
-      "folder": "ki_gargos",
-      "id": "ki_gargos",
-      "name": "Gargos (Killer Instinct 3D)",
-      "size": "8.0",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_gargos.zip"
-    },
-    {
-      "author": "RajaaBoy",
-      "folder": "mvc_amingo",
-      "id": "mvc_amingo",
-      "name": "Amingo (MvC)",
-      "size": "6.7",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc_amingo.zip"
-    },
-    {
-      "author": "Buckus",
-      "folder": "mvc_rubyheart",
-      "id": "mvc_rubyheart",
-      "name": "Ruby Heart (MvC)",
-      "size": "6.4",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc_rubyheart.zip"
-    },
-    {
-      "author": "NDSilva",
-      "folder": "mvc_sonson",
-      "id": "mvc_sonson",
-      "name": "SonSon (MvC)",
-      "size": "6.6",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc_sonson.zip"
-    },
-    {
-      "author": "chuchoryu",
-      "folder": "sc_mitsurugi",
-      "id": "sc_mitsurugi",
-      "name": "Mitsurugi (Soul Calibur)",
-      "size": "4.5",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_mitsurugi.zip"
-    },
-    {
-      "author": "chuchoryu",
-      "folder": "sc_taki",
-      "id": "sc_taki",
-      "name": "Taki (Soul Calibur)",
-      "size": "3.8",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_taki.zip"
-    },
-    {
-      "author": "chuchoryu",
-      "folder": "sc_nightmare",
-      "id": "sc_nightmare",
-      "name": "Nightmare (Soul Calibur)",
-      "size": "5.9",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_nightmare.zip"
-    },
-    {
-      "author": "chuchoryu",
-      "folder": "sc_siegfried",
-      "id": "sc_siegfried",
-      "name": "Siegfried (Soul Calibur)",
-      "size": "4.7",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_siegfried.zip"
-    },
-    {
-      "author": "chuchoryu",
-      "folder": "sc_sophitia",
-      "id": "sc_sophitia",
-      "name": "Sophitia (Soul Calibur)",
-      "size": "4.4",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_sophitia.zip"
-    },
-    {
-      "author": "chuchoryu",
-      "folder": "sc_kilik",
-      "id": "sc_kilik",
-      "name": "Kilik (Soul Calibur)",
-      "size": "3.5",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_kilik.zip"
-    },
-    {
-      "author": "CVS Artist",
-      "folder": "sc_ivy",
-      "id": "sc_ivy",
-      "name": "Ivy (Soul Calibur)",
-      "size": "13.7",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_ivy.zip"
-    },
-    {
-      "author": "CVS Artist",
-      "folder": "sc_astaroth",
-      "id": "sc_astaroth",
-      "name": "Astaroth (Soul Calibur)",
-      "size": "16.2",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_astaroth.zip"
-    },
-    {
-      "author": "CVS Artist",
-      "folder": "sc_cervantes",
-      "id": "sc_cervantes",
-      "name": "Cervantes (Soul Calibur)",
-      "size": "11.8",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_cervantes.zip"
-    },
-    {
-      "author": "varo_hades",
-      "folder": "sf_blanka",
-      "id": "sf_blanka",
-      "name": "Blanka (Street Fighter)",
-      "size": "7.6",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf_blanka.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_amakusa",
-      "id": "ss_amakusa",
-      "name": "Amakusa (Samurai Shodown)",
-      "size": "6.7",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_amakusa.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_zankuro",
-      "id": "ss_zankuro",
-      "name": "Zankuro (Samurai Shodown)",
-      "size": "6.4",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_zankuro.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_rimururu",
-      "id": "ss_rimururu",
-      "name": "Rimururu (Samurai Shodown)",
-      "size": "6.1",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_rimururu.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_yunfei",
-      "id": "ss_yunfei",
-      "name": "Yunfei (Samurai Shodown)",
-      "size": "6.5",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_yunfei.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_enja",
-      "id": "ss_enja",
-      "name": "Enja (Samurai Shodown)",
-      "size": "6.4",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_enja.zip"
-    },
-    {
-      "author": "Misao",
-      "folder": "ss_haohmaru",
-      "id": "ss_haohmaru",
-      "name": "Haohmaru (Samurai Shodown)",
-      "size": "5.7",
-      "type": "char",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_haohmaru.zip"
-    },
-    {
-      "author": "KI stage pack",
-      "def": "ki_tiger_shrine.def",
-      "id": "ki_tiger_shrine",
-      "name": "Tiger Shrine (Killer Instinct)",
-      "size": "0.1",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_tiger_shrine.zip"
-    },
-    {
-      "author": "KI stage pack",
-      "def": "ki_glacius_zone.def",
-      "id": "ki_glacius_zone",
-      "name": "Glacius zone (Killer Instinct)",
-      "size": "0.1",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_glacius_zone.zip"
-    },
-    {
-      "author": "KI stage pack",
-      "def": "ki_lava_bridge.def",
-      "id": "ki_lava_bridge",
-      "name": "Lava Bridge (Killer Instinct)",
-      "size": "6.3",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_lava_bridge.zip"
-    },
-    {
-      "author": "KI stage pack",
-      "def": "ki_gargos_castle.def",
-      "id": "ki_gargos_castle",
-      "name": "Gargos Castle (Killer Instinct)",
-      "size": "1.0",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_gargos_castle.zip"
-    },
-    {
-      "author": "KI stage pack",
-      "def": "ki_combo_street.def",
-      "id": "ki_combo_street",
-      "name": "Combo's Street (Killer Instinct)",
-      "size": "0.1",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_combo_street.zip"
-    },
-    {
-      "author": "KI stage pack",
-      "def": "ki_infinity_moon.def",
-      "id": "ki_infinity_moon",
-      "name": "Training Stage (Killer Instinct)",
-      "size": "0.1",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_infinity_moon.zip"
-    },
-    {
-      "author": "KI stage pack",
-      "def": "ki_orchid_stage.def",
-      "id": "ki_orchid_stage",
-      "name": "B.Orchid stage (Killer Instinct)",
-      "size": "0.4",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_orchid_stage.zip"
-    },
-    {
-      "author": "KI stage pack",
-      "def": "ki_sabrewulf_house.def",
-      "id": "ki_sabrewulf_house",
-      "name": "SabreWulf House (Killer Instinct)",
-      "size": "0.2",
-      "type": "stage",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_sabrewulf_house.zip"
-    },
-    {
-      "author": "Rare",
-      "file": "ki_glacius.mp3",
-      "id": "music_ki_glacius",
-      "name": "Glacius Theme (Killer Instinct)",
-      "size": "3.2",
-      "type": "music",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-ki-glacius.zip"
-    },
-    {
-      "author": "Rare",
-      "file": "ki_tiger_shrine.mp3",
-      "id": "music_ki_tiger_shrine",
-      "name": "Tiger Shrine Theme (Killer Instinct)",
-      "size": "4.1",
-      "type": "music",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-ki-tiger-shrine.zip"
-    },
-    {
-      "author": "Rare",
-      "file": "ki_lava_bridge.mp3",
-      "id": "music_ki_lava_bridge",
-      "name": "Lava Bridge Theme (Killer Instinct)",
-      "size": "4.8",
-      "type": "music",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-ki-lava-bridge.zip"
-    },
-    {
-      "author": "Rare",
-      "file": "ki_gargos.mp3",
-      "id": "music_ki_gargos",
-      "name": "Gargos Theme (Killer Instinct)",
-      "size": "0.9",
-      "type": "music",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-ki-gargos.zip"
-    },
-    {
-      "author": "Skepter Fightcade",
-      "folder": "royal_amethyst",
-      "id": "skin_royal_amethyst",
-      "name": "Royal Amethyst",
-      "size": "0.1",
-      "type": "skin",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-royal-amethyst.zip"
-    },
-    {
-      "author": "Skepter Fightcade",
-      "folder": "toxic_circuit",
-      "id": "skin_toxic_circuit",
-      "name": "Toxic Circuit",
-      "size": "0.1",
-      "type": "skin",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-toxic-circuit.zip"
-    },
-    {
-      "author": "Skepter Fightcade",
-      "folder": "frost_byte",
-      "id": "skin_frost_byte",
-      "name": "Frost Byte",
-      "size": "0.1",
-      "type": "skin",
-      "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-frost-byte.zip"
-    }
-  ],
-  "version": 6
+ "version": 8,
+ "items": [
+  {
+   "author": "GM",
+   "folder": "sf3_ryu",
+   "id": "sf3_ryu",
+   "name": "Ryu",
+   "size": "4.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ryu.zip"
+  },
+  {
+   "author": "GM",
+   "folder": "sf3_ken",
+   "id": "sf3_ken",
+   "name": "Ken",
+   "size": "4.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ken.zip"
+  },
+  {
+   "author": "GM",
+   "folder": "sf3_gouki",
+   "id": "sf3_gouki",
+   "name": "Gouki (Akuma)",
+   "size": "4.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_gouki.zip"
+  },
+  {
+   "author": "GM",
+   "folder": "sf3_ibuki",
+   "id": "sf3_ibuki",
+   "name": "Ibuki",
+   "size": "4.3 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_ibuki.zip"
+  },
+  {
+   "author": "GM",
+   "folder": "sf3_alex",
+   "id": "sf3_alex",
+   "name": "Alex",
+   "size": "4.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_alex.zip"
+  },
+  {
+   "author": "GM",
+   "folder": "sf3_hugo",
+   "id": "sf3_hugo",
+   "name": "Hugo",
+   "size": "5.5 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_hugo.zip"
+  },
+  {
+   "author": "GM",
+   "folder": "sf3_gill",
+   "id": "sf3_gill",
+   "name": "Gill",
+   "size": "6.8 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_gill.zip"
+  },
+  {
+   "author": "NeoGouki",
+   "def": "suzaku.def",
+   "id": "suzaku",
+   "name": "Suzaku Castle",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/suzaku.zip"
+  },
+  {
+   "author": "Skepter Fightcade",
+   "file": "kobu.mp3",
+   "id": "music_kobu",
+   "name": "Kobu \u2014 SF3 Theme",
+   "size": "3.3 MB",
+   "type": "music",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-kobu-theme.zip"
+  },
+  {
+   "author": "Skepter Fightcade",
+   "file": "arcade-loop.mp3",
+   "id": "music_arcade_loop",
+   "name": "Arcade Loop (chiptune)",
+   "size": "0.2 MB",
+   "type": "music",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-arcade-loop.zip"
+  },
+  {
+   "author": "Skepter Fightcade",
+   "folder": "sunset_crimson",
+   "id": "skin_sunset_crimson",
+   "name": "Sunset Crimson",
+   "size": "0.1 MB",
+   "type": "skin",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-sunset-crimson.zip"
+  },
+  {
+   "author": "Skepter Fightcade",
+   "folder": "neon_night",
+   "id": "skin_neon_night",
+   "name": "Neon Night",
+   "size": "0.1 MB",
+   "type": "skin",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-neon-night.zip"
+  },
+  {
+   "author": "Aice-Man",
+   "folder": "mk_scorpion",
+   "id": "mk_scorpion",
+   "name": "Scorpion (MKII)",
+   "size": "2.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_scorpion.zip"
+  },
+  {
+   "author": "Aice-Man (mod)",
+   "folder": "mk_subzero",
+   "id": "mk_subzero",
+   "name": "Sub-Zero (MKII)",
+   "size": "3.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_subzero.zip"
+  },
+  {
+   "author": "reptile",
+   "folder": "mk_liukang",
+   "id": "mk_liukang",
+   "name": "Liu Kang (MKII)",
+   "size": "4.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_liukang.zip"
+  },
+  {
+   "author": "MKP team",
+   "folder": "mk_raiden",
+   "id": "mk_raiden",
+   "name": "Raiden (MKII)",
+   "size": "3.3 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_raiden.zip"
+  },
+  {
+   "author": "MKP team",
+   "folder": "mk_cage",
+   "id": "mk_cage",
+   "name": "Johnny Cage (MKII)",
+   "size": "2.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk_cage.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "svc_karate",
+   "id": "svc_karate",
+   "name": "Mr. Karate (SvC Chaos)",
+   "size": "4.3 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_karate.zip"
+  },
+  {
+   "author": "Tin",
+   "folder": "svc_shiki",
+   "id": "svc_shiki",
+   "name": "Shiki (SvC Chaos)",
+   "size": "2.8 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_shiki.zip"
+  },
+  {
+   "author": "Tin",
+   "folder": "svc_genjuro",
+   "id": "svc_genjuro",
+   "name": "Genjuro Kibagami (SvC Chaos)",
+   "size": "3.8 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_genjuro.zip"
+  },
+  {
+   "author": "Mouser",
+   "folder": "svc_sagat",
+   "id": "svc_sagat",
+   "name": "Sagat (SvC Chaos)",
+   "size": "2.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_sagat.zip"
+  },
+  {
+   "author": "H",
+   "folder": "svc_vega",
+   "id": "svc_vega",
+   "name": "M. Bison (SvC Chaos)",
+   "size": "3.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_vega.zip"
+  },
+  {
+   "author": "NeoGouki",
+   "def": "3rd_alex.def",
+   "id": "3rd_alex",
+   "name": "New York Subway Station (SF3)",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/3rd_alex.zip"
+  },
+  {
+   "author": "NeoGouki",
+   "def": "3rd_chun.def",
+   "id": "3rd_chun",
+   "name": "Chinese Restaurant (SF3)",
+   "size": "0.2 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/3rd_chun.zip"
+  },
+  {
+   "author": "NeoGouki",
+   "def": "3rd_yun.def",
+   "id": "3rd_yun",
+   "name": "Hong Kong Shopping District (SF3)",
+   "size": "0.3 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/3rd_yun.zip"
+  },
+  {
+   "author": "MKP team",
+   "def": "mk2_deadpool.def",
+   "id": "mk2_deadpool",
+   "name": "The Dead Pool (MKII)",
+   "size": "0.9 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk2_deadpool.zip"
+  },
+  {
+   "author": "MKP team",
+   "def": "mk2_livingforest.def",
+   "id": "mk2_livingforest",
+   "name": "Living Forest (MKII)",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk2_livingforest.zip"
+  },
+  {
+   "author": "MKP team",
+   "def": "mk1_pit.def",
+   "id": "mk1_pit",
+   "name": "The Pit (MK1)",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk1_pit.zip"
+  },
+  {
+   "author": "SvC Ultimate pack",
+   "def": "geese_tower.def",
+   "id": "geese_tower",
+   "name": "Geese Tower",
+   "size": "0.2 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/geese_tower.zip"
+  },
+  {
+   "author": "SvC Ultimate pack",
+   "def": "sagat_stage.def",
+   "id": "sagat_stage",
+   "name": "Sagat's Stage (Thailand)",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sagat_stage.zip"
+  },
+  {
+   "author": "SvC Ultimate pack",
+   "def": "chaos_stage.def",
+   "id": "chaos_stage",
+   "name": "Chaos Stadium (KOF '96 Ruins)",
+   "size": "0.2 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/chaos_stage.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_terry",
+   "id": "cvs_terry",
+   "name": "Terry Bogard (CvS)",
+   "size": "8.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_terry.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_kyo",
+   "id": "cvs_kyo",
+   "name": "Kyo Kusanagi (CvS)",
+   "size": "23.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_kyo.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_rock",
+   "id": "cvs_rock",
+   "name": "Rock Howard (CvS)",
+   "size": "8.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_rock.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_geese",
+   "id": "cvs_geese",
+   "name": "Geese Howard (CvS)",
+   "size": "16.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_geese.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_guile",
+   "id": "cvs_guile",
+   "name": "Guile (CvS)",
+   "size": "7.8 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_guile.zip"
+  },
+  {
+   "author": "Hh",
+   "folder": "cvs_mai",
+   "id": "cvs_mai",
+   "name": "Mai Shiranui (CvS)",
+   "size": "9.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_mai.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_cammy",
+   "id": "cvs_cammy",
+   "name": "Cammy (CvS)",
+   "size": "7.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_cammy.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_chunli",
+   "id": "cvs_chunli",
+   "name": "Chun-Li (CvS)",
+   "size": "7.3 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_chunli.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_sakura",
+   "id": "cvs_sakura",
+   "name": "Sakura (CvS)",
+   "size": "15.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_sakura.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_nash",
+   "id": "cvs_nash",
+   "name": "Charlie Nash (CvS)",
+   "size": "7.8 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_nash.zip"
+  },
+  {
+   "author": "Hh",
+   "folder": "cvs_maki",
+   "id": "cvs_maki",
+   "name": "Maki (CvS)",
+   "size": "8.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_maki.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_yuri",
+   "id": "cvs_yuri",
+   "name": "Yuri Sakazaki (CvS)",
+   "size": "9.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_yuri.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_haohmaru",
+   "id": "cvs_haohmaru",
+   "name": "Haohmaru (CvS)",
+   "size": "24.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_haohmaru.zip"
+  },
+  {
+   "author": "IKEISLEGEND",
+   "folder": "cvs_yang",
+   "id": "cvs_yang",
+   "name": "Yang (CvS)",
+   "size": "16.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_yang.zip"
+  },
+  {
+   "author": "Hh",
+   "folder": "cvs_iori",
+   "id": "cvs_iori",
+   "name": "Iori Yagami (CvS)",
+   "size": "7.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_iori.zip"
+  },
+  {
+   "author": "Dick Buckus",
+   "folder": "sf3_yun",
+   "id": "sf3_yun",
+   "name": "Yun (SF3)",
+   "size": "7.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_yun.zip"
+  },
+  {
+   "author": "Dick Buckus",
+   "folder": "sf3_yang",
+   "id": "sf3_yang",
+   "name": "Yang (SF3)",
+   "size": "8.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_yang.zip"
+  },
+  {
+   "author": "Dick Buckus",
+   "folder": "sf3_sean",
+   "id": "sf3_sean",
+   "name": "Sean (SF3)",
+   "size": "7.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_sean.zip"
+  },
+  {
+   "author": "Dick Buckus",
+   "folder": "sf3_dudley",
+   "id": "sf3_dudley",
+   "name": "Dudley (SF3)",
+   "size": "5.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf3_dudley.zip"
+  },
+  {
+   "author": "bad darkness",
+   "folder": "svc_demitri",
+   "id": "svc_demitri",
+   "name": "Demitri (SvC)",
+   "size": "2.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_demitri.zip"
+  },
+  {
+   "author": "N64Mario",
+   "folder": "svc_zero",
+   "id": "svc_zero",
+   "name": "Zero (SvC)",
+   "size": "3.3 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_zero.zip"
+  },
+  {
+   "author": "NHK",
+   "folder": "svc_tessa",
+   "id": "svc_tessa",
+   "name": "Tessa (SvC)",
+   "size": "2.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/svc_tessa.zip"
+  },
+  {
+   "author": "YongMing",
+   "folder": "kof_goenitz",
+   "id": "kof_goenitz",
+   "name": "Goenitz (KOF)",
+   "size": "1.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/kof_goenitz.zip"
+  },
+  {
+   "author": "SNK",
+   "def": "kof98_mideast.def",
+   "id": "kof98_mideast",
+   "name": "Middle East Market (KOF '98)",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/kof98_mideast.zip"
+  },
+  {
+   "author": "SNK",
+   "def": "rugal_carrier.def",
+   "id": "rugal_carrier",
+   "name": "Rugal's Carrier",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/rugal_carrier.zip"
+  },
+  {
+   "author": "Mugen Archive",
+   "def": "chinatown_evening.def",
+   "id": "chinatown_evening",
+   "name": "Chinatown Evening",
+   "size": "0.2 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/chinatown_evening.zip"
+  },
+  {
+   "author": "SNK",
+   "def": "kof2002_sky_noah.def",
+   "id": "kof2002_sky_noah",
+   "name": "Sky Noah (KOF 2002)",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/kof2002_sky_noah.zip"
+  },
+  {
+   "author": "Capcom",
+   "def": "sfa3_bison.def",
+   "id": "sfa3_bison",
+   "name": "Bison's Storm (SFA3)",
+   "size": "0.2 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sfa3_bison.zip"
+  },
+  {
+   "author": "SNK",
+   "def": "japan_night.def",
+   "id": "japan_night",
+   "name": "Japan Night",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/japan_night.zip"
+  },
+  {
+   "author": "SNK",
+   "def": "orochi_stage.def",
+   "id": "orochi_stage",
+   "name": "Orochi's Void",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/orochi_stage.zip"
+  },
+  {
+   "author": "Mugen Archive",
+   "def": "beach.def",
+   "id": "beach",
+   "name": "Beach",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/beach.zip"
+  },
+  {
+   "author": "NetherRealm",
+   "def": "mk2_kombat_tomb.def",
+   "id": "mk2_kombat_tomb",
+   "name": "Kombat Tomb (MKII)",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk2_kombat_tomb.zip"
+  },
+  {
+   "author": "NetherRealm",
+   "def": "mk1_warrior_shrine.def",
+   "id": "mk1_warrior_shrine",
+   "name": "Warrior Shrine (MK1)",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk1_warrior_shrine.zip"
+  },
+  {
+   "author": "NetherRealm",
+   "def": "mk2_kahn_arena.def",
+   "id": "mk2_kahn_arena",
+   "name": "Kahn's Arena (MKII)",
+   "size": "0.1 MB",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mk2_kahn_arena.zip"
+  },
+  {
+   "author": "Capcom",
+   "file": "jazzy-nyc.mp3",
+   "id": "music_jazzy_nyc",
+   "name": "Jazzy NYC '99 \u2014 Alex & Ken Theme (SF3)",
+   "size": "5.3 MB",
+   "type": "music",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-jazzy-nyc.zip"
+  },
+  {
+   "author": "Capcom",
+   "file": "china-vox.mp3",
+   "id": "music_china_vox",
+   "name": "China Vox \u2014 Chun-Li Theme (SF3)",
+   "size": "5.1 MB",
+   "type": "music",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-china-vox.zip"
+  },
+  {
+   "author": "Skepter Fightcade",
+   "file": "megaman-megamix.mp3",
+   "id": "music_megaman_mix",
+   "name": "MegaMan II MegaMix (Chiptune)",
+   "size": "2.3 MB",
+   "type": "music",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-megaman-megamix.zip"
+  },
+  {
+   "author": "Skepter Fightcade",
+   "file": "epic-battle.mp3",
+   "id": "music_epic_battle",
+   "name": "A Never Ending Battle (Orchestral)",
+   "size": "3.3 MB",
+   "type": "music",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-epic-battle.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_commando",
+   "id": "cvs_commando",
+   "name": "Captain Commando",
+   "size": "11.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_commando.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_jill",
+   "id": "cvs_jill",
+   "name": "Jill Valentine",
+   "size": "10.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_jill.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_psylocke",
+   "id": "cvs_psylocke",
+   "name": "Psylocke",
+   "size": "13.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_psylocke.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "jojo_dio",
+   "id": "jojo_dio",
+   "name": "Dio Brando",
+   "size": "3.8 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/jojo_dio.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "jojo_jotaro",
+   "id": "jojo_jotaro",
+   "name": "Jotaro Kujo",
+   "size": "3.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/jojo_jotaro.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_hayato",
+   "id": "cvs_hayato",
+   "name": "Hayato",
+   "size": "11.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_hayato.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_lilith",
+   "id": "cvs_lilith",
+   "name": "Lilith",
+   "size": "12.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_lilith.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_nakoruru",
+   "id": "cvs_nakoruru",
+   "name": "Nakoruru",
+   "size": "14.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_nakoruru.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_galford",
+   "id": "ss_galford",
+   "name": "Galford",
+   "size": "6.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_galford.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_ukyo",
+   "id": "ss_ukyo",
+   "name": "Ukyo Tachibana",
+   "size": "5.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_ukyo.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_charlotte",
+   "id": "ss_charlotte",
+   "name": "Charlotte",
+   "size": "5.5 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_charlotte.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_tamtam",
+   "id": "ss_tamtam",
+   "name": "Tam Tam",
+   "size": "6.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_tamtam.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_kim",
+   "id": "cvs_kim",
+   "name": "Kim Kaphwan",
+   "size": "8.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_kim.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_ryo",
+   "id": "cvs_ryo",
+   "name": "Ryo Sakazaki",
+   "size": "8.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_ryo.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_athena",
+   "id": "cvs_athena",
+   "name": "Athena Asamiya",
+   "size": "8.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_athena.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_king",
+   "id": "cvs_king",
+   "name": "King",
+   "size": "7.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_king.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_benimaru",
+   "id": "cvs_benimaru",
+   "name": "Benimaru Nikaido",
+   "size": "8.3 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_benimaru.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_rugal",
+   "id": "cvs_rugal",
+   "name": "Rugal Bernstein",
+   "size": "14.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_rugal.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_yamazaki",
+   "id": "cvs_yamazaki",
+   "name": "Ryuji Yamazaki",
+   "size": "13.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_yamazaki.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_hotaru",
+   "id": "cvs_hotaru",
+   "name": "Hotaru Futaba",
+   "size": "8.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_hotaru.zip"
+  },
+  {
+   "author": "Mouser",
+   "folder": "cvs_hibiki",
+   "id": "cvs_hibiki",
+   "name": "Hibiki Takane",
+   "size": "11.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_hibiki.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_zangief",
+   "id": "cvs_zangief",
+   "name": "Zangief",
+   "size": "17.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_zangief.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_guy",
+   "id": "cvs_guy",
+   "name": "Guy",
+   "size": "7.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_guy.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_dan",
+   "id": "cvs_dan",
+   "name": "Dan Hibiki",
+   "size": "8.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_dan.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_decapre",
+   "id": "cvs_decapre",
+   "name": "Decapre (CvS)",
+   "size": "21.4",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_decapre.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_ingrid",
+   "id": "cvs_ingrid",
+   "name": "Ingrid (CvS)",
+   "size": "11.6",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_ingrid.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_karin",
+   "id": "cvs_karin",
+   "name": "Karin (CvS)",
+   "size": "8.7",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_karin.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_mika",
+   "id": "cvs_mika",
+   "name": "R. Mika (CvS)",
+   "size": "8.0",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_mika.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_rolento",
+   "id": "cvs_rolento",
+   "name": "Rolento (CvS)",
+   "size": "12.7",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_rolento.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_thawk",
+   "id": "cvs_thawk",
+   "name": "T. Hawk (CvS)",
+   "size": "9.3",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_thawk.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_vice",
+   "id": "cvs_vice",
+   "name": "Vice (CvS)",
+   "size": "11.1",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_vice.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_yoko",
+   "id": "cvs_yoko",
+   "name": "Yoko Littner (CvS)",
+   "size": "14.8",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_yoko.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_jubei",
+   "id": "ss_jubei",
+   "name": "Jubei (Samurai Shodown)",
+   "size": "5.6",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_jubei.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_yoshitora",
+   "id": "ss_yoshitora",
+   "name": "Yoshitora (Samurai Shodown)",
+   "size": "6.8",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_yoshitora.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_iroha",
+   "id": "ss_iroha",
+   "name": "Iroha (Samurai Shodown)",
+   "size": "6.0",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_iroha.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_juni",
+   "id": "cvs_juni",
+   "name": "Juni (CvS)",
+   "size": "7.9",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_juni.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "cvs_todo",
+   "id": "cvs_todo",
+   "name": "Todo (CvS)",
+   "size": "8.1",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/cvs_todo.zip"
+  },
+  {
+   "author": "Li_Kun & DivineWolf",
+   "folder": "ds_morrigan",
+   "id": "ds_morrigan",
+   "name": "Morrigan (Darkstalkers)",
+   "size": "21.4",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_morrigan.zip"
+  },
+  {
+   "author": "Jesuszilla & varo_hades",
+   "folder": "ds_felicia",
+   "id": "ds_felicia",
+   "name": "Felicia (Darkstalkers)",
+   "size": "5.3",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_felicia.zip"
+  },
+  {
+   "author": "Phantom.of.the.Server & varo_hades",
+   "folder": "ds_hsienko",
+   "id": "ds_hsienko",
+   "name": "Hsien-Ko (Darkstalkers)",
+   "size": "5.7",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_hsienko.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "ds_anakaris",
+   "id": "ds_anakaris",
+   "name": "Anakaris (Darkstalkers)",
+   "size": "6.8",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_anakaris.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "ds_bishamon",
+   "id": "ds_bishamon",
+   "name": "Bishamon (Darkstalkers)",
+   "size": "10.2",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_bishamon.zip"
+  },
+  {
+   "author": "Zelgadis296",
+   "folder": "ds_donovan",
+   "id": "ds_donovan",
+   "name": "Donovan (Darkstalkers)",
+   "size": "6.1",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_donovan.zip"
+  },
+  {
+   "author": "Izumo",
+   "folder": "ds_jedah",
+   "id": "ds_jedah",
+   "name": "Jedah (Darkstalkers)",
+   "size": "8.5",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_jedah.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "ds_qbee",
+   "id": "ds_qbee",
+   "name": "Q.Bee (Darkstalkers)",
+   "size": "5.0",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_qbee.zip"
+  },
+  {
+   "author": "Koldskool",
+   "folder": "ds_raptor",
+   "id": "ds_raptor",
+   "name": "Lord Raptor (Darkstalkers)",
+   "size": "8.0",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_raptor.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "ds_sasquatch",
+   "id": "ds_sasquatch",
+   "name": "Sasquatch (Darkstalkers)",
+   "size": "4.4",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_sasquatch.zip"
+  },
+  {
+   "author": "Jesuszilla",
+   "folder": "ds_talbain",
+   "id": "ds_talbain",
+   "name": "Jon Talbain (Darkstalkers)",
+   "size": "13.4",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_talbain.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "ds_victor",
+   "id": "ds_victor",
+   "name": "Victor (Darkstalkers)",
+   "size": "4.7",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ds_victor.zip"
+  },
+  {
+   "author": "muteki",
+   "folder": "gg_sol",
+   "id": "gg_sol",
+   "name": "Sol Badguy (Guilty Gear)",
+   "size": "12.1",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_sol.zip"
+  },
+  {
+   "author": "muteki",
+   "folder": "gg_ky",
+   "id": "gg_ky",
+   "name": "Ky Kiske (Guilty Gear)",
+   "size": "12.0",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_ky.zip"
+  },
+  {
+   "author": "muteki",
+   "folder": "gg_millia",
+   "id": "gg_millia",
+   "name": "Millia Rage (Guilty Gear)",
+   "size": "11.5",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_millia.zip"
+  },
+  {
+   "author": "muteki",
+   "folder": "gg_may",
+   "id": "gg_may",
+   "name": "May (Guilty Gear)",
+   "size": "13.0",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_may.zip"
+  },
+  {
+   "author": "muteki",
+   "folder": "gg_dizzy",
+   "id": "gg_dizzy",
+   "name": "Dizzy (Guilty Gear)",
+   "size": "13.9",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_dizzy.zip"
+  },
+  {
+   "author": "muteki",
+   "folder": "gg_ino",
+   "id": "gg_ino",
+   "name": "I-No (Guilty Gear)",
+   "size": "13.6",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_ino.zip"
+  },
+  {
+   "author": "muteki",
+   "folder": "gg_baiken",
+   "id": "gg_baiken",
+   "name": "Baiken (Guilty Gear)",
+   "size": "12.2",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_baiken.zip"
+  },
+  {
+   "author": "muteki",
+   "folder": "gg_axl",
+   "id": "gg_axl",
+   "name": "Axl Low (Guilty Gear)",
+   "size": "12.0",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_axl.zip"
+  },
+  {
+   "author": "muteki",
+   "folder": "gg_faust",
+   "id": "gg_faust",
+   "name": "Faust (Guilty Gear)",
+   "size": "11.9",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_faust.zip"
+  },
+  {
+   "author": "muteki",
+   "folder": "gg_potemkin",
+   "id": "gg_potemkin",
+   "name": "Potemkin (Guilty Gear)",
+   "size": "12.5",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/gg_potemkin.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "jojo_polnareff",
+   "id": "jojo_polnareff",
+   "name": "Black Polnareff (JoJo)",
+   "size": "3.5",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/jojo_polnareff.zip"
+  },
+  {
+   "author": "Warusaki3",
+   "folder": "jojo_vanillaice",
+   "id": "jojo_vanillaice",
+   "name": "Vanilla Ice (JoJo)",
+   "size": "3.6",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/jojo_vanillaice.zip"
+  },
+  {
+   "author": "chuchoryu",
+   "folder": "ki_jago",
+   "id": "ki_jago",
+   "name": "Jago (Killer Instinct 3D)",
+   "size": "10.5",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_jago.zip"
+  },
+  {
+   "author": "AHRIMANES",
+   "folder": "ki_orchid",
+   "id": "ki_orchid",
+   "name": "B. Orchid (Killer Instinct 3D)",
+   "size": "3.5",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_orchid.zip"
+  },
+  {
+   "author": "Nexus Games/Gartanham",
+   "folder": "ki_sabrewulf",
+   "id": "ki_sabrewulf",
+   "name": "Sabrewulf (Killer Instinct 3D)",
+   "size": "7.4",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_sabrewulf.zip"
+  },
+  {
+   "author": "CARNAGE777 & Nexus Games",
+   "folder": "ki_glacius",
+   "id": "ki_glacius",
+   "name": "Glacius (Killer Instinct 3D)",
+   "size": "13.5",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_glacius.zip"
+  },
+  {
+   "author": "Fabry Taz",
+   "folder": "ki_fulgore",
+   "id": "ki_fulgore",
+   "name": "Fulgore (Killer Instinct 3D)",
+   "size": "5.5",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_fulgore.zip"
+  },
+  {
+   "author": "Gartanham/Nexus Games",
+   "folder": "ki_tjcombo",
+   "id": "ki_tjcombo",
+   "name": "TJ Combo (Killer Instinct 3D)",
+   "size": "9.3",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_tjcombo.zip"
+  },
+  {
+   "author": "CARNAGE777 & Nexus Games",
+   "folder": "ki_cinder",
+   "id": "ki_cinder",
+   "name": "Cinder (Killer Instinct 3D)",
+   "size": "7.9",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_cinder.zip"
+  },
+  {
+   "author": "chuchoryu",
+   "folder": "ki_gargos",
+   "id": "ki_gargos",
+   "name": "Gargos (Killer Instinct 3D)",
+   "size": "8.0",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_gargos.zip"
+  },
+  {
+   "author": "RajaaBoy",
+   "folder": "mvc_amingo",
+   "id": "mvc_amingo",
+   "name": "Amingo (MvC)",
+   "size": "6.7",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc_amingo.zip"
+  },
+  {
+   "author": "Buckus",
+   "folder": "mvc_rubyheart",
+   "id": "mvc_rubyheart",
+   "name": "Ruby Heart (MvC)",
+   "size": "6.4",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc_rubyheart.zip"
+  },
+  {
+   "author": "NDSilva",
+   "folder": "mvc_sonson",
+   "id": "mvc_sonson",
+   "name": "SonSon (MvC)",
+   "size": "6.6",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc_sonson.zip"
+  },
+  {
+   "author": "chuchoryu",
+   "folder": "sc_mitsurugi",
+   "id": "sc_mitsurugi",
+   "name": "Mitsurugi (Soul Calibur)",
+   "size": "4.5",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_mitsurugi.zip"
+  },
+  {
+   "author": "chuchoryu",
+   "folder": "sc_taki",
+   "id": "sc_taki",
+   "name": "Taki (Soul Calibur)",
+   "size": "3.8",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_taki.zip"
+  },
+  {
+   "author": "chuchoryu",
+   "folder": "sc_nightmare",
+   "id": "sc_nightmare",
+   "name": "Nightmare (Soul Calibur)",
+   "size": "5.9",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_nightmare.zip"
+  },
+  {
+   "author": "chuchoryu",
+   "folder": "sc_siegfried",
+   "id": "sc_siegfried",
+   "name": "Siegfried (Soul Calibur)",
+   "size": "4.7",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_siegfried.zip"
+  },
+  {
+   "author": "chuchoryu",
+   "folder": "sc_sophitia",
+   "id": "sc_sophitia",
+   "name": "Sophitia (Soul Calibur)",
+   "size": "4.4",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_sophitia.zip"
+  },
+  {
+   "author": "chuchoryu",
+   "folder": "sc_kilik",
+   "id": "sc_kilik",
+   "name": "Kilik (Soul Calibur)",
+   "size": "3.5",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_kilik.zip"
+  },
+  {
+   "author": "CVS Artist",
+   "folder": "sc_ivy",
+   "id": "sc_ivy",
+   "name": "Ivy (Soul Calibur)",
+   "size": "13.7",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_ivy.zip"
+  },
+  {
+   "author": "CVS Artist",
+   "folder": "sc_astaroth",
+   "id": "sc_astaroth",
+   "name": "Astaroth (Soul Calibur)",
+   "size": "16.2",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_astaroth.zip"
+  },
+  {
+   "author": "CVS Artist",
+   "folder": "sc_cervantes",
+   "id": "sc_cervantes",
+   "name": "Cervantes (Soul Calibur)",
+   "size": "11.8",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sc_cervantes.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "sf_blanka",
+   "id": "sf_blanka",
+   "name": "Blanka (Street Fighter)",
+   "size": "7.6",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/sf_blanka.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_amakusa",
+   "id": "ss_amakusa",
+   "name": "Amakusa (Samurai Shodown)",
+   "size": "6.7",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_amakusa.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_zankuro",
+   "id": "ss_zankuro",
+   "name": "Zankuro (Samurai Shodown)",
+   "size": "6.4",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_zankuro.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_rimururu",
+   "id": "ss_rimururu",
+   "name": "Rimururu (Samurai Shodown)",
+   "size": "6.1",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_rimururu.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_yunfei",
+   "id": "ss_yunfei",
+   "name": "Yunfei (Samurai Shodown)",
+   "size": "6.5",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_yunfei.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_enja",
+   "id": "ss_enja",
+   "name": "Enja (Samurai Shodown)",
+   "size": "6.4",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_enja.zip"
+  },
+  {
+   "author": "Misao",
+   "folder": "ss_haohmaru",
+   "id": "ss_haohmaru",
+   "name": "Haohmaru (Samurai Shodown)",
+   "size": "5.7",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ss_haohmaru.zip"
+  },
+  {
+   "author": "KI stage pack",
+   "def": "ki_tiger_shrine.def",
+   "id": "ki_tiger_shrine",
+   "name": "Tiger Shrine (Killer Instinct)",
+   "size": "0.1",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_tiger_shrine.zip"
+  },
+  {
+   "author": "KI stage pack",
+   "def": "ki_glacius_zone.def",
+   "id": "ki_glacius_zone",
+   "name": "Glacius zone (Killer Instinct)",
+   "size": "0.1",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_glacius_zone.zip"
+  },
+  {
+   "author": "KI stage pack",
+   "def": "ki_lava_bridge.def",
+   "id": "ki_lava_bridge",
+   "name": "Lava Bridge (Killer Instinct)",
+   "size": "6.3",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_lava_bridge.zip"
+  },
+  {
+   "author": "KI stage pack",
+   "def": "ki_gargos_castle.def",
+   "id": "ki_gargos_castle",
+   "name": "Gargos Castle (Killer Instinct)",
+   "size": "1.0",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_gargos_castle.zip"
+  },
+  {
+   "author": "KI stage pack",
+   "def": "ki_combo_street.def",
+   "id": "ki_combo_street",
+   "name": "Combo's Street (Killer Instinct)",
+   "size": "0.1",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_combo_street.zip"
+  },
+  {
+   "author": "KI stage pack",
+   "def": "ki_infinity_moon.def",
+   "id": "ki_infinity_moon",
+   "name": "Training Stage (Killer Instinct)",
+   "size": "0.1",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_infinity_moon.zip"
+  },
+  {
+   "author": "KI stage pack",
+   "def": "ki_orchid_stage.def",
+   "id": "ki_orchid_stage",
+   "name": "B.Orchid stage (Killer Instinct)",
+   "size": "0.4",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_orchid_stage.zip"
+  },
+  {
+   "author": "KI stage pack",
+   "def": "ki_sabrewulf_house.def",
+   "id": "ki_sabrewulf_house",
+   "name": "SabreWulf House (Killer Instinct)",
+   "size": "0.2",
+   "type": "stage",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/ki_sabrewulf_house.zip"
+  },
+  {
+   "author": "Rare",
+   "file": "ki_glacius.mp3",
+   "id": "music_ki_glacius",
+   "name": "Glacius Theme (Killer Instinct)",
+   "size": "3.2",
+   "type": "music",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-ki-glacius.zip"
+  },
+  {
+   "author": "Rare",
+   "file": "ki_tiger_shrine.mp3",
+   "id": "music_ki_tiger_shrine",
+   "name": "Tiger Shrine Theme (Killer Instinct)",
+   "size": "4.1",
+   "type": "music",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-ki-tiger-shrine.zip"
+  },
+  {
+   "author": "Rare",
+   "file": "ki_lava_bridge.mp3",
+   "id": "music_ki_lava_bridge",
+   "name": "Lava Bridge Theme (Killer Instinct)",
+   "size": "4.8",
+   "type": "music",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-ki-lava-bridge.zip"
+  },
+  {
+   "author": "Rare",
+   "file": "ki_gargos.mp3",
+   "id": "music_ki_gargos",
+   "name": "Gargos Theme (Killer Instinct)",
+   "size": "0.9",
+   "type": "music",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/music-ki-gargos.zip"
+  },
+  {
+   "author": "Skepter Fightcade",
+   "folder": "royal_amethyst",
+   "id": "skin_royal_amethyst",
+   "name": "Royal Amethyst",
+   "size": "0.1",
+   "type": "skin",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-royal-amethyst.zip"
+  },
+  {
+   "author": "Skepter Fightcade",
+   "folder": "toxic_circuit",
+   "id": "skin_toxic_circuit",
+   "name": "Toxic Circuit",
+   "size": "0.1",
+   "type": "skin",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-toxic-circuit.zip"
+  },
+  {
+   "author": "Skepter Fightcade",
+   "folder": "frost_byte",
+   "id": "skin_frost_byte",
+   "name": "Frost Byte",
+   "size": "0.1",
+   "type": "skin",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skin-frost-byte.zip"
+  },
+  {
+   "author": "DarkLuigi",
+   "folder": "dc_aquaman",
+   "id": "dc_aquaman",
+   "name": "Aquaman",
+   "size": "4.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_aquaman.zip"
+  },
+  {
+   "author": "Jmaxximus/ALEXZIQ",
+   "folder": "dc_bane",
+   "id": "dc_bane",
+   "name": "Bane",
+   "size": "15.3 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_bane.zip"
+  },
+  {
+   "author": "Dr.Doom and Trexrell",
+   "folder": "dc_blackadam",
+   "id": "dc_blackadam",
+   "name": "Black Adam",
+   "size": "12.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_blackadam.zip"
+  },
+  {
+   "author": "Unknown",
+   "folder": "dc_brainiac",
+   "id": "dc_brainiac",
+   "name": "Brainiac",
+   "size": "21.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_brainiac.zip"
+  },
+  {
+   "author": "Ninja Brl, Mistah Jorge and volzzilla",
+   "folder": "dc_catwoman",
+   "id": "dc_catwoman",
+   "name": "Catwoman",
+   "size": "21.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_catwoman.zip"
+  },
+  {
+   "author": "Unknown",
+   "folder": "dc_darkseid",
+   "id": "dc_darkseid",
+   "name": "Darkseid",
+   "size": "2.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_darkseid.zip"
+  },
+  {
+   "author": "chuchoryu",
+   "folder": "dc_deathstroke",
+   "id": "dc_deathstroke",
+   "name": "Deathstroke",
+   "size": "5.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_deathstroke.zip"
+  },
+  {
+   "author": "DC",
+   "folder": "dc_doomsday",
+   "id": "dc_doomsday",
+   "name": "Doomsday",
+   "size": "14.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_doomsday.zip"
+  },
+  {
+   "author": "Sic-1",
+   "folder": "dc_flash",
+   "id": "dc_flash",
+   "name": "The Flash",
+   "size": "9.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_flash.zip"
+  },
+  {
+   "author": "Mr.Giang",
+   "folder": "dc_greenarrow",
+   "id": "dc_greenarrow",
+   "name": "Green Arrow",
+   "size": "16.3 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_greenarrow.zip"
+  },
+  {
+   "author": "Wil.li.an and ZVitor/ modified by lp",
+   "folder": "dc_greenlantern",
+   "id": "dc_greenlantern",
+   "name": "Green Lantern (John Stewart)",
+   "size": "4.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_greenlantern.zip"
+  },
+  {
+   "author": "chuchoryu",
+   "folder": "dc_harley",
+   "id": "dc_harley",
+   "name": "Harley Quinn",
+   "size": "15.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_harley.zip"
+  },
+  {
+   "author": "Logansam",
+   "folder": "dc_kyle",
+   "id": "dc_kyle",
+   "name": "Green Lantern (Kyle Rayner)",
+   "size": "21.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_kyle.zip"
+  },
+  {
+   "author": "Buyog 2099",
+   "folder": "dc_lobo",
+   "id": "dc_lobo",
+   "name": "Lobo",
+   "size": "7.5 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_lobo.zip"
+  },
+  {
+   "author": "Unknown",
+   "folder": "dc_martianmanhunter",
+   "id": "dc_martianmanhunter",
+   "name": "Martian Manhunter",
+   "size": "3.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_martianmanhunter.zip"
+  },
+  {
+   "author": "S666",
+   "folder": "dc_mrfreeze",
+   "id": "dc_mrfreeze",
+   "name": "Mr. Freeze",
+   "size": "5.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_mrfreeze.zip"
+  },
+  {
+   "author": "M & McCready",
+   "folder": "dc_nightwing",
+   "id": "dc_nightwing",
+   "name": "Nightwing",
+   "size": "3.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_nightwing.zip"
+  },
+  {
+   "author": "Loganir",
+   "folder": "dc_wonderwoman",
+   "id": "dc_wonderwoman",
+   "name": "Wonder Woman",
+   "size": "8.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/dc_wonderwoman.zip"
+  },
+  {
+   "author": "Unlimited Team - sprites, Wucash - code",
+   "folder": "eoh_deadpool",
+   "id": "eoh_deadpool",
+   "name": "Deadpool",
+   "size": "19.5 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/eoh_deadpool.zip"
+  },
+  {
+   "author": "Acey",
+   "folder": "eoh_hulk",
+   "id": "eoh_hulk",
+   "name": "Hulk",
+   "size": "5.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/eoh_hulk.zip"
+  },
+  {
+   "author": "Excursion",
+   "folder": "eoh_iceman",
+   "id": "eoh_iceman",
+   "name": "Iceman",
+   "size": "7.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/eoh_iceman.zip"
+  },
+  {
+   "author": "Acey & ZVitor",
+   "folder": "eoh_juggernaut",
+   "id": "eoh_juggernaut",
+   "name": "Juggernaut",
+   "size": "4.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/eoh_juggernaut.zip"
+  },
+  {
+   "author": "Sentinel",
+   "folder": "eoh_sentinel",
+   "id": "eoh_sentinel",
+   "name": "Sentinel",
+   "size": "7.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/eoh_sentinel.zip"
+  },
+  {
+   "author": "Sludge",
+   "folder": "eoh_shuma",
+   "id": "eoh_shuma",
+   "name": "Shuma-Gorath",
+   "size": "1.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/eoh_shuma.zip"
+  },
+  {
+   "author": "BlackHeart",
+   "folder": "mvc2_blackheart",
+   "id": "mvc2_blackheart",
+   "name": "Blackheart",
+   "size": "7.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc2_blackheart.zip"
+  },
+  {
+   "author": "Cable",
+   "folder": "mvc2_cable",
+   "id": "mvc2_cable",
+   "name": "Cable",
+   "size": "4.5 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc2_cable.zip"
+  },
+  {
+   "author": "Colossus",
+   "folder": "mvc2_colossus",
+   "id": "mvc2_colossus",
+   "name": "Colossus",
+   "size": "8.3 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc2_colossus.zip"
+  },
+  {
+   "author": "DrDoom",
+   "folder": "mvc2_doom",
+   "id": "mvc2_doom",
+   "name": "Doctor Doom",
+   "size": "7.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc2_doom.zip"
+  },
+  {
+   "author": "Magneto",
+   "folder": "mvc2_magneto",
+   "id": "mvc2_magneto",
+   "name": "Magneto",
+   "size": "5.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc2_magneto.zip"
+  },
+  {
+   "author": "Red Omega",
+   "folder": "mvc2_omegared",
+   "id": "mvc2_omegared",
+   "name": "Omega Red",
+   "size": "7.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc2_omegared.zip"
+  },
+  {
+   "author": "Servbot",
+   "folder": "mvc2_servbot",
+   "id": "mvc2_servbot",
+   "name": "Servbot",
+   "size": "3.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc2_servbot.zip"
+  },
+  {
+   "author": "Spiral",
+   "folder": "mvc2_spiral",
+   "id": "mvc2_spiral",
+   "name": "Spiral",
+   "size": "6.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc2_spiral.zip"
+  },
+  {
+   "author": "Storm",
+   "folder": "mvc2_storm",
+   "id": "mvc2_storm",
+   "name": "Storm",
+   "size": "7.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc2_storm.zip"
+  },
+  {
+   "author": "Thanos",
+   "folder": "mvc2_thanos",
+   "id": "mvc2_thanos",
+   "name": "Thanos",
+   "size": "7.5 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc2_thanos.zip"
+  },
+  {
+   "author": "TronBonne",
+   "folder": "mvc2_tronbonne",
+   "id": "mvc2_tronbonne",
+   "name": "Tron Bonne",
+   "size": "4.8 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/mvc2_tronbonne.zip"
+  },
+  {
+   "author": "Saikou Shiva",
+   "folder": "pots_adelheid",
+   "id": "pots_adelheid",
+   "name": "Adelheid Bernstein",
+   "size": "12.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_adelheid.zip"
+  },
+  {
+   "author": "Trololo edited by varo_hades",
+   "folder": "pots_adon",
+   "id": "pots_adon",
+   "name": "Adon",
+   "size": "10.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_adon.zip"
+  },
+  {
+   "author": "KarmaCharmeleon",
+   "folder": "pots_angel",
+   "id": "pots_angel",
+   "name": "Angel",
+   "size": "7.5 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_angel.zip"
+  },
+  {
+   "author": "Trololo",
+   "folder": "pots_balrog",
+   "id": "pots_balrog",
+   "name": "Balrog (Boxer)",
+   "size": "11.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_balrog.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "pots_batman",
+   "id": "pots_batman",
+   "name": "Batman",
+   "size": "15.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_batman.zip"
+  },
+  {
+   "author": "Noctis and varo_hades, Edited and arranged by Rabano",
+   "folder": "pots_birdie",
+   "id": "pots_birdie",
+   "name": "Birdie",
+   "size": "8.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_birdie.zip"
+  },
+  {
+   "author": "SeanAltly & Buckus",
+   "folder": "pots_captainamerica",
+   "id": "pots_captainamerica",
+   "name": "Captain America",
+   "size": "10.5 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_captainamerica.zip"
+  },
+  {
+   "author": "ReixSeiryu & Chazzanova",
+   "folder": "pots_chris",
+   "id": "pots_chris",
+   "name": "Orochi Chris",
+   "size": "14.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_chris.zip"
+  },
+  {
+   "author": "Trololo",
+   "folder": "pots_cody",
+   "id": "pots_cody",
+   "name": "Cody",
+   "size": "17.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_cody.zip"
+  },
+  {
+   "author": "Victorys",
+   "folder": "pots_cyborg",
+   "id": "pots_cyborg",
+   "name": "Cyborg",
+   "size": "6.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_cyborg.zip"
+  },
+  {
+   "author": "GoldEX",
+   "folder": "pots_cyclops",
+   "id": "pots_cyclops",
+   "name": "Cyclops",
+   "size": "7.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_cyclops.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "pots_deejay",
+   "id": "pots_deejay",
+   "name": "Dee Jay",
+   "size": "8.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_deejay.zip"
+  },
+  {
+   "author": "Knuckles8864",
+   "folder": "pots_dhalsim",
+   "id": "pots_dhalsim",
+   "name": "Dhalsim",
+   "size": "15.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_dhalsim.zip"
+  },
+  {
+   "author": "Chazzanova",
+   "folder": "pots_duolon",
+   "id": "pots_duolon",
+   "name": "Duo Lon",
+   "size": "12.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_duolon.zip"
+  },
+  {
+   "author": "CrazyKoopa",
+   "folder": "pots_eagle",
+   "id": "pots_eagle",
+   "name": "Eagle",
+   "size": "5.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_eagle.zip"
+  },
+  {
+   "author": "Koopa901",
+   "folder": "pots_eiji",
+   "id": "pots_eiji",
+   "name": "Eiji",
+   "size": "9.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_eiji.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "pots_elena",
+   "id": "pots_elena",
+   "name": "Elena",
+   "size": "5.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_elena.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "pots_feilong",
+   "id": "pots_feilong",
+   "name": "Fei Long",
+   "size": "9.3 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_feilong.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "pots_gambit",
+   "id": "pots_gambit",
+   "name": "Gambit",
+   "size": "7.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_gambit.zip"
+  },
+  {
+   "author": "mwryly & varo_hades",
+   "folder": "pots_gen",
+   "id": "pots_gen",
+   "name": "Gen",
+   "size": "5.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_gen.zip"
+  },
+  {
+   "author": "ZoneSeven",
+   "folder": "pots_ghostrider",
+   "id": "pots_ghostrider",
+   "name": "Ghost Rider",
+   "size": "14.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_ghostrider.zip"
+  },
+  {
+   "author": "ReddBrink&Seanaltly",
+   "folder": "pots_haggar",
+   "id": "pots_haggar",
+   "name": "Mike Haggar",
+   "size": "10.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_haggar.zip"
+  },
+  {
+   "author": "Hairline733",
+   "folder": "pots_heavyd",
+   "id": "pots_heavyd",
+   "name": "Heavy D!",
+   "size": "12.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_heavyd.zip"
+  },
+  {
+   "author": "Phantom.of.the.Server",
+   "folder": "pots_honda",
+   "id": "pots_honda",
+   "name": "E. Honda",
+   "size": "5.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_honda.zip"
+  },
+  {
+   "author": "varo_hades & Emerie The G.O.A.T",
+   "folder": "pots_ironman",
+   "id": "pots_ironman",
+   "name": "Iron Man",
+   "size": "8.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_ironman.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "pots_joker",
+   "id": "pots_joker",
+   "name": "Joker",
+   "size": "12.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_joker.zip"
+  },
+  {
+   "author": "chucho & Prime",
+   "folder": "pots_juri",
+   "id": "pots_juri",
+   "name": "Juri",
+   "size": "19.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_juri.zip"
+  },
+  {
+   "author": "Chazzanova & Dampir",
+   "folder": "pots_k",
+   "id": "pots_k",
+   "name": "K'",
+   "size": "17.5 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_k.zip"
+  },
+  {
+   "author": "Nexus/Carnage777",
+   "folder": "pots_laura",
+   "id": "pots_laura",
+   "name": "Laura",
+   "size": "10.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_laura.zip"
+  },
+  {
+   "author": "Nexus Gaming",
+   "folder": "pots_lucia",
+   "id": "pots_lucia",
+   "name": "Lucia",
+   "size": "7.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_lucia.zip"
+  },
+  {
+   "author": "Night_Stalker/Laslab Games",
+   "folder": "pots_malin",
+   "id": "pots_malin",
+   "name": "Malin",
+   "size": "4.8 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_malin.zip"
+  },
+  {
+   "author": "Nexus/ZVitor",
+   "folder": "pots_mystique",
+   "id": "pots_mystique",
+   "name": "Mystique",
+   "size": "4.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_mystique.zip"
+  },
+  {
+   "author": "KarmaCharmeleon",
+   "folder": "pots_q",
+   "id": "pots_q",
+   "name": "Q",
+   "size": "9.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_q.zip"
+  },
+  {
+   "author": "ZVitor & Emerie The G.O.A.T",
+   "folder": "pots_quicksilver",
+   "id": "pots_quicksilver",
+   "name": "Quicksilver",
+   "size": "4.3 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_quicksilver.zip"
+  },
+  {
+   "author": "ZMugens",
+   "folder": "pots_ramon",
+   "id": "pots_ramon",
+   "name": "Ramon",
+   "size": "6.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_ramon.zip"
+  },
+  {
+   "author": "Rabanazo",
+   "folder": "pots_remy",
+   "id": "pots_remy",
+   "name": "Remy",
+   "size": "5.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_remy.zip"
+  },
+  {
+   "author": "GoldEX",
+   "folder": "pots_rogue",
+   "id": "pots_rogue",
+   "name": "Rogue",
+   "size": "12.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_rogue.zip"
+  },
+  {
+   "author": "Nexus Gaming",
+   "folder": "pots_roll",
+   "id": "pots_roll",
+   "name": "Roll",
+   "size": "4.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_roll.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "pots_rose",
+   "id": "pots_rose",
+   "name": "Rose",
+   "size": "11.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_rose.zip"
+  },
+  {
+   "author": "ReixSeiryu",
+   "folder": "pots_shenwoo",
+   "id": "pots_shenwoo",
+   "name": "Shen Woo",
+   "size": "12.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_shenwoo.zip"
+  },
+  {
+   "author": "Jmorphman",
+   "folder": "pots_shingo",
+   "id": "pots_shingo",
+   "name": "Shingo Yabuki",
+   "size": "6.6 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_shingo.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "pots_sodom",
+   "id": "pots_sodom",
+   "name": "Sodom",
+   "size": "8.7 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_sodom.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "pots_spiderman",
+   "id": "pots_spiderman",
+   "name": "Spider-Man",
+   "size": "14.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_spiderman.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "pots_strider",
+   "id": "pots_strider",
+   "name": "Strider Hiryu",
+   "size": "16.5 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_strider.zip"
+  },
+  {
+   "author": "Superman",
+   "folder": "pots_superman",
+   "id": "pots_superman",
+   "name": "Superman",
+   "size": "10.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_superman.zip"
+  },
+  {
+   "author": "varo_hades",
+   "folder": "pots_todoh",
+   "id": "pots_todoh",
+   "name": "Kasumi Todoh",
+   "size": "8.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_todoh.zip"
+  },
+  {
+   "author": "Froz",
+   "folder": "pots_urien",
+   "id": "pots_urien",
+   "name": "Urien",
+   "size": "10.0 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_urien.zip"
+  },
+  {
+   "author": "ReixSeiryu",
+   "folder": "pots_vanessa",
+   "id": "pots_vanessa",
+   "name": "Vanessa",
+   "size": "7.9 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_vanessa.zip"
+  },
+  {
+   "author": "Big Eli King",
+   "folder": "pots_venom",
+   "id": "pots_venom",
+   "name": "Venom",
+   "size": "2.4 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_venom.zip"
+  },
+  {
+   "author": "varo_hades & Emerie The G.O.A.T",
+   "folder": "pots_warmachine",
+   "id": "pots_warmachine",
+   "name": "War Machine",
+   "size": "11.1 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_warmachine.zip"
+  },
+  {
+   "author": "Froz",
+   "folder": "pots_wolverine",
+   "id": "pots_wolverine",
+   "name": "Wolverine",
+   "size": "13.2 MB",
+   "type": "char",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/pots_wolverine.zip"
+  },
+  {
+   "author": "KarmaCharmeleon",
+   "folder": "pots_ash",
+   "id": "pots_ash",
+   "name": "Ash Crimson",
+   "size": "37.0 MB",
+   "type": "char",
+   "url": "https://github.com/yusib147/sf3-content/releases/download/fighters-xl/pots_ash.zip"
+  },
+  {
+   "author": "KojiroBADNESS edited by varo_hades",
+   "folder": "pots_makoto",
+   "id": "pots_makoto",
+   "name": "Makoto",
+   "size": "34.7 MB",
+   "type": "char",
+   "url": "https://github.com/yusib147/sf3-content/releases/download/fighters-xl/pots_makoto.zip"
+  },
+  {
+   "author": "Mr.Giang",
+   "folder": "dc_shazam",
+   "id": "dc_shazam",
+   "name": "Shazam",
+   "size": "28.9 MB",
+   "type": "char",
+   "url": "https://github.com/yusib147/sf3-content/releases/download/fighters-xl/dc_shazam.zip"
+  },
+  {
+   "author": "Wildshark, Harbinger and ZVitor",
+   "folder": "dc_poisonivy",
+   "id": "dc_poisonivy",
+   "name": "Poison Ivy",
+   "size": "81.5 MB",
+   "type": "char",
+   "url": "https://github.com/yusib147/sf3-content/releases/download/fighters-xl/dc_poisonivy.zip"
+  }
+ ]
 }

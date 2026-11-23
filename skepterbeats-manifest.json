@@ -5012,6 +5012,785 @@
     "final_boss_name": "M. Bison",
     "premise": "A complete storyline: the Interpol file on Shadaloo's fire sale, in six episodes — Chun-Li, Guile and Cammy chase the buyers' list to the man who wrote it."
    }
+  },
+  {
+   "id": "kilik_pack",
+   "name": "Kilik — The Vessel and the Lock",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-kilik-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1518020,
+   "sha256": "522bf52eeefbc88aa957f61bfa66f679100b5fd5775cf312cc6b4b56a7133d12",
+   "summary": "One new fighter: Kilik, the lead, with the full Fightcade kit. Built for arc 'The Edge Is a Curse' (Arc 6).",
+   "fighters": [
+    "kilik"
+   ],
+   "contents": {
+    "headline": "One new fighter: Kilik, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "kilik",
+      "name": "Kilik",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Arc lead of 'The Edge Is a Curse' (Arc 6): Kilik carries the mirror that can hold Soul Edge's fragments, and the newest fragment sings in his sister Xianglian's voice. He leads every episode, and the ending seals the fragments into his mirror and the mirror into the sea. The arc ships as the arc_the_edge storyline pack.",
+    "music": [],
+    "links": "The Soul Edge fragment Amakusa hoarded in 'Swords in a Country of Storms' (Arc 5) is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki Takane's crossover scene was in Arc 5; her home and her join are here.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Throw: the source character has no true throw animation. The throw uses his standing lunging staff thrust (AIR 220) — the closest motion in the source — as a named adaptation (Adan's order, 2026-11-23)."
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "via": "taki",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here."
+     }
+    ],
+    "final_boss": "nightmare",
+    "role": "lead"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "taki_pack",
+   "name": "Taki — Hunter of the Cursed Blade",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-taki-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 7505690,
+   "sha256": "2e2e435f6f031c3bc31a396bea282b398799a425ed65aee44ede6ddcfc616432",
+   "summary": "One new fighter: Taki, the co-lead, with the full Fightcade kit. Built for arc 'The Edge Is a Curse' (Arc 6).",
+   "fighters": [
+    "taki"
+   ],
+   "contents": {
+    "headline": "One new fighter: Taki, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "taki",
+      "name": "Taki",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Co-lead of arc 'The Edge Is a Curse' (Arc 6): Taki raids the fragment shipment beside Kilik in Episode 1 and is the featured partner again in Episode 3, when the mirror cracks. The arc ships as the arc_the_edge storyline pack.",
+    "music": [],
+    "links": "The Soul Edge fragment Amakusa hoarded in 'Swords in a Country of Storms' (Arc 5) is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki Takane's crossover scene was in Arc 5; her home and her join are here.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "via": "taki",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here."
+     }
+    ],
+    "final_boss": "nightmare",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "siegfried_pack",
+   "name": "Siegfried Schtauffen — The Penitent Knight",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-siegfried-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2382209,
+   "sha256": "0aec30a86e5f288a2353c773c3fd76bdfed9685f25bd120d4c6fd62ed9459cf1",
+   "summary": "One new fighter: Siegfried Schtauffen, Episode 6's featured partner, with the full Fightcade kit. Built for arc 'The Edge Is a Curse' (Arc 6).",
+   "fighters": [
+    "siegfried"
+   ],
+   "contents": {
+    "headline": "One new fighter: Siegfried Schtauffen, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "siegfried",
+      "name": "Siegfried Schtauffen",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Arc 'The Edge Is a Curse' (Arc 6): Siegfried is Episode 6's featured partner. When the sword fights on alone and offers him his strength back, his refusal, spoken standing with open hands, is the arc's ending. The arc ships as the arc_the_edge storyline pack.",
+    "music": [],
+    "links": "The Soul Edge fragment Amakusa hoarded in 'Swords in a Country of Storms' (Arc 5) is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki Takane's crossover scene was in Arc 5; her home and her join are here.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Throw: the source character has no true throw animation. The throw uses his charging low lunge (AIR 450) — the closest motion in the source — as a named adaptation (Adan's order, 2026-11-23)."
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "via": "taki",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here."
+     }
+    ],
+    "final_boss": "nightmare",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "sophitia_pack",
+   "name": "Sophitia Alexandra — The Holy Warrior",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-sophitia-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 8394262,
+   "sha256": "969edc6bcd90e3d1a90a67731c335d50fd7ae86d6f457c7d2a034e0d49b08986",
+   "summary": "One new fighter: Sophitia Alexandra, who joins in Episode 2, with the full Fightcade kit. Built for arc 'The Edge Is a Curse' (Arc 6).",
+   "fighters": [
+    "sophitia"
+   ],
+   "contents": {
+    "headline": "One new fighter: Sophitia Alexandra, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "sophitia",
+      "name": "Sophitia Alexandra",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Arc 'The Edge Is a Curse' (Arc 6): Sophitia joins in Episode 2, picking up her sword in front of her children when Astaroth delivers the sword's terms, and then chooses the road herself. The arc ships as the arc_the_edge storyline pack.",
+    "music": [],
+    "links": "The Soul Edge fragment Amakusa hoarded in 'Swords in a Country of Storms' (Arc 5) is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki Takane's crossover scene was in Arc 5; her home and her join are here.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "via": "taki",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here."
+     }
+    ],
+    "final_boss": "nightmare",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "astaroth_pack",
+   "name": "Astaroth — The Cult Executioner",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-astaroth-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 17236316,
+   "sha256": "9193d0d09803c8d5243391cc75c60de7392622a93dc3276e275a43dfea0b1319",
+   "summary": "One new fighter: Astaroth, Episode 2 mid-boss, with the full Fightcade kit. Built for arc 'The Edge Is a Curse' (Arc 6).",
+   "fighters": [
+    "astaroth"
+   ],
+   "contents": {
+    "headline": "One new fighter: Astaroth, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "astaroth",
+      "name": "Astaroth",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Mid-boss of arc 'The Edge Is a Curse' (Arc 6): Astaroth is fought as Episode 2's mid-boss (resurrect: false), a herald and a test, not a final fight. His fighter def is also the kit source for the arc's mid-boss enemy def. The arc ships as the arc_the_edge storyline pack.",
+    "music": [],
+    "links": "The Soul Edge fragment Amakusa hoarded in 'Swords in a Country of Storms' (Arc 5) is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki Takane's crossover scene was in Arc 5; her home and her join are here.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "via": "taki",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here."
+     }
+    ],
+    "final_boss": "nightmare",
+    "role": "miniboss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "ivy_pack",
+   "name": "Ivy Valentine — Scholar of the Curse",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-ivy-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 7692402,
+   "sha256": "fba2423f53220d9ef47a60c2c37c49b9c3af00be00387006b9a35669adc3a711",
+   "summary": "One new fighter: Ivy Valentine, who joins in Episode 3, with the full Fightcade kit. Built for arc 'The Edge Is a Curse' (Arc 6).",
+   "fighters": [
+    "ivy"
+   ],
+   "contents": {
+    "headline": "One new fighter: Ivy Valentine, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "ivy",
+      "name": "Ivy Valentine",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Arc 'The Edge Is a Curse' (Arc 6): Ivy Valentine joins in Episode 3 as the party's scholar, on her own stated terms, while the archive burns and the mirror cracks. She is never the featured combat partner. The arc ships as the arc_the_edge storyline pack.",
+    "music": [],
+    "links": "The Soul Edge fragment Amakusa hoarded in 'Swords in a Country of Storms' (Arc 5) is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki Takane's crossover scene was in Arc 5; her home and her join are here.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "via": "taki",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here."
+     }
+    ],
+    "final_boss": "nightmare",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "mitsurugi_pack",
+   "name": "Heishiro Mitsurugi — The Duelist",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-mitsurugi-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2055508,
+   "sha256": "98e9040a57f3eb2e62671b6c690b496a3dc933baebe9169a5e45ab5818c8218f",
+   "summary": "One new fighter: Heishiro Mitsurugi, who joins in Episode 4, with the full Fightcade kit. Built for arc 'The Edge Is a Curse' (Arc 6).",
+   "fighters": [
+    "mitsurugi"
+   ],
+   "contents": {
+    "headline": "One new fighter: Heishiro Mitsurugi, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "mitsurugi",
+      "name": "Heishiro Mitsurugi",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Arc 'The Edge Is a Curse' (Arc 6): Mitsurugi joins in Episode 4 through the bridge duel and is Episode 5's featured partner aboard Cervantes's ship. The arc ships as the arc_the_edge storyline pack.",
+    "music": [],
+    "links": "The Soul Edge fragment Amakusa hoarded in 'Swords in a Country of Storms' (Arc 5) is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki Takane's crossover scene was in Arc 5; her home and her join are here.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Throw: the source character has no true throw animation. The throw uses his KF Palm open-hand palm thrust (AIR 1000, state 1000) — the closest motion in the source — as a named adaptation (Adan's order, 2026-11-23)."
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "via": "taki",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here."
+     }
+    ],
+    "final_boss": "nightmare",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "cervantes_pack",
+   "name": "Cervantes de Leon — The Dread Pirate",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-cervantes-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4589939,
+   "sha256": "792592b33b0326a21ddedaf1fc3a5abc2bfdf06b1e48ed26b010852125c12dc0",
+   "summary": "One new fighter: Cervantes de Leon, Episode 5 mid-boss, with the full Fightcade kit. Built for arc 'The Edge Is a Curse' (Arc 6).",
+   "fighters": [
+    "cervantes"
+   ],
+   "contents": {
+    "headline": "One new fighter: Cervantes de Leon, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "cervantes",
+      "name": "Cervantes de Leon",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Mid-boss of arc 'The Edge Is a Curse' (Arc 6): Cervantes is Episode 5's mid-boss aboard his own ship (resurrect: false). His fighter def is also the kit source for the arc's mid-boss enemy def. The arc ships as the arc_the_edge storyline pack.",
+    "music": [],
+    "links": "The Soul Edge fragment Amakusa hoarded in 'Swords in a Country of Storms' (Arc 5) is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki Takane's crossover scene was in Arc 5; her home and her join are here.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Throw: the source character has no true throw animation. The throw uses his Flash Geo Da Ray full-body diving charge (AIR 1000, state 1000) — the closest motion in the source — as a named adaptation (Adan's order, 2026-11-23)."
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "via": "taki",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here."
+     }
+    ],
+    "final_boss": "nightmare",
+    "role": "miniboss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "hibiki_pack",
+   "name": "Hibiki Takane — The Quiet Blade",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-hibiki-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2029971,
+   "sha256": "57ff40eeb915413ea0ba8606aa49825dcdb268aed34e836eb22e5df7f1996a0c",
+   "summary": "One new fighter: Hibiki Takane, who joins in Episode 5, with the full Fightcade kit. Built for arc 'The Edge Is a Curse' (Arc 6).",
+   "fighters": [
+    "hibiki"
+   ],
+   "contents": {
+    "headline": "One new fighter: Hibiki Takane, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "hibiki",
+      "name": "Hibiki Takane",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Arc 'The Edge Is a Curse' (Arc 6): Hibiki Takane joins in Episode 5, in the aftermath of the Cervantes fight. This is her home arc; her Arc 5 appearance was a crossover scene only and produced no pack. The arc ships as the arc_the_edge storyline pack.",
+    "music": [],
+    "links": "The Soul Edge fragment Amakusa hoarded in 'Swords in a Country of Storms' (Arc 5) is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki Takane's crossover scene was in Arc 5; her home and her join are here.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "via": "taki",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here."
+     }
+    ],
+    "final_boss": "nightmare",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "nightmare_pack",
+   "name": "Nightmare — The Azure Knight",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-nightmare-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3675646,
+   "sha256": "74f0c1a9cda7a8ecd9c60f3420b637b8187702d1ad5ac53d3bc61a5d543d0b9f",
+   "summary": "One new fighter: Nightmare, the final boss, with the full Fightcade kit. Built for arc 'The Edge Is a Curse' (Arc 6).",
+   "fighters": [
+    "nightmare"
+   ],
+   "contents": {
+    "headline": "One new fighter: Nightmare, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "nightmare",
+      "name": "Nightmare",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of arc 'The Edge Is a Curse' (Arc 6): Nightmare is fought in Episode 6 in two phases, the second against the sword alone (resurrect: false — its ending is the sea). His fighter def is also the kit source for the arc's boss enemy def. The arc ships as the arc_the_edge storyline pack.",
+    "music": [],
+    "links": "The Soul Edge fragment Amakusa hoarded in 'Swords in a Country of Storms' (Arc 5) is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki Takane's crossover scene was in Arc 5; her home and her join are here.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Throw: the source character has no true throw animation. The throw uses his charging low lunge (AIR 450) — the closest motion in the source — as a named adaptation (Adan's order, 2026-11-23)."
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "via": "taki",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here."
+     }
+    ],
+    "final_boss": "nightmare",
+    "role": "final_boss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_the_edge",
+   "name": "Storyline: The Edge Is a Curse",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-the-edge-pack.zip",
+   "size_bytes": 8467,
+   "sha256": "f97256e652acbbb975990d36472638dda739d470673cb55701b7e1aaeeac06d0",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "kilik",
+      "name": "Kilik",
+      "note": "Arc 6 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "taki",
+      "name": "Taki",
+      "note": "Arc 6 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "siegfried",
+      "name": "Siegfried Schtauffen",
+      "note": "Arc 6 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "sophitia",
+      "name": "Sophitia Alexandra",
+      "note": "Arc 6 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "astaroth",
+      "name": "Astaroth",
+      "note": "Arc 6 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "ivy",
+      "name": "Ivy Valentine",
+      "note": "Arc 6 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "mitsurugi",
+      "name": "Heishiro Mitsurugi",
+      "note": "Arc 6 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "cervantes",
+      "name": "Cervantes de Leon",
+      "note": "Arc 6 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "hibiki",
+      "name": "Hibiki Takane",
+      "note": "Arc 6 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "nightmare",
+      "name": "Nightmare",
+      "note": "Arc 6 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "final_boss": "nightmare",
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here.",
+      "via": "taki"
+     }
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "lead": "kilik",
+    "episodes": 6,
+    "scenes": 16,
+    "final_boss_name": "Nightmare",
+    "premise": "A complete storyline: Kilik, Taki and Siegfried hunt Soul Edge's fragments to the Azure Knight, in six episodes."
+   }
   }
  ]
 }

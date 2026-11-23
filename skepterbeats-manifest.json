@@ -864,6 +864,441 @@
     "final_boss_name": "Geese Howard",
     "premise": "A complete storyline: Terry Bogard, Rock Howard and the Sakazakis refuse Geese Howard's polite takeover of Southtown, in six episodes."
    }
+  },
+  {
+   "id": "kyo_pack",
+   "name": "Kyo Kusanagi — Flames of the Kusanagi",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-kyo-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2998550,
+   "sha256": "8cd179242465e07854ecbd62c46e864656fcb4d0986a8e73a0b598bb686a6a89",
+   "summary": "One new fighter: Kyo Kusanagi, with his full Fightcade kit. Built for arc 'The Seal Is Not a Weapon' (Arc 4).",
+   "fighters": [
+    "kyo"
+   ],
+   "contents": {
+    "headline": "One new fighter: Kyo Kusanagi, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "kyo",
+      "name": "Kyo Kusanagi",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Lead of arc 'The Seal Is Not a Weapon' (Arc 4): the storm trials are built to force the sealed power of Goenitz out through Kyo's flame, and he walks in with Benimaru at his side rather than alone. The arc ships as the arc_the_seal storyline pack.",
+    "music": [],
+    "links": "Howard money bought the cult its port time in Arc 3, 'Kings Who Refuse to Kneel': the shipping mark on the storm-relief crates in Episode 1 pays that thread off. Ryo's warning reaches Kyo through Yuri by phone in Episode 1.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_the_seal",
+    "arc_name": "The Seal Is Not a Weapon",
+    "arc_status": "approved",
+    "cluster": [
+     "kyo",
+     "iori",
+     "benimaru",
+     "athena",
+     "goenitz",
+     "orochichris"
+    ],
+    "final_boss": "goenitz",
+    "links": [
+     {
+      "arc_id": "arc_southtown",
+      "note": "Howard money bought the cult its port time in Arc 3: the gull-wing shipping mark on the storm-relief crates in Episode 1, and the ritual plant under the port in Episode 4 built with the same money, pay that thread off at narration level; no Arc 3 character appears. Ryo's warning reaches Kyo through Yuri by phone in Episode 1 only; Ryo does not appear and Yuri does not join.",
+      "via": "geese"
+     }
+    ],
+    "required_characters": [
+     "kyo",
+     "benimaru",
+     "athena",
+     "iori",
+     "orochichris",
+     "goenitz"
+    ],
+    "role": "hero"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "iori_pack",
+   "name": "Iori Yagami — The Orochi's Rival Flame",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-iori-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4463359,
+   "sha256": "f46ae704067a6bfdecea0b30368b4162adef19dcd6e90efd33f631686bbccf30",
+   "summary": "One new fighter: Iori Yagami, with his full Fightcade kit. Built for arc 'The Seal Is Not a Weapon' (Arc 4).",
+   "fighters": [
+    "iori"
+   ],
+   "contents": {
+    "headline": "One new fighter: Iori Yagami, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "iori",
+      "name": "Iori Yagami",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'The Seal Is Not a Weapon' (Arc 4): the cult wants Iori as a door, because Orochi blood already runs in him. He joins Kyo in Episode 3, inside the trap built for them both, and fights beside him without trusting him. The arc ships as the arc_the_seal storyline pack.",
+    "music": [],
+    "links": "Howard money bought the cult its port time in Arc 3, 'Kings Who Refuse to Kneel': the shipping mark on the storm-relief crates in Episode 1 pays that thread off. Ryo's warning reaches Kyo through Yuri by phone in Episode 1.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_the_seal",
+    "arc_name": "The Seal Is Not a Weapon",
+    "arc_status": "approved",
+    "cluster": [
+     "kyo",
+     "iori",
+     "benimaru",
+     "athena",
+     "goenitz",
+     "orochichris"
+    ],
+    "final_boss": "goenitz",
+    "links": [
+     {
+      "arc_id": "arc_southtown",
+      "note": "Howard money bought the cult its port time in Arc 3: the gull-wing shipping mark on the storm-relief crates in Episode 1, and the ritual plant under the port in Episode 4 built with the same money, pay that thread off at narration level; no Arc 3 character appears. Ryo's warning reaches Kyo through Yuri by phone in Episode 1 only; Ryo does not appear and Yuri does not join.",
+      "via": "geese"
+     }
+    ],
+    "required_characters": [
+     "kyo",
+     "benimaru",
+     "athena",
+     "iori",
+     "orochichris",
+     "goenitz"
+    ],
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "benimaru_pack",
+   "name": "Benimaru Nikaido — The Shooting Star",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-benimaru-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1934060,
+   "sha256": "47639f247d9b96b11122bd8dfd673f1b48f34462c466755def867dc31aa00924",
+   "summary": "One new fighter: Benimaru Nikaido, with his full Fightcade kit. Built for arc 'The Seal Is Not a Weapon' (Arc 4).",
+   "fighters": [
+    "benimaru"
+   ],
+   "contents": {
+    "headline": "One new fighter: Benimaru Nikaido, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "benimaru",
+      "name": "Benimaru Nikaido",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'The Seal Is Not a Weapon' (Arc 4): Benimaru enters the storm trials at Kyo's side in Episode 1 and is the featured partner for Episodes 1 and 2. The arc ships as the arc_the_seal storyline pack.",
+    "music": [],
+    "links": "Howard money bought the cult its port time in Arc 3, 'Kings Who Refuse to Kneel': the shipping mark on the storm-relief crates in Episode 1 pays that thread off. Ryo's warning reaches Kyo through Yuri by phone in Episode 1.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_the_seal",
+    "arc_name": "The Seal Is Not a Weapon",
+    "arc_status": "approved",
+    "cluster": [
+     "kyo",
+     "iori",
+     "benimaru",
+     "athena",
+     "goenitz",
+     "orochichris"
+    ],
+    "final_boss": "goenitz",
+    "links": [
+     {
+      "arc_id": "arc_southtown",
+      "note": "Howard money bought the cult its port time in Arc 3: the gull-wing shipping mark on the storm-relief crates in Episode 1, and the ritual plant under the port in Episode 4 built with the same money, pay that thread off at narration level; no Arc 3 character appears. Ryo's warning reaches Kyo through Yuri by phone in Episode 1 only; Ryo does not appear and Yuri does not join.",
+      "via": "geese"
+     }
+    ],
+    "required_characters": [
+     "kyo",
+     "benimaru",
+     "athena",
+     "iori",
+     "orochichris",
+     "goenitz"
+    ],
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "athena_pack",
+   "name": "Athena Asamiya — The Psychic Idol",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-athena-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1985893,
+   "sha256": "24f02aa34c31e33aab8e1a7e8171906a14b3943bbf2987f90e8b42bd3c831027",
+   "summary": "One new fighter: Athena Asamiya, with his full Fightcade kit. Built for arc 'The Seal Is Not a Weapon' (Arc 4).",
+   "fighters": [
+    "athena"
+   ],
+   "contents": {
+    "headline": "One new fighter: Athena Asamiya, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "athena",
+      "name": "Athena Asamiya",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'The Seal Is Not a Weapon' (Arc 4): Athena joins in Episode 2, when her concert is used as a ritual amplifier and she fights her own hijacked stage crew off the mixing desk. The arc ships as the arc_the_seal storyline pack.",
+    "music": [],
+    "links": "Howard money bought the cult its port time in Arc 3, 'Kings Who Refuse to Kneel': the shipping mark on the storm-relief crates in Episode 1 pays that thread off. Ryo's warning reaches Kyo through Yuri by phone in Episode 1.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_the_seal",
+    "arc_name": "The Seal Is Not a Weapon",
+    "arc_status": "approved",
+    "cluster": [
+     "kyo",
+     "iori",
+     "benimaru",
+     "athena",
+     "goenitz",
+     "orochichris"
+    ],
+    "final_boss": "goenitz",
+    "links": [
+     {
+      "arc_id": "arc_southtown",
+      "note": "Howard money bought the cult its port time in Arc 3: the gull-wing shipping mark on the storm-relief crates in Episode 1, and the ritual plant under the port in Episode 4 built with the same money, pay that thread off at narration level; no Arc 3 character appears. Ryo's warning reaches Kyo through Yuri by phone in Episode 1 only; Ryo does not appear and Yuri does not join.",
+      "via": "geese"
+     }
+    ],
+    "required_characters": [
+     "kyo",
+     "benimaru",
+     "athena",
+     "iori",
+     "orochichris",
+     "goenitz"
+    ],
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "goenitz_pack",
+   "name": "Goenitz — The Storm Given a Face",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-goenitz-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1900155,
+   "sha256": "da31cc7664d7fa89cd3efd1ccca64d1075bf02149835c6ee2c9c54354216ec5d",
+   "summary": "One new fighter: Goenitz, final boss, with his full Fightcade kit. Built for arc 'The Seal Is Not a Weapon' (Arc 4).",
+   "fighters": [
+    "goenitz"
+   ],
+   "contents": {
+    "headline": "One new fighter: Goenitz, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "goenitz",
+      "name": "Goenitz",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of arc 'The Seal Is Not a Weapon' (Arc 4): Goenitz is Episode 5's boss, the sealed storm given shape by the cult's rituals. His fighter def is also the kit source for the arc's boss enemy def (resurrect: false). The arc ships as the arc_the_seal storyline pack.",
+    "music": [],
+    "links": "Howard money bought the cult its port time in Arc 3, 'Kings Who Refuse to Kneel': the shipping mark on the storm-relief crates in Episode 1 pays that thread off. Ryo's warning reaches Kyo through Yuri by phone in Episode 1.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_the_seal",
+    "arc_name": "The Seal Is Not a Weapon",
+    "arc_status": "approved",
+    "cluster": [
+     "kyo",
+     "iori",
+     "benimaru",
+     "athena",
+     "goenitz",
+     "orochichris"
+    ],
+    "final_boss": "goenitz",
+    "links": [
+     {
+      "arc_id": "arc_southtown",
+      "note": "Howard money bought the cult its port time in Arc 3: the gull-wing shipping mark on the storm-relief crates in Episode 1, and the ritual plant under the port in Episode 4 built with the same money, pay that thread off at narration level; no Arc 3 character appears. Ryo's warning reaches Kyo through Yuri by phone in Episode 1 only; Ryo does not appear and Yuri does not join.",
+      "via": "geese"
+     }
+    ],
+    "required_characters": [
+     "kyo",
+     "benimaru",
+     "athena",
+     "iori",
+     "orochichris",
+     "goenitz"
+    ],
+    "role": "final_boss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "orochichris_pack",
+   "name": "Orochi Chris — The Vessel of the Flame",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-orochichris-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 5984463,
+   "sha256": "39b6a4ae0d86424e22ebf36686c7046d789de2ba093a8d648e65d524a44575d4",
+   "summary": "One new fighter: Orochi Chris, mid-boss, with his full Fightcade kit. Built for arc 'The Seal Is Not a Weapon' (Arc 4).",
+   "fighters": [
+    "orochichris"
+   ],
+   "contents": {
+    "headline": "One new fighter: Orochi Chris, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "orochichris",
+      "name": "Orochi Chris",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Mid-boss of arc 'The Seal Is Not a Weapon' (Arc 4): Orochi Chris watches as a taunting observer in Episode 3 and fights as Episode 4's mid-boss. His fighter def is also the kit source for the arc's mid-boss enemy def (resurrect: false). The arc ships as the arc_the_seal storyline pack.",
+    "music": [],
+    "links": "Howard money bought the cult its port time in Arc 3, 'Kings Who Refuse to Kneel': the shipping mark on the storm-relief crates in Episode 1 pays that thread off. Ryo's warning reaches Kyo through Yuri by phone in Episode 1.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_the_seal",
+    "arc_name": "The Seal Is Not a Weapon",
+    "arc_status": "approved",
+    "cluster": [
+     "kyo",
+     "iori",
+     "benimaru",
+     "athena",
+     "goenitz",
+     "orochichris"
+    ],
+    "final_boss": "goenitz",
+    "links": [
+     {
+      "arc_id": "arc_southtown",
+      "note": "Howard money bought the cult its port time in Arc 3: the gull-wing shipping mark on the storm-relief crates in Episode 1, and the ritual plant under the port in Episode 4 built with the same money, pay that thread off at narration level; no Arc 3 character appears. Ryo's warning reaches Kyo through Yuri by phone in Episode 1 only; Ryo does not appear and Yuri does not join.",
+      "via": "geese"
+     }
+    ],
+    "required_characters": [
+     "kyo",
+     "benimaru",
+     "athena",
+     "iori",
+     "orochichris",
+     "goenitz"
+    ],
+    "role": "miniboss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_the_seal",
+   "name": "Storyline: The Seal Is Not a Weapon",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-the-seal-pack.zip",
+   "size_bytes": 7831,
+   "sha256": "4d96443dd2827c00e35028b5f26d04c75cef0d1a08dbe95a297dd7d190654793",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "kyo",
+      "name": "Kyo Kusanagi",
+      "note": "Arc 4 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "iori",
+      "name": "Iori Yagami",
+      "note": "Arc 4 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "benimaru",
+      "name": "Benimaru Nikaido",
+      "note": "Arc 4 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "athena",
+      "name": "Athena Asamiya",
+      "note": "Arc 4 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "goenitz",
+      "name": "Goenitz",
+      "note": "Arc 4 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "orochichris",
+      "name": "Orochi Chris",
+      "note": "Arc 4 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_the_seal",
+    "arc_name": "The Seal Is Not a Weapon",
+    "arc_status": "approved",
+    "cluster": [
+     "kyo",
+     "iori",
+     "benimaru",
+     "athena",
+     "goenitz",
+     "orochichris"
+    ],
+    "final_boss": "goenitz",
+    "links": [
+     {
+      "arc_id": "arc_southtown",
+      "note": "Howard money bought the cult its port time in Arc 3: the gull-wing shipping mark on the storm-relief crates in Episode 1, and the ritual plant under the port in Episode 4 built with the same money, pay that thread off at narration level; no Arc 3 character appears. Ryo's warning reaches Kyo through Yuri by phone in Episode 1 only; Ryo does not appear and Yuri does not join.",
+      "via": "geese"
+     }
+    ],
+    "required_characters": [
+     "kyo",
+     "benimaru",
+     "athena",
+     "iori",
+     "orochichris",
+     "goenitz"
+    ],
+    "lead": "kyo",
+    "episodes": 5,
+    "scenes": 13,
+    "final_boss_name": "Goenitz",
+    "premise": "A complete storyline: Kyo Kusanagi and Iori Yagami against the Orochi cult's storm, in five episodes."
+   }
   }
  ]
 }

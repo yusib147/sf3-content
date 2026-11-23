@@ -5791,6 +5791,743 @@
     "final_boss_name": "Nightmare",
     "premise": "A complete storyline: Kilik, Taki and Siegfried hunt Soul Edge's fragments to the Azure Knight, in six episodes."
    }
+  },
+  {
+   "id": "jago_pack",
+   "name": "Jago — The Fighting Edge",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-jago-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 6249377,
+   "sha256": "fd08071355546a630375338d8d1efbac02a8a09016ef78497263f9c59048617f",
+   "summary": "One new fighter: Jago, the lead, with the full Fightcade kit. Built for arc 'Machines and Ghosts' (Arc 9).",
+   "fighters": [
+    "jago"
+   ],
+   "contents": {
+    "headline": "One new fighter: Jago, with the full Fightcade kit — the lead of 'Machines and Ghosts'.",
+    "fighters": [
+     {
+      "id": "jago",
+      "name": "Jago",
+      "note": "full special/super kit in pack data (5 specials, 3 supers), 28 voice clips; throws missing in the source (see notes)"
+     }
+    ],
+    "stages": [],
+    "story": "Lead of 'Machines and Ghosts' (Arc 9): the Fulgore debut unit leaves the stage line for him in Episode 1, and in Episode 6 Gargos turns the party's shadows on them, Jago's first. The arc ships as the arc_machines_ghosts storyline pack.",
+    "music": [],
+    "links": "Orchid's evidence board in Episode 2 shows the energy signature of the storm over Earthrealm from 'Outworld Comes Collecting' as an unexplained reading; Strider's warning about doors in time, spoken in Episode 5, is the line 'The Gear Is a Child' quotes. No character crosses over.",
+    "notes": "Throw: the source character has no true throw animation. The throw uses his standing palm-thrust shove (AIR 220) — the closest motion in the source — as a named adaptation (Adan's order, 2026-11-23). Everything else is his complete Fightcade kit."
+   },
+   "story": {
+    "arc_id": "arc_machines_ghosts",
+    "arc_name": "Machines and Ghosts",
+    "arc_status": "approved",
+    "cluster": [
+     "jago",
+     "orchid",
+     "glacius",
+     "sabrewulf",
+     "tjcombo",
+     "fulgore",
+     "cinder",
+     "gargos",
+     "strider"
+    ],
+    "required_characters": [
+     "jago",
+     "orchid",
+     "fulgore",
+     "tjcombo",
+     "glacius",
+     "cinder",
+     "sabrewulf",
+     "strider",
+     "gargos"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "orchid",
+      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses."
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "via": "strider",
+      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives."
+     }
+    ],
+    "final_boss": "gargos",
+    "role": "lead"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "orchid_pack",
+   "name": "Orchid — The Evidence Spine",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-orchid-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3659377,
+   "sha256": "c3fc8be0cd0efa683f124002506997a097da151aa721cdf0d15a3a9b1317ceac",
+   "summary": "One new fighter: Orchid, Episode 1's partner and the arc's investigator, with the full Fightcade kit. Built for arc 'Machines and Ghosts' (Arc 9).",
+   "fighters": [
+    "orchid"
+   ],
+   "contents": {
+    "headline": "One new fighter: B. Orchid, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "orchid",
+      "name": "Orchid",
+      "note": "full special kit in pack data (6 specials with EX versions, 6 supers including Heart Attack and Ultra Combo), real forward and back throws, 36 voice clips from her own sound bank"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Machines and Ghosts' (Arc 9): Orchid runs the investigation Jago's visions keep interrupting; she is Episode 1's partner and the finale's, and her Episode 2 evidence board carries the Arc 7 storm signature. The arc ships as the arc_machines_ghosts storyline pack.",
+    "music": [],
+    "links": "Orchid's evidence board in Episode 2 shows the energy signature of the storm over Earthrealm from 'Outworld Comes Collecting' as an unexplained reading; Strider's warning about doors in time, spoken in Episode 5, is the line 'The Gear Is a Child' quotes. No character crosses over.",
+    "notes": "REBUILT from a different source version at Adan's order (2026-11-23): Nexus Games' DivineWolf POTS-style Orchid (author line 'Nexus Games/Ahrimanes', sprites by Ahrimanes), downloaded from the author's own Mugen Multiverse release thread. This version's command data carries six genuine power-gated supers, which the wave-8 source (Ahrimanes/Dope) entirely lacked. POTS system mechanics (Zero Counter, Power Charge, MAX Mode, Dodge, Roll) are system mechanics and stay out of the kit, as in every wave."
+   },
+   "story": {
+    "arc_id": "arc_machines_ghosts",
+    "arc_name": "Machines and Ghosts",
+    "arc_status": "approved",
+    "cluster": [
+     "jago",
+     "orchid",
+     "glacius",
+     "sabrewulf",
+     "tjcombo",
+     "fulgore",
+     "cinder",
+     "gargos",
+     "strider"
+    ],
+    "required_characters": [
+     "jago",
+     "orchid",
+     "fulgore",
+     "tjcombo",
+     "glacius",
+     "cinder",
+     "sabrewulf",
+     "strider",
+     "gargos"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "orchid",
+      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses."
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "via": "strider",
+      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives."
+     }
+    ],
+    "final_boss": "gargos",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "fulgore_pack",
+   "name": "Fulgore — The Named Unit",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-fulgore-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2397291,
+   "sha256": "65fd0f3062823fe8d32117e878ac5d106f59c4ff6a16ff869b235acfd81e515b",
+   "summary": "One new fighter: Fulgore, the Ultratech machine faced in Episodes 1 and 5, with the full Fightcade kit. Built for arc 'Machines and Ghosts' (Arc 9).",
+   "fighters": [
+    "fulgore"
+   ],
+   "contents": {
+    "headline": "One new fighter: Fulgore, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "fulgore",
+      "name": "Fulgore",
+      "note": "full special/super kit in pack data (11 specials, 4 supers), 13 voice clips; throws missing in the source (see notes)"
+     }
+    ],
+    "stages": [],
+    "story": "The named machine of 'Machines and Ghosts' (Arc 9): the Episode 1 debut duel and the Episode 5 duel against the variant in Strider's era colours both field Fulgore on this fighter kit. The arc ships as the arc_machines_ghosts storyline pack.",
+    "music": [],
+    "links": "Orchid's evidence board in Episode 2 shows the energy signature of the storm over Earthrealm from 'Outworld Comes Collecting' as an unexplained reading; Strider's warning about doors in time, spoken in Episode 5, is the line 'The Gear Is a Child' quotes. No character crosses over.",
+    "notes": "Throw: the source character has no true throw animation. The throw uses his 'dod' dash lunge with claw arm extended to full reach (AIR 1700, state 1700) — the closest motion in the source — as a named adaptation (Adan's order, 2026-11-23). Everything else is his complete Fightcade kit, including all four supers."
+   },
+   "story": {
+    "arc_id": "arc_machines_ghosts",
+    "arc_name": "Machines and Ghosts",
+    "arc_status": "approved",
+    "cluster": [
+     "jago",
+     "orchid",
+     "glacius",
+     "sabrewulf",
+     "tjcombo",
+     "fulgore",
+     "cinder",
+     "gargos",
+     "strider"
+    ],
+    "required_characters": [
+     "jago",
+     "orchid",
+     "fulgore",
+     "tjcombo",
+     "glacius",
+     "cinder",
+     "sabrewulf",
+     "strider",
+     "gargos"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "orchid",
+      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses."
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "via": "strider",
+      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives."
+     }
+    ],
+    "final_boss": "gargos",
+    "role": "villain"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "tjcombo_pack",
+   "name": "TJ Combo — The Refusal",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-tjcombo-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 5912309,
+   "sha256": "28685ed752547fdb8f64e345419d25e2337dadb53f3c9b9717ae520de1408bb4",
+   "summary": "One new fighter: TJ Combo, who joins in Episode 2, with the full Fightcade kit. Built for arc 'Machines and Ghosts' (Arc 9).",
+   "fighters": [
+    "tjcombo"
+   ],
+   "contents": {
+    "headline": "One new fighter: TJ Combo, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "tjcombo",
+      "name": "TJ Combo",
+      "note": "full special/super kit in pack data (10 specials, 11 supers), 27 voice clips, full throws"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Machines and Ghosts' (Arc 9): Gargos offers TJ his prime back in Episode 2; TJ refuses publicly, wins clean at his current age, and joins the party. The arc ships as the arc_machines_ghosts storyline pack.",
+    "music": [],
+    "links": "Orchid's evidence board in Episode 2 shows the energy signature of the storm over Earthrealm from 'Outworld Comes Collecting' as an unexplained reading; Strider's warning about doors in time, spoken in Episode 5, is the line 'The Gear Is a Child' quotes. No character crosses over.",
+    "notes": "TJ Combo is a boxer: in his source his kick buttons animate punches (a straight, a hook and a spinning backfist), which is how the character fights. His leg attacks are his crouch and air heavy normals and the Flying Knee special."
+   },
+   "story": {
+    "arc_id": "arc_machines_ghosts",
+    "arc_name": "Machines and Ghosts",
+    "arc_status": "approved",
+    "cluster": [
+     "jago",
+     "orchid",
+     "glacius",
+     "sabrewulf",
+     "tjcombo",
+     "fulgore",
+     "cinder",
+     "gargos",
+     "strider"
+    ],
+    "required_characters": [
+     "jago",
+     "orchid",
+     "fulgore",
+     "tjcombo",
+     "glacius",
+     "cinder",
+     "sabrewulf",
+     "strider",
+     "gargos"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "orchid",
+      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses."
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "via": "strider",
+      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives."
+     }
+    ],
+    "final_boss": "gargos",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "glacius_pack",
+   "name": "Glacius — The Technical Witness",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-glacius-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 9252646,
+   "sha256": "9f03b1d97890b1808a8e982b83e809b7774261627e1ecf7879596d0c63df495e",
+   "summary": "One new fighter: Glacius, who joins in Episode 3, with the full Fightcade kit. Built for arc 'Machines and Ghosts' (Arc 9).",
+   "fighters": [
+    "glacius"
+   ],
+   "contents": {
+    "headline": "One new fighter: Glacius, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "glacius",
+      "name": "Glacius",
+      "note": "full special/super kit in pack data (10 specials, 10 supers), 29 voice clips, full throws"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Machines and Ghosts' (Arc 9): Episode 3's featured partner, leading the party into the facility built around his people's stolen technology as technical witness. The arc ships as the arc_machines_ghosts storyline pack.",
+    "music": [],
+    "links": "Orchid's evidence board in Episode 2 shows the energy signature of the storm over Earthrealm from 'Outworld Comes Collecting' as an unexplained reading; Strider's warning about doors in time, spoken in Episode 5, is the line 'The Gear Is a Child' quotes. No character crosses over.",
+    "notes": "One labelling note: Glacius's hurt voice bank ships inside his call clip set in the pack data. The clips themselves are his own voice, mapped from his own files."
+   },
+   "story": {
+    "arc_id": "arc_machines_ghosts",
+    "arc_name": "Machines and Ghosts",
+    "arc_status": "approved",
+    "cluster": [
+     "jago",
+     "orchid",
+     "glacius",
+     "sabrewulf",
+     "tjcombo",
+     "fulgore",
+     "cinder",
+     "gargos",
+     "strider"
+    ],
+    "required_characters": [
+     "jago",
+     "orchid",
+     "fulgore",
+     "tjcombo",
+     "glacius",
+     "cinder",
+     "sabrewulf",
+     "strider",
+     "gargos"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "orchid",
+      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses."
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "via": "strider",
+      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives."
+     }
+    ],
+    "final_boss": "gargos",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "cinder_pack",
+   "name": "Cinder — The Man in the Suit",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-cinder-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3732544,
+   "sha256": "8d272f508e6240d7207495aeee0d4ef923376c280961646ade7a8e303ce01202",
+   "summary": "One new fighter: Cinder, Episode 3 mid-boss, with the full Fightcade kit. Built for arc 'Machines and Ghosts' (Arc 9).",
+   "fighters": [
+    "cinder"
+   ],
+   "contents": {
+    "headline": "One new fighter: Cinder, with the full Fightcade kit — the mid-boss of 'Machines and Ghosts'.",
+    "fighters": [
+     {
+      "id": "cinder",
+      "name": "Cinder",
+      "note": "full special/super kit in pack data (16 specials, 7 supers), 19 voice clips, full throws"
+     }
+    ],
+    "stages": [],
+    "story": "Mid-boss of 'Machines and Ghosts' (Arc 9): Cinder holds the furnace hall in Episode 3 on this fighter kit (mid-boss def in the storyline pack; resurrect is off — he is a man, and he stays down). The arc ships as the arc_machines_ghosts storyline pack.",
+    "music": [],
+    "links": "Orchid's evidence board in Episode 2 shows the energy signature of the storm over Earthrealm from 'Outworld Comes Collecting' as an unexplained reading; Strider's warning about doors in time, spoken in Episode 5, is the line 'The Gear Is a Child' quotes. No character crosses over.",
+    "notes": ""
+   },
+   "story": {
+    "arc_id": "arc_machines_ghosts",
+    "arc_name": "Machines and Ghosts",
+    "arc_status": "approved",
+    "cluster": [
+     "jago",
+     "orchid",
+     "glacius",
+     "sabrewulf",
+     "tjcombo",
+     "fulgore",
+     "cinder",
+     "gargos",
+     "strider"
+    ],
+    "required_characters": [
+     "jago",
+     "orchid",
+     "fulgore",
+     "tjcombo",
+     "glacius",
+     "cinder",
+     "sabrewulf",
+     "strider",
+     "gargos"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "orchid",
+      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses."
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "via": "strider",
+      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives."
+     }
+    ],
+    "final_boss": "gargos",
+    "role": "miniboss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "sabrewulf_pack",
+   "name": "Sabrewulf — The Worse Deal",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-sabrewulf-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 5239189,
+   "sha256": "03ae930777901ab6af69410fda7419736af2610e2f246daea1c6480209680bbc",
+   "summary": "One new fighter: Sabrewulf, who joins in Episode 4, with the full Fightcade kit. Built for arc 'Machines and Ghosts' (Arc 9).",
+   "fighters": [
+    "sabrewulf"
+   ],
+   "contents": {
+    "headline": "One new fighter: Sabrewulf, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "sabrewulf",
+      "name": "Sabrewulf",
+      "note": "full special/super kit in pack data (10 specials, 9 supers), 22 voice clips, full throws"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Machines and Ghosts' (Arc 9): in Episode 4's medical wing, Gargos offers Sabrewulf the cure and Sabrewulf chooses the party's worse deal, the truth. The arc ships as the arc_machines_ghosts storyline pack.",
+    "music": [],
+    "links": "Orchid's evidence board in Episode 2 shows the energy signature of the storm over Earthrealm from 'Outworld Comes Collecting' as an unexplained reading; Strider's warning about doors in time, spoken in Episode 5, is the line 'The Gear Is a Child' quotes. No character crosses over.",
+    "notes": "Sabrewulf's light and medium kick buttons animate claw and bite lunges in his source, which is how the character fights; his heavy kick is a true leg kick."
+   },
+   "story": {
+    "arc_id": "arc_machines_ghosts",
+    "arc_name": "Machines and Ghosts",
+    "arc_status": "approved",
+    "cluster": [
+     "jago",
+     "orchid",
+     "glacius",
+     "sabrewulf",
+     "tjcombo",
+     "fulgore",
+     "cinder",
+     "gargos",
+     "strider"
+    ],
+    "required_characters": [
+     "jago",
+     "orchid",
+     "fulgore",
+     "tjcombo",
+     "glacius",
+     "cinder",
+     "sabrewulf",
+     "strider",
+     "gargos"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "orchid",
+      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses."
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "via": "strider",
+      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives."
+     }
+    ],
+    "final_boss": "gargos",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "strider_pack",
+   "name": "Strider Hiryu — The Door in Time",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-strider-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2417505,
+   "sha256": "a93f15b509f125740250e1252cb2fa2999e6a809702b69aca8a8eb1bc41b1f99",
+   "summary": "One new fighter: Strider Hiryu, who joins in Episode 5, with the full Fightcade kit. Built for arc 'Machines and Ghosts' (Arc 9).",
+   "fighters": [
+    "strider"
+   ],
+   "contents": {
+    "headline": "One new fighter: Strider Hiryu, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "strider",
+      "name": "Strider Hiryu",
+      "note": "full special/super kit in pack data (21 specials, 5 supers), 30 voice clips, full throws"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Machines and Ghosts' (Arc 9): Strider Hiryu arrives through the tear in Episode 5, duels the Fulgore variant in his era's colours, and goes home through the tear he helps seal. The arc ships as the arc_machines_ghosts storyline pack.",
+    "music": [],
+    "links": "Orchid's evidence board in Episode 2 shows the energy signature of the storm over Earthrealm from 'Outworld Comes Collecting' as an unexplained reading; Strider's warning about doors in time, spoken in Episode 5, is the line 'The Gear Is a Child' quotes. No character crosses over.",
+    "notes": "Strider's medium and heavy kick buttons animate Falchion slashes in his source data (his light kick is a true kick); that is his real normal set."
+   },
+   "story": {
+    "arc_id": "arc_machines_ghosts",
+    "arc_name": "Machines and Ghosts",
+    "arc_status": "approved",
+    "cluster": [
+     "jago",
+     "orchid",
+     "glacius",
+     "sabrewulf",
+     "tjcombo",
+     "fulgore",
+     "cinder",
+     "gargos",
+     "strider"
+    ],
+    "required_characters": [
+     "jago",
+     "orchid",
+     "fulgore",
+     "tjcombo",
+     "glacius",
+     "cinder",
+     "sabrewulf",
+     "strider",
+     "gargos"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "orchid",
+      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses."
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "via": "strider",
+      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives."
+     }
+    ],
+    "final_boss": "gargos",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "gargos_pack",
+   "name": "Gargos — The Offers",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-gargos-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4790282,
+   "sha256": "43f44235943e03c1951090acea6094eb942aef4a85a6ae7cb5f852da183bd23d",
+   "summary": "One new fighter: Gargos, the final boss, with the full Fightcade kit. Built for arc 'Machines and Ghosts' (Arc 9).",
+   "fighters": [
+    "gargos"
+   ],
+   "contents": {
+    "headline": "One new fighter: Gargos, with the full Fightcade kit — the final boss of 'Machines and Ghosts'.",
+    "fighters": [
+     {
+      "id": "gargos",
+      "name": "Gargos",
+      "note": "special/super kit in pack data (3 specials, 1 of 2 supers with art), 19 voice clips; throws missing in the source (see notes)"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of 'Machines and Ghosts' (Arc 9): the storyline fields Gargos on this fighter kit in Episode 6 (boss def in the storyline pack; resurrect is off, and his phase two turns the party's shadows on them). The arc ships as the arc_machines_ghosts storyline pack.",
+    "music": [],
+    "links": "Orchid's evidence board in Episode 2 shows the energy signature of the storm over Earthrealm from 'Outworld Comes Collecting' as an unexplained reading; Strider's warning about doors in time, spoken in Episode 5, is the line 'The Gear Is a Child' quotes. No character crosses over.",
+    "notes": "Throw: the source character has no true throw animation. The throw uses his SP1 shoulder rush (AIR 1100, state 1100) — the closest motion in the source — as a named adaptation (Adan's order, 2026-11-23). His second super's sprites are absent from the source file (the move data still ships, without art), and his medium and heavy standing kicks share one animation in the source. Everything else is his complete kit."
+   },
+   "story": {
+    "arc_id": "arc_machines_ghosts",
+    "arc_name": "Machines and Ghosts",
+    "arc_status": "approved",
+    "cluster": [
+     "jago",
+     "orchid",
+     "glacius",
+     "sabrewulf",
+     "tjcombo",
+     "fulgore",
+     "cinder",
+     "gargos",
+     "strider"
+    ],
+    "required_characters": [
+     "jago",
+     "orchid",
+     "fulgore",
+     "tjcombo",
+     "glacius",
+     "cinder",
+     "sabrewulf",
+     "strider",
+     "gargos"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "orchid",
+      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses."
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "via": "strider",
+      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives."
+     }
+    ],
+    "final_boss": "gargos",
+    "role": "final_boss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_machines_ghosts",
+   "name": "Storyline: Machines and Ghosts",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-machines-ghosts-pack.zip",
+   "size_bytes": 8300,
+   "sha256": "fc0510abffebed86056bd8aaf46836e6232c96e7317f2d2cfa346cec2d7f8239",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "jago",
+      "name": "Jago",
+      "note": "Arc 9 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "orchid",
+      "name": "Orchid",
+      "note": "Arc 9 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "fulgore",
+      "name": "Fulgore",
+      "note": "Arc 9 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "tjcombo",
+      "name": "TJ Combo",
+      "note": "Arc 9 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "glacius",
+      "name": "Glacius",
+      "note": "Arc 9 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "cinder",
+      "name": "Cinder",
+      "note": "Arc 9 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "sabrewulf",
+      "name": "Sabrewulf",
+      "note": "Arc 9 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "strider",
+      "name": "Strider Hiryu",
+      "note": "Arc 9 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "gargos",
+      "name": "Gargos",
+      "note": "Arc 9 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_machines_ghosts",
+    "arc_name": "Machines and Ghosts",
+    "arc_status": "approved",
+    "cluster": [
+     "jago",
+     "orchid",
+     "glacius",
+     "sabrewulf",
+     "tjcombo",
+     "fulgore",
+     "cinder",
+     "gargos",
+     "strider"
+    ],
+    "final_boss": "gargos",
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses.",
+      "via": "orchid"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives.",
+      "via": "strider"
+     }
+    ],
+    "required_characters": [
+     "jago",
+     "orchid",
+     "fulgore",
+     "tjcombo",
+     "glacius",
+     "cinder",
+     "sabrewulf",
+     "strider",
+     "gargos"
+    ],
+    "lead": "jago",
+    "episodes": 6,
+    "scenes": 18,
+    "final_boss_name": "Gargos",
+    "premise": "A complete storyline: Orchid's investigation, Jago's shadow and Gargos's offers, in six episodes."
+   }
   }
  ]
 }

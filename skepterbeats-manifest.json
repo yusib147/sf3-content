@@ -7172,6 +7172,785 @@
     "final_boss_name": "Black Adam",
     "premise": "A complete storyline: Wonder Woman answers Brainiac's offer of protection and Black Adam's bargain for Kahndaq, in six episodes."
    }
+  },
+  {
+   "id": "cyclops_pack",
+   "name": "Cyclops — The Promise Holds",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-cyclops-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3081644,
+   "sha256": "4b8fd0df972663fcf6c47aa681891d5731e132c56e40c544d7769dfd4eeb471d",
+   "summary": "One new fighter: Cyclops, the lead, with the full Fightcade kit. Built for arc 'The Mutant Underground Is a Promise' (Arc 14).",
+   "fighters": [
+    "cyclops"
+   ],
+   "contents": {
+    "headline": "One new fighter: Cyclops, with the full Fightcade kit — the leader of 'The Mutant Underground Is a Promise'.",
+    "fighters": [
+     {
+      "id": "cyclops",
+      "name": "Cyclops",
+      "note": "full special/super kit in pack data (16 specials, 7 supers), voice in pack data"
+     }
+    ],
+    "stages": [],
+    "story": "Lead of 'The Mutant Underground Is a Promise' (Arc 14): Cyclops runs the shelter network the arc is named for. The arc ships as the arc_mutant_underground storyline pack.",
+    "music": [],
+    "links": "The Martian Manhunter's Episode 5 testimony from 'Gods and Demands' (Arc 13) is played back as a recording in Episode 5; he does not appear.",
+    "notes": "Kit hand-traced from the source's own [State -1] headers and cross-checked against the full movelist in the char's ReadMe.txt: the .cmd parser cannot read his specials because their values are Ifelse(command = \"EX...\", EXstate, basestate) expressions, so all 16 specials (base + EX) and 7 supers are pinned in kit_override from the headers themselves. EX moves carry the source's 500-power gate. Throws pinned from the throw HitDefs in States/Normal.cns: attempt = AIR 800 (two-handed grab, visually verified); the PP throw sends him to AIR 805 forward and AIR 810 back, the KK throw to AIR 820 forward and AIR 805 back — throw_f = 805, throw_b = 810 (the overhead lift-and-slam, visually verified as a grab into a slam). AIR 820 (KK forward) and AIR 830 (the crouching leg throw) are further source executions the game's two throw slots cannot hold; an air throw (state 850 into 860) also exists in the source. Kicks verified strip by strip: AIR 230/240/250 are his light, medium and heavy kicks. Palette: the source is an SFF v2 file; it was converted sprite-for-sprite to SFF1 in the work copy (every sprite carries its own source palette, linked sprites emitted as full copies), so the pack renders per-sprite palettes and the pack palette is the SFF palette bank's palette 1 (Palettes_bank/bank1.act, extracted from the source SFF), forced because the converted file's first palette belongs to an FX sprite and auto-scoring is uninformative. His classic blue-and-gold matches the portrait on the contact sheet. Voice mapped by PlaySnd context scans plus cross-character md5 comparison: calls from groups 1 (attack voice), 2 (move shouts played by his beam helpers; the one clip byte-identical to the shared template bank, num 10, is excluded by item), 40/41/99/220/800/810 (per-move and throw voice) and the 1000+ per-move groups 1000/1005/1100/1150/3000/3005/4000 (all speech-length, 0.4-1.6 s). Groups 5200/8500/8600 are the shared POTS template banks and are excluded. No 5100 group exists in his .snd, so the KO bank is honestly empty. The work copy drops the char's unreferenced Coding/ folder (older draft state files that differ from the States/ files his .def actually loads), so the audit reads the states the engine loads. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "martian_manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony in 'Gods and Demands' is played back as a recording in Episode 5 of this arc; he does not appear."
+     }
+    ],
+    "final_boss": "magneto",
+    "role": "lead"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "storm_pack",
+   "name": "Storm — The Covered Road",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-storm-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3085238,
+   "sha256": "58c8ffcd8bae609453d18906e8606e710f9be58e41308fa085c58f96277d5fe1",
+   "summary": "One new fighter: Storm, the Episode 1 partner and the underground's co-leader, with the full Fightcade kit. Built for arc 'The Mutant Underground Is a Promise' (Arc 14).",
+   "fighters": [
+    "storm"
+   ],
+   "contents": {
+    "headline": "One new fighter: Storm, with the full Fightcade kit — a partner of 'The Mutant Underground Is a Promise'.",
+    "fighters": [
+     {
+      "id": "storm",
+      "name": "Storm",
+      "note": "full special/super kit in pack data (17 specials, 2 supers), voice in pack data"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'The Mutant Underground Is a Promise' (Arc 14): Storm co-leads the Underground with Cyclops from Episode 1. The arc ships as the arc_mutant_underground storyline pack.",
+    "music": [],
+    "links": "The Martian Manhunter's Episode 5 testimony from 'Gods and Demands' (Arc 13) is played back as a recording in Episode 5; he does not appear.",
+    "notes": "Kit pinned in kit_override from the .cns state comments (her .cmd names most specials by motion only): Lightning Sphere in its ground and air directions, Whirlwind (ground and air), Typhoon (both commanded forms) and Lightning Attack in all eight directions the source commands — each a separate movetype-A [State -1] attack state, kept separate. Excluded by name: the Flight system (states 1330/1331 and the flight direction states 1340-1348, movement states, not attacks). Two source defects named: the .cmd entry for state 1260 (the third ground Lightning Sphere) points at a statedef that does not exist anywhere in the char, so it cannot ship; and the Rain Storm statedef (3040) has no [State -1] command anywhere, so it is not a commanded super and stays out. Throws pinned from the .cmd and statedefs: the punch throw (state 800) executes at AIR 810 (the Lightning Throw — she holds the victim in both hands and zaps them, visually verified); the kick toss (state 830) runs AIR 840, a single held frame, into AIR 841, its follow-through — throw_b = 841, the visible whirlwind toss motion, visually verified. An air throw (920 into 930) also exists. Her normals use this template's 300-series kicks, pinned by override and verified strip by strip: AIR 300 low kick, 310 her floating medium kick (a held leg-extended strike, the source's own MK), 320 high cyclone kick; atk3 pinned to AIR 220 so the heavy punch is the standing one, not the crouch. Palette: auto-scoring failed for this conversion — every def .act candidate scores at or near zero against the SFF's embedded palette (the .act files do not follow the SFF's index order), so the pack palette is the SFF's own embedded palette, extracted to embedded.act in the work copy and forced via palette_force; the frames match the portrait on the contact sheet. The template's intro dispatcher states (190/191) carry no usable action of their own (191's header anim 9800 is a single system frame), so the intro slot is pinned to AIR 192, the first of the template's intro pose actions, which carries the intro voice line. Voice mapped by PlaySnd context scans plus cross-character md5 comparison across the four MvC2 conversions: the template's shared banks (groups 0, 1, 2 and 5100 — byte-identical clips in all four chars) are not the character's voice; group 5100 is excluded so the KO bank does not ship template sounds, and group 5000 (unique to each char) ships as hurt by the standing mapping. Storm's calls ship from groups 181 (win and attack voice), 230 (her statedef -2 voice system, ten full lines), 200/210/220/310/320 (per-strength attack shouts, 0.7-0.9 s) and 1300/1400/3000 (her special and super shouts, 0.6-1.2 s), every clip unique to her. Group 0 is all shared template sound and is excluded, so her effort bank is honestly empty. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "martian_manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony in 'Gods and Demands' is played back as a recording in Episode 5 of this arc; he does not appear."
+     }
+    ],
+    "final_boss": "magneto",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "rogue_pack",
+   "name": "Rogue — Sugar and Storm",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-rogue-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3171713,
+   "sha256": "374fa53cdd7467e0444c9ed1912bfc5973e55394e972449300464b5c7f4bc8a2",
+   "summary": "One new fighter: Rogue, who joins in Episode 2, with the full Fightcade kit. Built for arc 'The Mutant Underground Is a Promise' (Arc 14).",
+   "fighters": [
+    "rogue"
+   ],
+   "contents": {
+    "headline": "One new fighter: Rogue, with the full Fightcade kit — a partner of 'The Mutant Underground Is a Promise'.",
+    "fighters": [
+     {
+      "id": "rogue",
+      "name": "Rogue",
+      "note": "full special/super kit in pack data (7 specials, 8 supers), voice in pack data"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'The Mutant Underground Is a Promise' (Arc 14): Rogue joins in Episode 2 alongside Gambit. The arc ships as the arc_mutant_underground storyline pack.",
+    "music": [],
+    "links": "The Martian Manhunter's Episode 5 testimony from 'Gods and Demands' (Arc 13) is played back as a recording in Episode 5; he does not appear.",
+    "notes": "Kit from the source's own .cmd: Repeating Punch, Rising Repeating Punch, Power Dive Punch and Power Drain, plus eight supers. Excluded by name: the Steal_Moves system (Coding/Steal_Moves.cns) — her copied-moves mechanic, a system, not a move; Power Drain itself, the move that feeds it, stays in the kit. The stolen characters' sound banks (groups 1000-2000 in her .snd) are excluded with it. Throw pinned from her [State -1] (IfElse(StateType = A, 850, 800)) and the Coding/Normal.cns chain: attempt = AIR 800 (open-hand grab, visually verified); the single ground throw executes through AIR 805 (grab and pull-in) into AIR 810 (the flying carry and dive slam, 30 frames, visually verified) — throw_f = 810, throw_b = 805, both from her own throw chain. An air throw (state 850) also exists in the source. Kicks verified strip by strip: AIR 230 light knee, 240 medium slash kick, 250 her handstand split kick. Palette: the source is an SFF v2 file, converted sprite-for-sprite to SFF1 in the work copy (every sprite carries its own source palette, linked sprites emitted as full copies); the pack renders per-sprite palettes and the pack palette is the SFF palette bank's palette 1 (Palettes_bank/bank1.act), forced because the converted file's first palette belongs to an FX sprite and auto-scoring is uninformative. Her green-and-gold matches the portrait on the contact sheet. Voice mapped by PlaySnd context scans plus cross-character md5 comparison: her main voice bank sits in group 0 (grunts and lines, 0.2-1.7 s), which the standing mapping ships as the effort bank; her super lines ship as calls from groups 5 (Goodnight Sugar) and 3500 (her hidden super's line, 2.4 s). Groups 5200/8500/8600 are the shared POTS template banks and are excluded. No 5100 group exists in her .snd, so the KO bank is honestly empty; the win bank carries a single clip (group 11, mapped by the standing rule). Groups 3 and 4 (16 clips) are carried in her .snd but referenced by no state — unmapped and named here. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "martian_manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony in 'Gods and Demands' is played back as a recording in Episode 5 of this arc; he does not appear."
+     }
+    ],
+    "final_boss": "magneto",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "gambit_pack",
+   "name": "Gambit — The Long Game",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-gambit-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3195642,
+   "sha256": "66f612b470daa94125ee2e362f3c18c1b07f55b68f7b9b72e877e42f124ec532",
+   "summary": "One new fighter: Gambit, who joins in Episode 2, with the full Fightcade kit. Built for arc 'The Mutant Underground Is a Promise' (Arc 14).",
+   "fighters": [
+    "gambit"
+   ],
+   "contents": {
+    "headline": "One new fighter: Gambit, with the full Fightcade kit — a partner of 'The Mutant Underground Is a Promise'.",
+    "fighters": [
+     {
+      "id": "gambit",
+      "name": "Gambit",
+      "note": "full special/super kit in pack data (16 specials, 9 supers), voice in pack data"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'The Mutant Underground Is a Promise' (Arc 14): Gambit joins in Episode 2 alongside Rogue. The arc ships as the arc_mutant_underground storyline pack.",
+    "music": [],
+    "links": "The Martian Manhunter's Episode 5 testimony from 'Gods and Demands' (Arc 13) is played back as a recording in Episode 5; he does not appear.",
+    "notes": "Kit from the source's own .cmd (states live in .st files, parsed with parse_st_files): Kinetic Card in both arcs, Cajun Slash, Cajun Strike, Trick Card, Kinetic Burst and Trap Card, each with its EX version at the source's 500-power gate, plus nine supers. Throws pinned from the throw HitDefs in States/Normal.st: attempt = AIR 800; the PP throw sends him to AIR 810 forward and AIR 805 back, the KK throw to AIR 820 forward and AIR 805 back — throw_f = 810, throw_b = 805 (staff plant and hand grab), every strip visually verified. An air throw (state 850 into 860) also exists in the source. Kicks verified strip by strip: AIR 230 staff-sweep kick, 240 side kick, 250 high roundhouse. Palette verified on the contact sheet against the portrait. Voice mapped by PlaySnd context scans plus cross-character md5 comparison: group 4 is his attack voice bank (called from every normal, all four clips unique to him); groups 181/182/183 are his win lines (1.7 s) and ship as calls; the 1000+ per-move groups are speech-length Cajun shouts (0.4-2.1 s) and ship as calls, except clip (1005, 0) — a 0.15 s card sound — excluded by item. Groups 1 and 2 are byte-identical to the shared template banks in the other POTS chars and stay unmapped; group 0 is the shared EX whoosh and is excluded so the effort bank stays honestly empty. Groups 5200/8500/8600 are the shared POTS template banks and are excluded. No 5100 group exists in his .snd, so the KO bank is honestly empty. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "martian_manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony in 'Gods and Demands' is played back as a recording in Episode 5 of this arc; he does not appear."
+     }
+    ],
+    "final_boss": "magneto",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "wolverine_pack",
+   "name": "Wolverine — The Last Resort",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-wolverine-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 8407888,
+   "sha256": "e0d885fea3f463058ce4d856835b0958a6921b8e74223491d7a56a9fe94a41b1",
+   "summary": "One new fighter: Wolverine, the Episode 4 partner, with the full Fightcade kit. Built for arc 'The Mutant Underground Is a Promise' (Arc 14).",
+   "fighters": [
+    "wolverine"
+   ],
+   "contents": {
+    "headline": "One new fighter: Wolverine, with the full Fightcade kit — a partner of 'The Mutant Underground Is a Promise'.",
+    "fighters": [
+     {
+      "id": "wolverine",
+      "name": "Wolverine",
+      "note": "full special/super kit in pack data (19 specials, 10 supers), voice in pack data"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'The Mutant Underground Is a Promise' (Arc 14): Wolverine is with the Underground from Episode 2 and featured in Episode 4. The arc ships as the arc_mutant_underground storyline pack.",
+    "music": [],
+    "links": "The Martian Manhunter's Episode 5 testimony from 'Gods and Demands' (Arc 13) is played back as a recording in Episode 5; he does not appear.",
+    "notes": "Kit from the source's own .cmd (states live in .st files, parsed with parse_st_files): Berserker Barrage, Tornado Claw and Berserker Slash with EX versions, and Drill Claw in all thirteen directional forms the source commands — every one a separate [State -1] entry, kept separate. Ten supers, including Healing Factor X: its statedef is a one-shot LifeAdd (heals once and ends), not a timed regen install, so it stays in the kit; this source's Berserker Charge carries a HitDef and ships as the attacking charge it is. Throws pinned from the throw HitDefs in States/Normal.st: attempt = AIR 800 (two-claw lunge grab, visually verified); the PP throw executes at statedef 819 forward (anim = AIR 805) and statedef 810 back (anim = AIR 810) — the two AIR actions carry the same claw-grab sequence, so throw_f = 805 and throw_b = 810. The KK throw (AIR 820 forward, AIR 820 again via statedef 830 back) and the air throw (850 into the 13-frame tumbling AIR 860) are further source executions the game's two throw slots cannot hold. Kicks verified strip by strip: AIR 230 leaping knee, 240 his spinning claw swipe (the source's medium kick is a claw attack, kept and named as such in his kick chain), 250 acrobatic flip kick. Palette: the source is an SFF v2 file, converted sprite-for-sprite to SFF1 in the work copy (every sprite carries its own source palette, linked sprites emitted as full copies); the pack renders per-sprite palettes and the pack palette is the SFF palette bank's palette 1 (Palettes_bank/bank1.act), forced because the converted file's first palette belongs to an FX sprite and auto-scoring is uninformative. His tiger-stripe yellow-and-blue matches the portrait on the contact sheet. Voice mapped by PlaySnd context scans plus cross-character md5 comparison: group 4 is his attack voice bank (all five clips unique, called from every normal); group 1 ships only its two unique clips (nums 9 and 10) as calls, the nine clips byte-identical to the banks in the other POTS chars excluded by item; groups 182/183/192 are intro and win lines; group 800 is his throw voice; the 1000+ per-move groups are speech-length shouts (1.1-1.8 s) and ship as calls. Groups 5200/8500/8600 are the shared POTS template banks and are excluded, as is the shared group 0 clip. Group 2 (called from his throw states) is byte-identical to the shared template bank in all four POTS chars and stays unmapped, named here, as do the uncalled single clips in groups 11, 181 and 184. No 5100 group exists in his .snd, so the KO bank is honestly empty. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "martian_manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony in 'Gods and Demands' is played back as a recording in Episode 5 of this arc; he does not appear."
+     }
+    ],
+    "final_boss": "magneto",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "psylocke_pack",
+   "name": "Psylocke — The Early Warning",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-psylocke-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2093310,
+   "sha256": "a7eac364a1b6e280144d2e3e323b578ad0ba2547bbf6aaf4224cdff95faecb99",
+   "summary": "One new fighter: Psylocke, the Episode 3 partner, with the full Fightcade kit. Built for arc 'The Mutant Underground Is a Promise' (Arc 14).",
+   "fighters": [
+    "psylocke"
+   ],
+   "contents": {
+    "headline": "One new fighter: Psylocke, with the full Fightcade kit — a partner of 'The Mutant Underground Is a Promise'.",
+    "fighters": [
+     {
+      "id": "psylocke",
+      "name": "Psylocke",
+      "note": "full special/super kit in pack data (6 specials, 3 supers), voice in pack data"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'The Mutant Underground Is a Promise' (Arc 14): Psylocke is active with the Underground in Episode 3 and featured there. The arc ships as the arc_mutant_underground storyline pack.",
+    "music": [],
+    "links": "The Martian Manhunter's Episode 5 testimony from 'Gods and Demands' (Arc 13) is played back as a recording in Episode 5; he does not appear.",
+    "notes": "Source truth, stated plainly: this Warusaki CvS Psylocke carries the author's custom Bushin-flavoured moveset (her own .cns comments name the moves), and the pack ships the source as it is. Kit pinned in kit_override from her .cns state comments because her .cmd [State -1] headers are template leftovers: Sun Shoot, Air Ko'ou Ken, Close Combat A, Bushin Senpuukyaku (ground and air), Shukuchi, and the supers Bushin Hassouken, Shinryuuken and Kuroko Meteo Strike. Throws pinned from her statedefs: statedef 900's anim is ifelse(command = \"z\", 910, 900) — AIR 900/910 are the same grab-attempt sprites; the executions are AIR 901 (her .cns names it the tomoe throw) and AIR 911 (the hell wheel), both visually verified as flip throws — throw = 900, throw_f = 901, throw_b = 911. Air throws (states 930/931/941) also exist in the source. Kicks verified strip by strip: AIR 230 axe kick, 240 flying side kick, 250 acrobatic flip kick. Palette verified on the contact sheet against the portrait: her .def's pal.defaults leads with a magenta fan recolour (Colors/Default.act), so the pack palette is the candidate that matches her embedded palette and portrait — the classic blue. Voice mapped by PlaySnd context scans: group 3 is her effort bank (called from every normal) and ships as calls; groups 180/195 are her win and taunt voice; the 1000+ per-move groups (1000/1100/1200/1400 and the supers) are speech-length shouts and ship as calls, as does group 6000 (her system-action voice). Groups 8300/9000/10000 belong to the groove system files and are excluded. Hurt (5000) and KO (5100) banks are present in her .snd. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "martian_manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony in 'Gods and Demands' is played back as a recording in Episode 5 of this arc; he does not appear."
+     }
+    ],
+    "final_boss": "magneto",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "iceman_pack",
+   "name": "Iceman — The Cold Trail",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-iceman-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2249418,
+   "sha256": "433ec61680924c67798535f0a0a33acf065504ae565a68c2bcffc60ab09a54af",
+   "summary": "One new fighter: Iceman, who is active from Episode 3, with the full Fightcade kit. Built for arc 'The Mutant Underground Is a Promise' (Arc 14).",
+   "fighters": [
+    "iceman"
+   ],
+   "contents": {
+    "headline": "One new fighter: Iceman, with the full Fightcade kit — a partner of 'The Mutant Underground Is a Promise'.",
+    "fighters": [
+     {
+      "id": "iceman",
+      "name": "Iceman",
+      "note": "full special/super kit in pack data (4 specials, 5 supers), voice in pack data"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'The Mutant Underground Is a Promise' (Arc 14): Iceman is active with the Underground in Episode 3. The arc ships as the arc_mutant_underground storyline pack.",
+    "music": [],
+    "links": "The Martian Manhunter's Episode 5 testimony from 'Gods and Demands' (Arc 13) is played back as a recording in Episode 5; he does not appear.",
+    "notes": "Kit hand-traced from the [State -1] blocks of Iceman.cmd (the generic parser misses most of it: several entries sit below state 1000 or behind helper-style values) and pinned in kit_override: Snowball Spit (ground, and the air version at the source's own 500-power gate), Summon Snow Fall and Arctic Breath; supers Ice Beam Hyper (ground and air), Snowball Bomb and Ice Hailstorm Hyper in both its commanded forms (states 483 and 499). One source defect named: the [State -1] 'Icespit' entry commands state 511, but no statedef 511 exists anywhere in the char, so the entry is dead and cannot ship. The Spinning Ice Statue states (2003/2004) are follow-up states of Snowball Spit, not separate commands, and are named here rather than shipped as moves; the push-block states (160-162) are a defensive system and stay out. His normals use the EOH numbering, so the core slots are pinned by override: atk2 = AIR 205, atk3 = AIR 210, kicks = AIR 215/220/225, air attack = AIR 400 — all verified strip by strip (215 stomp, 220 frost kick, 225 launcher). Single throw, pinned from the statedefs: state 800 attempt into state 810, whose anim is AIR 801 — he lifts the victim overhead on his ice arm and heaves them over, visually verified; the one execution serves both throw slots. Palette verified on the contact sheet against the portrait. Voice mapped by PlaySnd context scans: group 230 (10 clips) is his voice bank, played from statedef -2 as S230,var(14), and ships as calls; group 0 ships as effort by the standing mapping. His .snd has no 5000 or 5100 group, so the hurt and KO banks are honestly empty; the low one-off groups 1-33 are per-move effects and stay unmapped, named here. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "martian_manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony in 'Gods and Demands' is played back as a recording in Episode 5 of this arc; he does not appear."
+     }
+    ],
+    "final_boss": "magneto",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "cable_pack",
+   "name": "Cable — The Future Refused",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-cable-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2216749,
+   "sha256": "a3ee2aedb6b040f203e985fb6c9f9edd2e25426c69fec89a89634d2f59950fed",
+   "summary": "One new fighter: Cable, who arrives in Episode 4, with the full Fightcade kit. Built for arc 'The Mutant Underground Is a Promise' (Arc 14).",
+   "fighters": [
+    "cable"
+   ],
+   "contents": {
+    "headline": "One new fighter: Cable, with the full Fightcade kit — a partner of 'The Mutant Underground Is a Promise'.",
+    "fighters": [
+     {
+      "id": "cable",
+      "name": "Cable",
+      "note": "full special/super kit in pack data (13 specials, 2 supers), voice in pack data"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'The Mutant Underground Is a Promise' (Arc 14): Cable joins the Underground in Episode 4. The arc ships as the arc_mutant_underground storyline pack.",
+    "music": [],
+    "links": "The Martian Manhunter's Episode 5 testimony from 'Gods and Demands' (Arc 13) is played back as a recording in Episode 5; he does not appear.",
+    "notes": "Kit pinned in kit_override from the .cns state comments (his .cmd names the specials by motion only): Viper Beam, Crackdown, Scimitar and Electrap in all three strengths, and Psi-Charge (one state for all three strengths in the source, shipped once), plus Hyper Viper and Time Flip. Excluded by name: the Flight system (states 1330/1331 and the air-dash movement states) and the Warp states (1400-1425, Time Flip's internal teleports). Throws pinned from the .cmd and statedefs: the punch throw (state 800) executes at AIR 810 — a backward rolling throw, visually verified. Throw: the source's kick toss (state 830) executes at state 840, whose AIR action is a single empty frame (sprite -1,0) — the toss has no visible attacker animation in the source — so throw_b reuses AIR 810, his only visible ground-throw execution. An air throw (920 into 930) and air toss (950 into 960) also exist in the source. His normals use this template's 300-series kicks, pinned by override and verified strip by strip: AIR 300 knee, 310 side kick, 320 high roundhouse; atk3 pinned to AIR 220 so the heavy punch is the standing one. Palette: auto-scoring failed for this conversion — every def .act candidate scores at or near zero against the SFF's embedded palette (the .act files do not follow the SFF's index order), so the pack palette is the SFF's own embedded palette, extracted to embedded.act in the work copy and forced via palette_force; the frames match the portrait on the contact sheet. The template's intro dispatcher states (190/191) carry no usable action of their own (191's header anim 9800 is a single system frame), so the intro slot is pinned to AIR 192, the first of the template's intro pose actions, which carries the intro voice line. Voice mapped by PlaySnd context scans plus cross-character md5 comparison across the four MvC2 conversions: the template's shared banks (groups 0, 1, 2 and 5100 — byte-identical clips in all four chars) are not the character's voice; group 5100 is excluded so the KO bank does not ship template sounds, and group 5000 (unique to each char) ships as hurt by the standing mapping. Cable's calls ship from groups 181/182/192/193 (intro and win lines, 0.8-1.3 s), 220 (heavy attack shout), 1450/1510/1540 (Viper Beam, Scimitar and Electrap shouts, ~1 s each), 3001 and 3400 (his super shouts), and group 1's two unique clips only (nums 20 and 22 — the rest of group 1 is the shared template bank, excluded by item). Group 0 keeps only its one unique clip as effort; the shared clips are excluded by item. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "martian_manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony in 'Gods and Demands' is played back as a recording in Episode 5 of this arc; he does not appear."
+     }
+    ],
+    "final_boss": "magneto",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "colossus_pack",
+   "name": "Colossus — The Door That Holds",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-colossus-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1616001,
+   "sha256": "e4a3ea72db6161d7ce8a7b860ed1f90cd1a2f4a7bd7dc937aa68d4356a88523f",
+   "summary": "One new fighter: Colossus, the Episode 5 partner, with the full Fightcade kit. Built for arc 'The Mutant Underground Is a Promise' (Arc 14).",
+   "fighters": [
+    "colossus"
+   ],
+   "contents": {
+    "headline": "One new fighter: Colossus, with the full Fightcade kit — a partner of 'The Mutant Underground Is a Promise'.",
+    "fighters": [
+     {
+      "id": "colossus",
+      "name": "Colossus",
+      "note": "full special/super kit in pack data (6 specials, 4 supers), voice in pack data"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'The Mutant Underground Is a Promise' (Arc 14): Colossus is active in Episode 5 and featured there. The arc ships as the arc_mutant_underground storyline pack.",
+    "music": [],
+    "links": "The Martian Manhunter's Episode 5 testimony from 'Gods and Demands' (Arc 13) is played back as a recording in Episode 5; he does not appear.",
+    "notes": "Kit pinned in kit_override from the [State -1] headers and .cns comments (his .cmd values are distance expressions the generic parser splits): Giant Swing Near/Mid/Far — one command whose value expression selects the state by distance, shipped as its three source states — and Power Tackle Near/Mid/Far, plus four supers (Power Charge, Power Punch, Fast Ball, Power Explod). The Gamma Slam states (1240-1260) and Gamma Charge states (1480-1590) have no [State -1] commands of their own — they are the follow-up states of Giant Swing and Power Tackle (entered by TargetState and ChangeState pairs inside those moves) and are named here rather than shipped as separate moves. Excluded by name: the Flight system (states 1330/1331 and the air-dash movement states). Throws pinned from the .cmd and statedefs: the punch throw (state 800) executes at AIR 810 — a two-handed heave, visually verified. Throw: the source's kick toss (state 830) executes at state 840, whose AIR action references sprites (840, 0-4) that are absent from the source SFF — the toss has no visible attacker animation in the source — so throw_b reuses AIR 810, his only visible ground-throw execution. An air throw (920 into 930) and air toss (950 into 960/963) also exist in the source. His normals use this template's 300-series kicks, pinned by override and verified strip by strip: AIR 300 stomp, 310 side kick, 320 overhead axe kick; atk3 pinned to AIR 220 so the heavy punch is the standing one. Palette: auto-scoring failed for this conversion — every def .act candidate scores at or near zero against the SFF's embedded palette (the .act files do not follow the SFF's index order), so the pack palette is the SFF's own embedded palette, extracted to embedded.act in the work copy and forced via palette_force; the frames match the portrait on the contact sheet. The template's intro dispatcher states (190/191) carry no usable action of their own (191's header anim 9800 is a single system frame), so the intro slot is pinned to AIR 192, the first of the template's intro pose actions, which carries the intro voice line. Voice mapped by PlaySnd context scans plus cross-character md5 comparison across the four MvC2 conversions: the template's shared banks (groups 0, 1, 2 and 5100 — byte-identical clips in all four chars) are not the character's voice; group 5100 is excluded so the KO bank does not ship template sounds, and group 5000 (unique to each char) ships as hurt by the standing mapping. Colossus's calls ship from groups 181/192/193 (intro and win lines), 210 (Power Tackle shout), 230 (his statedef -2 and super voice), 1450 (Gamma Charge shout), 3000's unique clip and 3080 (Fast Ball); the short shared-bank clips (group 200 at 0.27 s, group 1270 at 0.17 s) stay unmapped as effects. Group 0 keeps only its one unique clip as effort; the shared clips are excluded by item. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "martian_manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony in 'Gods and Demands' is played back as a recording in Episode 5 of this arc; he does not appear."
+     }
+    ],
+    "final_boss": "magneto",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "magneto_pack",
+   "name": "Magneto — The Test of the Promise",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-magneto-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3730561,
+   "sha256": "5cb1a1853eeac916aea981700eb9ed3411d9ebe5d677b937615a182e4adc7e98",
+   "summary": "One new fighter: Magneto, the final boss, with the full Fightcade kit; his pack also carries his boss kit source. Built for arc 'The Mutant Underground Is a Promise' (Arc 14).",
+   "fighters": [
+    "magneto"
+   ],
+   "contents": {
+    "headline": "One new fighter: Magneto, with the full Fightcade kit — the final boss of 'The Mutant Underground Is a Promise'. This pack also carries his boss kit source: the arc's magneto boss enemy def reads its kit from this pack.",
+    "fighters": [
+     {
+      "id": "magneto",
+      "name": "Magneto",
+      "note": "full special/super kit in pack data (10 specials, 3 supers), voice in pack data; his fighter def is the kit_source for the arc's magneto boss enemy def"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of 'The Mutant Underground Is a Promise' (Arc 14): Magneto speaks from Episode 5 and is fought in Episode 6; the script's resurrect: false holds — he does not return. The arc ships as the arc_mutant_underground storyline pack.",
+    "music": [],
+    "links": "The Martian Manhunter's Episode 5 testimony from 'Gods and Demands' (Arc 13) is played back as a recording in Episode 5; he does not appear.",
+    "notes": "Kit pinned in kit_override from the .cns state comments (his .cmd names the specials by motion only): Magnetic Blast, EM Disruptor in its three ground forms and its air form, Force Field, Hyper Grav in both commanded forms and EM Pulse (ground and air), plus three supers — Shock Wave, Magnetic Tempest and X Magnetic Tempest. Excluded by name: the Flight system (states 1330/1331 and the air-dash movement states), and Magnetic Shield (state 4120, a 3000-power timed barrier install super — a mode mechanic, not an attack; its voice line in group 4120 stays unmapped with it). Throws pinned from the .cmd and statedefs: the punch throw (state 800) executes at AIR 810 and the kick toss (state 830) at AIR 840 — both are his magnetic grab, one hand extended in a field of energy, visually verified; an air throw (920 into 930, reusing AIR 810) and air toss (950 into 960) also exist in the source. His normals use this template's 300-series kicks, pinned by override and verified strip by strip: AIR 300 low kick, 310 arc roundhouse, 320 tempest heel combo; atk3 pinned to AIR 220 so the heavy punch is the standing one. Palette: auto-scoring failed for this conversion — every def .act candidate scores at or near zero against the SFF's embedded palette (the .act files do not follow the SFF's index order), so the pack palette is the SFF's own embedded palette, extracted to embedded.act in the work copy and forced via palette_force; the frames match the portrait on the contact sheet. The template's intro dispatcher states (190/191) carry no usable action of their own (191's header anim 9800 is a single system frame), so the intro slot is pinned to AIR 192, the first of the template's intro pose actions, which carries the intro voice line. Voice mapped by PlaySnd context scans plus cross-character md5 comparison across the four MvC2 conversions: the template's shared banks (groups 0, 1, 2 and 5100 — byte-identical clips in all four chars) are not the character's voice; group 5100 is excluded so the KO bank does not ship template sounds, and group 5000 (unique to each char) ships as hurt by the standing mapping. Magneto's calls ship from groups 182 (seven win and intro lines, 1.7-1.9 s), 183/192/193, 200/210/220/410 (attack shouts, ~0.5 s) and 1270/1300/1360/1400/3000/3020 (his special and super shouts, 0.9-1.25 s), every clip unique to him; group 320 (0.26 s) stays unmapped as an effect. Groups 0 and 1 are the shared template banks and are excluded, so his effort bank is honestly empty. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "martian_manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony in 'Gods and Demands' is played back as a recording in Episode 5 of this arc; he does not appear."
+     }
+    ],
+    "final_boss": "magneto",
+    "role": "final_boss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_mutant_underground",
+   "name": "Storyline: The Mutant Underground Is a Promise",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-mutant-underground-pack.zip",
+   "size_bytes": 9637,
+   "sha256": "baffb5c7a354467c2005cc6ef86b6f413d2932480d2a0fb89b18b27010bf7b51",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "cyclops",
+      "name": "Cyclops",
+      "note": "Arc 14 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "storm",
+      "name": "Storm",
+      "note": "Arc 14 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "rogue",
+      "name": "Rogue",
+      "note": "Arc 14 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "gambit",
+      "name": "Gambit",
+      "note": "Arc 14 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "wolverine",
+      "name": "Wolverine",
+      "note": "Arc 14 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "psylocke",
+      "name": "Psylocke",
+      "note": "Arc 14 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "iceman",
+      "name": "Iceman",
+      "note": "Arc 14 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "cable",
+      "name": "Cable",
+      "note": "Arc 14 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "colossus",
+      "name": "Colossus",
+      "note": "Arc 14 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "magneto",
+      "name": "Magneto",
+      "note": "Arc 14 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "final_boss": "magneto",
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "note": "J'onn J'onzz's testimony from Arc 13 is played as a recording in Episode 5 (scene a14_offer). He does not appear; the recording is a scene device, credited in the scene.",
+      "via": "martian_manhunter"
+     }
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "rogue",
+     "gambit",
+     "wolverine",
+     "psylocke",
+     "iceman",
+     "cable",
+     "colossus",
+     "magneto"
+    ],
+    "lead": "cyclops",
+    "episodes": 6,
+    "scenes": 16,
+    "final_boss_name": "Magneto",
+    "premise": "A complete storyline: Cyclops and Storm's rescue underground against the rebuilt Sentinel programme, in six episodes. The slate's closing arc."
+   }
   }
  ]
 }

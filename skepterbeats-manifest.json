@@ -1898,6 +1898,395 @@
     "final_boss_name": "Amakusa Shirou Tokisada",
     "premise": "A complete storyline: Haohmaru and Nakoruru against Amakusa's fortress of the challenged dead, in six episodes. A period arc, and the quietest on the slate."
    }
+  },
+  {
+   "id": "liukang_pack",
+   "name": "Liu Kang — The Champion Who Bows",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-liukang-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1948478,
+   "sha256": "2fcd464f1a519f1567683623daea3c83d2b57fefc1395c9afd4144dc82b6f600",
+   "summary": "One new fighter: Liu Kang, the arc lead, with the full Fightcade kit. Built for arc 'Outworld Comes Collecting' (Arc 7).",
+   "fighters": [
+    "liukang"
+   ],
+   "contents": {
+    "headline": "One new fighter: Liu Kang, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "liukang",
+      "name": "Liu Kang",
+      "note": "full special kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Arc lead of 'Outworld Comes Collecting' (Arc 7): Raiden stages a demonstration to prove Earthrealm can defend itself, and Liu Kang is the champion who has to win it honestly. Johnny Cage joins him in Episode 1; the ending is his: he beats the darkened god fairly and bows. The arc ships as the arc_outworld storyline pack.",
+    "music": [],
+    "links": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere by a patient scanner, opening the road to 'When Gods Make Demands'; the storm's shape is left in the sky as an energy signature that 'Machines Have Ghosts' later quotes. No character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Mortal Kombat II predates the super meter: the source kit has no super moves and no power-gated states, so this pack's super slot is empty in the source itself (named in the build log, not filled)."
+   },
+   "story": {
+    "arc_id": "arc_outworld",
+    "arc_name": "Outworld Comes Collecting",
+    "arc_status": "approved",
+    "cluster": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "required_characters": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "raiden",
+      "note": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere: a patient scanner finds it and mistakes it for a weapon worth collecting. One narration beat, no character crosses over; Arc 13 pays it off."
+     },
+     {
+      "arc_id": "arc_machines_ghosts",
+      "via": "raiden",
+      "note": "The ending leaves the storm's shape hanging in the sky as an energy signature. Arc 9 quotes it as a signature on Orchid's evidence board, imitated by Ultratech's tear. A signature, nothing more."
+     }
+    ],
+    "final_boss": "raiden",
+    "role": "lead"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "johnnycage_pack",
+   "name": "Johnny Cage — The Camera That Caught a God",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-johnnycage-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1262143,
+   "sha256": "d0a446d4818b54c551125a07e514e7b9ddcc7fb592ca84102d6b1ccd5bccc58a",
+   "summary": "One new fighter: Johnny Cage, a partner fighter, with the full Fightcade kit. Built for arc 'Outworld Comes Collecting' (Arc 7).",
+   "fighters": [
+    "johnnycage"
+   ],
+   "contents": {
+    "headline": "One new fighter: Johnny Cage, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "johnnycage",
+      "name": "Johnny Cage",
+      "note": "full special kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Outworld Comes Collecting' (Arc 7): Johnny Cage joins Liu Kang in Episode 1, and it is his footage that proves the order Raiden acted on was forged. The arc ships as the arc_outworld storyline pack.",
+    "music": [],
+    "links": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere by a patient scanner, opening the road to 'When Gods Make Demands'; the storm's shape is left in the sky as an energy signature that 'Machines Have Ghosts' later quotes. No character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Mortal Kombat II predates the super meter: the source kit has no super moves and no power-gated states, so this pack's super slot is empty in the source itself (named in the build log, not filled)."
+   },
+   "story": {
+    "arc_id": "arc_outworld",
+    "arc_name": "Outworld Comes Collecting",
+    "arc_status": "approved",
+    "cluster": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "required_characters": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "raiden",
+      "note": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere: a patient scanner finds it and mistakes it for a weapon worth collecting. One narration beat, no character crosses over; Arc 13 pays it off."
+     },
+     {
+      "arc_id": "arc_machines_ghosts",
+      "via": "raiden",
+      "note": "The ending leaves the storm's shape hanging in the sky as an energy signature. Arc 9 quotes it as a signature on Orchid's evidence board, imitated by Ultratech's tear. A signature, nothing more."
+     }
+    ],
+    "final_boss": "raiden",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "scorpion_pack",
+   "name": "Scorpion — The Spear Turned",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-scorpion-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1727545,
+   "sha256": "715c405224dc77a552b64a94abb74d1cd29697129815f555429f6217d473b93e",
+   "summary": "One new fighter: Scorpion, a partner fighter, with the full Fightcade kit. Built for arc 'Outworld Comes Collecting' (Arc 7).",
+   "fighters": [
+    "scorpion"
+   ],
+   "contents": {
+    "headline": "One new fighter: Scorpion, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "scorpion",
+      "name": "Scorpion",
+      "note": "full special kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Outworld Comes Collecting' (Arc 7): Scorpion first comes as a fighter-foe in Episode 3's wave, then turns: in Episode 4 he and Sub-Zero join Earthrealm's defence together. The arc ships as the arc_outworld storyline pack.",
+    "music": [],
+    "links": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere by a patient scanner, opening the road to 'When Gods Make Demands'; the storm's shape is left in the sky as an energy signature that 'Machines Have Ghosts' later quotes. No character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Mortal Kombat II predates the super meter: the source kit has no super moves and no power-gated states, so this pack's super slot is empty in the source itself (named in the build log, not filled). One clip in the pack's effort bank is a shared template effect the conversion ships inside the fighter's own sound file; every other clip is Scorpion's own voice, mapped by PlaySnd context (build log)."
+   },
+   "story": {
+    "arc_id": "arc_outworld",
+    "arc_name": "Outworld Comes Collecting",
+    "arc_status": "approved",
+    "cluster": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "required_characters": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "raiden",
+      "note": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere: a patient scanner finds it and mistakes it for a weapon worth collecting. One narration beat, no character crosses over; Arc 13 pays it off."
+     },
+     {
+      "arc_id": "arc_machines_ghosts",
+      "via": "raiden",
+      "note": "The ending leaves the storm's shape hanging in the sky as an energy signature. Arc 9 quotes it as a signature on Orchid's evidence board, imitated by Ultratech's tear. A signature, nothing more."
+     }
+    ],
+    "final_boss": "raiden",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "subzero_pack",
+   "name": "Sub-Zero — The Name He Carries",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-subzero-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1737158,
+   "sha256": "168db64b6714b134e0452ea1fcc210e0aec248a2c0a4255e36f2d873bc497d2f",
+   "summary": "One new fighter: Sub-Zero, a partner fighter, with the full Fightcade kit. Built for arc 'Outworld Comes Collecting' (Arc 7).",
+   "fighters": [
+    "subzero"
+   ],
+   "contents": {
+    "headline": "One new fighter: Sub-Zero, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "subzero",
+      "name": "Sub-Zero",
+      "note": "full special kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Outworld Comes Collecting' (Arc 7): Sub-Zero joins in Episode 4 alongside Scorpion and becomes the second partner in Episode 5, carrying a borrowed name into a fight that makes it his. The arc ships as the arc_outworld storyline pack.",
+    "music": [],
+    "links": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere by a patient scanner, opening the road to 'When Gods Make Demands'; the storm's shape is left in the sky as an energy signature that 'Machines Have Ghosts' later quotes. No character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Mortal Kombat II predates the super meter: the source kit has no super moves and no power-gated states, so this pack's super slot is empty in the source itself (named in the build log, not filled)."
+   },
+   "story": {
+    "arc_id": "arc_outworld",
+    "arc_name": "Outworld Comes Collecting",
+    "arc_status": "approved",
+    "cluster": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "required_characters": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "raiden",
+      "note": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere: a patient scanner finds it and mistakes it for a weapon worth collecting. One narration beat, no character crosses over; Arc 13 pays it off."
+     },
+     {
+      "arc_id": "arc_machines_ghosts",
+      "via": "raiden",
+      "note": "The ending leaves the storm's shape hanging in the sky as an energy signature. Arc 9 quotes it as a signature on Orchid's evidence board, imitated by Ultratech's tear. A signature, nothing more."
+     }
+    ],
+    "final_boss": "raiden",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "raiden_pack",
+   "name": "Raiden — The God Who Yields",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-raiden-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2162698,
+   "sha256": "f5dcee70efa7042525df9b226aa2e68596e0d247fb8809844d11a3c003320e0b",
+   "summary": "One new fighter: Raiden, the final boss, with the full Fightcade kit. Built for arc 'Outworld Comes Collecting' (Arc 7).",
+   "fighters": [
+    "raiden"
+   ],
+   "contents": {
+    "headline": "One new fighter: Raiden, with the full Fightcade kit — the final boss of 'Outworld Comes Collecting'.",
+    "fighters": [
+     {
+      "id": "raiden",
+      "name": "Raiden",
+      "note": "full special kit in pack data, full voice set (three voice banks: attacks, win quotes, special-move calls)"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of 'Outworld Comes Collecting' (Arc 7): the storyline fields him as Dark Raiden on this fighter kit (boss def in the storyline pack; resurrect is off — beaten fairly, he yields standing and hands over the amulet). The arc ships as the arc_outworld storyline pack.",
+    "music": [],
+    "links": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere by a patient scanner, opening the road to 'When Gods Make Demands'; the storm's shape is left in the sky as an energy signature that 'Machines Have Ghosts' later quotes. No character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Mortal Kombat II predates the super meter: the source kit has no super moves and no power-gated states, so this pack's super slot is empty in the source itself (named in the build log, not filled)."
+   },
+   "story": {
+    "arc_id": "arc_outworld",
+    "arc_name": "Outworld Comes Collecting",
+    "arc_status": "approved",
+    "cluster": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "required_characters": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "via": "raiden",
+      "note": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere: a patient scanner finds it and mistakes it for a weapon worth collecting. One narration beat, no character crosses over; Arc 13 pays it off."
+     },
+     {
+      "arc_id": "arc_machines_ghosts",
+      "via": "raiden",
+      "note": "The ending leaves the storm's shape hanging in the sky as an energy signature. Arc 9 quotes it as a signature on Orchid's evidence board, imitated by Ultratech's tear. A signature, nothing more."
+     }
+    ],
+    "final_boss": "raiden",
+    "role": "final_boss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_outworld",
+   "name": "Storyline: Outworld Comes Collecting",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-outworld-pack.zip",
+   "size_bytes": 8902,
+   "sha256": "02ec75ceb1500bd2dfb6fab7149b8f75e0db433de021116791c2f930aaaa6733",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "liukang",
+      "name": "Liu Kang",
+      "note": "Arc 7 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "johnnycage",
+      "name": "Johnny Cage",
+      "note": "Arc 7 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "scorpion",
+      "name": "Scorpion",
+      "note": "Arc 7 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "subzero",
+      "name": "Sub-Zero",
+      "note": "Arc 7 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "raiden",
+      "name": "Raiden",
+      "note": "Arc 7 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_outworld",
+    "arc_name": "Outworld Comes Collecting",
+    "arc_status": "approved",
+    "cluster": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "final_boss": "raiden",
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "note": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere: a patient scanner finds it and mistakes it for a weapon worth collecting. One narration beat, no character crosses over; Arc 13 pays it off.",
+      "via": "raiden"
+     },
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "The ending leaves the storm's shape hanging in the sky as an energy signature. Arc 9 quotes it as a signature on Orchid's evidence board, imitated by Ultratech's tear. A signature, nothing more.",
+      "via": "raiden"
+     }
+    ],
+    "required_characters": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "lead": "liukang",
+    "episodes": 6,
+    "scenes": 15,
+    "final_boss_name": "Dark Raiden",
+    "premise": "A complete storyline: Liu Kang and Earthrealm's champions against the god who protects them, in six episodes."
+   }
   }
  ]
 }

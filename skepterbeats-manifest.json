@@ -2886,6 +2886,840 @@
     "final_boss_name": "Jedah Dohma",
     "premise": "A complete storyline: Morrigan Aensland defends the places where humans and Darkstalkers already live together, in six episodes."
    }
+  },
+  {
+   "id": "sol_pack",
+   "name": "Sol Badguy — The Prototype Gear",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-sol-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 5162989,
+   "sha256": "14f56e8602df69ceefb2887d11ec4d31546991e45aa8e166dcbc9ae7c85f6990",
+   "summary": "One new fighter: Sol Badguy, the lead, with the full Fightcade kit. Built for arc 'The Gear Is a Child' (Arc 10).",
+   "fighters": [
+    "sol"
+   ],
+   "contents": {
+    "headline": "One new fighter: Sol Badguy, with the full Fightcade kit — the lead of 'The Gear Is a Child'.",
+    "fighters": [
+     {
+      "id": "sol",
+      "name": "Sol Badguy",
+      "note": "full special/super kit in pack data (17 specials, 2 supers), 62 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Lead of 'The Gear Is a Child' (Arc 10): Sol leads all six episodes as the party moves to keep Dizzy out of the hands of a state that calls her cargo. The arc ships as the arc_the_gear storyline pack.",
+    "music": [],
+    "links": "Axl repeats Strider's warning about doors in time in Episode 5, misattributed to a dream; the stopped-time residue thread is narrator-only and deferred by the slate. No character crosses over.",
+    "notes": "The Gear himself and the arc lead. Full Muteki GGXX kit: 17 specials and 2 supers. Real throws (AIR 800 attempt, AIR 810 execution; the source has one throw execution anim and flips facing for the back throw, so one strip serves both directions). Dragon Install (state 3100) is an install and stays out of the kit; Roman Cancel and the Instant Kill system stay out as system mechanics. The air throw (state 850) has no slot in the pack format."
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "final_boss": "ino",
+    "role": "lead"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "ky_pack",
+   "name": "Ky Kiske — The Sacred Knight",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-ky-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 6016667,
+   "sha256": "6bef4db05aa4dd9b6be1ae589bc39b7b4f57933d9a4dd5d435bb29ee5fb75941",
+   "summary": "One new fighter: Ky Kiske, a partner, with the full Fightcade kit. Built for arc 'The Gear Is a Child' (Arc 10).",
+   "fighters": [
+    "ky"
+   ],
+   "contents": {
+    "headline": "One new fighter: Ky Kiske, with the full Fightcade kit — a partner of 'The Gear Is a Child'.",
+    "fighters": [
+     {
+      "id": "ky",
+      "name": "Ky Kiske",
+      "note": "full special/super kit in pack data (19 specials, 4 supers), 63 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Gear Is a Child' (Arc 10): Ky fights beside Sol in Episode 1 and again in the Episode 6 finale. The arc ships as the arc_the_gear storyline pack.",
+    "music": [],
+    "links": "Axl repeats Strider's warning about doors in time in Episode 5, misattributed to a dream; the stopped-time residue thread is narrator-only and deferred by the slate. No character crosses over.",
+    "notes": "Sol's rival and the arc's second lead. Full Muteki GGXX kit: 19 specials and 4 supers, including his command grab (state 1400, throw-class HitDef S, ST in the source). Real throws (AIR 800/810, one execution anim serving both directions as the source flips facing). Roman Cancel and the Instant Kill system stay out as system mechanics; the air throw (state 850) has no pack slot."
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "final_boss": "ino",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "dizzy_pack",
+   "name": "Dizzy — The Innocent Gear",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-dizzy-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 7371727,
+   "sha256": "ae3a22b0a210709c7fa20170de9e799fc378140bb26996ace3b6d2aca118fde1",
+   "summary": "One new fighter: Dizzy, a partner, with the full Fightcade kit. Built for arc 'The Gear Is a Child' (Arc 10).",
+   "fighters": [
+    "dizzy"
+   ],
+   "contents": {
+    "headline": "One new fighter: Dizzy, with the full Fightcade kit — a partner of 'The Gear Is a Child'.",
+    "fighters": [
+     {
+      "id": "dizzy",
+      "name": "Dizzy",
+      "note": "full special/super kit in pack data (17 specials, 3 supers), 85 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Gear Is a Child' (Arc 10): Dizzy fights beside Sol in Episode 3; the arc is the fight over whether she is a person or a shipment. The arc ships as the arc_the_gear storyline pack.",
+    "music": [],
+    "links": "Axl repeats Strider's warning about doors in time in Episode 5, misattributed to a dream; the stopped-time residue thread is narrator-only and deferred by the slate. No character crosses over.",
+    "notes": "The Gear child at the heart of the arc. Full Muteki GGXX kit: 17 summon specials and 3 supers. Real throws (AIR 800/810, one execution anim serving both directions). The Necro Install complex (states 3100/3300/3400, a hyper-throw grab into a possessed-form install) stays out of the kit under the standing install rule. Roman Cancel and the Instant Kill system stay out as system mechanics; the air throw (state 850) has no pack slot. Her air Imperial Ray strip contains the source's black shadow-form frames by design."
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "final_boss": "ino",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "may_pack",
+   "name": "May — The Jellyfish Captain",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-may-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 6450897,
+   "sha256": "2d6c3479f9d5335aafec81a1e66d5bff69238865ad05157c38ad35ed150e4a1b",
+   "summary": "One new fighter: May, a partner, with the full Fightcade kit. Built for arc 'The Gear Is a Child' (Arc 10).",
+   "fighters": [
+    "may"
+   ],
+   "contents": {
+    "headline": "One new fighter: May, with the full Fightcade kit — a partner of 'The Gear Is a Child'.",
+    "fighters": [
+     {
+      "id": "may",
+      "name": "May",
+      "note": "full special/super kit in pack data (11 specials, 4 supers), 138 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Gear Is a Child' (Arc 10): May fights beside Sol in Episode 2. The arc ships as the arc_the_gear storyline pack.",
+    "music": [],
+    "links": "Axl repeats Strider's warning about doors in time in Episode 5, misattributed to a dream; the stopped-time residue thread is narrator-only and deferred by the slate. No character crosses over.",
+    "notes": "Full Muteki GGXX kit: 11 specials and 4 supers, including Overhead Kiss (state 1300, throw-class HitDef S, ST in the source). Real throws (AIR 800/810, one execution anim serving both directions). Roman Cancel and the Instant Kill system stay out as system mechanics; the air throw (state 850) has no pack slot."
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "final_boss": "ino",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "axl_pack",
+   "name": "Axl Low — The Time Traveller",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-axl-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4572141,
+   "sha256": "0e28c43753e879e25ca72544ded151b4d5b0af084c791827382c4f0df302d7ed",
+   "summary": "One new fighter: Axl Low, a partner, with the full Fightcade kit. Built for arc 'The Gear Is a Child' (Arc 10).",
+   "fighters": [
+    "axl"
+   ],
+   "contents": {
+    "headline": "One new fighter: Axl Low, with the full Fightcade kit — a partner of 'The Gear Is a Child'.",
+    "fighters": [
+     {
+      "id": "axl",
+      "name": "Axl Low",
+      "note": "full special/super kit in pack data (13 specials, 2 supers), 62 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Fights with the party in 'The Gear Is a Child' (Arc 10): in Episode 5 Axl repeats Strider's warning from 'Machines and Ghosts', misattributed to a dream. The arc ships as the arc_the_gear storyline pack.",
+    "music": [],
+    "links": "Axl repeats Strider's warning about doors in time in Episode 5, misattributed to a dream; the stopped-time residue thread is narrator-only and deferred by the slate. No character crosses over.",
+    "notes": "The arc's time-slipped witness. Full Muteki GGXX kit: 13 specials and 2 supers; the longest reach in the wave from his chain sickles. Real throws (AIR 800/810, one execution anim serving both directions). Roman Cancel and the Instant Kill system stay out as system mechanics; the air throw (state 850) has no pack slot."
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "final_boss": "ino",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "millia_pack",
+   "name": "Millia Rage — The Hair Assassin",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-millia-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4689626,
+   "sha256": "15404c379c4b81138f54a17213e4756d2463950f83c96d29b320d8a46f7ef650",
+   "summary": "One new fighter: Millia Rage, a partner, with the full Fightcade kit. Built for arc 'The Gear Is a Child' (Arc 10).",
+   "fighters": [
+    "millia"
+   ],
+   "contents": {
+    "headline": "One new fighter: Millia Rage, with the full Fightcade kit — a partner of 'The Gear Is a Child'.",
+    "fighters": [
+     {
+      "id": "millia",
+      "name": "Millia Rage",
+      "note": "full special/super kit in pack data (17 specials, 3 supers), 93 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Fights with the party in 'The Gear Is a Child' (Arc 10). The arc ships as the arc_the_gear storyline pack.",
+    "music": [],
+    "links": "Axl repeats Strider's warning about doors in time in Episode 5, misattributed to a dream; the stopped-time residue thread is narrator-only and deferred by the slate. No character crosses over.",
+    "notes": "Full Muteki GGXX kit: 17 specials and 3 supers. Real throws (AIR 800/810, one execution anim serving both directions). Roman Cancel and the Instant Kill system stay out as system mechanics; the air throw (state 850) has no pack slot."
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "final_boss": "ino",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "baiken_pack",
+   "name": "Baiken — The One-Armed Swordswoman",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-baiken-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 5496437,
+   "sha256": "5fe9ebc8bbc650e79d1790433537632c65557cd0ffdc7b7a81e27124a1109c62",
+   "summary": "One new fighter: Baiken, a partner, with the full Fightcade kit. Built for arc 'The Gear Is a Child' (Arc 10).",
+   "fighters": [
+    "baiken"
+   ],
+   "contents": {
+    "headline": "One new fighter: Baiken, with the full Fightcade kit — a partner of 'The Gear Is a Child'.",
+    "fighters": [
+     {
+      "id": "baiken",
+      "name": "Baiken",
+      "note": "full special/super kit in pack data (15 specials, 10 supers), 146 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Gear Is a Child' (Arc 10): Baiken fights beside Sol in Episode 4. The arc ships as the arc_the_gear storyline pack.",
+    "music": [],
+    "links": "Axl repeats Strider's warning about doors in time in Episode 5, misattributed to a dream; the stopped-time residue thread is narrator-only and deferred by the slate. No character crosses over.",
+    "notes": "Full Muteki GGXX kit: 15 specials and 10 supers, including Kabari (state 1400, her chain hook that drags the opponent in; strike-class HitDef S, SA in the source) and the three Baku counter supers. Real throws (AIR 800/810, one execution anim serving both directions). Roman Cancel and the Instant Kill system stay out as system mechanics; the air throw (state 850) has no pack slot."
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "final_boss": "ino",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "ino_pack",
+   "name": "I-No — The Hard Rock Witch",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-ino-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4851759,
+   "sha256": "501a7c0b449db9bf52e67911678b207af367280ad333afd6b95d42124f4b1a48",
+   "summary": "One new fighter: I-No, the final boss, with the full Fightcade kit. Built for arc 'The Gear Is a Child' (Arc 10).",
+   "fighters": [
+    "ino"
+   ],
+   "contents": {
+    "headline": "One new fighter: I-No, with the full Fightcade kit — the final boss of 'The Gear Is a Child'.",
+    "fighters": [
+     {
+      "id": "ino",
+      "name": "I-No",
+      "note": "full special/super kit in pack data (16 specials, 2 supers), 54 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of 'The Gear Is a Child' (Arc 10): I-No waits at the end of Episode 6. The arc ships as the arc_the_gear storyline pack.",
+    "music": [],
+    "links": "Axl repeats Strider's warning about doors in time in Episode 5, misattributed to a dream; the stopped-time residue thread is narrator-only and deferred by the slate. No character crosses over.",
+    "notes": "The arc's final boss; this pack also carries the kit source for the ino_boss enemy def in the storyline payload. Full Muteki GGXX kit: 16 specials and 2 supers. Real throws (AIR 800/810, one execution anim serving both directions; her execution anim plays the opponent like a guitar, which is the source's own throw). Roman Cancel and the Instant Kill system stay out as system mechanics; the air throw (state 850) has no pack slot."
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "final_boss": "ino",
+    "role": "final_boss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "faust_pack",
+   "name": "Faust — The Wandering Doctor",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-faust-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 5534162,
+   "sha256": "6f5b9240c3f282007f920412241f6e11d1f1815f08c35fc4eb2c844839151cab",
+   "summary": "One new fighter: Faust, a partner, with the full Fightcade kit. Built for arc 'The Gear Is a Child' (Arc 10).",
+   "fighters": [
+    "faust"
+   ],
+   "contents": {
+    "headline": "One new fighter: Faust, with the full Fightcade kit — a partner of 'The Gear Is a Child'.",
+    "fighters": [
+     {
+      "id": "faust",
+      "name": "Faust",
+      "note": "full special/super kit in pack data (20 specials, 3 supers), 63 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Fights with the party in 'The Gear Is a Child' (Arc 10). The arc ships as the arc_the_gear storyline pack.",
+    "music": [],
+    "links": "Axl repeats Strider's warning about doors in time in Episode 5, misattributed to a dream; the stopped-time residue thread is narrator-only and deferred by the slate. No character crosses over.",
+    "notes": "Full Muteki GGXX kit: 20 specials (including all six Souten Enshin Ranbu follow-up dispatches) and 3 supers. His kick-chain second step is the source's baseball-swing Dust attack, which is how the source animates it. Real throws (AIR 800/810, one execution anim serving both directions). Roman Cancel and the Instant Kill system stay out as system mechanics; the air throw (state 850) has no pack slot."
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "final_boss": "ino",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "potemkin_pack",
+   "name": "Potemkin — The Giant of Zepp",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-potemkin-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 5611686,
+   "sha256": "5d3f8468a90876fb80bd77092e24ab1db198bc5ddb803cd0f17c0ec515e2b25e",
+   "summary": "One new fighter: Potemkin, a partner, with the full Fightcade kit. Built for arc 'The Gear Is a Child' (Arc 10).",
+   "fighters": [
+    "potemkin"
+   ],
+   "contents": {
+    "headline": "One new fighter: Potemkin, with the full Fightcade kit — a partner of 'The Gear Is a Child'.",
+    "fighters": [
+     {
+      "id": "potemkin",
+      "name": "Potemkin",
+      "note": "full special/super kit in pack data (13 specials, 4 supers), 55 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Gear Is a Child' (Arc 10): Potemkin fights beside Sol in Episode 5, wearing the uniform of the side that wants her. The arc ships as the arc_the_gear storyline pack.",
+    "music": [],
+    "links": "Axl repeats Strider's warning about doors in time in Episode 5, misattributed to a dream; the stopped-time residue thread is narrator-only and deferred by the slate. No character crosses over.",
+    "notes": "Full Muteki GGXX kit: 13 specials and 4 supers, including the Potemkin Buster (state 1000, throw-class HitDef S, ST). His kick-chain steps animate punches because that is what the source animates on those buttons; Potemkin has almost no kicks, which is character truth, not a missing group. Real throws (AIR 800/810, one execution anim serving both directions). Roman Cancel and the Instant Kill system stay out as system mechanics; the air throw (state 850) has no pack slot. His hurt voice bank is empty as source truth: the source has no dedicated hurt/KO group at all (no 5003/5070/5300, verified by direct parse), so nothing was substituted; his reaction voice rides the effort and call banks."
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "final_boss": "ino",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_the_gear",
+   "name": "Storyline: The Gear Is a Child",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-the-gear-pack.zip",
+   "size_bytes": 9504,
+   "sha256": "158f6a7cda0e842420dcf73472868f17c08ba2de9360ca93cc438fae1eba314e",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "sol",
+      "name": "Sol Badguy",
+      "note": "Arc 10 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "ky",
+      "name": "Ky Kiske",
+      "note": "Arc 10 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "dizzy",
+      "name": "Dizzy",
+      "note": "Arc 10 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "may",
+      "name": "May",
+      "note": "Arc 10 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "axl",
+      "name": "Axl Low",
+      "note": "Arc 10 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "millia",
+      "name": "Millia Rage",
+      "note": "Arc 10 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "baiken",
+      "name": "Baiken",
+      "note": "Arc 10 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "ino",
+      "name": "I-No",
+      "note": "Arc 10 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "faust",
+      "name": "Faust",
+      "note": "Arc 10 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "potemkin",
+      "name": "Potemkin",
+      "note": "Arc 10 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "final_boss": "ino",
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "lead": "sol",
+    "episodes": 6,
+    "scenes": 20,
+    "final_boss_name": "I-No",
+    "premise": "A complete storyline: Sol, Ky and Dizzy's family against I-No's rewrite of history, in six episodes."
+   }
   }
  ]
 }

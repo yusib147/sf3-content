@@ -1299,6 +1299,605 @@
     "final_boss_name": "Goenitz",
     "premise": "A complete storyline: Kyo Kusanagi and Iori Yagami against the Orochi cult's storm, in five episodes."
    }
+  },
+  {
+   "id": "haohmaru_pack",
+   "name": "Haohmaru — The Wandering Swordsman",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-haohmaru-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3261537,
+   "sha256": "fe42862c60cefafc7a63f6ec900ba91628aaa0fd1ecd3c86377a067d726e5885",
+   "summary": "One new fighter: Haohmaru, the hero, with the full Fightcade kit. Built for arc 'Swords in a Country of Storms' (Arc 5).",
+   "fighters": [
+    "haohmaru"
+   ],
+   "contents": {
+    "headline": "One new fighter: Haohmaru, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "haohmaru",
+      "name": "Haohmaru",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Hero of arc 'Swords in a Country of Storms' (Arc 5): Haohmaru leads the party into Kamui Kotan, where the wind itself is sick and the challenged dead wear dead swordsmen's names as bait. The arc ships as the arc_swords_storms storyline pack.",
+    "music": [],
+    "links": "Hibiki Takane crosses in for one scene in Episode 5, on her own road to her father's killer; she does not join, and her fighter pack is produced under Arc 6, not this one. A Soul Edge fragment is named among the fortress treasures in the ending, linking forward to Arc 6, 'The Edge Is a Curse'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_swords_storms",
+    "arc_name": "Swords in a Country of Storms",
+    "arc_status": "approved",
+    "cluster": [
+     "haohmaru",
+     "nakoruru",
+     "galford",
+     "ukyo",
+     "charlotte",
+     "rimururu",
+     "amakusa",
+     "zankuro"
+    ],
+    "required_characters": [
+     "haohmaru",
+     "nakoruru",
+     "ukyo",
+     "galford",
+     "charlotte",
+     "rimururu",
+     "zankuro",
+     "amakusa"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_edge",
+      "via": "hibiki",
+      "note": "Hibiki crosses in for one scene in Episode 5 and does not join; a Soul Edge fragment is named among the fortress treasures in the ending."
+     }
+    ],
+    "final_boss": "amakusa",
+    "role": "hero"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "nakoruru_pack",
+   "name": "Nakoruru — Priestess of Kamui Kotan",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-nakoruru-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3821394,
+   "sha256": "37b32d03dd62e6a2bca7572f49f9da183ceb8aef6e2f8b09f2c374980be1a1f3",
+   "summary": "One new fighter: Nakoruru, partner, with the full Fightcade kit. Built for arc 'Swords in a Country of Storms' (Arc 5).",
+   "fighters": [
+    "nakoruru"
+   ],
+   "contents": {
+    "headline": "One new fighter: Nakoruru, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "nakoruru",
+      "name": "Nakoruru",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'Swords in a Country of Storms' (Arc 5): Nakoruru steps out of a storm of crows at the end of Episode 1 to stop Haohmaru killing a possessed villager who can still be saved, and the resealing of Amakusa's rite in Episode 6 is hers to perform, at a cost the game does not undo. The arc ships as the arc_swords_storms storyline pack.",
+    "music": [],
+    "links": "Hibiki Takane crosses in for one scene in Episode 5, on her own road to her father's killer; she does not join, and her fighter pack is produced under Arc 6, not this one. A Soul Edge fragment is named among the fortress treasures in the ending, linking forward to Arc 6, 'The Edge Is a Curse'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_swords_storms",
+    "arc_name": "Swords in a Country of Storms",
+    "arc_status": "approved",
+    "cluster": [
+     "haohmaru",
+     "nakoruru",
+     "galford",
+     "ukyo",
+     "charlotte",
+     "rimururu",
+     "amakusa",
+     "zankuro"
+    ],
+    "required_characters": [
+     "haohmaru",
+     "nakoruru",
+     "ukyo",
+     "galford",
+     "charlotte",
+     "rimururu",
+     "zankuro",
+     "amakusa"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_edge",
+      "via": "hibiki",
+      "note": "Hibiki crosses in for one scene in Episode 5 and does not join; a Soul Edge fragment is named among the fortress treasures in the ending."
+     }
+    ],
+    "final_boss": "amakusa",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "galford_pack",
+   "name": "Galford — The Smiling Ninja and Poppy",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-galford-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2810288,
+   "sha256": "3d7eef4f4c75f40badba465da9b9b8b64b7375b5bbf05214f09aafb068424d16",
+   "summary": "One new fighter: Galford, partner, with the full Fightcade kit. Built for arc 'Swords in a Country of Storms' (Arc 5).",
+   "fighters": [
+    "galford"
+   ],
+   "contents": {
+    "headline": "One new fighter: Galford, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "galford",
+      "name": "Galford",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'Swords in a Country of Storms' (Arc 5): Galford joins in Episode 3 at the beached relic ship, Poppy finding the party first, and holds the partner slot for that episode. Poppy is part of his kit: the dog commands (Rush Dog, Machine Gun Dog, Replica Dog, Strike Heads) are all in his pack data. The arc ships as the arc_swords_storms storyline pack.",
+    "music": [],
+    "links": "Hibiki Takane crosses in for one scene in Episode 5, on her own road to her father's killer; she does not join, and her fighter pack is produced under Arc 6, not this one. A Soul Edge fragment is named among the fortress treasures in the ending, linking forward to Arc 6, 'The Edge Is a Curse'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_swords_storms",
+    "arc_name": "Swords in a Country of Storms",
+    "arc_status": "approved",
+    "cluster": [
+     "haohmaru",
+     "nakoruru",
+     "galford",
+     "ukyo",
+     "charlotte",
+     "rimururu",
+     "amakusa",
+     "zankuro"
+    ],
+    "required_characters": [
+     "haohmaru",
+     "nakoruru",
+     "ukyo",
+     "galford",
+     "charlotte",
+     "rimururu",
+     "zankuro",
+     "amakusa"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_edge",
+      "via": "hibiki",
+      "note": "Hibiki crosses in for one scene in Episode 5 and does not join; a Soul Edge fragment is named among the fortress treasures in the ending."
+     }
+    ],
+    "final_boss": "amakusa",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "ukyo_pack",
+   "name": "Ukyo Tachibana — One Winter at a Time",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-ukyo-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2834027,
+   "sha256": "b14be446e6bc0600e2849ec61a1d625ef2b844ae79e23f053a0f8bc5b0d84772",
+   "summary": "One new fighter: Ukyo Tachibana, the ailing swordsman ally, with the full Fightcade kit. Built for arc 'Swords in a Country of Storms' (Arc 5).",
+   "fighters": [
+    "ukyo"
+   ],
+   "contents": {
+    "headline": "One new fighter: Ukyo Tachibana, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "ukyo",
+      "name": "Ukyo Tachibana",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Ally of arc 'Swords in a Country of Storms' (Arc 5): Ukyo identifies his own footwork on a challenged dead in Episode 2 and takes the arc personally; his illness is the arc's clock and is never cured on screen. He is fought beside throughout but never holds the standing partner slot. Guest Hibiki Takane puts her question about a stolen art to him in Episode 5. The arc ships as the arc_swords_storms storyline pack.",
+    "music": [],
+    "links": "Hibiki Takane crosses in for one scene in Episode 5, on her own road to her father's killer; she does not join, and her fighter pack is produced under Arc 6, not this one. A Soul Edge fragment is named among the fortress treasures in the ending, linking forward to Arc 6, 'The Edge Is a Curse'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_swords_storms",
+    "arc_name": "Swords in a Country of Storms",
+    "arc_status": "approved",
+    "cluster": [
+     "haohmaru",
+     "nakoruru",
+     "galford",
+     "ukyo",
+     "charlotte",
+     "rimururu",
+     "amakusa",
+     "zankuro"
+    ],
+    "required_characters": [
+     "haohmaru",
+     "nakoruru",
+     "ukyo",
+     "galford",
+     "charlotte",
+     "rimururu",
+     "zankuro",
+     "amakusa"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_edge",
+      "via": "hibiki",
+      "note": "Hibiki crosses in for one scene in Episode 5 and does not join; a Soul Edge fragment is named among the fortress treasures in the ending."
+     }
+    ],
+    "final_boss": "amakusa",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "charlotte_pack",
+   "name": "Charlotte Colde — The Fencer of the Relic Ship",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-charlotte-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2954970,
+   "sha256": "22bdf35c5ce1e82e2344fd533ccea0a9295aa9b0e07ed7d914e3431a43138bef",
+   "summary": "One new fighter: Charlotte Colde, the Episode 3 duel rival, with the full Fightcade kit. Built for arc 'Swords in a Country of Storms' (Arc 5).",
+   "fighters": [
+    "charlotte"
+   ],
+   "contents": {
+    "headline": "One new fighter: Charlotte Colde, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "charlotte",
+      "name": "Charlotte Colde",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Rival of arc 'Swords in a Country of Storms' (Arc 5): Charlotte is fought as an opponent in a scored duel in Episode 3 (first to yield the deck) and becomes an ally only after she is beaten and the cargo wakes. The arc ships as the arc_swords_storms storyline pack.",
+    "music": [],
+    "links": "Hibiki Takane crosses in for one scene in Episode 5, on her own road to her father's killer; she does not join, and her fighter pack is produced under Arc 6, not this one. A Soul Edge fragment is named among the fortress treasures in the ending, linking forward to Arc 6, 'The Edge Is a Curse'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_swords_storms",
+    "arc_name": "Swords in a Country of Storms",
+    "arc_status": "approved",
+    "cluster": [
+     "haohmaru",
+     "nakoruru",
+     "galford",
+     "ukyo",
+     "charlotte",
+     "rimururu",
+     "amakusa",
+     "zankuro"
+    ],
+    "required_characters": [
+     "haohmaru",
+     "nakoruru",
+     "ukyo",
+     "galford",
+     "charlotte",
+     "rimururu",
+     "zankuro",
+     "amakusa"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_edge",
+      "via": "hibiki",
+      "note": "Hibiki crosses in for one scene in Episode 5 and does not join; a Soul Edge fragment is named among the fortress treasures in the ending."
+     }
+    ],
+    "final_boss": "amakusa",
+    "role": "rival"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "rimururu_pack",
+   "name": "Rimururu — The Little Priestess of Ice",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-rimururu-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2637629,
+   "sha256": "e38554960e6407e1a8b0f34c0f040d79e559b20dd403af2bb9e1b43f7920cd58",
+   "summary": "One new fighter: Rimururu, partner, with the full Fightcade kit. Built for arc 'Swords in a Country of Storms' (Arc 5).",
+   "fighters": [
+    "rimururu"
+   ],
+   "contents": {
+    "headline": "One new fighter: Rimururu, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "rimururu",
+      "name": "Rimururu",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'Swords in a Country of Storms' (Arc 5): Rimururu stows away and is rescued inside the fortress outwork in Episode 4, playable after, over Nakoruru's objections; she insists on holding the partner slot through Episode 5. The arc ships as the arc_swords_storms storyline pack.",
+    "music": [],
+    "links": "Hibiki Takane crosses in for one scene in Episode 5, on her own road to her father's killer; she does not join, and her fighter pack is produced under Arc 6, not this one. A Soul Edge fragment is named among the fortress treasures in the ending, linking forward to Arc 6, 'The Edge Is a Curse'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_swords_storms",
+    "arc_name": "Swords in a Country of Storms",
+    "arc_status": "approved",
+    "cluster": [
+     "haohmaru",
+     "nakoruru",
+     "galford",
+     "ukyo",
+     "charlotte",
+     "rimururu",
+     "amakusa",
+     "zankuro"
+    ],
+    "required_characters": [
+     "haohmaru",
+     "nakoruru",
+     "ukyo",
+     "galford",
+     "charlotte",
+     "rimururu",
+     "zankuro",
+     "amakusa"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_edge",
+      "via": "hibiki",
+      "note": "Hibiki crosses in for one scene in Episode 5 and does not join; a Soul Edge fragment is named among the fortress treasures in the ending."
+     }
+    ],
+    "final_boss": "amakusa",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "amakusa_pack",
+   "name": "Amakusa Shirou Tokisada — Herald of the Dark God",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-amakusa-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4861372,
+   "sha256": "ef3a2278df65addd4d2db44cfd5d254dff2e1d1277ed21bf9ebbe3713dc535f1",
+   "summary": "One new fighter: Amakusa Shirou Tokisada, the final boss, with the full Fightcade kit. Built for arc 'Swords in a Country of Storms' (Arc 5).",
+   "fighters": [
+    "amakusa"
+   ],
+   "contents": {
+    "headline": "One new fighter: Amakusa Shirou Tokisada, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "amakusa",
+      "name": "Amakusa Shirou Tokisada",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of arc 'Swords in a Country of Storms' (Arc 5): Amakusa stands behind waves of the challenged dead in Episode 6 before facing the party himself in a two-phase fight (resurrect: false — his spirit is driven out, not resurrected). His fighter def is also the kit source for the arc's boss enemy def. The arc ships as the arc_swords_storms storyline pack.",
+    "music": [],
+    "links": "Hibiki Takane crosses in for one scene in Episode 5, on her own road to her father's killer; she does not join, and her fighter pack is produced under Arc 6, not this one. A Soul Edge fragment is named among the fortress treasures in the ending, linking forward to Arc 6, 'The Edge Is a Curse'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_swords_storms",
+    "arc_name": "Swords in a Country of Storms",
+    "arc_status": "approved",
+    "cluster": [
+     "haohmaru",
+     "nakoruru",
+     "galford",
+     "ukyo",
+     "charlotte",
+     "rimururu",
+     "amakusa",
+     "zankuro"
+    ],
+    "required_characters": [
+     "haohmaru",
+     "nakoruru",
+     "ukyo",
+     "galford",
+     "charlotte",
+     "rimururu",
+     "zankuro",
+     "amakusa"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_edge",
+      "via": "hibiki",
+      "note": "Hibiki crosses in for one scene in Episode 5 and does not join; a Soul Edge fragment is named among the fortress treasures in the ending."
+     }
+    ],
+    "final_boss": "amakusa",
+    "role": "final_boss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "zankuro_pack",
+   "name": "Zankuro Minazuki — The Demon Swordsman",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-zankuro-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3869172,
+   "sha256": "0795bfa3d687f4e0ac695d82bb3bea8dacadb5fea5fd1b8ffa624bc29a3e435f",
+   "summary": "One new fighter: Zankuro Minazuki, Episode 5 mid-boss, with the full Fightcade kit. Built for arc 'Swords in a Country of Storms' (Arc 5).",
+   "fighters": [
+    "zankuro"
+   ],
+   "contents": {
+    "headline": "One new fighter: Zankuro Minazuki, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "zankuro",
+      "name": "Zankuro Minazuki",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Mid-boss of arc 'Swords in a Country of Storms' (Arc 5): Zankuro is Episode 5's mid-boss (resurrect: false); beaten, he opens the fortress gate himself because the party looked like an ending. His fighter def is also the kit source for the arc's mid-boss enemy def. The arc ships as the arc_swords_storms storyline pack.",
+    "music": [],
+    "links": "Hibiki Takane crosses in for one scene in Episode 5, on her own road to her father's killer; she does not join, and her fighter pack is produced under Arc 6, not this one. A Soul Edge fragment is named among the fortress treasures in the ending, linking forward to Arc 6, 'The Edge Is a Curse'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_swords_storms",
+    "arc_name": "Swords in a Country of Storms",
+    "arc_status": "approved",
+    "cluster": [
+     "haohmaru",
+     "nakoruru",
+     "galford",
+     "ukyo",
+     "charlotte",
+     "rimururu",
+     "amakusa",
+     "zankuro"
+    ],
+    "required_characters": [
+     "haohmaru",
+     "nakoruru",
+     "ukyo",
+     "galford",
+     "charlotte",
+     "rimururu",
+     "zankuro",
+     "amakusa"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_edge",
+      "via": "hibiki",
+      "note": "Hibiki crosses in for one scene in Episode 5 and does not join; a Soul Edge fragment is named among the fortress treasures in the ending."
+     }
+    ],
+    "final_boss": "amakusa",
+    "role": "miniboss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_swords_storms",
+   "name": "Storyline: Swords in a Country of Storms",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-swords-storms-pack.zip",
+   "size_bytes": 8608,
+   "sha256": "52437092fb0d76ac33ec52ce4053e47b0f9fadee13cf6fc915f195d54cfd1278",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "haohmaru",
+      "name": "Haohmaru",
+      "note": "Arc 5 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "nakoruru",
+      "name": "Nakoruru",
+      "note": "Arc 5 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "galford",
+      "name": "Galford",
+      "note": "Arc 5 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "ukyo",
+      "name": "Ukyo Tachibana",
+      "note": "Arc 5 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "charlotte",
+      "name": "Charlotte Colde",
+      "note": "Arc 5 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "rimururu",
+      "name": "Rimururu",
+      "note": "Arc 5 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "amakusa",
+      "name": "Amakusa Shirou Tokisada",
+      "note": "Arc 5 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "zankuro",
+      "name": "Zankuro Minazuki",
+      "note": "Arc 5 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_swords_storms",
+    "arc_name": "Swords in a Country of Storms",
+    "arc_status": "approved",
+    "cluster": [
+     "haohmaru",
+     "nakoruru",
+     "galford",
+     "ukyo",
+     "charlotte",
+     "rimururu",
+     "amakusa",
+     "zankuro"
+    ],
+    "final_boss": "amakusa",
+    "links": [
+     {
+      "arc_id": "arc_the_edge",
+      "note": "Hibiki crosses in for one scene in Episode 5 and does not join; a Soul Edge fragment is named among the fortress treasures in the ending.",
+      "via": "hibiki"
+     }
+    ],
+    "required_characters": [
+     "haohmaru",
+     "nakoruru",
+     "ukyo",
+     "galford",
+     "charlotte",
+     "rimururu",
+     "zankuro",
+     "amakusa"
+    ],
+    "lead": "haohmaru",
+    "episodes": 6,
+    "scenes": 18,
+    "final_boss_name": "Amakusa Shirou Tokisada",
+    "premise": "A complete storyline: Haohmaru and Nakoruru against Amakusa's fortress of the challenged dead, in six episodes. A period arc, and the quietest on the slate."
+   }
   }
  ]
 }

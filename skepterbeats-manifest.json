@@ -2,8 +2,868 @@
  "packs": [
   {
    "id": "gouki_pack",
-   "name": "Gouki \u2014 Palm of the Demon",
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-gouki-pack.zip"
+   "name": "Gouki — Palm of the Demon",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-gouki-pack.zip",
+   "story": {
+    "arc_id": "arc_heart_of_battle",
+    "arc_name": "The Answer in the Heart of Battle",
+    "arc_status": "approved",
+    "cluster": [
+     "ryu",
+     "ken",
+     "gouki"
+    ],
+    "final_boss": "gouki",
+    "links": [
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "The Illuminati's observers attend the final duel; Arc 1 Episode 4's video call is where Ken decides to come.",
+      "via": "gill"
+     }
+    ],
+    "required_characters": [
+     "ryu",
+     "ken",
+     "gouki"
+    ],
+    "lead": "ryu",
+    "episodes": 6,
+    "scenes": 15,
+    "final_boss_name": "Gouki",
+    "premise": "A complete storyline: Ryu and Ken against Gouki, in six episodes. The scenes ship inside the game file."
+   }
+  },
+  {
+   "id": "terry_pack",
+   "name": "Terry Bogard — Lone Wolf of Southtown",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-terry-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2425334,
+   "sha256": "398dce59151c69e4ee812bfa1b3490c3d99d08653782d2dd12f224d937ca2ee0",
+   "summary": "One new fighter: Terry Bogard, with his full Fightcade kit.",
+   "fighters": [
+    "terry"
+   ],
+   "contents": {
+    "headline": "One new fighter: Terry Bogard, with his full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "terry",
+      "name": "Terry Bogard",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Hero of arc 'Southtown: The Geese Tower' (provisional). Brings no scenes; the arc ships as a storyline pack.",
+    "music": [],
+    "links": "Links to 'Street World: The Ansatsuken Web' through Kyo's crossover.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "final_boss": "geese",
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc.",
+      "via": "kyo"
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back.",
+      "via": "alex"
+     }
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "role": "hero"
+   }
+  },
+  {
+   "id": "geese_pack",
+   "name": "Geese Howard — Emperor of Southtown",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-geese-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2756083,
+   "sha256": "dfd1bb742f2d7bac600e8534448d7e7004a4a507651f17d2b2e69709674ac576",
+   "summary": "One new fighter: Geese Howard, priority villain, with his full Fightcade kit.",
+   "fighters": [
+    "geese"
+   ],
+   "contents": {
+    "headline": "One new fighter: Geese Howard, priority villain, with his full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "geese",
+      "name": "Geese Howard",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of arc 'Southtown: The Geese Tower' (provisional). Brings no scenes; the arc ships as a storyline pack.",
+    "music": [],
+    "links": "Links to 'Street World: The Ansatsuken Web' through Kyo's crossover.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "final_boss": "geese",
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc.",
+      "via": "kyo"
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back.",
+      "via": "alex"
+     }
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "role": "final_boss"
+   }
+  },
+  {
+   "id": "rock_pack",
+   "name": "Rock Howard — The Wolf's Heir",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-rock-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2223295,
+   "sha256": "d6a507ddbd1bfd29faee3c198947405d86707c7e29651879f4b2029596c19617",
+   "summary": "One new fighter: Rock Howard, with the full Fightcade kit. Built for arc 'Kings Who Refuse to Kneel' (Arc 3, Southtown).",
+   "fighters": [
+    "rock"
+   ],
+   "contents": {
+    "headline": "One new fighter: Rock Howard, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "rock",
+      "name": "Rock Howard",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'Kings Who Refuse to Kneel' (Arc 3): Rock joins in Episode 3, refusing the Howard name in public, and stands with Terry in the Episode 6 finale. The arc ships as the arc_southtown storyline pack.",
+    "music": [],
+    "links": "Kyo Kusanagi's Episode 5 call opens Arc 4, 'The Seal Is Not a Weapon'. Alex appears as poster set-dressing in Episode 1, a link to 'Eleven Seconds'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "via": "kyo",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc."
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "via": "alex",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back."
+     }
+    ],
+    "final_boss": "geese",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "ryo_pack",
+   "name": "Ryo Sakazaki — The Invincible Dragon",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-ryo-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2396537,
+   "sha256": "5d290c656bfa467d19963898f665cbc913eb89ea40938b398c4f1f848f6236a8",
+   "summary": "One new fighter: Ryo Sakazaki, with the full Fightcade kit. Built for arc 'Kings Who Refuse to Kneel' (Arc 3, Southtown).",
+   "fighters": [
+    "ryo"
+   ],
+   "contents": {
+    "headline": "One new fighter: Ryo Sakazaki, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "ryo",
+      "name": "Ryo Sakazaki",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'Kings Who Refuse to Kneel' (Arc 3): Ryo leads the dojo's war in Episodes 2 and 5. The arc ships as the arc_southtown storyline pack.",
+    "music": [],
+    "links": "Kyo Kusanagi's Episode 5 call opens Arc 4, 'The Seal Is Not a Weapon'. Alex appears as poster set-dressing in Episode 1, a link to 'Eleven Seconds'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "via": "kyo",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc."
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "via": "alex",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back."
+     }
+    ],
+    "final_boss": "geese",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "yuri_pack",
+   "name": "Yuri Sakazaki — The Wildcat of Kyokugen",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-yuri-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2158420,
+   "sha256": "bf898f1f471cc2f09912b1f4bbff8172e157c5e7bdaafc50822b20fc7aeee70f",
+   "summary": "One new fighter: Yuri Sakazaki, with the full Fightcade kit. Built for arc 'Kings Who Refuse to Kneel' (Arc 3, Southtown).",
+   "fighters": [
+    "yuri"
+   ],
+   "contents": {
+    "headline": "One new fighter: Yuri Sakazaki, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "yuri",
+      "name": "Yuri Sakazaki",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'Kings Who Refuse to Kneel' (Arc 3): Yuri joins in Episode 2, arriving at the dojo's garage mid-collection. The arc ships as the arc_southtown storyline pack.",
+    "music": [],
+    "links": "Kyo Kusanagi's Episode 5 call opens Arc 4, 'The Seal Is Not a Weapon'. Alex appears as poster set-dressing in Episode 1, a link to 'Eleven Seconds'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "via": "kyo",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc."
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "via": "alex",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back."
+     }
+    ],
+    "final_boss": "geese",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "king_pack",
+   "name": "King — The Illusion of Southtown",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-king-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2265554,
+   "sha256": "19797e8cf8bb3460ed6df7b6966215d5df86687c16441423e32ce845e792f4f5",
+   "summary": "One new fighter: King, with the full Fightcade kit. Built for arc 'Kings Who Refuse to Kneel' (Arc 3, Southtown).",
+   "fighters": [
+    "king"
+   ],
+   "contents": {
+    "headline": "One new fighter: King, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "king",
+      "name": "King",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'Kings Who Refuse to Kneel' (Arc 3): King joins in Episode 4, when her bar becomes the cluster's safehouse. The arc ships as the arc_southtown storyline pack.",
+    "music": [],
+    "links": "Kyo Kusanagi's Episode 5 call opens Arc 4, 'The Seal Is Not a Weapon'. Alex appears as poster set-dressing in Episode 1, a link to 'Eleven Seconds'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "via": "kyo",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc."
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "via": "alex",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back."
+     }
+    ],
+    "final_boss": "geese",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "kim_pack",
+   "name": "Kim Kaphwan — The Crown of Taekwondo",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-kim-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2305352,
+   "sha256": "c81a9191df532428e35c040dee9e4e99d13b3f98ea04c0b2f2cdd42c07101428",
+   "summary": "One new fighter: Kim Kaphwan, with the full Fightcade kit. Built for arc 'Kings Who Refuse to Kneel' (Arc 3, Southtown).",
+   "fighters": [
+    "kim"
+   ],
+   "contents": {
+    "headline": "One new fighter: Kim Kaphwan, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "kim",
+      "name": "Kim Kaphwan",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'Kings Who Refuse to Kneel' (Arc 3): Kim stands with Terry from the Episode 1 garage shakedown. The arc ships as the arc_southtown storyline pack.",
+    "music": [],
+    "links": "Kyo Kusanagi's Episode 5 call opens Arc 4, 'The Seal Is Not a Weapon'. Alex appears as poster set-dressing in Episode 1, a link to 'Eleven Seconds'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "via": "kyo",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc."
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "via": "alex",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back."
+     }
+    ],
+    "final_boss": "geese",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "mai_pack",
+   "name": "Mai Shiranui — The Alluring Ninja",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-mai-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3839611,
+   "sha256": "780a7535072b60b8371cf5647a5ae7eaf51222b69edf1a89cd83cc25ff895d0e",
+   "summary": "One new fighter: Mai Shiranui, with the full Fightcade kit. Built for arc 'Kings Who Refuse to Kneel' (Arc 3, Southtown).",
+   "fighters": [
+    "mai"
+   ],
+   "contents": {
+    "headline": "One new fighter: Mai Shiranui, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "mai",
+      "name": "Mai Shiranui",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of arc 'Kings Who Refuse to Kneel' (Arc 3): Mai works the cluster's intelligence in Episodes 3 and 6. The arc ships as the arc_southtown storyline pack.",
+    "music": [],
+    "links": "Kyo Kusanagi's Episode 5 call opens Arc 4, 'The Seal Is Not a Weapon'. Alex appears as poster set-dressing in Episode 1, a link to 'Eleven Seconds'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "via": "kyo",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc."
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "via": "alex",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back."
+     }
+    ],
+    "final_boss": "geese",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "yamazaki_pack",
+   "name": "Ryuji Yamazaki — The Serpent of the Syndicate",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-yamazaki-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2528449,
+   "sha256": "d4726bfb0fb6944346dfbb442e411d1725efbcb7b422579c3dba9ae3846f2d54",
+   "summary": "One new fighter: Ryuji Yamazaki, with the full Fightcade kit. Built for arc 'Kings Who Refuse to Kneel' (Arc 3, Southtown).",
+   "fighters": [
+    "yamazaki"
+   ],
+   "contents": {
+    "headline": "One new fighter: Ryuji Yamazaki, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "yamazaki",
+      "name": "Ryuji Yamazaki",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Miniboss of arc 'Kings Who Refuse to Kneel' (Arc 3): Yamazaki leads the Episode 4 assault on King's bar; his pack also resolves the arc's miniboss enemy def. The arc ships as the arc_southtown storyline pack.",
+    "music": [],
+    "links": "Kyo Kusanagi's Episode 5 call opens Arc 4, 'The Seal Is Not a Weapon'. Alex appears as poster set-dressing in Episode 1, a link to 'Eleven Seconds'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "via": "kyo",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc."
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "via": "alex",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back."
+     }
+    ],
+    "final_boss": "geese",
+    "role": "miniboss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "mrkarate_pack",
+   "name": "Mr. Karate — The Masked Enforcer",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-mrkarate-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4267663,
+   "sha256": "efbb891a31b082a62ba387577585b354a6bf5cc2f04b639d6fda3c5183074739",
+   "summary": "One new fighter: Mr. Karate, with the full Fightcade kit. Built for arc 'Kings Who Refuse to Kneel' (Arc 3, Southtown).",
+   "fighters": [
+    "mrkarate"
+   ],
+   "contents": {
+    "headline": "One new fighter: Mr. Karate, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "mrkarate",
+      "name": "Mr. Karate",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Miniboss of arc 'Kings Who Refuse to Kneel' (Arc 3): Mr. Karate is the Episode 5 scored duel opponent, and Takuma unmasked after it — one fighter, one pack. The arc ships as the arc_southtown storyline pack.",
+    "music": [],
+    "links": "Kyo Kusanagi's Episode 5 call opens Arc 4, 'The Seal Is Not a Weapon'. Alex appears as poster set-dressing in Episode 1, a link to 'Eleven Seconds'.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "via": "kyo",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc."
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "via": "alex",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back."
+     }
+    ],
+    "final_boss": "geese",
+    "role": "miniboss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_southtown",
+   "name": "Storyline: Kings Who Refuse to Kneel",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-southtown-pack.zip",
+   "size_bytes": 8442,
+   "sha256": "ae62dc45f568b0a23c05ed67faa548fa62802a65ec28c521e4b8e455491e0d00",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "terry",
+      "name": "Terry Bogard",
+      "note": "Arc 3 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "rock",
+      "name": "Rock Howard",
+      "note": "Arc 3 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "geese",
+      "name": "Geese Howard",
+      "note": "Arc 3 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "ryo",
+      "name": "Ryo Sakazaki",
+      "note": "Arc 3 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "yuri",
+      "name": "Yuri Sakazaki",
+      "note": "Arc 3 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "king",
+      "name": "King",
+      "note": "Arc 3 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "kim",
+      "name": "Kim Kaphwan",
+      "note": "Arc 3 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "mai",
+      "name": "Mai Shiranui",
+      "note": "Arc 3 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "yamazaki",
+      "name": "Ryuji Yamazaki",
+      "note": "Arc 3 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "mrkarate",
+      "name": "Mr. Karate",
+      "note": "Arc 3 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "final_boss": "geese",
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc.",
+      "via": "kyo"
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back.",
+      "via": "alex"
+     }
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "lead": "terry",
+    "episodes": 6,
+    "scenes": 17,
+    "final_boss_name": "Geese Howard",
+    "premise": "A complete storyline: Terry Bogard, Rock Howard and the Sakazakis refuse Geese Howard's polite takeover of Southtown, in six episodes."
+   }
   }
  ]
 }

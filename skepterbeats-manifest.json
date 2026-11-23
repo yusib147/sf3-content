@@ -7987,6 +7987,46 @@
     "role": "final_boss"
    },
    "supersedes": []
+  },
+  {
+   "id": "ibuki_pack",
+   "name": "Ibuki — Kunoichi of the Glade",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-ibuki-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 7607439,
+   "sha256": "f8718060221bf9c4022054c3c302dd9bd73deceed985c238664845276a892fce",
+   "summary": "One new fighter: Ibuki, with her full Fightcade kit.",
+   "fighters": [
+    "ibuki"
+   ],
+   "contents": {
+    "headline": "One new fighter: Ibuki, with her full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "ibuki",
+      "name": "Ibuki",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Standalone fighter: Ibuki belongs to no storyline arc. Brings no scenes; she is roster only.",
+    "music": [],
+    "links": "Links to 'Southtown: The Geese Tower' through Kyo's crossover.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK."
+   },
+   "story": {
+    "arc_id": "",
+    "arc_name": "Standalone — no storyline arc",
+    "arc_status": "standalone",
+    "cluster": [
+     "ibuki"
+    ],
+    "links": [],
+    "required_characters": [],
+    "role": "standalone",
+    "premise": "A standalone fighter pack: Ibuki joins the roster with her full Fightcade kit and voice set. She belongs to no storyline arc and brings no scenes."
+   }
   }
  ]
 }

@@ -6528,6 +6528,650 @@
     "final_boss_name": "Gargos",
     "premise": "A complete storyline: Orchid's investigation, Jago's shadow and Gargos's offers, in six episodes."
    }
+  },
+  {
+   "id": "wonderwoman_pack",
+   "name": "Wonder Woman — The Answer",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-wonderwoman-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 6042803,
+   "sha256": "e5e4b697b8734533bf33229742fc3f70c22209a0588decd31e7679ecb060ff9f",
+   "summary": "One new fighter: Wonder Woman, the lead, with the full Fightcade kit. Built for arc 'Gods and Demands' (Arc 13).",
+   "fighters": [
+    "wonderwoman"
+   ],
+   "contents": {
+    "headline": "One new fighter: Wonder Woman, with the full Fightcade kit — the lead of 'Gods and Demands'.",
+    "fighters": [
+     {
+      "id": "wonderwoman",
+      "name": "Wonder Woman",
+      "note": "full special/super kit in pack data (9 specials, 6 supers), 64 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Lead of 'Gods and Demands' (Arc 13): Diana answers the offer made to every government at once, argues Adam's case on the lasso in Episode 6, and ends the arc with the bargain beaten and the war postponed. The arc ships as the arc_gods_demands storyline pack.",
+    "music": [],
+    "links": "Raiden's storm over Earthrealm is named once in Episode 1 (Arc 7's payoff, at name size only). The Martian Manhunter's Episode 5 testimony is written to stand alone and is played back as a recording in Arc 14.",
+    "notes": "The lead of 'Gods and Demands'. Full kit traced from the char's own .cmd and states/wonder.cns: Lasso of Truth, the three Warrior's Heart strengths, Bracelets of Submission, the Fierce family (heavy/medium/light/air) and six supers. Wrath of Themyscira's Level 3 state (3700) ChangeAnims to AIR 3500 inside its own statedef; the pack pins that anim by config, as it pins Fierce (Medium) to AIR 1500 and Fierce (Light/Air) to AIR 1570, the anims their statedefs ChangeAnim to. Throws pinned from statedefs: attempt = AIR 800, forward = AIR 810, back = AIR 850 (the execution anim of back-throw state 860; the grab reads clearly and the toss resolves on the victim's side, as in the source). Palette: pal1_rev forced — the auto-scores were uninformative (0.0 ties); pal1_rev is the .def's pal.defaults first entry and matches her portrait (red/gold top, blue bottoms, red boots) on the contact sheet. Voice mapped by PlaySnd context: calls from groups 100/200/500/700/800/20/45, hurt from groups 51 and 900 (referenced only from gethit states). No KO voice bank exists in her .snd (group 40 is a mixed fight-sound bank, not voice); the ko slot is honestly empty. Excluded as sub-states/system: the lasso projectile state (1009) and the superjump (2999). Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_gods_demands",
+    "arc_name": "Gods and Demands",
+    "arc_status": "approved",
+    "cluster": [
+     "wonderwoman",
+     "aquaman",
+     "shazam",
+     "flash",
+     "greenlantern",
+     "manhunter",
+     "blackadam",
+     "brainiac"
+    ],
+    "required_characters": [
+     "wonderwoman",
+     "flash",
+     "brainiac",
+     "blackadam",
+     "shazam",
+     "aquaman",
+     "greenlantern",
+     "manhunter"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "flash",
+      "note": "Raiden's storm over Earthrealm is named once in Episode 1, in the Flash's report of the scan that started this arc."
+     },
+     {
+      "arc_id": "arc_mutant_underground",
+      "via": "manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony stands alone and is played back as a recording in Arc 14."
+     }
+    ],
+    "final_boss": "blackadam",
+    "role": "lead"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "flash_pack",
+   "name": "The Flash — The Fastest Witness",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-flash-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2920637,
+   "sha256": "f2d7d2e7853da9e242002597243724452c876e463e3a7e5a204ddc8a5c9397db",
+   "summary": "One new fighter: The Flash, who arrives in Episode 1, with the full Fightcade kit. Built for arc 'Gods and Demands' (Arc 13).",
+   "fighters": [
+    "flash"
+   ],
+   "contents": {
+    "headline": "One new fighter: The Flash, with the full Fightcade kit — a partner of 'Gods and Demands'.",
+    "fighters": [
+     {
+      "id": "flash",
+      "name": "The Flash",
+      "note": "full special/super kit in pack data (5 specials, 4 supers), 42 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Gods and Demands' (Arc 13): the Flash is the Episode 1 partner, the fastest witness alive, whose scan report opens the arc; in Episode 5 he holds the evacuation exits at full stretch. The arc ships as the arc_gods_demands storyline pack.",
+    "music": [],
+    "links": "Raiden's storm over Earthrealm is named once in Episode 1 (Arc 7's payoff, at name size only). The Martian Manhunter's Episode 5 testimony is written to stand alone and is played back as a recording in Arc 14.",
+    "notes": "A partner of 'Gods and Demands'. Full kit traced from the char's own .cmd: Sneak Attack, Flash Kick, Flash Punches, Mad Dash, MultiKick and four supers (Around the World, Hyper Speed Punch, Hyper Flash at power 3000, Eat Dirt at power 2000). Flash Punches' header anim is his run (AIR 101); the pack pins AIR 3100, the anim of its own sub-states, and MultiKick pins AIR 4000 the same way. Throw: the source character has no true throw animation. The throw uses Eat Dirt (AIR 3700, state 3700) — the closest motion in the source — as a named adaptation (Adan's order, 2026-11-23). Voice mapped by PlaySnd context: calls from groups 2/40/60/170 — group 2's items 6-9 are music-length super themes (13.7s and up) and are excluded by item while its super call lines ship, and group 60 is the author's own 'light grunt' bank played from attack states. No hurt or KO voice bank exists in his .snd; those slots are honestly empty. Excluded: the Amalgam mode activation (9930, system) and a projectile state (1000) that no command dispatches. Palette: pal1_rev — best auto-score (0.98), pal.defaults first entry, verified against his portrait. Audit COMPLETE (throws present as the named adaptation)."
+   },
+   "story": {
+    "arc_id": "arc_gods_demands",
+    "arc_name": "Gods and Demands",
+    "arc_status": "approved",
+    "cluster": [
+     "wonderwoman",
+     "aquaman",
+     "shazam",
+     "flash",
+     "greenlantern",
+     "manhunter",
+     "blackadam",
+     "brainiac"
+    ],
+    "required_characters": [
+     "wonderwoman",
+     "flash",
+     "brainiac",
+     "blackadam",
+     "shazam",
+     "aquaman",
+     "greenlantern",
+     "manhunter"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "flash",
+      "note": "Raiden's storm over Earthrealm is named once in Episode 1, in the Flash's report of the scan that started this arc."
+     },
+     {
+      "arc_id": "arc_mutant_underground",
+      "via": "manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony stands alone and is played back as a recording in Arc 14."
+     }
+    ],
+    "final_boss": "blackadam",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "shazam_pack",
+   "name": "Shazam — The Champion",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-shazam-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4864450,
+   "sha256": "f12c232c08a6de94250208c973ad06a53c1d56b7931a3caa6b272e438b3a3e4a",
+   "summary": "One new fighter: Shazam, who joins in Episode 2, with the full Fightcade kit. Built for arc 'Gods and Demands' (Arc 13).",
+   "fighters": [
+    "shazam"
+   ],
+   "contents": {
+    "headline": "One new fighter: Shazam, with the full Fightcade kit — a partner of 'Gods and Demands'.",
+    "fighters": [
+     {
+      "id": "shazam",
+      "name": "Shazam",
+      "note": "full special/super kit in pack data (3 specials, 3 supers), 73 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Gods and Demands' (Arc 13): Shazam joins in Episode 2, among the orphans of Kahndaq, with his foster sister Mary's voice on a crackling radio as what he fights to protect. The arc ships as the arc_gods_demands storyline pack.",
+    "music": [],
+    "links": "Raiden's storm over Earthrealm is named once in Episode 1 (Arc 7's payoff, at name size only). The Martian Manhunter's Episode 5 testimony is written to stand alone and is played back as a recording in Arc 14.",
+    "notes": "A partner of 'Gods and Demands'. Kit traced from the DEF-AUTHORITATIVE command file (shazam_unotag/shazam.cmd; the root .cmd's extra dispatches target sub-states): Bolt of Zeus, Achilles' Clutch, Achilles Bolt and three supers. His statedef headers carry name suffixes the generic parse cannot read, so every kit anim is pinned by config from the statedefs themselves: Bolt of Zeus = AIR 10000 (the base form of its palette-expression header), Achilles' Clutch = AIR 8551, Achilles Bolt = AIR 24000. Single throw (command b): attempt = AIR 800, execution = AIR 810 serving both directions. Palette: pal1_rev forced — all four .act candidates are the same palette file; the red suit and white cape match his portrait on the contact sheet. Voice mapped by PlaySnd context: calls from groups 3/100/110/182/191/200/220/800 plus the banks his own states reference at 1000 and above, group 190's intro/win lines shipping in the win bank by the builder's standing routing; hurt = group 5000. Two music-length clips are excluded by item (group 100 item 13, 8.8s; group 3040 item 0, 16.4s — stereo tracks, not voice); groups 8000/8100 are the source's shared lightning/system sound band and are excluded whole. No KO bank exists (group 5500 plays from a state -2 handler, not from KO states); the ko slot is honestly empty. Excluded as AI-only dispatches with no human command block: Mercury Storm (1000) and Power of Zeus (3200); the Flight mode states (2000-2999) are a system mode. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_gods_demands",
+    "arc_name": "Gods and Demands",
+    "arc_status": "approved",
+    "cluster": [
+     "wonderwoman",
+     "aquaman",
+     "shazam",
+     "flash",
+     "greenlantern",
+     "manhunter",
+     "blackadam",
+     "brainiac"
+    ],
+    "required_characters": [
+     "wonderwoman",
+     "flash",
+     "brainiac",
+     "blackadam",
+     "shazam",
+     "aquaman",
+     "greenlantern",
+     "manhunter"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "flash",
+      "note": "Raiden's storm over Earthrealm is named once in Episode 1, in the Flash's report of the scan that started this arc."
+     },
+     {
+      "arc_id": "arc_mutant_underground",
+      "via": "manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony stands alone and is played back as a recording in Arc 14."
+     }
+    ],
+    "final_boss": "blackadam",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "aquaman_pack",
+   "name": "Aquaman — The Sea Answers",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-aquaman-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3631172,
+   "sha256": "defa24a0f53ce15b519337ca6ee053ff68fff1aedb5c6aa9935c51ab344275a1",
+   "summary": "One new fighter: Aquaman, who joins in Episode 3, with the full Fightcade kit. Built for arc 'Gods and Demands' (Arc 13).",
+   "fighters": [
+    "aquaman"
+   ],
+   "contents": {
+    "headline": "One new fighter: Aquaman, with the full Fightcade kit — a partner of 'Gods and Demands'.",
+    "fighters": [
+     {
+      "id": "aquaman",
+      "name": "Aquaman",
+      "note": "full special/super kit in pack data (5 specials, 4 supers), 47 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Gods and Demands' (Arc 13): Aquaman joins in Episode 3 by surfacing with Atlantis's refusal when the demand touches his waters, his council's fear argued honestly. The arc ships as the arc_gods_demands storyline pack.",
+    "music": [],
+    "links": "Raiden's storm over Earthrealm is named once in Episode 1 (Arc 7's payoff, at name size only). The Martian Manhunter's Episode 5 testimony is written to stand alone and is played back as a recording in Arc 14.",
+    "notes": "A partner of 'Gods and Demands'. Kit traced from the char's own .cmd and cross-checked against the movelist printed in his source's README image: Harpoon (charge back, then forward), Sonar, Trident of Atlantis, Dolphin Leap, Shark Attack and four supers. CHARACTER TRUTH: this source animates the trident where the first and third kick slots sit — AIR 230 is a trident twirl and AIR 250 a trident combo with one low sweep frame. The source animations are kept and the kick chain is named for what they are (Trident Twirl / Reef Kick / Trident Sweep). Single throw, pinned from the statedefs: attempt = AIR 800, execution = AIR 810 — the victim is lifted overhead on the trident and flung, a weapon throw; AIR 820/830 are the victim's own states and are not used. Dolphin Leap's header anim is his jump (AIR 40); the pack resolves it to AIR 1300 by the standing rule for sub-100 header anims on 1000+ states. Palette: pal1_rev forced (auto-scores uninformative); the classic orange-and-green matches his portrait's scheme on the contact sheet. Voice mapped by PlaySnd context: calls from groups 171/172/173 (43 clips — exertions, move calls and intro/win speeches; the long items are unique spoken lines, kept whole). Group 8500 is referenced by no state anywhere and is excluded. No hurt or KO voice bank exists in his .snd; those slots are honestly empty. Excluded: the Amalgam mode (4000, system). Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_gods_demands",
+    "arc_name": "Gods and Demands",
+    "arc_status": "approved",
+    "cluster": [
+     "wonderwoman",
+     "aquaman",
+     "shazam",
+     "flash",
+     "greenlantern",
+     "manhunter",
+     "blackadam",
+     "brainiac"
+    ],
+    "required_characters": [
+     "wonderwoman",
+     "flash",
+     "brainiac",
+     "blackadam",
+     "shazam",
+     "aquaman",
+     "greenlantern",
+     "manhunter"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "flash",
+      "note": "Raiden's storm over Earthrealm is named once in Episode 1, in the Flash's report of the scan that started this arc."
+     },
+     {
+      "arc_id": "arc_mutant_underground",
+      "via": "manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony stands alone and is played back as a recording in Arc 14."
+     }
+    ],
+    "final_boss": "blackadam",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "greenlantern_pack",
+   "name": "Green Lantern — Soldier of Oa",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-greenlantern-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2281068,
+   "sha256": "b8f8c897963eec91c0e57517697ab0937ad6af8b21360ccf7602108b64e1b3ad",
+   "summary": "One new fighter: Green Lantern (John Stewart), who arrives in Episode 4, with the full Fightcade kit. Built for arc 'Gods and Demands' (Arc 13).",
+   "fighters": [
+    "greenlantern"
+   ],
+   "contents": {
+    "headline": "One new fighter: Green Lantern (John Stewart), with the full Fightcade kit — a partner of 'Gods and Demands'.",
+    "fighters": [
+     {
+      "id": "greenlantern",
+      "name": "Green Lantern",
+      "note": "full special/super kit in pack data (13 specials, 10 supers), 36 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Gods and Demands' (Arc 13): John Stewart arrives in Episode 4 as the Corps' record of the collected worlds; inside his construct reconstruction of the shield, the party proves it is a bottle and fights its way out. The arc ships as the arc_gods_demands storyline pack.",
+    "music": [],
+    "links": "Raiden's storm over Earthrealm is named once in Episode 1 (Arc 7's payoff, at name size only). The Martian Manhunter's Episode 5 testimony is written to stand alone and is played back as a recording in Arc 14.",
+    "notes": "A partner of 'Gods and Demands' (John Stewart). The largest kit of the wave, traced from the char's own .cmd and MoveList.txt: thirteen specials (Shot of Will, Green Sphere, Green Flame, Chains of Despair, Shot of Will (Air), Swords of Lanterns, Oan Drill, Oath Shield, Charging Ram, Green Weaponry, Oan Charge, Helicopter, Wall) and ten supers. State 1500 shares Charging Ram's command and AIR 1400 as an alternate branch state and is not double-listed. Dino Dragon Attack (3900) and Emerald Knight (3950) share AIR 3950: state 3900's own header names AIR 3950 as its starting action ('posicion de inicio del ataque') — source truth, kept. Single throw, pinned from statedefs: attempt = AIR 800, execution = AIR 801 (grab, hoist, slam); AIR 810 is a ring effect and is not used. Palette: pal1_rev forced (auto-scores uninformative); the black-and-green Corps suit matches his portrait. Voice mapped by PlaySnd context: calls from groups 171/172/173/174 (intro/win quotes, move calls, super lines); group 1100's single clip plays from a special's sub-state and ships by the standing 1000-and-above rule. No hurt or KO voice bank exists in his .snd; those slots are honestly empty. Excluded: Fly (3300), the flight-control state — a system mode. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_gods_demands",
+    "arc_name": "Gods and Demands",
+    "arc_status": "approved",
+    "cluster": [
+     "wonderwoman",
+     "aquaman",
+     "shazam",
+     "flash",
+     "greenlantern",
+     "manhunter",
+     "blackadam",
+     "brainiac"
+    ],
+    "required_characters": [
+     "wonderwoman",
+     "flash",
+     "brainiac",
+     "blackadam",
+     "shazam",
+     "aquaman",
+     "greenlantern",
+     "manhunter"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "flash",
+      "note": "Raiden's storm over Earthrealm is named once in Episode 1, in the Flash's report of the scan that started this arc."
+     },
+     {
+      "arc_id": "arc_mutant_underground",
+      "via": "manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony stands alone and is played back as a recording in Arc 14."
+     }
+    ],
+    "final_boss": "blackadam",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "manhunter_pack",
+   "name": "Martian Manhunter — The Testimony",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-manhunter-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2580495,
+   "sha256": "dd16cb048d51de31e58a557445304cfdff7429ec522397af0ffa8880d3ec553d",
+   "summary": "One new fighter: Martian Manhunter, who arrives in Episode 5, with the full Fightcade kit. Built for arc 'Gods and Demands' (Arc 13).",
+   "fighters": [
+    "manhunter"
+   ],
+   "contents": {
+    "headline": "One new fighter: Martian Manhunter, with the full Fightcade kit — a partner of 'Gods and Demands'.",
+    "fighters": [
+     {
+      "id": "manhunter",
+      "name": "Martian Manhunter",
+      "note": "full special/super kit in pack data (5 specials, 6 supers), 61 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner of 'Gods and Demands' (Arc 13): the Martian Manhunter is present from Episode 5; his pre-fight testimony opens with his name and his world's fate and closes with the instruction that it be played whole and unsoftened. The arc ships as the arc_gods_demands storyline pack.",
+    "music": [],
+    "links": "Raiden's storm over Earthrealm is named once in Episode 1 (Arc 7's payoff, at name size only). The Martian Manhunter's Episode 5 testimony is written to stand alone and is played back as a recording in Arc 14.",
+    "notes": "A partner of 'Gods and Demands'. Kit traced from the char's own .cmd and readme: Telekinetic Throw, the Psionic Blast in standing/air/crouch dispatches, Teleportation and six supers. The .cmd classifies Telekinetic Throw as a normal, so it is added by kit_override; its strip is AIR 901, the grab execution its own statedef ChangeStates into (state 900's AIR 900 is a single static frame), pinned by config. He floats: his air attack states reuse his standing anims (the readme's stand basics are his air basics), so air_atk pins AIR 230, and his standing kicks are aerial-style dives — source truth, and the kick chain is named for what they show. Single throw: attempt = AIR 800 (one static frame — the attempt is a single frame by the source's own data), execution = AIR 801 (reach, overhead hoist, slam). Palette: pal1 ('Brightest Day') forced, pal.defaults first entry, matching his portrait. Voice mapped by PlaySnd context: group 1 is proven his voice by the throw and super states that play it; groups 100/200/210/220 carry no literal references but share the banks' recording format and clip durations inside a single-character .snd and are included on that evidence; hurt = group 5000, ko = group 5100. Excluded as system modes: Flight Mode (1330) and its thirteen control sub-states, Invisible Mode (1400/1401). Mental Damage's alternate branch state (3310 — same command, same anim) is not double-listed, and the 'charge' dispatch (4600) has no statedef anywhere in the source: a dead command, excluded. Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_gods_demands",
+    "arc_name": "Gods and Demands",
+    "arc_status": "approved",
+    "cluster": [
+     "wonderwoman",
+     "aquaman",
+     "shazam",
+     "flash",
+     "greenlantern",
+     "manhunter",
+     "blackadam",
+     "brainiac"
+    ],
+    "required_characters": [
+     "wonderwoman",
+     "flash",
+     "brainiac",
+     "blackadam",
+     "shazam",
+     "aquaman",
+     "greenlantern",
+     "manhunter"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "flash",
+      "note": "Raiden's storm over Earthrealm is named once in Episode 1, in the Flash's report of the scan that started this arc."
+     },
+     {
+      "arc_id": "arc_mutant_underground",
+      "via": "manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony stands alone and is played back as a recording in Arc 14."
+     }
+    ],
+    "final_boss": "blackadam",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "brainiac_pack",
+   "name": "Brainiac — The Collector",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-brainiac-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4496531,
+   "sha256": "d06d3499763674c17b788212492f4fcdb8d28f112161718944861b71e6b569cc",
+   "summary": "One new fighter: Brainiac, the arc's architect — a roster and versus pack only; he is never fought in this arc and has no enemy def. Built for arc 'Gods and Demands' (Arc 13).",
+   "fighters": [
+    "brainiac"
+   ],
+   "contents": {
+    "headline": "One new fighter: Brainiac, with the full Fightcade kit — roster and versus pack for 'Gods and Demands'.",
+    "fighters": [
+     {
+      "id": "brainiac",
+      "name": "Brainiac",
+      "note": "full special/super kit in pack data (13 specials, 10 supers), 38 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "The architect of 'Gods and Demands' (Arc 13): Brainiac speaks in exactly one scene and is never fought in the arc — there is no enemy def for him and no wave spawns him. His pack is roster and versus only, built to the same full standard. The arc ships as the arc_gods_demands storyline pack.",
+    "music": [],
+    "links": "Raiden's storm over Earthrealm is named once in Episode 1 (Arc 7's payoff, at name size only). The Martian Manhunter's Episode 5 testimony is written to stand alone and is played back as a recording in Arc 14.",
+    "notes": "Roster and versus pack for 'Gods and Demands' — he is never fought in the arc and has no enemy def; built to the same full standard. Kit traced from the char's own .cmd: thirteen specials (the Proton Palm family, the crouch Seeker Blasts, three Rising Uppers, three Grapple Uppers — command grabs by their HitDef data) and ten supers. Two supers needed statedef-level pins: Hadron Blaster's header anim is an ifelse whose normal-mode branch is AIR 3150 (its AIR 3200 action references sprite group 3051, which no shipped .sff contains), and Metal Destroyer's opening actions (3100/3101) likewise reference sprites absent from every shipped .sff — its chain's payload state (3150) displays AIR 3110, fully sprite-backed, and the pack pins AIR 3110 on the execution-anim precedent. Atk3/Kick3: the source character carries only two standing punches and two standing kicks (states 220 and 250 exist in no state file and the .cmd never dispatches them). The atk3 slot serves his Proton Palm (AIR 1000, state 1000) and the kick3 slot serves AIR 220, the dive kick his state 240 plays — the closest standing attack motions in the source — as named adaptations (Adan's order, 2026-11-23). His full crouch and air sets do ship, untouched. Voice mapped by PlaySnd context: group 20 is his all-purpose voice bank (win, normals, throw, specials and a gethit state all play it); group 180's items 0-8 are duplicate win-music tracks and are excluded by item, as are group 190 item 0 and the 9-second stereo jingle at group 11 item 0; the 15xxx duplicate-registration banks, the 7000-band system sounds and group 13000 (a 78.9s song) are excluded whole. No hurt bank exists (his .snd has no group 5000; his reaction voice lives inside group 20), so the hurt slot is honestly empty; ko = group 5100. Palette: pal1_rev, proven byte-exact against sprite (0,0)'s own embedded palette (256 of 256 entries) — the pale skin and purple suit are his true default despite the greener portrait art. Audit COMPLETE (atk3 and kick3 present as named adaptations)."
+   },
+   "story": {
+    "arc_id": "arc_gods_demands",
+    "arc_name": "Gods and Demands",
+    "arc_status": "approved",
+    "cluster": [
+     "wonderwoman",
+     "aquaman",
+     "shazam",
+     "flash",
+     "greenlantern",
+     "manhunter",
+     "blackadam",
+     "brainiac"
+    ],
+    "required_characters": [
+     "wonderwoman",
+     "flash",
+     "brainiac",
+     "blackadam",
+     "shazam",
+     "aquaman",
+     "greenlantern",
+     "manhunter"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "flash",
+      "note": "Raiden's storm over Earthrealm is named once in Episode 1, in the Flash's report of the scan that started this arc."
+     },
+     {
+      "arc_id": "arc_mutant_underground",
+      "via": "manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony stands alone and is played back as a recording in Arc 14."
+     }
+    ],
+    "final_boss": "blackadam",
+    "role": "villain"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "blackadam_pack",
+   "name": "Black Adam — The Bargain",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-blackadam-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1132353,
+   "sha256": "d3356bd766e5751e39c7a555fb17210ebd7a4996f40160d5a640b7d7355e856e",
+   "summary": "One new fighter: Black Adam, the final boss, with the full Fightcade kit. Built for arc 'Gods and Demands' (Arc 13).",
+   "fighters": [
+    "blackadam"
+   ],
+   "contents": {
+    "headline": "One new fighter: Black Adam, with the full Fightcade kit — the final boss of 'Gods and Demands'.",
+    "fighters": [
+     {
+      "id": "blackadam",
+      "name": "Black Adam",
+      "note": "full special/super kit in pack data (10 specials, 3 supers), 19 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of 'Gods and Demands' (Arc 13): Adam is fought above Kahndaq in Episode 6 while the shield comes down by inches; his boss def resolves its kit from this pack (kit_source: fighter_def), phase two is Adam Unbound, and he does not resurrect. The arc ships as the arc_gods_demands storyline pack.",
+    "music": [],
+    "links": "Raiden's storm over Earthrealm is named once in Episode 1 (Arc 7's payoff, at name size only). The Martian Manhunter's Episode 5 testimony is written to stand alone and is played back as a recording in Arc 14.",
+    "notes": "The final boss of 'Gods and Demands'; his boss def resolves its kit from this pack (kit_source: fighter_def). Kit traced from the DEF-LOADED state files only (basics.st, specials.st, supers.st — the root specials1.st/specials2.st and the blackadam/ subdir copies are not loaded by his .def and were not used): ten specials and three supers, every anim pinned by config from the loaded files' statedefs, including Wrath of Kahndaq (1130) at AIR 10001 and World War III (1131). The 1013/1014/1015 family is one move in three strengths sharing AIR 1013, listed once per strength. His throw is a flying grab-rush, pinned from the HitDef NT statedefs: attempt = AIR 1127 (state 800 in the loaded specials.st), execution = AIR 4001 (state 801's victim-lift anim), serving both directions. An air throw (state 1500) hangs off the Lightning Rush chain; air throws have no pack slot. Palette: pal1 ('Kahndaq Gold') forced, pal.defaults first entry, matching his portrait. Voice mapped by PlaySnd context: group 6 is his voice bank (66 references across intro, win, special, super and throw states); its eight cinema-length items (7 seconds and up — intro and super cinematics, plus one unreferenced 15.9s clip) are excluded by item and the nine spoken lines ship; group 2's five unreferenced voice-length clips are included on the single-character .snd evidence. No hurt or KO bank exists; those slots are honestly empty. Excluded as system: the dash state (1340) and the hover state (10000). Audit COMPLETE."
+   },
+   "story": {
+    "arc_id": "arc_gods_demands",
+    "arc_name": "Gods and Demands",
+    "arc_status": "approved",
+    "cluster": [
+     "wonderwoman",
+     "aquaman",
+     "shazam",
+     "flash",
+     "greenlantern",
+     "manhunter",
+     "blackadam",
+     "brainiac"
+    ],
+    "required_characters": [
+     "wonderwoman",
+     "flash",
+     "brainiac",
+     "blackadam",
+     "shazam",
+     "aquaman",
+     "greenlantern",
+     "manhunter"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "via": "flash",
+      "note": "Raiden's storm over Earthrealm is named once in Episode 1, in the Flash's report of the scan that started this arc."
+     },
+     {
+      "arc_id": "arc_mutant_underground",
+      "via": "manhunter",
+      "note": "The Martian Manhunter's Episode 5 testimony stands alone and is played back as a recording in Arc 14."
+     }
+    ],
+    "final_boss": "blackadam",
+    "role": "final_boss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_gods_demands",
+   "name": "Storyline: Gods and Demands",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-gods-demands-pack.zip",
+   "size_bytes": 9083,
+   "sha256": "c295702c15b3e73c52aaf1e155edd802ebb7dfb6a36e88095f1c5e0c179ccae0",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "wonderwoman",
+      "name": "Wonder Woman",
+      "note": "Arc 13 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "flash",
+      "name": "The Flash",
+      "note": "Arc 13 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "shazam",
+      "name": "Shazam",
+      "note": "Arc 13 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "aquaman",
+      "name": "Aquaman",
+      "note": "Arc 13 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "greenlantern",
+      "name": "Green Lantern",
+      "note": "Arc 13 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "manhunter",
+      "name": "Martian Manhunter",
+      "note": "Arc 13 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "brainiac",
+      "name": "Brainiac",
+      "note": "Arc 13 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "blackadam",
+      "name": "Black Adam",
+      "note": "Arc 13 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_gods_demands",
+    "arc_name": "Gods and Demands",
+    "arc_status": "approved",
+    "cluster": [
+     "wonderwoman",
+     "aquaman",
+     "shazam",
+     "flash",
+     "greenlantern",
+     "manhunter",
+     "blackadam",
+     "brainiac"
+    ],
+    "final_boss": "blackadam",
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "note": "Raiden's storm over Earthrealm is named once in Episode 1, in the Flash's report of the scan that started this arc.",
+      "via": "flash"
+     },
+     {
+      "arc_id": "arc_mutant_underground",
+      "note": "The Martian Manhunter's Episode 5 testimony stands alone and is played back as a recording in Arc 14.",
+      "via": "manhunter"
+     }
+    ],
+    "required_characters": [
+     "wonderwoman",
+     "flash",
+     "brainiac",
+     "blackadam",
+     "shazam",
+     "aquaman",
+     "greenlantern",
+     "manhunter"
+    ],
+    "lead": "wonderwoman",
+    "episodes": 6,
+    "scenes": 15,
+    "final_boss_name": "Black Adam",
+    "premise": "A complete storyline: Wonder Woman answers Brainiac's offer of protection and Black Adam's bargain for Kahndaq, in six episodes."
+   }
   }
  ]
 }

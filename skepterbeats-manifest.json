@@ -3720,6 +3720,561 @@
     "final_boss_name": "I-No",
     "premise": "A complete storyline: Sol, Ky and Dizzy's family against I-No's rewrite of history, in six episodes."
    }
+  },
+  {
+   "id": "haggar_pack",
+   "name": "Mike Haggar — The Mayor of Metro City",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-haggar-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2493598,
+   "sha256": "56f662fc3649d437398b26755d10f9532e128237336904c491996096a288c53a",
+   "summary": "One new fighter: Mike Haggar, the lead, with the full Fightcade kit. Built for arc 'Metro City Is Worth Saving' (Arc 11).",
+   "fighters": [
+    "haggar"
+   ],
+   "contents": {
+    "headline": "One new fighter: Mike Haggar, with the full Fightcade kit — the lead of 'Metro City Is Worth Saving'.",
+    "fighters": [
+     {
+      "id": "haggar",
+      "name": "Mike Haggar",
+      "note": "full special/super kit in pack data (17 specials, 5 supers), 30 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Lead of 'Metro City Is Worth Saving' (Arc 11): Haggar defends the bought gyms across all six episodes, from Guy's arrival in Episode 1 to signing the trust that reopens them in Episode 6. The arc ships as the arc_metro_city storyline pack.",
+    "music": [],
+    "links": "Hugo's old exhibition poster hangs in a reopened gym in Episode 2, a set-dressing link to 'Eleven Seconds'; Rolento's seized ledger and the Shadaloo remnant Lucia names in Episode 5 open the road to 'The Interpol File'. No character crosses over.",
+    "notes": "Metro City's mayor and the arc's lead. Full kit traced from the char's own explod-based command interpreter and its Readme movelist: 17 specials and 5 supers, including all three Flying Piledriver strengths plus EX, both Double Lariat dispatches, and the Lv3 Final Haggar Buster. Real throws (AIR 800/810/820, visually verified: backdrop and overhead lift toss); his extra Readme throws (Suplex, Heave Ho!) ride the same core slots. Default palette forced to pal4 (the .def's own pal.defaults first entry) after the auto-pick chose pal11, a themed alt. Voice: group 5 ships as the call bank (17 clips, played from his close normal and counter states); groups 5200/8500/8600 are md5-identical template sound effects across the POTS-family chars and are excluded. The source .snd has no KO bank, so the KO slot is honestly empty. Excluded as system mechanics: Alpha Counter, Counter Movement, MAX Mode, Power Charge, the dodge/roll states, and the Dat Pipe!! air normal."
+   },
+   "story": {
+    "arc_id": "arc_metro_city",
+    "arc_name": "Metro City Is Worth Saving",
+    "arc_status": "approved",
+    "cluster": [
+     "haggar",
+     "cody",
+     "guy",
+     "lucia",
+     "maki",
+     "sodom",
+     "rolento"
+    ],
+    "required_characters": [
+     "haggar",
+     "guy",
+     "cody",
+     "maki",
+     "lucia",
+     "sodom",
+     "rolento"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Hugo's old exhibition poster hangs in the reopened gym in Episode 2, narration set-dressing only; Hugo does not appear.",
+      "via": "hugo"
+     },
+     {
+      "arc_id": "arc_interpol_file",
+      "note": "Lucia names Rolento's Shadaloo-remnant supplier in Episode 5; his seized ledger becomes the Interpol file's first exhibit in Arc 12.",
+      "via": "rolento"
+     }
+    ],
+    "final_boss": "rolento",
+    "role": "lead"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "guy_pack",
+   "name": "Guy — Bushinryu, First Out the Door",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-guy-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1855223,
+   "sha256": "cc6ed0bc94b6c438bc556eaed56ebbd9c6e6594ff3febd63e575f4d0143c025c",
+   "summary": "One new fighter: Guy, a partner, with the full Fightcade kit. Built for arc 'Metro City Is Worth Saving' (Arc 11).",
+   "fighters": [
+    "guy"
+   ],
+   "contents": {
+    "headline": "One new fighter: Guy, with the full Fightcade kit — a partner of 'Metro City Is Worth Saving'.",
+    "fighters": [
+     {
+      "id": "guy",
+      "name": "Guy",
+      "note": "full special/super kit in pack data (6 specials, 3 supers), 50 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'Metro City Is Worth Saving' (Arc 11): Guy joins at segment 0 of Episode 1, the first arrival of the arc, and is the featured partner of Episode 3, where the succession duel is his. The arc ships as the arc_metro_city storyline pack.",
+    "music": [],
+    "links": "Hugo's old exhibition poster hangs in a reopened gym in Episode 2, a set-dressing link to 'Eleven Seconds'; Rolento's seized ledger and the Shadaloo remnant Lucia names in Episode 5 open the road to 'The Interpol File'. No character crosses over.",
+    "notes": "Warusaki CvS kit, move names from the char's own move list. Throw fix: the generic band pick put his guard state (AIR 830) in the back-throw slot and a groove state (AIR 800) in the attempt slot; his real ground throw is state 900, whose anim selects AIR 900 (punch throw) or AIR 910 (kick throw) by button, both verified visually as grab-and-toss motions and pinned to the throw, forward and back slots. His air throw (state 930) has no pack slot. Voice: groups 2 and 3 are his own banks (group 3 plays from his attack states, group 2 from his win and intro states) and ship as calls alongside the CvS template banks his own states play. Palette: the auto-pick scores were weak, but the rendered palette grid and the .def pal.defaults confirm pal4, the red Bushin gi, against the pack portrait."
+   },
+   "story": {
+    "arc_id": "arc_metro_city",
+    "arc_name": "Metro City Is Worth Saving",
+    "arc_status": "approved",
+    "cluster": [
+     "haggar",
+     "cody",
+     "guy",
+     "lucia",
+     "maki",
+     "sodom",
+     "rolento"
+    ],
+    "required_characters": [
+     "haggar",
+     "guy",
+     "cody",
+     "maki",
+     "lucia",
+     "sodom",
+     "rolento"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Hugo's old exhibition poster hangs in the reopened gym in Episode 2, narration set-dressing only; Hugo does not appear.",
+      "via": "hugo"
+     },
+     {
+      "arc_id": "arc_interpol_file",
+      "note": "Lucia names Rolento's Shadaloo-remnant supplier in Episode 5; his seized ledger becomes the Interpol file's first exhibit in Arc 12.",
+      "via": "rolento"
+     }
+    ],
+    "final_boss": "rolento",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "cody_pack",
+   "name": "Cody Travers — The Hero They Photocopied",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-cody-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2735554,
+   "sha256": "8a61814488037e363dba2f148025cce680a6e7a355bb95d429e6cef99a3f8d18",
+   "summary": "One new fighter: Cody Travers, a partner, with the full Fightcade kit. Built for arc 'Metro City Is Worth Saving' (Arc 11).",
+   "fighters": [
+    "cody"
+   ],
+   "contents": {
+    "headline": "One new fighter: Cody Travers, with the full Fightcade kit — a partner of 'Metro City Is Worth Saving'.",
+    "fighters": [
+     {
+      "id": "cody",
+      "name": "Cody Travers",
+      "note": "full special/super kit in pack data (8 specials, 5 supers), 61 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'Metro City Is Worth Saving' (Arc 11): Cody is the featured partner of Episode 2, under his own stolen poster, and returns to Haggar's side for the Episode 6 finale. The arc ships as the arc_metro_city storyline pack.",
+    "music": [],
+    "links": "Hugo's old exhibition poster hangs in a reopened gym in Episode 2, a set-dressing link to 'Eleven Seconds'; Rolento's seized ledger and the Shadaloo remnant Lucia names in Episode 5 open the road to 'The Interpol File'. No character crosses over.",
+    "notes": "Built on the source .def's own JailSuit sprite and sound set. Kit hand-traced past two parser traps: Bad Stone dispatches through an ifelse expression (state 1000, with state 1500 as its with-knife form, Knife Throw), and the state the generic parse flagged as a special (1300) is Bad Spray's falling gethit-recovery setup; the real Bad Spray attack is state 1301. Real throws (AIR 800/810/820, visually verified). Voice: his low groups 1/2/4, played from his normals, specials and supers, join the per-state call groups; the md5-shared template sound-effect groups 5200/8500/8600 are excluded. No KO bank exists in the source .snd. Excluded: Zero Counter (a guard-cancel system mechanic) and the Knife Pick-Up utility state."
+   },
+   "story": {
+    "arc_id": "arc_metro_city",
+    "arc_name": "Metro City Is Worth Saving",
+    "arc_status": "approved",
+    "cluster": [
+     "haggar",
+     "cody",
+     "guy",
+     "lucia",
+     "maki",
+     "sodom",
+     "rolento"
+    ],
+    "required_characters": [
+     "haggar",
+     "guy",
+     "cody",
+     "maki",
+     "lucia",
+     "sodom",
+     "rolento"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Hugo's old exhibition poster hangs in the reopened gym in Episode 2, narration set-dressing only; Hugo does not appear.",
+      "via": "hugo"
+     },
+     {
+      "arc_id": "arc_interpol_file",
+      "note": "Lucia names Rolento's Shadaloo-remnant supplier in Episode 5; his seized ledger becomes the Interpol file's first exhibit in Arc 12.",
+      "via": "rolento"
+     }
+    ],
+    "final_boss": "rolento",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "maki_pack",
+   "name": "Maki Genryusai — The Succession",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-maki-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3389864,
+   "sha256": "12fc012b1fb4f12cf53386e82498d96473da995b713316c039b4e67429545355",
+   "summary": "One new fighter: Maki Genryusai, a partner, with the full Fightcade kit. Built for arc 'Metro City Is Worth Saving' (Arc 11).",
+   "fighters": [
+    "maki"
+   ],
+   "contents": {
+    "headline": "One new fighter: Maki Genryusai, with the full Fightcade kit — a partner of 'Metro City Is Worth Saving'.",
+    "fighters": [
+     {
+      "id": "maki",
+      "name": "Maki Genryusai",
+      "note": "full special/super kit in pack data (9 specials, 12 supers), 68 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'Metro City Is Worth Saving' (Arc 11): Maki arrives as a fought duel in Episode 3 and joins in its post-scene; she is the featured partner of Episode 5. The arc ships as the arc_metro_city storyline pack.",
+    "music": [],
+    "links": "Hugo's old exhibition poster hangs in a reopened gym in Episode 2, a set-dressing link to 'Eleven Seconds'; Rolento's seized ledger and the Shadaloo remnant Lucia names in Episode 5 open the road to 'The Interpol File'. No character crosses over.",
+    "notes": "Warusaki CvS2 kit, hand-classified: the generic parse filed her supers as specials because her command data gates power by groove variable; at the C-groove thresholds (Lv.1 1000, Lv.2 2000, Lv.3 3000) the kit is 9 specials and 12 supers, every level of Tesshinhou, Bushin Gouraiha, Ajaratengu and Ajaratengu (Air) included. Throw fix: AIR 820 is her victim-side gethit state (movetype H); her two real throw states are 800 and 810, pinned to the throw/forward and back slots. Palette: the auto-pick (pal7) renders blue hair and a green outfit; the portrait and the .def's Pal.Defaults prove pal4, blonde hair and red outfit, forced. Voice: group 0 (33 clips) is her main shout bank and ships as effort; groups 3, 4 and 5, her run, special-move and throw voices, ship as calls. No KO bank exists in the source .snd. Excluded as CvS2 system mechanics: the counter states, Power Charge, MAX activation and the guard cancels."
+   },
+   "story": {
+    "arc_id": "arc_metro_city",
+    "arc_name": "Metro City Is Worth Saving",
+    "arc_status": "approved",
+    "cluster": [
+     "haggar",
+     "cody",
+     "guy",
+     "lucia",
+     "maki",
+     "sodom",
+     "rolento"
+    ],
+    "required_characters": [
+     "haggar",
+     "guy",
+     "cody",
+     "maki",
+     "lucia",
+     "sodom",
+     "rolento"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Hugo's old exhibition poster hangs in the reopened gym in Episode 2, narration set-dressing only; Hugo does not appear.",
+      "via": "hugo"
+     },
+     {
+      "arc_id": "arc_interpol_file",
+      "note": "Lucia names Rolento's Shadaloo-remnant supplier in Episode 5; his seized ledger becomes the Interpol file's first exhibit in Arc 12.",
+      "via": "rolento"
+     }
+    ],
+    "final_boss": "rolento",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "lucia_pack",
+   "name": "Lucia Morgan — The Warrant",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-lucia-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4653253,
+   "sha256": "5892e0f649c8d4d0feb02315d7e33e86049934cb19aefb7ef15f23990ddedf6e",
+   "summary": "One new fighter: Lucia Morgan, a partner, with the full Fightcade kit. Built for arc 'Metro City Is Worth Saving' (Arc 11).",
+   "fighters": [
+    "lucia"
+   ],
+   "contents": {
+    "headline": "One new fighter: Lucia Morgan, with the full Fightcade kit — a partner of 'Metro City Is Worth Saving'.",
+    "fighters": [
+     {
+      "id": "lucia",
+      "name": "Lucia Morgan",
+      "note": "full special/super kit in pack data (24 specials, 9 supers), 44 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'Metro City Is Worth Saving' (Arc 11): Lucia is the featured partner of Episode 4, arriving with the warrant and the purchase map, and names the Shadaloo remnant in Episode 5. The arc ships as the arc_metro_city storyline pack.",
+    "music": [],
+    "links": "Hugo's old exhibition poster hangs in a reopened gym in Episode 2, a set-dressing link to 'Eleven Seconds'; Rolento's seized ledger and the Shadaloo remnant Lucia names in Episode 5 open the road to 'The Interpol File'. No character crosses over.",
+    "notes": "POTS kit; the generic parse stands, with base and EX variants as separate entries exactly as the source dispatches them. Throw fix: AIR 820, the generic back-throw pick, is her victim-side gethit state (its statedef is movetype H) and animates a bound stance, not a throw; her real second throw is the kick throw, state 910 (verified: a grab into a rolling flip toss), now pinned to the back slot. Voice remapped by PlaySnd context: groups 1 and 2 are her attack shouts, played from her normals, throws, specials and supers, and groups 500/510/520/530 are her per-move calls, one bank per special or super. Groups 1000 and 8500 were swept in by the generic rule but are never played by her states and are excluded; her 8600 clip is md5-identical to the shared template sound effect. Palette pal1 verified against the portrait: blonde hair, blue top and shorts, brown vest."
+   },
+   "story": {
+    "arc_id": "arc_metro_city",
+    "arc_name": "Metro City Is Worth Saving",
+    "arc_status": "approved",
+    "cluster": [
+     "haggar",
+     "cody",
+     "guy",
+     "lucia",
+     "maki",
+     "sodom",
+     "rolento"
+    ],
+    "required_characters": [
+     "haggar",
+     "guy",
+     "cody",
+     "maki",
+     "lucia",
+     "sodom",
+     "rolento"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Hugo's old exhibition poster hangs in the reopened gym in Episode 2, narration set-dressing only; Hugo does not appear.",
+      "via": "hugo"
+     },
+     {
+      "arc_id": "arc_interpol_file",
+      "note": "Lucia names Rolento's Shadaloo-remnant supplier in Episode 5; his seized ledger becomes the Interpol file's first exhibit in Arc 12.",
+      "via": "rolento"
+     }
+    ],
+    "final_boss": "rolento",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "sodom_pack",
+   "name": "Sodom — The Honour Bout",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-sodom-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3133425,
+   "sha256": "ea649f8a9a782f8481b421084f30409771f7997fa47a483f969cb73279d3119d",
+   "summary": "One new fighter: Sodom, the miniboss, with the full Fightcade kit. Built for arc 'Metro City Is Worth Saving' (Arc 11).",
+   "fighters": [
+    "sodom"
+   ],
+   "contents": {
+    "headline": "One new fighter: Sodom, with the full Fightcade kit — the mid-boss of 'Metro City Is Worth Saving'.",
+    "fighters": [
+     {
+      "id": "sodom",
+      "name": "Sodom",
+      "note": "full special/super kit in pack data (13 specials, 10 supers), 42 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Mid-boss of 'Metro City Is Worth Saving' (Arc 11): Sodom ends the Episode 5 gauntlet of honour bouts as the miniboss; this pack also carries the kit source for his miniboss enemy def in the storyline payload. The arc ships as the arc_metro_city storyline pack.",
+    "music": [],
+    "links": "Hugo's old exhibition poster hangs in a reopened gym in Episode 2, a set-dressing link to 'Eleven Seconds'; Rolento's seized ledger and the Shadaloo remnant Lucia names in Episode 5 open the road to 'The Interpol File'. No character crosses over.",
+    "notes": "The arc's mid-boss. Built from pots_sodom.def, the Street Fighter sprite set; an identically purposed MasterSodom.def pointing at the Final Fight sprite set is not the pack source. Throw fix: AIR 900, the generic back-throw pick, is a standing jitte pose, not a throw. The source has one ground throw (state 800, both directions) whose execution chains through states 805 and 810: the forward slot takes the slam phase (810), the back slot the lift phase (805, visually verified holding and hoisting the victim). His air throw (state 850) has no pack slot. His two counter supers, Ten Chuu Satsu and Samurai's Revenge, animate as single held poses (one frame, 38 ticks) in the source; that is source truth, not missing art. Voice: groups 1, 2 and 4, played from his normals and super follow-ups, ship as calls; the md5-shared template sound-effect groups 5200/8500/8600 are excluded. No KO bank exists in the source .snd."
+   },
+   "story": {
+    "arc_id": "arc_metro_city",
+    "arc_name": "Metro City Is Worth Saving",
+    "arc_status": "approved",
+    "cluster": [
+     "haggar",
+     "cody",
+     "guy",
+     "lucia",
+     "maki",
+     "sodom",
+     "rolento"
+    ],
+    "required_characters": [
+     "haggar",
+     "guy",
+     "cody",
+     "maki",
+     "lucia",
+     "sodom",
+     "rolento"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Hugo's old exhibition poster hangs in the reopened gym in Episode 2, narration set-dressing only; Hugo does not appear.",
+      "via": "hugo"
+     },
+     {
+      "arc_id": "arc_interpol_file",
+      "note": "Lucia names Rolento's Shadaloo-remnant supplier in Episode 5; his seized ledger becomes the Interpol file's first exhibit in Arc 12.",
+      "via": "rolento"
+     }
+    ],
+    "final_boss": "rolento",
+    "role": "miniboss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "rolento_pack",
+   "name": "Rolento — The Purchased Army",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-rolento-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2745909,
+   "sha256": "a2fa2ae179d76acf524a004b3e2f6d8f4d3a0da334dd5cd0e0010e9d04e3b524",
+   "summary": "One new fighter: Rolento, the final boss, with the full Fightcade kit. Built for arc 'Metro City Is Worth Saving' (Arc 11).",
+   "fighters": [
+    "rolento"
+   ],
+   "contents": {
+    "headline": "One new fighter: Rolento, with the full Fightcade kit — the final boss of 'Metro City Is Worth Saving'.",
+    "fighters": [
+     {
+      "id": "rolento",
+      "name": "Rolento",
+      "note": "full special/super kit in pack data (7 specials, 3 supers), 54 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of 'Metro City Is Worth Saving' (Arc 11): Rolento waits at the end of Episode 6 on the Parade Ground; this pack also carries the kit source for his boss enemy def in the storyline payload. The arc ships as the arc_metro_city storyline pack.",
+    "music": [],
+    "links": "Hugo's old exhibition poster hangs in a reopened gym in Episode 2, a set-dressing link to 'Eleven Seconds'; Rolento's seized ledger and the Shadaloo remnant Lucia names in Episode 5 open the road to 'The Interpol File'. No character crosses over.",
+    "notes": "The arc's final boss. Warusaki CvS kit, move names from the char's own move list. Throw fix: the generic picks were his roll (AIR 800) and his guard state (AIR 830); his real ground throw is state 900, whose anim selects AIR 900 (punch throw) or AIR 910 (kick throw) by button, both verified as grab-and-toss motions and pinned to the throw, forward and back slots. His air throw has no pack slot. Voice: group 3, played from his attack states, ships as his call bank alongside the CvS template banks his own states play. Palette pal4 (khaki uniform, red beret) verified against the pack portrait."
+   },
+   "story": {
+    "arc_id": "arc_metro_city",
+    "arc_name": "Metro City Is Worth Saving",
+    "arc_status": "approved",
+    "cluster": [
+     "haggar",
+     "cody",
+     "guy",
+     "lucia",
+     "maki",
+     "sodom",
+     "rolento"
+    ],
+    "required_characters": [
+     "haggar",
+     "guy",
+     "cody",
+     "maki",
+     "lucia",
+     "sodom",
+     "rolento"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Hugo's old exhibition poster hangs in the reopened gym in Episode 2, narration set-dressing only; Hugo does not appear.",
+      "via": "hugo"
+     },
+     {
+      "arc_id": "arc_interpol_file",
+      "note": "Lucia names Rolento's Shadaloo-remnant supplier in Episode 5; his seized ledger becomes the Interpol file's first exhibit in Arc 12.",
+      "via": "rolento"
+     }
+    ],
+    "final_boss": "rolento",
+    "role": "final_boss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_metro_city",
+   "name": "Storyline: Metro City Is Worth Saving",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-metro-city-pack.zip",
+   "size_bytes": 8438,
+   "sha256": "acc840ca17334db9d575de51e63aab58c159027f98ce5a94ff45957041d5f35c",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "haggar",
+      "name": "Mike Haggar",
+      "note": "Arc 11 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "guy",
+      "name": "Guy",
+      "note": "Arc 11 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "cody",
+      "name": "Cody Travers",
+      "note": "Arc 11 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "maki",
+      "name": "Maki Genryusai",
+      "note": "Arc 11 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "lucia",
+      "name": "Lucia Morgan",
+      "note": "Arc 11 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "sodom",
+      "name": "Sodom",
+      "note": "Arc 11 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "rolento",
+      "name": "Rolento",
+      "note": "Arc 11 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_metro_city",
+    "arc_name": "Metro City Is Worth Saving",
+    "arc_status": "approved",
+    "cluster": [
+     "haggar",
+     "cody",
+     "guy",
+     "lucia",
+     "maki",
+     "sodom",
+     "rolento"
+    ],
+    "final_boss": "rolento",
+    "links": [
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Hugo's old exhibition poster hangs in the reopened gym in Episode 2, narration set-dressing only; Hugo does not appear.",
+      "via": "hugo"
+     },
+     {
+      "arc_id": "arc_interpol_file",
+      "note": "Lucia names Rolento's Shadaloo-remnant supplier in Episode 5; his seized ledger becomes the Interpol file's first exhibit in Arc 12.",
+      "via": "rolento"
+     }
+    ],
+    "required_characters": [
+     "haggar",
+     "guy",
+     "cody",
+     "maki",
+     "lucia",
+     "sodom",
+     "rolento"
+    ],
+    "lead": "haggar",
+    "episodes": 6,
+    "scenes": 17,
+    "final_boss_name": "Rolento",
+    "premise": "A complete storyline: Haggar, Cody, Guy, Lucia and Maki defend Metro City's gyms from Rolento's purchased army, in six episodes."
+   }
   }
  ]
 }

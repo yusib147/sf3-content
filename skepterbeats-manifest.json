@@ -2287,6 +2287,605 @@
     "final_boss_name": "Dark Raiden",
     "premise": "A complete storyline: Liu Kang and Earthrealm's champions against the god who protects them, in six episodes."
    }
+  },
+  {
+   "id": "morrigan_pack",
+   "name": "Morrigan — The Succubus Who Would Not Rule",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-morrigan-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4415583,
+   "sha256": "cc9657c2d55a46d6bf370ee9bb94eb99a9fdad578ba6389db478db563a93dbfd",
+   "summary": "One new fighter: Morrigan, the lead, with the full Fightcade kit. Built for arc 'The Night Is Not a Monster' (Arc 8).",
+   "fighters": [
+    "morrigan"
+   ],
+   "contents": {
+    "headline": "One new fighter: Morrigan Aensland, with the full Fightcade kit — the lead of 'The Night Is Not a Monster'.",
+    "fighters": [
+     {
+      "id": "morrigan",
+      "name": "Morrigan",
+      "note": "full special/super kit in pack data (10 specials including EX and air variants, 11 supers including the MAX set), full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Lead of 'The Night Is Not a Monster' (Arc 8): Morrigan defends the towns where humans and Darkstalkers already live together, and at the end declines the throne and takes responsibility without a crown. The arc ships as the arc_the_night storyline pack.",
+    "music": [],
+    "links": "Tessa crosses in for one scene in Episode 5 to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows. No other character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. The source's Alpha Counter (state 750), Counter Movement (740), MAX Mode install (770) and Power Charge (730) are system mechanics and stay out of the kit, named in the build log."
+   },
+   "story": {
+    "arc_id": "arc_the_night",
+    "arc_name": "The Night Is Not a Monster",
+    "arc_status": "approved",
+    "cluster": [
+     "morrigan",
+     "lilith",
+     "felicia",
+     "jontalbain",
+     "donovan",
+     "hsienko",
+     "demitri",
+     "jedah"
+    ],
+    "required_characters": [
+     "morrigan",
+     "felicia",
+     "jontalbain",
+     "hsienko",
+     "donovan",
+     "lilith",
+     "demitri",
+     "jedah"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_gear",
+      "via": "tessa",
+      "note": "Tessa crosses in for one Episode 5 scene to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows."
+     }
+    ],
+    "final_boss": "jedah",
+    "role": "lead"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "felicia_pack",
+   "name": "Felicia — A Play Is a Promise",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-felicia-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2842789,
+   "sha256": "3e54c9a6f562588483aad44ff718fd518cd649fc960c7245b74cbce28b04a96b",
+   "summary": "One new fighter: Felicia, a partner, with the full Fightcade kit. Built for arc 'The Night Is Not a Monster' (Arc 8).",
+   "fighters": [
+    "felicia"
+   ],
+   "contents": {
+    "headline": "One new fighter: Felicia, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "felicia",
+      "name": "Felicia",
+      "note": "full special/super kit in pack data (18 specials including the EX set, 5 supers), full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Night Is Not a Monster' (Arc 8): Felicia is already performing in the town the night touches first and joins in Episode 1; her rehearsal line, 'a play is a promise', is what the ending answers. The arc ships as the arc_the_night storyline pack.",
+    "music": [],
+    "links": "Tessa crosses in for one scene in Episode 5 to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows. No other character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. The source has no KO voice group (its group 5200 is a safe-fall sound), recorded as source truth; nothing was substituted."
+   },
+   "story": {
+    "arc_id": "arc_the_night",
+    "arc_name": "The Night Is Not a Monster",
+    "arc_status": "approved",
+    "cluster": [
+     "morrigan",
+     "lilith",
+     "felicia",
+     "jontalbain",
+     "donovan",
+     "hsienko",
+     "demitri",
+     "jedah"
+    ],
+    "required_characters": [
+     "morrigan",
+     "felicia",
+     "jontalbain",
+     "hsienko",
+     "donovan",
+     "lilith",
+     "demitri",
+     "jedah"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_gear",
+      "via": "tessa",
+      "note": "Tessa crosses in for one Episode 5 scene to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows."
+     }
+    ],
+    "final_boss": "jedah",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "jontalbain_pack",
+   "name": "Jon Talbain — A Man and a Wolf, Mixed",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-jontalbain-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2945966,
+   "sha256": "12f3288e6c93376f0dca43c64f03dd8d981ca9a11b71f4bb42f3d8535a5b0783",
+   "summary": "One new fighter: Jon Talbain, a partner, with the full Fightcade kit. Built for arc 'The Night Is Not a Monster' (Arc 8).",
+   "fighters": [
+    "jontalbain"
+   ],
+   "contents": {
+    "headline": "One new fighter: Jon Talbain, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "jontalbain",
+      "name": "Jon Talbain",
+      "note": "full special/super kit in pack data, full voice set (special-move howls and calls)"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Night Is Not a Monster' (Arc 8): the Episode 2 featured partner at the fairground of masked harvesters, where his control is tested by design and holds. The arc ships as the arc_the_night storyline pack.",
+    "music": [],
+    "links": "Tessa crosses in for one scene in Episode 5 to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows. No other character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. The source's groove system prices Dragon Cannon per groove (1000 in the standard grooves); the pack records the standard 1000 gate. Moment Slice records its standard 3000 gate."
+   },
+   "story": {
+    "arc_id": "arc_the_night",
+    "arc_name": "The Night Is Not a Monster",
+    "arc_status": "approved",
+    "cluster": [
+     "morrigan",
+     "lilith",
+     "felicia",
+     "jontalbain",
+     "donovan",
+     "hsienko",
+     "demitri",
+     "jedah"
+    ],
+    "required_characters": [
+     "morrigan",
+     "felicia",
+     "jontalbain",
+     "hsienko",
+     "donovan",
+     "lilith",
+     "demitri",
+     "jedah"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_gear",
+      "via": "tessa",
+      "note": "Tessa crosses in for one Episode 5 scene to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows."
+     }
+    ],
+    "final_boss": "jedah",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "hsienko_pack",
+   "name": "Hsien-Ko — The Jiangshi's Arsenal",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-hsienko-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3053436,
+   "sha256": "389c3a43f9c7b0c79d93622cdce11782c6b576f2f4c9c042d6507514459f938e",
+   "summary": "One new fighter: Hsien-Ko, a partner, with the full Fightcade kit. Built for arc 'The Night Is Not a Monster' (Arc 8).",
+   "fighters": [
+    "hsienko"
+   ],
+   "contents": {
+    "headline": "One new fighter: Hsien-Ko, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "hsienko",
+      "name": "Hsien-Ko",
+      "note": "full special/super kit in pack data (12 specials including the EX set, 9 super entries), full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Night Is Not a Monster' (Arc 8): Hsien-Ko arrives with Donovan in Episode 3, in the cathedral town where hunters and hunted share a wall. The arc ships as the arc_the_night storyline pack.",
+    "music": [],
+    "links": "Tessa crosses in for one scene in Episode 5 to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows. No other character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Rimoukon (3300/3350) ship as supers because the source dispatches them in the super band with power gates."
+   },
+   "story": {
+    "arc_id": "arc_the_night",
+    "arc_name": "The Night Is Not a Monster",
+    "arc_status": "approved",
+    "cluster": [
+     "morrigan",
+     "lilith",
+     "felicia",
+     "jontalbain",
+     "donovan",
+     "hsienko",
+     "demitri",
+     "jedah"
+    ],
+    "required_characters": [
+     "morrigan",
+     "felicia",
+     "jontalbain",
+     "hsienko",
+     "donovan",
+     "lilith",
+     "demitri",
+     "jedah"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_gear",
+      "via": "tessa",
+      "note": "Tessa crosses in for one Episode 5 scene to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows."
+     }
+    ],
+    "final_boss": "jedah",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "donovan_pack",
+   "name": "Donovan — The Sword Lowered",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-donovan-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4360626,
+   "sha256": "498af9cc6921c1d686ca62438f1b263c69e40567c6f0387f0f67da20962511fc",
+   "summary": "One new fighter: Donovan, a partner, with the full Fightcade kit. Built for arc 'The Night Is Not a Monster' (Arc 8).",
+   "fighters": [
+    "donovan"
+   ],
+   "contents": {
+    "headline": "One new fighter: Donovan Baine, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "donovan",
+      "name": "Donovan",
+      "note": "full special/super kit in pack data (19 specials, 5 supers), full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Night Is Not a Monster' (Arc 8): Donovan arrives with Hsien-Ko in Episode 3; saving her from his own order of hunters is what costs him the order. The arc ships as the arc_the_night storyline pack.",
+    "music": [],
+    "links": "Tessa crosses in for one scene in Episode 5 to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows. No other character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. The source's Advance Guard (states 1700-1702) and Dark Force (state 3200) are system mechanics of the source game and stay out of the kit, named in the build log."
+   },
+   "story": {
+    "arc_id": "arc_the_night",
+    "arc_name": "The Night Is Not a Monster",
+    "arc_status": "approved",
+    "cluster": [
+     "morrigan",
+     "lilith",
+     "felicia",
+     "jontalbain",
+     "donovan",
+     "hsienko",
+     "demitri",
+     "jedah"
+    ],
+    "required_characters": [
+     "morrigan",
+     "felicia",
+     "jontalbain",
+     "hsienko",
+     "donovan",
+     "lilith",
+     "demitri",
+     "jedah"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_gear",
+      "via": "tessa",
+      "note": "Tessa crosses in for one Episode 5 scene to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows."
+     }
+    ],
+    "final_boss": "jedah",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "lilith_pack",
+   "name": "Lilith — Her Own Name",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-lilith-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2080956,
+   "sha256": "e1bb2dd6af9b119340b2ef8c18bf35f1a206229696dcd584fa3d24bad4358f4e",
+   "summary": "One new fighter: Lilith, a partner, with the full Fightcade kit. Built for arc 'The Night Is Not a Monster' (Arc 8).",
+   "fighters": [
+    "lilith"
+   ],
+   "contents": {
+    "headline": "One new fighter: Lilith Aensland, with the full Fightcade kit.",
+    "fighters": [
+     {
+      "id": "lilith",
+      "name": "Lilith",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Night Is Not a Monster' (Arc 8): Lilith steps out of Morrigan's shadow in Episode 4 and demands to be counted as a combatant, not a plot point; she keeps her name at the end. The arc ships as the arc_the_night storyline pack.",
+    "music": [],
+    "links": "Tessa crosses in for one scene in Episode 5 to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows. No other character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Her call set includes the shared CvS template voice banks, the same treatment as the wave-1 CvS packs, recorded in the build log."
+   },
+   "story": {
+    "arc_id": "arc_the_night",
+    "arc_name": "The Night Is Not a Monster",
+    "arc_status": "approved",
+    "cluster": [
+     "morrigan",
+     "lilith",
+     "felicia",
+     "jontalbain",
+     "donovan",
+     "hsienko",
+     "demitri",
+     "jedah"
+    ],
+    "required_characters": [
+     "morrigan",
+     "felicia",
+     "jontalbain",
+     "hsienko",
+     "donovan",
+     "lilith",
+     "demitri",
+     "jedah"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_gear",
+      "via": "tessa",
+      "note": "Tessa crosses in for one Episode 5 scene to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows."
+     }
+    ],
+    "final_boss": "jedah",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "demitri_pack",
+   "name": "Demitri — The Oldest Law",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-demitri-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1901198,
+   "sha256": "3cffb220014c1fd15446613a785bd970969db84c90c83149b0ceae2b3604b34b",
+   "summary": "One new fighter: Demitri, the miniboss, with the full Fightcade kit. Built for arc 'The Night Is Not a Monster' (Arc 8).",
+   "fighters": [
+    "demitri"
+   ],
+   "contents": {
+    "headline": "One new fighter: Demitri Maximoff, with the full Fightcade kit — the mid-boss of 'The Night Is Not a Monster'.",
+    "fighters": [
+     {
+      "id": "demitri",
+      "name": "Demitri",
+      "note": "full special/super kit in pack data, full voice set (move calls per move family)"
+     }
+    ],
+    "stages": [],
+    "story": "Mid-boss of 'The Night Is Not a Monster' (Arc 8): Demitri is a rival claimant in Episode 5, fought as a scored duel in a throne room that is not his; beaten, he yields the road without joining. The arc ships as the arc_the_night storyline pack.",
+    "music": [],
+    "links": "Tessa crosses in for one scene in Episode 5 to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows. No other character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. Move names are the source's own Japanese command names, kept as written. The source's guard-cancel step (state 2300) is a system mechanic and stays out of the kit, named in the build log."
+   },
+   "story": {
+    "arc_id": "arc_the_night",
+    "arc_name": "The Night Is Not a Monster",
+    "arc_status": "approved",
+    "cluster": [
+     "morrigan",
+     "lilith",
+     "felicia",
+     "jontalbain",
+     "donovan",
+     "hsienko",
+     "demitri",
+     "jedah"
+    ],
+    "required_characters": [
+     "morrigan",
+     "felicia",
+     "jontalbain",
+     "hsienko",
+     "donovan",
+     "lilith",
+     "demitri",
+     "jedah"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_gear",
+      "via": "tessa",
+      "note": "Tessa crosses in for one Episode 5 scene to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows."
+     }
+    ],
+    "final_boss": "jedah",
+    "role": "miniboss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "jedah_pack",
+   "name": "Jedah — The Patience",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-jedah-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 4039258,
+   "sha256": "ea8551e1cb60320ccd3b68c1591427265b9063040f51285be741559348964ac0",
+   "summary": "One new fighter: Jedah, the final boss, with the full Fightcade kit. Built for arc 'The Night Is Not a Monster' (Arc 8).",
+   "fighters": [
+    "jedah"
+   ],
+   "contents": {
+    "headline": "One new fighter: Jedah Dohma, with the full Fightcade kit — the final boss of 'The Night Is Not a Monster'.",
+    "fighters": [
+     {
+      "id": "jedah",
+      "name": "Jedah",
+      "note": "full special/super kit in pack data (12 specials, 7 supers), full voice set"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of 'The Night Is Not a Monster' (Arc 8): the storyline fields Jedah on this fighter kit in Majigen (boss def in the storyline pack; resurrect is off — beaten, he withdraws into his own design, not destroyed). The arc ships as the arc_the_night storyline pack.",
+    "music": [],
+    "links": "Tessa crosses in for one scene in Episode 5 to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows. No other character crosses over.",
+    "notes": "Balance values are launch values; a balance pack can retune them without a new APK. The source's Power Charge (state 4000) and Original Combo custom-combo install (states 4100/4150) are system mechanics and stay out of the kit, named in the build log."
+   },
+   "story": {
+    "arc_id": "arc_the_night",
+    "arc_name": "The Night Is Not a Monster",
+    "arc_status": "approved",
+    "cluster": [
+     "morrigan",
+     "lilith",
+     "felicia",
+     "jontalbain",
+     "donovan",
+     "hsienko",
+     "demitri",
+     "jedah"
+    ],
+    "required_characters": [
+     "morrigan",
+     "felicia",
+     "jontalbain",
+     "hsienko",
+     "donovan",
+     "lilith",
+     "demitri",
+     "jedah"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_the_gear",
+      "via": "tessa",
+      "note": "Tessa crosses in for one Episode 5 scene to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that 'The Gear Is a Child' follows."
+     }
+    ],
+    "final_boss": "jedah",
+    "role": "final_boss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_the_night",
+   "name": "Storyline: The Night Is Not a Monster",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-the-night-pack.zip",
+   "size_bytes": 8069,
+   "sha256": "8aba2fe31cfdca77ecb97c4116a0ef661f615668119c3d5b09c9a694cadf2c42",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "morrigan",
+      "name": "Morrigan",
+      "note": "Arc 8 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "felicia",
+      "name": "Felicia",
+      "note": "Arc 8 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "jontalbain",
+      "name": "Jon Talbain",
+      "note": "Arc 8 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "hsienko",
+      "name": "Hsien-Ko",
+      "note": "Arc 8 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "donovan",
+      "name": "Donovan",
+      "note": "Arc 8 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "lilith",
+      "name": "Lilith",
+      "note": "Arc 8 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "demitri",
+      "name": "Demitri",
+      "note": "Arc 8 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "jedah",
+      "name": "Jedah",
+      "note": "Arc 8 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_the_night",
+    "arc_name": "The Night Is Not a Monster",
+    "arc_status": "approved",
+    "cluster": [
+     "morrigan",
+     "lilith",
+     "felicia",
+     "jontalbain",
+     "donovan",
+     "hsienko",
+     "demitri",
+     "jedah"
+    ],
+    "final_boss": "jedah",
+    "links": [
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Tessa crosses in for one Episode 5 scene to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that Arc 10 follows.",
+      "via": "tessa"
+     }
+    ],
+    "required_characters": [
+     "morrigan",
+     "felicia",
+     "jontalbain",
+     "hsienko",
+     "donovan",
+     "lilith",
+     "demitri",
+     "jedah"
+    ],
+    "lead": "morrigan",
+    "episodes": 6,
+    "scenes": 18,
+    "final_boss_name": "Jedah Dohma",
+    "premise": "A complete storyline: Morrigan Aensland defends the places where humans and Darkstalkers already live together, in six episodes."
+   }
   }
  ]
 }

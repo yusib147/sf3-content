@@ -34,6 +34,1245 @@
    }
   },
   {
+   "id": "bundle_arc_southtown",
+   "name": "Kings Who Refuse to Kneel — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-southtown-pack.zip",
+   "size_bytes": 27157479,
+   "sha256": "16b01a54949790183c43c9a3f603f9fcb672b25b62c35f6f2ae4193ff4a4b276",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "terry",
+      "name": "Terry Bogard",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "rock",
+      "name": "Rock Howard",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "geese",
+      "name": "Geese Howard",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "ryo",
+      "name": "Ryo Sakazaki",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "yuri",
+      "name": "Yuri Sakazaki",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "king",
+      "name": "King",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "kim",
+      "name": "Kim Kaphwan",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "mai",
+      "name": "Mai Shiranui",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "yamazaki",
+      "name": "Ryuji Yamazaki",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "mrkarate",
+      "name": "Mr. Karate",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_southtown",
+    "arc_name": "Kings Who Refuse to Kneel",
+    "arc_status": "approved",
+    "cluster": [
+     "terry",
+     "rock",
+     "geese",
+     "ryo",
+     "yuri",
+     "king",
+     "kim",
+     "mai",
+     "yamazaki",
+     "mrkarate"
+    ],
+    "final_boss": "geese",
+    "links": [
+     {
+      "arc_id": "arc_the_seal",
+      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc.",
+      "via": "kyo"
+     },
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back.",
+      "via": "alex"
+     }
+    ],
+    "required_characters": [
+     "terry",
+     "kim",
+     "ryo",
+     "yuri",
+     "mrkarate",
+     "geese",
+     "rock",
+     "mai",
+     "king",
+     "yamazaki"
+    ],
+    "lead": "terry",
+    "episodes": 6,
+    "scenes": 17,
+    "final_boss_name": "Geese Howard",
+    "premise": "A complete storyline: Terry Bogard, Rock Howard and the Sakazakis refuse Geese Howard's polite takeover of Southtown, in six episodes."
+   },
+   "supersedes": [
+    "arc_southtown"
+   ]
+  },
+  {
+   "id": "bundle_arc_the_seal",
+   "name": "The Seal Is Not a Weapon — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-bundle-arc-the-seal-pack.zip",
+   "size_bytes": 19265106,
+   "sha256": "41888c8b37072eb7ff776c695811551544f2d2363abc310e34ab65c456f40bab",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "kyo",
+      "name": "Kyo Kusanagi",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "iori",
+      "name": "Iori Yagami",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "benimaru",
+      "name": "Benimaru Nikaido",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "athena",
+      "name": "Athena Asamiya",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "goenitz",
+      "name": "Goenitz",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "orochichris",
+      "name": "Orochi Chris",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_the_seal",
+    "arc_name": "The Seal Is Not a Weapon",
+    "arc_status": "approved",
+    "cluster": [
+     "kyo",
+     "iori",
+     "benimaru",
+     "athena",
+     "goenitz",
+     "orochichris"
+    ],
+    "final_boss": "goenitz",
+    "links": [
+     {
+      "arc_id": "arc_southtown",
+      "note": "Howard money bought the cult its port time in Arc 3: the gull-wing shipping mark on the storm-relief crates in Episode 1, and the ritual plant under the port in Episode 4 built with the same money, pay that thread off at narration level; no Arc 3 character appears. Ryo's warning reaches Kyo through Yuri by phone in Episode 1 only; Ryo does not appear and Yuri does not join.",
+      "via": "geese"
+     }
+    ],
+    "required_characters": [
+     "kyo",
+     "benimaru",
+     "athena",
+     "iori",
+     "orochichris",
+     "goenitz"
+    ],
+    "lead": "kyo",
+    "episodes": 5,
+    "scenes": 13,
+    "final_boss_name": "Goenitz",
+    "premise": "A complete storyline: Kyo Kusanagi and Iori Yagami against the Orochi cult's storm, in five episodes."
+   },
+   "supersedes": [
+    "arc_the_seal"
+   ]
+  },
+  {
+   "id": "bundle_arc_swords_storms",
+   "name": "Swords in a Country of Storms — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-swords-storms-pack.zip",
+   "size_bytes": 27044921,
+   "sha256": "1a0c97558b28e3f79beded8e014be02634afe9b5ef8766473939dd99bba963a7",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "haohmaru",
+      "name": "Haohmaru",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "nakoruru",
+      "name": "Nakoruru",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "galford",
+      "name": "Galford",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "ukyo",
+      "name": "Ukyo Tachibana",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "charlotte",
+      "name": "Charlotte Colde",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "rimururu",
+      "name": "Rimururu",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "amakusa",
+      "name": "Amakusa Shirou Tokisada",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "zankuro",
+      "name": "Zankuro Minazuki",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_swords_storms",
+    "arc_name": "Swords in a Country of Storms",
+    "arc_status": "approved",
+    "cluster": [
+     "haohmaru",
+     "nakoruru",
+     "galford",
+     "ukyo",
+     "charlotte",
+     "rimururu",
+     "amakusa",
+     "zankuro"
+    ],
+    "final_boss": "amakusa",
+    "links": [
+     {
+      "arc_id": "arc_the_edge",
+      "note": "Hibiki crosses in for one scene in Episode 5 and does not join; a Soul Edge fragment is named among the fortress treasures in the ending.",
+      "via": "hibiki"
+     }
+    ],
+    "required_characters": [
+     "haohmaru",
+     "nakoruru",
+     "ukyo",
+     "galford",
+     "charlotte",
+     "rimururu",
+     "zankuro",
+     "amakusa"
+    ],
+    "lead": "haohmaru",
+    "episodes": 6,
+    "scenes": 18,
+    "final_boss_name": "Amakusa Shirou Tokisada",
+    "premise": "A complete storyline: Haohmaru and Nakoruru against Amakusa's fortress of the challenged dead, in six episodes. A period arc, and the quietest on the slate."
+   },
+   "supersedes": [
+    "arc_swords_storms"
+   ]
+  },
+  {
+   "id": "bundle_arc_the_edge",
+   "name": "The Edge Is a Curse — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-the-edge-pack.zip",
+   "size_bytes": 57071504,
+   "sha256": "09c04439dbfadab78df2d0fe5a646d46fb73bcf202191901cc1eff42dc9b7555",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "kilik",
+      "name": "Kilik",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "taki",
+      "name": "Taki",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "siegfried",
+      "name": "Siegfried Schtauffen",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "sophitia",
+      "name": "Sophitia Alexandra",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "astaroth",
+      "name": "Astaroth",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "ivy",
+      "name": "Ivy Valentine",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "mitsurugi",
+      "name": "Heishiro Mitsurugi",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "cervantes",
+      "name": "Cervantes de Leon",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "hibiki",
+      "name": "Hibiki Takane",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "nightmare",
+      "name": "Nightmare",
+      "note": "full special/super kit in pack data, full voice set"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_the_edge",
+    "arc_name": "The Edge Is a Curse",
+    "arc_status": "approved",
+    "cluster": [
+     "kilik",
+     "mitsurugi",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "ivy",
+     "hibiki",
+     "cervantes",
+     "astaroth",
+     "nightmare"
+    ],
+    "final_boss": "nightmare",
+    "links": [
+     {
+      "arc_id": "arc_swords_storms",
+      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here.",
+      "via": "taki"
+     }
+    ],
+    "required_characters": [
+     "kilik",
+     "taki",
+     "siegfried",
+     "sophitia",
+     "astaroth",
+     "ivy",
+     "mitsurugi",
+     "cervantes",
+     "hibiki",
+     "nightmare"
+    ],
+    "lead": "kilik",
+    "episodes": 6,
+    "scenes": 16,
+    "final_boss_name": "Nightmare",
+    "premise": "A complete storyline: Kilik, Taki and Siegfried hunt Soul Edge's fragments to the Azure Knight, in six episodes."
+   },
+   "supersedes": [
+    "arc_the_edge"
+   ]
+  },
+  {
+   "id": "bundle_arc_outworld",
+   "name": "Outworld Comes Collecting — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-bundle-arc-outworld-pack.zip",
+   "size_bytes": 8837824,
+   "sha256": "9ffbdf59887d0d4ce9f5d6edab7de77d95e9efe08813be96087c1fa0f3f44dc1",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "liukang",
+      "name": "Liu Kang",
+      "note": "full special kit in pack data, full voice set"
+     },
+     {
+      "id": "johnnycage",
+      "name": "Johnny Cage",
+      "note": "full special kit in pack data, full voice set"
+     },
+     {
+      "id": "scorpion",
+      "name": "Scorpion",
+      "note": "full special kit in pack data, full voice set"
+     },
+     {
+      "id": "subzero",
+      "name": "Sub-Zero",
+      "note": "full special kit in pack data, full voice set"
+     },
+     {
+      "id": "raiden",
+      "name": "Raiden",
+      "note": "full special kit in pack data, full voice set (three voice banks: attacks, win quotes, special-move calls)"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_outworld",
+    "arc_name": "Outworld Comes Collecting",
+    "arc_status": "approved",
+    "cluster": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "final_boss": "raiden",
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "note": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere: a patient scanner finds it and mistakes it for a weapon worth collecting. One narration beat, no character crosses over; Arc 13 pays it off.",
+      "via": "raiden"
+     },
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "The ending leaves the storm's shape hanging in the sky as an energy signature. Arc 9 quotes it as a signature on Orchid's evidence board, imitated by Ultratech's tear. A signature, nothing more.",
+      "via": "raiden"
+     }
+    ],
+    "required_characters": [
+     "liukang",
+     "johnnycage",
+     "scorpion",
+     "subzero",
+     "raiden"
+    ],
+    "lead": "liukang",
+    "episodes": 6,
+    "scenes": 15,
+    "final_boss_name": "Dark Raiden",
+    "premise": "A complete storyline: Liu Kang and Earthrealm's champions against the god who protects them, in six episodes."
+   },
+   "supersedes": [
+    "arc_outworld"
+   ]
+  },
+  {
+   "id": "bundle_arc_the_night",
+   "name": "The Night Is Not a Monster — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-the-night-pack.zip",
+   "size_bytes": 25634903,
+   "sha256": "3effc13c277df1c581f2331b03bf9ec2fdd4e9063e2f6afc94666ff144135102",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "morrigan",
+      "name": "Morrigan",
+      "note": "full special/super kit in pack data (10 specials including EX and air variants, 11 supers including the MAX set), full voice set"
+     },
+     {
+      "id": "felicia",
+      "name": "Felicia",
+      "note": "full special/super kit in pack data (18 specials including the EX set, 5 supers), full voice set"
+     },
+     {
+      "id": "jontalbain",
+      "name": "Jon Talbain",
+      "note": "full special/super kit in pack data, full voice set (special-move howls and calls)"
+     },
+     {
+      "id": "hsienko",
+      "name": "Hsien-Ko",
+      "note": "full special/super kit in pack data (12 specials including the EX set, 9 super entries), full voice set"
+     },
+     {
+      "id": "donovan",
+      "name": "Donovan",
+      "note": "full special/super kit in pack data (19 specials, 5 supers), full voice set"
+     },
+     {
+      "id": "lilith",
+      "name": "Lilith",
+      "note": "full special/super kit in pack data, full voice set"
+     },
+     {
+      "id": "demitri",
+      "name": "Demitri",
+      "note": "full special/super kit in pack data, full voice set (move calls per move family)"
+     },
+     {
+      "id": "jedah",
+      "name": "Jedah",
+      "note": "full special/super kit in pack data (12 specials, 7 supers), full voice set"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_the_night",
+    "arc_name": "The Night Is Not a Monster",
+    "arc_status": "approved",
+    "cluster": [
+     "morrigan",
+     "lilith",
+     "felicia",
+     "jontalbain",
+     "donovan",
+     "hsienko",
+     "demitri",
+     "jedah"
+    ],
+    "final_boss": "jedah",
+    "links": [
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Tessa crosses in for one Episode 5 scene to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that Arc 10 follows.",
+      "via": "tessa"
+     }
+    ],
+    "required_characters": [
+     "morrigan",
+     "felicia",
+     "jontalbain",
+     "hsienko",
+     "donovan",
+     "lilith",
+     "demitri",
+     "jedah"
+    ],
+    "lead": "morrigan",
+    "episodes": 6,
+    "scenes": 18,
+    "final_boss_name": "Jedah Dohma",
+    "premise": "A complete storyline: Morrigan Aensland defends the places where humans and Darkstalkers already live together, in six episodes."
+   },
+   "supersedes": [
+    "arc_the_night"
+   ]
+  },
+  {
+   "id": "bundle_arc_machines_ghosts",
+   "name": "Machines and Ghosts — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-machines-ghosts-pack.zip",
+   "size_bytes": 43642354,
+   "sha256": "480e81431080811381552d7a013eac11abae96a239bfd1bc5b87de747fbe9fd4",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "jago",
+      "name": "Jago",
+      "note": "full special/super kit in pack data (5 specials, 3 supers), 28 voice clips; throws missing in the source (see notes)"
+     },
+     {
+      "id": "orchid",
+      "name": "Orchid",
+      "note": "full special kit in pack data (6 specials with EX versions, 6 supers including Heart Attack and Ultra Combo), real forward and back throws, 36 voice clips from her own sound bank"
+     },
+     {
+      "id": "fulgore",
+      "name": "Fulgore",
+      "note": "full special/super kit in pack data (11 specials, 4 supers), 13 voice clips; throws missing in the source (see notes)"
+     },
+     {
+      "id": "tjcombo",
+      "name": "TJ Combo",
+      "note": "full special/super kit in pack data (10 specials, 11 supers), 27 voice clips, full throws"
+     },
+     {
+      "id": "glacius",
+      "name": "Glacius",
+      "note": "full special/super kit in pack data (10 specials, 10 supers), 29 voice clips, full throws"
+     },
+     {
+      "id": "cinder",
+      "name": "Cinder",
+      "note": "full special/super kit in pack data (16 specials, 7 supers), 19 voice clips, full throws"
+     },
+     {
+      "id": "sabrewulf",
+      "name": "Sabrewulf",
+      "note": "full special/super kit in pack data (10 specials, 9 supers), 22 voice clips, full throws"
+     },
+     {
+      "id": "strider",
+      "name": "Strider Hiryu",
+      "note": "full special/super kit in pack data (21 specials, 5 supers), 30 voice clips, full throws"
+     },
+     {
+      "id": "gargos",
+      "name": "Gargos",
+      "note": "special/super kit in pack data (3 specials, 1 of 2 supers with art), 19 voice clips; throws missing in the source (see notes)"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_machines_ghosts",
+    "arc_name": "Machines and Ghosts",
+    "arc_status": "approved",
+    "cluster": [
+     "jago",
+     "orchid",
+     "glacius",
+     "sabrewulf",
+     "tjcombo",
+     "fulgore",
+     "cinder",
+     "gargos",
+     "strider"
+    ],
+    "final_boss": "gargos",
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses.",
+      "via": "orchid"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives.",
+      "via": "strider"
+     }
+    ],
+    "required_characters": [
+     "jago",
+     "orchid",
+     "fulgore",
+     "tjcombo",
+     "glacius",
+     "cinder",
+     "sabrewulf",
+     "strider",
+     "gargos"
+    ],
+    "lead": "jago",
+    "episodes": 6,
+    "scenes": 18,
+    "final_boss_name": "Gargos",
+    "premise": "A complete storyline: Orchid's investigation, Jago's shadow and Gargos's offers, in six episodes."
+   },
+   "supersedes": [
+    "arc_machines_ghosts"
+   ]
+  },
+  {
+   "id": "bundle_arc_the_gear",
+   "name": "The Gear Is a Child — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-the-gear-pack.zip",
+   "size_bytes": 55749859,
+   "sha256": "dfe9fbac426739bb4fa7d0e35fa5a039d5862dd80af46bc826e033fdadeb7cf7",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "sol",
+      "name": "Sol Badguy",
+      "note": "full special/super kit in pack data (17 specials, 2 supers), 62 voice clips"
+     },
+     {
+      "id": "ky",
+      "name": "Ky Kiske",
+      "note": "full special/super kit in pack data (19 specials, 4 supers), 63 voice clips"
+     },
+     {
+      "id": "dizzy",
+      "name": "Dizzy",
+      "note": "full special/super kit in pack data (17 specials, 3 supers), 85 voice clips"
+     },
+     {
+      "id": "may",
+      "name": "May",
+      "note": "full special/super kit in pack data (11 specials, 4 supers), 138 voice clips"
+     },
+     {
+      "id": "axl",
+      "name": "Axl Low",
+      "note": "full special/super kit in pack data (13 specials, 2 supers), 62 voice clips"
+     },
+     {
+      "id": "millia",
+      "name": "Millia Rage",
+      "note": "full special/super kit in pack data (17 specials, 3 supers), 93 voice clips"
+     },
+     {
+      "id": "baiken",
+      "name": "Baiken",
+      "note": "full special/super kit in pack data (15 specials, 10 supers), 146 voice clips"
+     },
+     {
+      "id": "ino",
+      "name": "I-No",
+      "note": "full special/super kit in pack data (16 specials, 2 supers), 54 voice clips"
+     },
+     {
+      "id": "faust",
+      "name": "Faust",
+      "note": "full special/super kit in pack data (20 specials, 3 supers), 63 voice clips"
+     },
+     {
+      "id": "potemkin",
+      "name": "Potemkin",
+      "note": "full special/super kit in pack data (13 specials, 4 supers), 55 voice clips"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_the_gear",
+    "arc_name": "The Gear Is a Child",
+    "arc_status": "approved",
+    "cluster": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "millia",
+     "baiken",
+     "axl",
+     "faust",
+     "potemkin",
+     "ino"
+    ],
+    "final_boss": "ino",
+    "links": [
+     {
+      "arc_id": "arc_machines_ghosts",
+      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
+      "via": "axl"
+     },
+     {
+      "arc_id": "arc_the_gear",
+      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
+      "via": "narrator"
+     }
+    ],
+    "required_characters": [
+     "sol",
+     "ky",
+     "dizzy",
+     "may",
+     "axl",
+     "millia",
+     "baiken",
+     "ino",
+     "faust",
+     "potemkin"
+    ],
+    "lead": "sol",
+    "episodes": 6,
+    "scenes": 20,
+    "final_boss_name": "I-No",
+    "premise": "A complete storyline: Sol, Ky and Dizzy's family against I-No's rewrite of history, in six episodes."
+   },
+   "supersedes": [
+    "arc_the_gear"
+   ]
+  },
+  {
+   "id": "bundle_arc_metro_city",
+   "name": "Metro City Is Worth Saving — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-bundle-arc-metro-city-pack.zip",
+   "size_bytes": 21000971,
+   "sha256": "d181b293b1d4a9d3fb6970eee3123878897e96186412fc121baa0d5772683126",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "haggar",
+      "name": "Mike Haggar",
+      "note": "full special/super kit in pack data (17 specials, 5 supers), 30 voice clips"
+     },
+     {
+      "id": "guy",
+      "name": "Guy",
+      "note": "full special/super kit in pack data (6 specials, 3 supers), 50 voice clips"
+     },
+     {
+      "id": "cody",
+      "name": "Cody Travers",
+      "note": "full special/super kit in pack data (8 specials, 5 supers), 61 voice clips"
+     },
+     {
+      "id": "maki",
+      "name": "Maki Genryusai",
+      "note": "full special/super kit in pack data (9 specials, 12 supers), 68 voice clips"
+     },
+     {
+      "id": "lucia",
+      "name": "Lucia Morgan",
+      "note": "full special/super kit in pack data (24 specials, 9 supers), 44 voice clips"
+     },
+     {
+      "id": "sodom",
+      "name": "Sodom",
+      "note": "full special/super kit in pack data (13 specials, 10 supers), 42 voice clips"
+     },
+     {
+      "id": "rolento",
+      "name": "Rolento",
+      "note": "full special/super kit in pack data (7 specials, 3 supers), 54 voice clips"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_metro_city",
+    "arc_name": "Metro City Is Worth Saving",
+    "arc_status": "approved",
+    "cluster": [
+     "haggar",
+     "cody",
+     "guy",
+     "lucia",
+     "maki",
+     "sodom",
+     "rolento"
+    ],
+    "final_boss": "rolento",
+    "links": [
+     {
+      "arc_id": "arc_eleven_seconds",
+      "note": "Hugo's old exhibition poster hangs in the reopened gym in Episode 2, narration set-dressing only; Hugo does not appear.",
+      "via": "hugo"
+     },
+     {
+      "arc_id": "arc_interpol_file",
+      "note": "Lucia names Rolento's Shadaloo-remnant supplier in Episode 5; his seized ledger becomes the Interpol file's first exhibit in Arc 12.",
+      "via": "rolento"
+     }
+    ],
+    "required_characters": [
+     "haggar",
+     "guy",
+     "cody",
+     "maki",
+     "lucia",
+     "sodom",
+     "rolento"
+    ],
+    "lead": "haggar",
+    "episodes": 6,
+    "scenes": 17,
+    "final_boss_name": "Rolento",
+    "premise": "A complete storyline: Haggar, Cody, Guy, Lucia and Maki defend Metro City's gyms from Rolento's purchased army, in six episodes."
+   },
+   "supersedes": [
+    "arc_metro_city"
+   ]
+  },
+  {
+   "id": "bundle_arc_interpol_file",
+   "name": "The Interpol File — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-interpol-file-pack.zip",
+   "size_bytes": 26220285,
+   "sha256": "0aeff0a8e2b33819182e5d8192ccc2a6f3cada4d9215e61b776aa0f5272d9273",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "chunli",
+      "name": "Chun-Li",
+      "note": "full special/super kit in pack data (4 specials, 2 supers), 55 voice clips"
+     },
+     {
+      "id": "guile",
+      "name": "Guile",
+      "note": "full special/super kit in pack data (2 specials, 3 supers), 45 voice clips"
+     },
+     {
+      "id": "cammy",
+      "name": "Cammy White",
+      "note": "full special/super kit in pack data (5 specials, 3 supers), 45 voice clips"
+     },
+     {
+      "id": "sakura",
+      "name": "Sakura Kasugano",
+      "note": "full special/super kit in pack data (10 specials, 5 supers), 45 voice clips"
+     },
+     {
+      "id": "sagat",
+      "name": "Sagat",
+      "note": "full special/super kit in pack data (8 specials, 9 supers), 45 voice clips"
+     },
+     {
+      "id": "karin",
+      "name": "Karin Kanzuki",
+      "note": "full special/super kit in pack data (9 specials, 3 supers), 45 voice clips"
+     },
+     {
+      "id": "decapre",
+      "name": "Decapre",
+      "note": "full special/super kit in pack data (9 specials, 4 supers), 45 voice clips"
+     },
+     {
+      "id": "juni",
+      "name": "Juni",
+      "note": "full special/super kit in pack data (7 specials, 4 supers), 45 voice clips"
+     },
+     {
+      "id": "bison",
+      "name": "M. Bison",
+      "note": "full special/super kit in pack data (9 specials, 3 supers), 45 voice clips"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_interpol_file",
+    "arc_name": "The Interpol File",
+    "arc_status": "approved",
+    "cluster": [
+     "chunli",
+     "guile",
+     "cammy",
+     "decapre",
+     "juni",
+     "sakura",
+     "karin",
+     "sagat",
+     "bison"
+    ],
+    "final_boss": "bison",
+    "links": [
+     {
+      "arc_id": "arc_metro_city",
+      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
+      "via": "rolento"
+     },
+     {
+      "arc_id": "arc_heart_of_battle",
+      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
+      "via": "sagat"
+     }
+    ],
+    "required_characters": [
+     "chunli",
+     "guile",
+     "cammy",
+     "sakura",
+     "sagat",
+     "karin",
+     "decapre",
+     "juni",
+     "bison"
+    ],
+    "lead": "chunli",
+    "episodes": 6,
+    "scenes": 15,
+    "final_boss_name": "M. Bison",
+    "premise": "A complete storyline: the Interpol file on Shadaloo's fire sale, in six episodes — Chun-Li, Guile and Cammy chase the buyers' list to the man who wrote it."
+   },
+   "supersedes": [
+    "arc_interpol_file"
+   ]
+  },
+  {
+   "id": "bundle_arc_gods_demands",
+   "name": "Gods and Demands — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-gods-demands-pack.zip",
+   "size_bytes": 27940394,
+   "sha256": "1a71bede7112e23df0089cf6447be9d3749a7809311aa386d0a80ca912209e20",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "wonderwoman",
+      "name": "Wonder Woman",
+      "note": "full special/super kit in pack data (9 specials, 6 supers), 64 voice clips"
+     },
+     {
+      "id": "flash",
+      "name": "The Flash",
+      "note": "full special/super kit in pack data (5 specials, 4 supers), 42 voice clips"
+     },
+     {
+      "id": "shazam",
+      "name": "Shazam",
+      "note": "full special/super kit in pack data (3 specials, 3 supers), 73 voice clips"
+     },
+     {
+      "id": "aquaman",
+      "name": "Aquaman",
+      "note": "full special/super kit in pack data (5 specials, 4 supers), 47 voice clips"
+     },
+     {
+      "id": "greenlantern",
+      "name": "Green Lantern",
+      "note": "full special/super kit in pack data (13 specials, 10 supers), 36 voice clips"
+     },
+     {
+      "id": "manhunter",
+      "name": "Martian Manhunter",
+      "note": "full special/super kit in pack data (5 specials, 6 supers), 61 voice clips"
+     },
+     {
+      "id": "brainiac",
+      "name": "Brainiac",
+      "note": "full special/super kit in pack data (13 specials, 10 supers), 38 voice clips"
+     },
+     {
+      "id": "blackadam",
+      "name": "Black Adam",
+      "note": "full special/super kit in pack data (10 specials, 3 supers), 19 voice clips"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_gods_demands",
+    "arc_name": "Gods and Demands",
+    "arc_status": "approved",
+    "cluster": [
+     "wonderwoman",
+     "aquaman",
+     "shazam",
+     "flash",
+     "greenlantern",
+     "manhunter",
+     "blackadam",
+     "brainiac"
+    ],
+    "final_boss": "blackadam",
+    "links": [
+     {
+      "arc_id": "arc_outworld",
+      "note": "Raiden's storm over Earthrealm is named once in Episode 1, in the Flash's report of the scan that started this arc.",
+      "via": "flash"
+     },
+     {
+      "arc_id": "arc_mutant_underground",
+      "note": "The Martian Manhunter's Episode 5 testimony stands alone and is played back as a recording in Arc 14.",
+      "via": "manhunter"
+     }
+    ],
+    "required_characters": [
+     "wonderwoman",
+     "flash",
+     "brainiac",
+     "blackadam",
+     "shazam",
+     "aquaman",
+     "greenlantern",
+     "manhunter"
+    ],
+    "lead": "wonderwoman",
+    "episodes": 6,
+    "scenes": 15,
+    "final_boss_name": "Black Adam",
+    "premise": "A complete storyline: Wonder Woman answers Brainiac's offer of protection and Black Adam's bargain for Kahndaq, in six episodes."
+   },
+   "supersedes": [
+    "arc_gods_demands"
+   ]
+  },
+  {
+   "id": "bundle_arc_mutant_underground",
+   "name": "The Mutant Underground Is a Promise — Story + Full Cast",
+   "type": "bundle",
+   "version": 1,
+   "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-mutant-underground-pack.zip",
+   "size_bytes": 32832354,
+   "sha256": "a5e7038195a9c64eaf598d0ddc718a3e8b89e32ad9463586726efd680cd8f83f",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "cyclops",
+      "name": "Cyclops",
+      "note": "full special/super kit in pack data (16 specials, 7 supers), voice in pack data"
+     },
+     {
+      "id": "storm",
+      "name": "Storm",
+      "note": "full special/super kit in pack data (17 specials, 2 supers), voice in pack data"
+     },
+     {
+      "id": "rogue",
+      "name": "Rogue",
+      "note": "full special/super kit in pack data (7 specials, 8 supers), voice in pack data"
+     },
+     {
+      "id": "gambit",
+      "name": "Gambit",
+      "note": "full special/super kit in pack data (16 specials, 9 supers), voice in pack data"
+     },
+     {
+      "id": "wolverine",
+      "name": "Wolverine",
+      "note": "full special/super kit in pack data (19 specials, 10 supers), voice in pack data"
+     },
+     {
+      "id": "psylocke",
+      "name": "Psylocke",
+      "note": "full special/super kit in pack data (6 specials, 3 supers), voice in pack data"
+     },
+     {
+      "id": "iceman",
+      "name": "Iceman",
+      "note": "full special/super kit in pack data (4 specials, 5 supers), voice in pack data"
+     },
+     {
+      "id": "cable",
+      "name": "Cable",
+      "note": "full special/super kit in pack data (13 specials, 2 supers), voice in pack data"
+     },
+     {
+      "id": "colossus",
+      "name": "Colossus",
+      "note": "full special/super kit in pack data (6 specials, 4 supers), voice in pack data"
+     },
+     {
+      "id": "magneto",
+      "name": "Magneto",
+      "note": "full special/super kit in pack data (10 specials, 3 supers), voice in pack data; his fighter def is the kit_source for the arc's magneto boss enemy def"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_mutant_underground",
+    "arc_name": "The Mutant Underground Is a Promise",
+    "arc_status": "approved",
+    "cluster": [
+     "cyclops",
+     "storm",
+     "wolverine",
+     "rogue",
+     "gambit",
+     "psylocke",
+     "cable",
+     "colossus",
+     "iceman",
+     "magneto"
+    ],
+    "final_boss": "magneto",
+    "links": [
+     {
+      "arc_id": "arc_gods_demands",
+      "note": "J'onn J'onzz's testimony from Arc 13 is played as a recording in Episode 5 (scene a14_offer). He does not appear; the recording is a scene device, credited in the scene.",
+      "via": "martian_manhunter"
+     }
+    ],
+    "required_characters": [
+     "cyclops",
+     "storm",
+     "rogue",
+     "gambit",
+     "wolverine",
+     "psylocke",
+     "iceman",
+     "cable",
+     "colossus",
+     "magneto"
+    ],
+    "lead": "cyclops",
+    "episodes": 6,
+    "scenes": 16,
+    "final_boss_name": "Magneto",
+    "premise": "A complete storyline: Cyclops and Storm's rescue underground against the rebuilt Sentinel programme, in six episodes. The slate's closing arc."
+   },
+   "supersedes": [
+    "arc_mutant_underground"
+   ]
+  },
+  {
    "id": "terry_pack",
    "name": "Terry Bogard — Lone Wolf of Southtown",
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-terry-pack.zip",
@@ -752,120 +1991,6 @@
    "supersedes": []
   },
   {
-   "id": "arc_southtown",
-   "name": "Storyline: Kings Who Refuse to Kneel",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-southtown-pack.zip",
-   "size_bytes": 8442,
-   "sha256": "ae62dc45f568b0a23c05ed67faa548fa62802a65ec28c521e4b8e455491e0d00",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "terry",
-      "name": "Terry Bogard",
-      "note": "Arc 3 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "rock",
-      "name": "Rock Howard",
-      "note": "Arc 3 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "geese",
-      "name": "Geese Howard",
-      "note": "Arc 3 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "ryo",
-      "name": "Ryo Sakazaki",
-      "note": "Arc 3 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "yuri",
-      "name": "Yuri Sakazaki",
-      "note": "Arc 3 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "king",
-      "name": "King",
-      "note": "Arc 3 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "kim",
-      "name": "Kim Kaphwan",
-      "note": "Arc 3 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "mai",
-      "name": "Mai Shiranui",
-      "note": "Arc 3 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "yamazaki",
-      "name": "Ryuji Yamazaki",
-      "note": "Arc 3 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "mrkarate",
-      "name": "Mr. Karate",
-      "note": "Arc 3 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_southtown",
-    "arc_name": "Kings Who Refuse to Kneel",
-    "arc_status": "approved",
-    "cluster": [
-     "terry",
-     "rock",
-     "geese",
-     "ryo",
-     "yuri",
-     "king",
-     "kim",
-     "mai",
-     "yamazaki",
-     "mrkarate"
-    ],
-    "final_boss": "geese",
-    "links": [
-     {
-      "arc_id": "arc_the_seal",
-      "note": "Kyo Kusanagi appears in one Episode 5 scene (the call before the tower assault): Orochi cult agents have been renting Howard port time, the thread Arc 4 picks up. Guest only; he does not join and does not gate this arc.",
-      "via": "kyo"
-     },
-     {
-      "arc_id": "arc_eleven_seconds",
-      "note": "Alex appears only as poster set-dressing in Episode 1 (a line of narration, no dialogue): a Howard gym poster from a New York exhibition years back.",
-      "via": "alex"
-     }
-    ],
-    "required_characters": [
-     "terry",
-     "kim",
-     "ryo",
-     "yuri",
-     "mrkarate",
-     "geese",
-     "rock",
-     "mai",
-     "king",
-     "yamazaki"
-    ],
-    "lead": "terry",
-    "episodes": 6,
-    "scenes": 17,
-    "final_boss_name": "Geese Howard",
-    "premise": "A complete storyline: Terry Bogard, Rock Howard and the Sakazakis refuse Geese Howard's polite takeover of Southtown, in six episodes."
-   }
-  },
-  {
    "id": "kyo_pack",
    "name": "Kyo Kusanagi — Flames of the Kusanagi",
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-kyo-pack.zip",
@@ -1218,87 +2343,6 @@
     "role": "miniboss"
    },
    "supersedes": []
-  },
-  {
-   "id": "arc_the_seal",
-   "name": "Storyline: The Seal Is Not a Weapon",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-the-seal-pack.zip",
-   "size_bytes": 7831,
-   "sha256": "4d96443dd2827c00e35028b5f26d04c75cef0d1a08dbe95a297dd7d190654793",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "kyo",
-      "name": "Kyo Kusanagi",
-      "note": "Arc 4 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "iori",
-      "name": "Iori Yagami",
-      "note": "Arc 4 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "benimaru",
-      "name": "Benimaru Nikaido",
-      "note": "Arc 4 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "athena",
-      "name": "Athena Asamiya",
-      "note": "Arc 4 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "goenitz",
-      "name": "Goenitz",
-      "note": "Arc 4 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "orochichris",
-      "name": "Orochi Chris",
-      "note": "Arc 4 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_the_seal",
-    "arc_name": "The Seal Is Not a Weapon",
-    "arc_status": "approved",
-    "cluster": [
-     "kyo",
-     "iori",
-     "benimaru",
-     "athena",
-     "goenitz",
-     "orochichris"
-    ],
-    "final_boss": "goenitz",
-    "links": [
-     {
-      "arc_id": "arc_southtown",
-      "note": "Howard money bought the cult its port time in Arc 3: the gull-wing shipping mark on the storm-relief crates in Episode 1, and the ritual plant under the port in Episode 4 built with the same money, pay that thread off at narration level; no Arc 3 character appears. Ryo's warning reaches Kyo through Yuri by phone in Episode 1 only; Ryo does not appear and Yuri does not join.",
-      "via": "geese"
-     }
-    ],
-    "required_characters": [
-     "kyo",
-     "benimaru",
-     "athena",
-     "iori",
-     "orochichris",
-     "goenitz"
-    ],
-    "lead": "kyo",
-    "episodes": 5,
-    "scenes": 13,
-    "final_boss_name": "Goenitz",
-    "premise": "A complete storyline: Kyo Kusanagi and Iori Yagami against the Orochi cult's storm, in five episodes."
-   }
   },
   {
    "id": "haohmaru_pack",
@@ -1805,101 +2849,6 @@
    "supersedes": []
   },
   {
-   "id": "arc_swords_storms",
-   "name": "Storyline: Swords in a Country of Storms",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-swords-storms-pack.zip",
-   "size_bytes": 8608,
-   "sha256": "52437092fb0d76ac33ec52ce4053e47b0f9fadee13cf6fc915f195d54cfd1278",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "haohmaru",
-      "name": "Haohmaru",
-      "note": "Arc 5 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "nakoruru",
-      "name": "Nakoruru",
-      "note": "Arc 5 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "galford",
-      "name": "Galford",
-      "note": "Arc 5 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "ukyo",
-      "name": "Ukyo Tachibana",
-      "note": "Arc 5 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "charlotte",
-      "name": "Charlotte Colde",
-      "note": "Arc 5 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "rimururu",
-      "name": "Rimururu",
-      "note": "Arc 5 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "amakusa",
-      "name": "Amakusa Shirou Tokisada",
-      "note": "Arc 5 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "zankuro",
-      "name": "Zankuro Minazuki",
-      "note": "Arc 5 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_swords_storms",
-    "arc_name": "Swords in a Country of Storms",
-    "arc_status": "approved",
-    "cluster": [
-     "haohmaru",
-     "nakoruru",
-     "galford",
-     "ukyo",
-     "charlotte",
-     "rimururu",
-     "amakusa",
-     "zankuro"
-    ],
-    "final_boss": "amakusa",
-    "links": [
-     {
-      "arc_id": "arc_the_edge",
-      "note": "Hibiki crosses in for one scene in Episode 5 and does not join; a Soul Edge fragment is named among the fortress treasures in the ending.",
-      "via": "hibiki"
-     }
-    ],
-    "required_characters": [
-     "haohmaru",
-     "nakoruru",
-     "ukyo",
-     "galford",
-     "charlotte",
-     "rimururu",
-     "zankuro",
-     "amakusa"
-    ],
-    "lead": "haohmaru",
-    "episodes": 6,
-    "scenes": 18,
-    "final_boss_name": "Amakusa Shirou Tokisada",
-    "premise": "A complete storyline: Haohmaru and Nakoruru against Amakusa's fortress of the challenged dead, in six episodes. A period arc, and the quietest on the slate."
-   }
-  },
-  {
    "id": "liukang_pack",
    "name": "Liu Kang — The Champion Who Bows",
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-liukang-pack.zip",
@@ -2208,85 +3157,6 @@
     "role": "final_boss"
    },
    "supersedes": []
-  },
-  {
-   "id": "arc_outworld",
-   "name": "Storyline: Outworld Comes Collecting",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-outworld-pack.zip",
-   "size_bytes": 8902,
-   "sha256": "02ec75ceb1500bd2dfb6fab7149b8f75e0db433de021116791c2f930aaaa6733",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "liukang",
-      "name": "Liu Kang",
-      "note": "Arc 7 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "johnnycage",
-      "name": "Johnny Cage",
-      "note": "Arc 7 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "scorpion",
-      "name": "Scorpion",
-      "note": "Arc 7 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "subzero",
-      "name": "Sub-Zero",
-      "note": "Arc 7 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "raiden",
-      "name": "Raiden",
-      "note": "Arc 7 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_outworld",
-    "arc_name": "Outworld Comes Collecting",
-    "arc_status": "approved",
-    "cluster": [
-     "liukang",
-     "johnnycage",
-     "scorpion",
-     "subzero",
-     "raiden"
-    ],
-    "final_boss": "raiden",
-    "links": [
-     {
-      "arc_id": "arc_gods_demands",
-      "note": "In Episode 6's ending, the storm Raiden raised is seen from elsewhere: a patient scanner finds it and mistakes it for a weapon worth collecting. One narration beat, no character crosses over; Arc 13 pays it off.",
-      "via": "raiden"
-     },
-     {
-      "arc_id": "arc_machines_ghosts",
-      "note": "The ending leaves the storm's shape hanging in the sky as an energy signature. Arc 9 quotes it as a signature on Orchid's evidence board, imitated by Ultratech's tear. A signature, nothing more.",
-      "via": "raiden"
-     }
-    ],
-    "required_characters": [
-     "liukang",
-     "johnnycage",
-     "scorpion",
-     "subzero",
-     "raiden"
-    ],
-    "lead": "liukang",
-    "episodes": 6,
-    "scenes": 15,
-    "final_boss_name": "Dark Raiden",
-    "premise": "A complete storyline: Liu Kang and Earthrealm's champions against the god who protects them, in six episodes."
-   }
   },
   {
    "id": "morrigan_pack",
@@ -2791,101 +3661,6 @@
     "role": "final_boss"
    },
    "supersedes": []
-  },
-  {
-   "id": "arc_the_night",
-   "name": "Storyline: The Night Is Not a Monster",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-the-night-pack.zip",
-   "size_bytes": 8069,
-   "sha256": "8aba2fe31cfdca77ecb97c4116a0ef661f615668119c3d5b09c9a694cadf2c42",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "morrigan",
-      "name": "Morrigan",
-      "note": "Arc 8 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "felicia",
-      "name": "Felicia",
-      "note": "Arc 8 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "jontalbain",
-      "name": "Jon Talbain",
-      "note": "Arc 8 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "hsienko",
-      "name": "Hsien-Ko",
-      "note": "Arc 8 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "donovan",
-      "name": "Donovan",
-      "note": "Arc 8 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "lilith",
-      "name": "Lilith",
-      "note": "Arc 8 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "demitri",
-      "name": "Demitri",
-      "note": "Arc 8 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "jedah",
-      "name": "Jedah",
-      "note": "Arc 8 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_the_night",
-    "arc_name": "The Night Is Not a Monster",
-    "arc_status": "approved",
-    "cluster": [
-     "morrigan",
-     "lilith",
-     "felicia",
-     "jontalbain",
-     "donovan",
-     "hsienko",
-     "demitri",
-     "jedah"
-    ],
-    "final_boss": "jedah",
-    "links": [
-     {
-      "arc_id": "arc_the_gear",
-      "note": "Tessa crosses in for one Episode 5 scene to name what Majigen is doing to the local magic; Ruby Heart's ship is glimpsed offshore in the ending, carrying word of the relic trade that Arc 10 follows.",
-      "via": "tessa"
-     }
-    ],
-    "required_characters": [
-     "morrigan",
-     "felicia",
-     "jontalbain",
-     "hsienko",
-     "donovan",
-     "lilith",
-     "demitri",
-     "jedah"
-    ],
-    "lead": "morrigan",
-    "episodes": 6,
-    "scenes": 18,
-    "final_boss_name": "Jedah Dohma",
-    "premise": "A complete storyline: Morrigan Aensland defends the places where humans and Darkstalkers already live together, in six episodes."
-   }
   },
   {
    "id": "sol_pack",
@@ -3608,120 +4383,6 @@
    "supersedes": []
   },
   {
-   "id": "arc_the_gear",
-   "name": "Storyline: The Gear Is a Child",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-the-gear-pack.zip",
-   "size_bytes": 9504,
-   "sha256": "158f6a7cda0e842420dcf73472868f17c08ba2de9360ca93cc438fae1eba314e",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "sol",
-      "name": "Sol Badguy",
-      "note": "Arc 10 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "ky",
-      "name": "Ky Kiske",
-      "note": "Arc 10 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "dizzy",
-      "name": "Dizzy",
-      "note": "Arc 10 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "may",
-      "name": "May",
-      "note": "Arc 10 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "axl",
-      "name": "Axl Low",
-      "note": "Arc 10 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "millia",
-      "name": "Millia Rage",
-      "note": "Arc 10 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "baiken",
-      "name": "Baiken",
-      "note": "Arc 10 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "ino",
-      "name": "I-No",
-      "note": "Arc 10 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "faust",
-      "name": "Faust",
-      "note": "Arc 10 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "potemkin",
-      "name": "Potemkin",
-      "note": "Arc 10 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_the_gear",
-    "arc_name": "The Gear Is a Child",
-    "arc_status": "approved",
-    "cluster": [
-     "sol",
-     "ky",
-     "dizzy",
-     "may",
-     "millia",
-     "baiken",
-     "axl",
-     "faust",
-     "potemkin",
-     "ino"
-    ],
-    "final_boss": "ino",
-    "links": [
-     {
-      "arc_id": "arc_machines_ghosts",
-      "note": "Axl repeats Strider's warning about doors in time in Episode 5, wrongly attributed to a dream; he does not know its source.",
-      "via": "axl"
-     },
-     {
-      "arc_id": "arc_the_gear",
-      "note": "Axl's time sense brushes the stopped-time residue left by Dio's old agents; the slate deliberately leaves that material for a later wave. Text only, at slate size: no character crosses over and no scene is staged for it in this pack.",
-      "via": "narrator"
-     }
-    ],
-    "required_characters": [
-     "sol",
-     "ky",
-     "dizzy",
-     "may",
-     "axl",
-     "millia",
-     "baiken",
-     "ino",
-     "faust",
-     "potemkin"
-    ],
-    "lead": "sol",
-    "episodes": 6,
-    "scenes": 20,
-    "final_boss_name": "I-No",
-    "premise": "A complete storyline: Sol, Ky and Dizzy's family against I-No's rewrite of history, in six episodes."
-   }
-  },
-  {
    "id": "haggar_pack",
    "name": "Mike Haggar — The Mayor of Metro City",
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-haggar-pack.zip",
@@ -4182,99 +4843,6 @@
     "role": "final_boss"
    },
    "supersedes": []
-  },
-  {
-   "id": "arc_metro_city",
-   "name": "Storyline: Metro City Is Worth Saving",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-metro-city-pack.zip",
-   "size_bytes": 8438,
-   "sha256": "acc840ca17334db9d575de51e63aab58c159027f98ce5a94ff45957041d5f35c",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "haggar",
-      "name": "Mike Haggar",
-      "note": "Arc 11 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "guy",
-      "name": "Guy",
-      "note": "Arc 11 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "cody",
-      "name": "Cody Travers",
-      "note": "Arc 11 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "maki",
-      "name": "Maki Genryusai",
-      "note": "Arc 11 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "lucia",
-      "name": "Lucia Morgan",
-      "note": "Arc 11 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "sodom",
-      "name": "Sodom",
-      "note": "Arc 11 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "rolento",
-      "name": "Rolento",
-      "note": "Arc 11 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_metro_city",
-    "arc_name": "Metro City Is Worth Saving",
-    "arc_status": "approved",
-    "cluster": [
-     "haggar",
-     "cody",
-     "guy",
-     "lucia",
-     "maki",
-     "sodom",
-     "rolento"
-    ],
-    "final_boss": "rolento",
-    "links": [
-     {
-      "arc_id": "arc_eleven_seconds",
-      "note": "Hugo's old exhibition poster hangs in the reopened gym in Episode 2, narration set-dressing only; Hugo does not appear.",
-      "via": "hugo"
-     },
-     {
-      "arc_id": "arc_interpol_file",
-      "note": "Lucia names Rolento's Shadaloo-remnant supplier in Episode 5; his seized ledger becomes the Interpol file's first exhibit in Arc 12.",
-      "via": "rolento"
-     }
-    ],
-    "required_characters": [
-     "haggar",
-     "guy",
-     "cody",
-     "maki",
-     "lucia",
-     "sodom",
-     "rolento"
-    ],
-    "lead": "haggar",
-    "episodes": 6,
-    "scenes": 17,
-    "final_boss_name": "Rolento",
-    "premise": "A complete storyline: Haggar, Cody, Guy, Lucia and Maki defend Metro City's gyms from Rolento's purchased army, in six episodes."
-   }
   },
   {
    "id": "chunli_pack",
@@ -4905,113 +5473,6 @@
     "role": "final_boss"
    },
    "supersedes": []
-  },
-  {
-   "id": "arc_interpol_file",
-   "name": "Storyline: The Interpol File",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-interpol-file-pack.zip",
-   "size_bytes": 8536,
-   "sha256": "1c7bcf0fdfb2393de19fb2bfff0b49fdae485e92d7ca9bc97487d1df5b061c69",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "chunli",
-      "name": "Chun-Li",
-      "note": "Arc 12 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "guile",
-      "name": "Guile",
-      "note": "Arc 12 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "cammy",
-      "name": "Cammy White",
-      "note": "Arc 12 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "sakura",
-      "name": "Sakura Kasugano",
-      "note": "Arc 12 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "sagat",
-      "name": "Sagat",
-      "note": "Arc 12 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "karin",
-      "name": "Karin Kanzuki",
-      "note": "Arc 12 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "decapre",
-      "name": "Decapre",
-      "note": "Arc 12 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "juni",
-      "name": "Juni",
-      "note": "Arc 12 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "bison",
-      "name": "M. Bison",
-      "note": "Arc 12 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_interpol_file",
-    "arc_name": "The Interpol File",
-    "arc_status": "approved",
-    "cluster": [
-     "chunli",
-     "guile",
-     "cammy",
-     "decapre",
-     "juni",
-     "sakura",
-     "karin",
-     "sagat",
-     "bison"
-    ],
-    "final_boss": "bison",
-    "links": [
-     {
-      "arc_id": "arc_metro_city",
-      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
-      "via": "rolento"
-     },
-     {
-      "arc_id": "arc_heart_of_battle",
-      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
-      "via": "sagat"
-     }
-    ],
-    "required_characters": [
-     "chunli",
-     "guile",
-     "cammy",
-     "sakura",
-     "sagat",
-     "karin",
-     "decapre",
-     "juni",
-     "bison"
-    ],
-    "lead": "chunli",
-    "episodes": 6,
-    "scenes": 15,
-    "final_boss_name": "M. Bison",
-    "premise": "A complete storyline: the Interpol file on Shadaloo's fire sale, in six episodes — Chun-Li, Guile and Cammy chase the buyers' list to the man who wrote it."
-   }
   },
   {
    "id": "kilik_pack",
@@ -5684,115 +6145,6 @@
    "supersedes": []
   },
   {
-   "id": "arc_the_edge",
-   "name": "Storyline: The Edge Is a Curse",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-the-edge-pack.zip",
-   "size_bytes": 8467,
-   "sha256": "f97256e652acbbb975990d36472638dda739d470673cb55701b7e1aaeeac06d0",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "kilik",
-      "name": "Kilik",
-      "note": "Arc 6 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "taki",
-      "name": "Taki",
-      "note": "Arc 6 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "siegfried",
-      "name": "Siegfried Schtauffen",
-      "note": "Arc 6 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "sophitia",
-      "name": "Sophitia Alexandra",
-      "note": "Arc 6 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "astaroth",
-      "name": "Astaroth",
-      "note": "Arc 6 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "ivy",
-      "name": "Ivy Valentine",
-      "note": "Arc 6 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "mitsurugi",
-      "name": "Heishiro Mitsurugi",
-      "note": "Arc 6 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "cervantes",
-      "name": "Cervantes de Leon",
-      "note": "Arc 6 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "hibiki",
-      "name": "Hibiki Takane",
-      "note": "Arc 6 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "nightmare",
-      "name": "Nightmare",
-      "note": "Arc 6 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_the_edge",
-    "arc_name": "The Edge Is a Curse",
-    "arc_status": "approved",
-    "cluster": [
-     "kilik",
-     "mitsurugi",
-     "taki",
-     "siegfried",
-     "sophitia",
-     "ivy",
-     "hibiki",
-     "cervantes",
-     "astaroth",
-     "nightmare"
-    ],
-    "final_boss": "nightmare",
-    "links": [
-     {
-      "arc_id": "arc_swords_storms",
-      "note": "The Soul Edge fragment Amakusa hoarded among the fortress treasures in Arc 5 is the one Cervantes is sailing to collect; Taki names that fortress in Episode 1. Hibiki's crossover scene was in Arc 5; her home and join are here.",
-      "via": "taki"
-     }
-    ],
-    "required_characters": [
-     "kilik",
-     "taki",
-     "siegfried",
-     "sophitia",
-     "astaroth",
-     "ivy",
-     "mitsurugi",
-     "cervantes",
-     "hibiki",
-     "nightmare"
-    ],
-    "lead": "kilik",
-    "episodes": 6,
-    "scenes": 16,
-    "final_boss_name": "Nightmare",
-    "premise": "A complete storyline: Kilik, Taki and Siegfried hunt Soul Edge's fragments to the Azure Knight, in six episodes."
-   }
-  },
-  {
    "id": "jago_pack",
    "name": "Jago — The Fighting Edge",
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-jago-pack.zip",
@@ -6423,113 +6775,6 @@
    "supersedes": []
   },
   {
-   "id": "arc_machines_ghosts",
-   "name": "Storyline: Machines and Ghosts",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-machines-ghosts-pack.zip",
-   "size_bytes": 8300,
-   "sha256": "fc0510abffebed86056bd8aaf46836e6232c96e7317f2d2cfa346cec2d7f8239",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "jago",
-      "name": "Jago",
-      "note": "Arc 9 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "orchid",
-      "name": "Orchid",
-      "note": "Arc 9 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "fulgore",
-      "name": "Fulgore",
-      "note": "Arc 9 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "tjcombo",
-      "name": "TJ Combo",
-      "note": "Arc 9 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "glacius",
-      "name": "Glacius",
-      "note": "Arc 9 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "cinder",
-      "name": "Cinder",
-      "note": "Arc 9 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "sabrewulf",
-      "name": "Sabrewulf",
-      "note": "Arc 9 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "strider",
-      "name": "Strider Hiryu",
-      "note": "Arc 9 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "gargos",
-      "name": "Gargos",
-      "note": "Arc 9 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_machines_ghosts",
-    "arc_name": "Machines and Ghosts",
-    "arc_status": "approved",
-    "cluster": [
-     "jago",
-     "orchid",
-     "glacius",
-     "sabrewulf",
-     "tjcombo",
-     "fulgore",
-     "cinder",
-     "gargos",
-     "strider"
-    ],
-    "final_boss": "gargos",
-    "links": [
-     {
-      "arc_id": "arc_outworld",
-      "note": "Orchid's evidence board in Episode 2 shows the energy signature of Arc 7's storm over Earthrealm as an unexplained reading. One narration beat and one Orchid line; no character crosses.",
-      "via": "orchid"
-     },
-     {
-      "arc_id": "arc_the_gear",
-      "note": "Strider's warning about doors in time, spoken on his arrival in Episode 5, is the line Arc 10 quotes (through Axl, misattributed to a dream). The exact line is in scene a9_strider_arrives.",
-      "via": "strider"
-     }
-    ],
-    "required_characters": [
-     "jago",
-     "orchid",
-     "fulgore",
-     "tjcombo",
-     "glacius",
-     "cinder",
-     "sabrewulf",
-     "strider",
-     "gargos"
-    ],
-    "lead": "jago",
-    "episodes": 6,
-    "scenes": 18,
-    "final_boss_name": "Gargos",
-    "premise": "A complete storyline: Orchid's investigation, Jago's shadow and Gargos's offers, in six episodes."
-   }
-  },
-  {
    "id": "wonderwoman_pack",
    "name": "Wonder Woman — The Answer",
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-wonderwoman-pack.zip",
@@ -7072,106 +7317,6 @@
     "role": "final_boss"
    },
    "supersedes": []
-  },
-  {
-   "id": "arc_gods_demands",
-   "name": "Storyline: Gods and Demands",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-gods-demands-pack.zip",
-   "size_bytes": 9083,
-   "sha256": "c295702c15b3e73c52aaf1e155edd802ebb7dfb6a36e88095f1c5e0c179ccae0",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "wonderwoman",
-      "name": "Wonder Woman",
-      "note": "Arc 13 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "flash",
-      "name": "The Flash",
-      "note": "Arc 13 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "shazam",
-      "name": "Shazam",
-      "note": "Arc 13 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "aquaman",
-      "name": "Aquaman",
-      "note": "Arc 13 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "greenlantern",
-      "name": "Green Lantern",
-      "note": "Arc 13 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "manhunter",
-      "name": "Martian Manhunter",
-      "note": "Arc 13 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "brainiac",
-      "name": "Brainiac",
-      "note": "Arc 13 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "blackadam",
-      "name": "Black Adam",
-      "note": "Arc 13 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_gods_demands",
-    "arc_name": "Gods and Demands",
-    "arc_status": "approved",
-    "cluster": [
-     "wonderwoman",
-     "aquaman",
-     "shazam",
-     "flash",
-     "greenlantern",
-     "manhunter",
-     "blackadam",
-     "brainiac"
-    ],
-    "final_boss": "blackadam",
-    "links": [
-     {
-      "arc_id": "arc_outworld",
-      "note": "Raiden's storm over Earthrealm is named once in Episode 1, in the Flash's report of the scan that started this arc.",
-      "via": "flash"
-     },
-     {
-      "arc_id": "arc_mutant_underground",
-      "note": "The Martian Manhunter's Episode 5 testimony stands alone and is played back as a recording in Arc 14.",
-      "via": "manhunter"
-     }
-    ],
-    "required_characters": [
-     "wonderwoman",
-     "flash",
-     "brainiac",
-     "blackadam",
-     "shazam",
-     "aquaman",
-     "greenlantern",
-     "manhunter"
-    ],
-    "lead": "wonderwoman",
-    "episodes": 6,
-    "scenes": 15,
-    "final_boss_name": "Black Adam",
-    "premise": "A complete storyline: Wonder Woman answers Brainiac's offer of protection and Black Adam's bargain for Kahndaq, in six episodes."
-   }
   },
   {
    "id": "cyclops_pack",
@@ -7842,115 +7987,6 @@
     "role": "final_boss"
    },
    "supersedes": []
-  },
-  {
-   "id": "arc_mutant_underground",
-   "name": "Storyline: The Mutant Underground Is a Promise",
-   "type": "storyline",
-   "version": 1,
-   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-mutant-underground-pack.zip",
-   "size_bytes": 9637,
-   "sha256": "baffb5c7a354467c2005cc6ef86b6f413d2932480d2a0fb89b18b27010bf7b51",
-   "min_game": "0.3.0",
-   "requires": [],
-   "contents": {
-    "fighters": [
-     {
-      "id": "cyclops",
-      "name": "Cyclops",
-      "note": "Arc 14 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "storm",
-      "name": "Storm",
-      "note": "Arc 14 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "rogue",
-      "name": "Rogue",
-      "note": "Arc 14 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "gambit",
-      "name": "Gambit",
-      "note": "Arc 14 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "wolverine",
-      "name": "Wolverine",
-      "note": "Arc 14 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "psylocke",
-      "name": "Psylocke",
-      "note": "Arc 14 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "iceman",
-      "name": "Iceman",
-      "note": "Arc 14 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "cable",
-      "name": "Cable",
-      "note": "Arc 14 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "colossus",
-      "name": "Colossus",
-      "note": "Arc 14 cast — arrives in their own fighter pack"
-     },
-     {
-      "id": "magneto",
-      "name": "Magneto",
-      "note": "Arc 14 cast — arrives in their own fighter pack"
-     }
-    ],
-    "stages": [],
-    "music": []
-   },
-   "story": {
-    "arc_id": "arc_mutant_underground",
-    "arc_name": "The Mutant Underground Is a Promise",
-    "arc_status": "approved",
-    "cluster": [
-     "cyclops",
-     "storm",
-     "wolverine",
-     "rogue",
-     "gambit",
-     "psylocke",
-     "cable",
-     "colossus",
-     "iceman",
-     "magneto"
-    ],
-    "final_boss": "magneto",
-    "links": [
-     {
-      "arc_id": "arc_gods_demands",
-      "note": "J'onn J'onzz's testimony from Arc 13 is played as a recording in Episode 5 (scene a14_offer). He does not appear; the recording is a scene device, credited in the scene.",
-      "via": "martian_manhunter"
-     }
-    ],
-    "required_characters": [
-     "cyclops",
-     "storm",
-     "rogue",
-     "gambit",
-     "wolverine",
-     "psylocke",
-     "iceman",
-     "cable",
-     "colossus",
-     "magneto"
-    ],
-    "lead": "cyclops",
-    "episodes": 6,
-    "scenes": 16,
-    "final_boss_name": "Magneto",
-    "premise": "A complete storyline: Cyclops and Storm's rescue underground against the rebuilt Sentinel programme, in six episodes. The slate's closing arc."
-   }
   }
  ]
 }

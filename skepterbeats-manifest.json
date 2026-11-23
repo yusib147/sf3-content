@@ -4275,6 +4275,743 @@
     "final_boss_name": "Rolento",
     "premise": "A complete storyline: Haggar, Cody, Guy, Lucia and Maki defend Metro City's gyms from Rolento's purchased army, in six episodes."
    }
+  },
+  {
+   "id": "chunli_pack",
+   "name": "Chun-Li — Lightning Legs of Interpol",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-chunli-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 3160730,
+   "sha256": "8058e6384f3ae5fbaba71a4dcb4d70a9bb8f2812125b8ed20ecb9a54d696acdf",
+   "summary": "One new fighter: Chun-Li, the lead, with the full Fightcade kit. Built for arc 'The Interpol File' (Arc 12).",
+   "fighters": [
+    "chunli"
+   ],
+   "contents": {
+    "headline": "One new fighter: Chun-Li, with the full Fightcade kit — the lead of 'The Interpol File'.",
+    "fighters": [
+     {
+      "id": "chunli",
+      "name": "Chun-Li",
+      "note": "full special/super kit in pack data (4 specials, 2 supers), 55 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Lead of 'The Interpol File' (Arc 12): Chun-Li opens the file on Lucia's evidence and Rolento's seized ledger in Episode 1 and leads all six episodes to Bison's facility. The arc ships as the arc_interpol_file storyline pack.",
+    "music": [],
+    "links": "Lucia's evidence and Rolento's seized ledger arrive as documents from 'Metro City Is Worth Saving' in Episode 1 (neither character appears); Ken's company is named once in Episode 1's money trail (Ken does not appear). Sagat's name, spoken in 'The Answer in the Heart of Battle', is collected here.",
+    "notes": "The arc's lead, and the oldest pack in the set: built in wave 1 from the Warusaki-family CvS source (cvs_chunli) and audited COMPLETE — every named animation group present, palette pal1_rev scored a clean 1.0. Her kit ships under the source's own command names: four specials (kikou1, the state-1100 special, and Spinning Bird Kick spining1/spining4) and two supers (kikoushou1, houyoku1); 55 voice clips (5 effort, 41 call across 14 groups, 3 hurt, 1 KO, 5 win). Throws present and audited (AIR 800 forward, AIR 830 back). Excluded as system mechanics, per the source inventory: the Guard Cancel (state 2800) and the recovery states. Note: this wave-1 pack's inner story block still names the provisional arc it was staged under; the approved Interpol File StoryMeta is the one on this manifest entry, and the shipped client registers a storyline only from a pack carrying a story/<arc_id>.json payload, which fighter packs do not carry — so the stale inner block is inert (verified against the shipped g.gd _register_pack_story)."
+   },
+   "story": {
+    "arc_id": "arc_interpol_file",
+    "arc_name": "The Interpol File",
+    "arc_status": "approved",
+    "cluster": [
+     "chunli",
+     "guile",
+     "cammy",
+     "decapre",
+     "juni",
+     "sakura",
+     "karin",
+     "sagat",
+     "bison"
+    ],
+    "required_characters": [
+     "chunli",
+     "guile",
+     "cammy",
+     "sakura",
+     "sagat",
+     "karin",
+     "decapre",
+     "juni",
+     "bison"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_metro_city",
+      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
+      "via": "rolento"
+     },
+     {
+      "arc_id": "arc_heart_of_battle",
+      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
+      "via": "sagat"
+     }
+    ],
+    "final_boss": "bison",
+    "role": "lead"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "guile_pack",
+   "name": "Guile — The File's Second Signature",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-guile-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2048676,
+   "sha256": "3b9c6b5649d26fec06cf0f5803659e0333995d8010684616321b3220055dc506",
+   "summary": "One new fighter: Guile, partner from Episode 1, with the full Fightcade kit. Built for arc 'The Interpol File' (Arc 12).",
+   "fighters": [
+    "guile"
+   ],
+   "contents": {
+    "headline": "One new fighter: Guile, with the full Fightcade kit — partner of 'The Interpol File' from Episode 1.",
+    "fighters": [
+     {
+      "id": "guile",
+      "name": "Guile",
+      "note": "full special/super kit in pack data (2 specials, 3 supers), 45 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Interpol File' (Arc 12): in from the start of Episode 1 as the file's second signature, for Charlie's sake. The arc ships as the arc_interpol_file storyline pack.",
+    "music": [],
+    "links": "Lucia's evidence and Rolento's seized ledger arrive as documents from 'Metro City Is Worth Saving' in Episode 1 (neither character appears); Sagat's name, spoken in 'The Answer in the Heart of Battle', is collected in this arc.",
+    "notes": "The file's second signature. Full kit traced from the char's own .cmd: Sonic Boom and Somersault Kick, plus all three supers (Total Wipeout, Somersault Strike, Sonic Hurricane). Real throws pinned from the source's throw statedef (state 900, HitDef S, NT): in this author family AIR 900 is the shared grab attempt and AIR 910 is the same attempt sprites, so the forward strip is the punch-throw execution (AIR 901) and the back strip the kick-throw execution (AIR 911), both visually verified as grab-and-toss motions; the plain throw slot carries the attempt (AIR 900). Palette forced to pal4_rev, the .def's own pal.defaults first entry: the auto-score picked pal1_rev at 1.0, an alt colourway (grey top, red camo) that does not match his portrait, while pal4_rev renders the true green camo. Air throws (states 920/930) have no slot in the pack format and are not represented. Excluded as system mechanics: Guard Cancel (state 2800), the recovery roll (5200) and the groove subsystems."
+   },
+   "story": {
+    "arc_id": "arc_interpol_file",
+    "arc_name": "The Interpol File",
+    "arc_status": "approved",
+    "cluster": [
+     "chunli",
+     "guile",
+     "cammy",
+     "decapre",
+     "juni",
+     "sakura",
+     "karin",
+     "sagat",
+     "bison"
+    ],
+    "required_characters": [
+     "chunli",
+     "guile",
+     "cammy",
+     "sakura",
+     "sagat",
+     "karin",
+     "decapre",
+     "juni",
+     "bison"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_metro_city",
+      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
+      "via": "rolento"
+     },
+     {
+      "arc_id": "arc_heart_of_battle",
+      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
+      "via": "sagat"
+     }
+    ],
+    "final_boss": "bison",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "cammy_pack",
+   "name": "Cammy White — The Dolls' File",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-cammy-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1915455,
+   "sha256": "671aaf4c4c9016dbdcb1be5f054cabdcbff2440563d4e2f09219023f5e57fe11",
+   "summary": "One new fighter: Cammy White, featured partner of Episodes 2 and 5, with the full Fightcade kit. Built for arc 'The Interpol File' (Arc 12).",
+   "fighters": [
+    "cammy"
+   ],
+   "contents": {
+    "headline": "One new fighter: Cammy White, with the full Fightcade kit — featured partner of 'The Interpol File'.",
+    "fighters": [
+     {
+      "id": "cammy",
+      "name": "Cammy White",
+      "note": "full special/super kit in pack data (5 specials, 3 supers), 45 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Interpol File' (Arc 12): arrives with the Dolls' file in Episode 2, featured partner in Episodes 2 and 5, and closes her part of the file herself before the boss in Episode 6. The arc ships as the arc_interpol_file storyline pack.",
+    "music": [],
+    "links": "Lucia's evidence and Rolento's seized ledger arrive as documents from 'Metro City Is Worth Saving' in Episode 1 (neither character appears); Sagat's name, spoken in 'The Answer in the Heart of Battle', is collected in this arc.",
+    "notes": "Featured partner of Episodes 2 and 5. Full kit traced from the char's own .cmd: Cannon Spike, Spiral Arrow, Axel Spin Knuckle, Hooligan Combination and Cannon Strike, plus all three supers. Cannon Strike's strip is AIR 1400, pinned by config: the statedef header anim is an ifelse over prevstateno that resolves to the Hooligan flip (AIR 1300); the standalone dive is AIR 1400, visually verified. The Hooligan follow-ups (Razor Edge Slicer, Fatal Leg Twister, Cross Scissors Pressure) are sub-states of the 1300 entry and ride inside the parent's flow in the source; they are not separate kit entries. Throws pinned from statedef 900 (S, NT): forward = AIR 901 execution (shoulder throw), back = AIR 911 execution (Frankensteiner), attempt = AIR 900; AIR 910 is the same attempt sprites as 900 in this family. Air throws (920/930) have no pack slot. Palette pal4_rev scored a clean 1.0, matches pal.defaults and her portrait. Excluded as system mechanics: Guard Cancel (2800) and the recovery roll (5200)."
+   },
+   "story": {
+    "arc_id": "arc_interpol_file",
+    "arc_name": "The Interpol File",
+    "arc_status": "approved",
+    "cluster": [
+     "chunli",
+     "guile",
+     "cammy",
+     "decapre",
+     "juni",
+     "sakura",
+     "karin",
+     "sagat",
+     "bison"
+    ],
+    "required_characters": [
+     "chunli",
+     "guile",
+     "cammy",
+     "sakura",
+     "sagat",
+     "karin",
+     "decapre",
+     "juni",
+     "bison"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_metro_city",
+      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
+      "via": "rolento"
+     },
+     {
+      "arc_id": "arc_heart_of_battle",
+      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
+      "via": "sagat"
+     }
+    ],
+    "final_boss": "bison",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "sakura_pack",
+   "name": "Sakura Kasugano — The Exhibition",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-sakura-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2387997,
+   "sha256": "35038c4ad22af1e2afa345390e43d89f8ffea7d8d4d624bc5ca0fb10e5c2c48d",
+   "summary": "One new fighter: Sakura Kasugano, who joins in Episode 2, with the full Fightcade kit. Built for arc 'The Interpol File' (Arc 12).",
+   "fighters": [
+    "sakura"
+   ],
+   "contents": {
+    "headline": "One new fighter: Sakura Kasugano, with the full Fightcade kit — joins in Episode 2 of 'The Interpol File'.",
+    "fighters": [
+     {
+      "id": "sakura",
+      "name": "Sakura Kasugano",
+      "note": "full special/super kit in pack data (10 specials, 5 supers), 45 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Interpol File' (Arc 12): her exhibition is used as sale cover in Episode 2 and she joins after finishing her match first. The arc ships as the arc_interpol_file storyline pack.",
+    "music": [],
+    "links": "Lucia's evidence and Rolento's seized ledger arrive as documents from 'Metro City Is Worth Saving' in Episode 1 (neither character appears); Sagat's name, spoken in 'The Answer in the Heart of Battle', is collected in this arc.",
+    "notes": "Joins in Episode 2 after finishing her match. Full kit traced from the char's own .cmd: Hadou Sho, Shoouken, Shunpukyaku (ground and air), Sakura Otoshi, Oukakyaku and the Ashura Senku teleport, plus five supers. The alternate-mode dispatches (var(12), the hold-start selection) of Hadou Sho (1050), Shoouken (1500) and Midare Sakura (3400) carry their own animations and ship as their own kit entries. State 1700, the alternate-mode Shunpukyaku dispatch, plays the 1200-band animations themselves (ChangeAnim 1200/1210/1220) and has no strip of its own, so it is not a separate entry. Haru Gokusatsu (3300) is her Lv3 grab super (S, HT); its header anim is an expression artifact and the strip is AIR 3300. Sakura Otoshi (1300) ships as a kit grab. Throws pinned from statedef 900 (S, NT): forward = AIR 901, back = AIR 911, attempt = AIR 900. Air throws have no pack slot. Palette pal4_rev scored 1.0 and matches her portrait. Excluded as system mechanics: Guard Cancel (2800) and the recovery roll (5200)."
+   },
+   "story": {
+    "arc_id": "arc_interpol_file",
+    "arc_name": "The Interpol File",
+    "arc_status": "approved",
+    "cluster": [
+     "chunli",
+     "guile",
+     "cammy",
+     "decapre",
+     "juni",
+     "sakura",
+     "karin",
+     "sagat",
+     "bison"
+    ],
+    "required_characters": [
+     "chunli",
+     "guile",
+     "cammy",
+     "sakura",
+     "sagat",
+     "karin",
+     "decapre",
+     "juni",
+     "bison"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_metro_city",
+      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
+      "via": "rolento"
+     },
+     {
+      "arc_id": "arc_heart_of_battle",
+      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
+      "via": "sagat"
+     }
+    ],
+    "final_boss": "bison",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "sagat_pack",
+   "name": "Sagat — The Guest of Honour",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-sagat-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2957027,
+   "sha256": "243c697a91316ecfbda86249fcca1cc7b1254558d837758ee3570891750d4f7f",
+   "summary": "One new fighter: Sagat, the scored duel of Episode 3, with the full Fightcade kit. Built for arc 'The Interpol File' (Arc 12).",
+   "fighters": [
+    "sagat"
+   ],
+   "contents": {
+    "headline": "One new fighter: Sagat, with the full Fightcade kit — the scored duel of Episode 3 of 'The Interpol File'.",
+    "fighters": [
+     {
+      "id": "sagat",
+      "name": "Sagat",
+      "note": "full special/super kit in pack data (8 specials, 9 supers), 45 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Interpol File' (Arc 12): fought as Bison's wall in Episode 3's scored duel through the fighter fallback, turns on the offered title, and joins at the episode's end. The arc ships as the arc_interpol_file storyline pack.",
+    "music": [],
+    "links": "Sagat's name is spoken in 'The Answer in the Heart of Battle' (Arc 2, Episode 3), as another man Gouki's path has marked; this arc is where that thread is collected. Lucia's evidence and Rolento's seized ledger arrive as documents from 'Metro City Is Worth Saving' in Episode 1 (neither character appears).",
+    "notes": "The scored duel of Episode 3. SvC four-button source: the kit is traced from the .cmd's command-recognizer dispatches and the char's own skill list, since the generic parse names no moves. All eight specials and nine supers ship, strength pairs as separate entries, following the wave-2 SvC precedent. Kicks: the source has two kick buttons with close/far variants — kick1 = AIR 225 (far light), kick2 = AIR 235 (far heavy), kick3 = AIR 230 (close heavy) — all visually verified as kicks; the heavy-punch slot takes AIR 215 (far heavy punch) because AIR 400 in this template is a crouching light punch. Throws are his two named ground throws from statedefs 900/910 (both S, NT): Tiger Rage (forward, execution AIR 905) and Tiger Carry (back, execution AIR 915), with the shared attempt at AIR 900. Voice: his move calls sit in .snd group 5, played from every special and super state, and ship as the call bank via voice_call_groups; the source .snd has no KO bank (no 5100 group), so the KO slot is honestly empty. Palette tied pal1_rev/pal4_rev at 1.0; pal1_rev renders his classic blue-shorts colours. Excluded as system mechanics: Angry Charge (3300, an install), Power MAX and Quick MAX activation (4200/4210), the guard-cancel actions (4050/4100/4500) and the emergency evasions (4000/4010)."
+   },
+   "story": {
+    "arc_id": "arc_interpol_file",
+    "arc_name": "The Interpol File",
+    "arc_status": "approved",
+    "cluster": [
+     "chunli",
+     "guile",
+     "cammy",
+     "decapre",
+     "juni",
+     "sakura",
+     "karin",
+     "sagat",
+     "bison"
+    ],
+    "required_characters": [
+     "chunli",
+     "guile",
+     "cammy",
+     "sakura",
+     "sagat",
+     "karin",
+     "decapre",
+     "juni",
+     "bison"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_metro_city",
+      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
+      "via": "rolento"
+     },
+     {
+      "arc_id": "arc_heart_of_battle",
+      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
+      "via": "sagat"
+     }
+    ],
+    "final_boss": "bison",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "karin_pack",
+   "name": "Karin Kanzuki — The Intelligence War",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-karin-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2201660,
+   "sha256": "a14e08070df780d5ff03a7ef94320f7935ae35f7218e601ee1f49f0ddd1bd34c",
+   "summary": "One new fighter: Karin Kanzuki, featured partner of Episode 4, with the full Fightcade kit. Built for arc 'The Interpol File' (Arc 12).",
+   "fighters": [
+    "karin"
+   ],
+   "contents": {
+    "headline": "One new fighter: Karin Kanzuki, with the full Fightcade kit — featured partner of Episode 4 of 'The Interpol File'.",
+    "fighters": [
+     {
+      "id": "karin",
+      "name": "Karin Kanzuki",
+      "note": "full special/super kit in pack data (9 specials, 3 supers), 45 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Interpol File' (Arc 12): bankrolls and runs logistics from Episode 4, featured partner there; her intelligence war ends with the final auction's location. The arc ships as the arc_interpol_file storyline pack.",
+    "music": [],
+    "links": "Lucia's evidence and Rolento's seized ledger arrive as documents from 'Metro City Is Worth Saving' in Episode 1 (neither character appears); Sagat's name, spoken in 'The Answer in the Heart of Battle', is collected in this arc.",
+    "notes": "Featured partner of Episode 4. Full kit traced from the char's own .cmd: the Guren Ken line (Guren Ken, Guren Ken Kai, Hosho), Ressencho, Mujin Kyaku, Ressenha, both Yasha Gaeshi counters, and the Arakuma Inashi command throw (1800, S, ST), plus three supers including the Yasha Strangle super throw (3200, S, HT). Guren follow-up states ride inside the parent's flow in the source and are not separate kit entries. Yasha Gaeshi (1700/1750) are counter-entry states whose strikes land in follow-through states. Palette: every candidate scored ~0.0 against the embedded reference sprite (an uninformative sample for this char), so the default was forced to pal4_rev, the .def's own pal.defaults first entry, and verified on the contact sheet against her portrait (red dress, blonde drills). Throws pinned from statedef 900 (S, NT): forward = AIR 901, back = AIR 911, attempt = AIR 900. Excluded as system mechanics: Guard Cancel (2800) and the recovery roll (5200)."
+   },
+   "story": {
+    "arc_id": "arc_interpol_file",
+    "arc_name": "The Interpol File",
+    "arc_status": "approved",
+    "cluster": [
+     "chunli",
+     "guile",
+     "cammy",
+     "decapre",
+     "juni",
+     "sakura",
+     "karin",
+     "sagat",
+     "bison"
+    ],
+    "required_characters": [
+     "chunli",
+     "guile",
+     "cammy",
+     "sakura",
+     "sagat",
+     "karin",
+     "decapre",
+     "juni",
+     "bison"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_metro_city",
+      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
+      "via": "rolento"
+     },
+     {
+      "arc_id": "arc_heart_of_battle",
+      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
+      "via": "sagat"
+     }
+    ],
+    "final_boss": "bison",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "decapre_pack",
+   "name": "Decapre — Freed in Episode 5",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-decapre-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 7269325,
+   "sha256": "fa1471ef0b3a85d9d5378a68a23876a079c561037035b0149ed0309739946471",
+   "summary": "One new fighter: Decapre, freed in Episode 5, with the full Fightcade kit. Built for arc 'The Interpol File' (Arc 12).",
+   "fighters": [
+    "decapre"
+   ],
+   "contents": {
+    "headline": "One new fighter: Decapre, with the full Fightcade kit — freed in Episode 5 of 'The Interpol File'.",
+    "fighters": [
+     {
+      "id": "decapre",
+      "name": "Decapre",
+      "note": "full special/super kit in pack data (9 specials, 4 supers), 45 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Interpol File' (Arc 12): named on the delivery schedule in Episode 1, fought as a conditioned demonstration in Episode 5, freed in the same episode and playable from the rescue on. Her own pack, built from her own source — not a copy of Cammy's. The arc ships as the arc_interpol_file storyline pack.",
+    "music": [],
+    "links": "Lucia's evidence and Rolento's seized ledger arrive as documents from 'Metro City Is Worth Saving' in Episode 1 (neither character appears); Sagat's name, spoken in 'The Answer in the Heart of Battle', is collected in this arc.",
+    "notes": "Her own pack from her own source (tJun's Decapre), not a Cammy clone: the Doll normal set is family-shared, but her kit, her 145-clip voice bank and her palette are hers. Kit traced from motions and statedefs, not the inherited .cmd labels: state 1000 is Psycho Sting (charge D,U+P, a rising claw slash; the .cmd still calls it Cannon Spike), state 1200 is Rapid Dagger (mash P; its statedef tracks repeated presses), and the supers are named by their motions from the author's own README — Strafe Dagger (3000), Psycho Stream (3100), DCM ground (3200) and air (3300) — where the .cmd carries Cammy's super names. The README's counter-only Cannon Spike has no implementing state in this source (full state sweep in the build log); Psycho Sting is the anti-air. Scramble's follow-ups (Razor Edge Slicer, Fatal Leg Twister, Cross Scissors Pressure) are sub-states and ride the parent's flow; the Scramble air throw, the Air Screw Piledriver (1350, S, ST), ships as a kit grab, visually verified. Psycho Transaction (1700), a hold-to-charge mechanic, is excluded as a system mechanic, as are the Guard Cancel (2800) and recovery roll (5200). Throws pinned from statedef 900 (S, NT): forward = AIR 901, back = AIR 911, attempt = AIR 900. Air throws (920/930) have no pack slot. Palette pal4_rev scored 1.0 and matches her portrait."
+   },
+   "story": {
+    "arc_id": "arc_interpol_file",
+    "arc_name": "The Interpol File",
+    "arc_status": "approved",
+    "cluster": [
+     "chunli",
+     "guile",
+     "cammy",
+     "decapre",
+     "juni",
+     "sakura",
+     "karin",
+     "sagat",
+     "bison"
+    ],
+    "required_characters": [
+     "chunli",
+     "guile",
+     "cammy",
+     "sakura",
+     "sagat",
+     "karin",
+     "decapre",
+     "juni",
+     "bison"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_metro_city",
+      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
+      "via": "rolento"
+     },
+     {
+      "arc_id": "arc_heart_of_battle",
+      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
+      "via": "sagat"
+     }
+    ],
+    "final_boss": "bison",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "juni_pack",
+   "name": "Juni — Freed in Episode 5",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-juni-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 1888143,
+   "sha256": "fc71aded326b9de58487ae2a6842ff7497cc7a49202ba85a4922f0ba23756166",
+   "summary": "One new fighter: Juni, freed in Episode 5, with the full Fightcade kit. Built for arc 'The Interpol File' (Arc 12).",
+   "fighters": [
+    "juni"
+   ],
+   "contents": {
+    "headline": "One new fighter: Juni, with the full Fightcade kit — freed in Episode 5 of 'The Interpol File'.",
+    "fighters": [
+     {
+      "id": "juni",
+      "name": "Juni",
+      "note": "full special/super kit in pack data (7 specials, 4 supers), 45 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Partner in 'The Interpol File' (Arc 12): named on the delivery schedule in Episode 1, fought as a conditioned demonstration in Episode 5, freed in the same episode and playable from the rescue on. Her own pack, built from her own source — not a copy of Cammy's or Decapre's. The arc ships as the arc_interpol_file storyline pack.",
+    "music": [],
+    "links": "Lucia's evidence and Rolento's seized ledger arrive as documents from 'Metro City Is Worth Saving' in Episode 1 (neither character appears); Sagat's name, spoken in 'The Answer in the Heart of Battle', is collected in this arc.",
+    "notes": "Her own pack from her own source, not a Cammy or Decapre clone: the Doll normal set is family-shared, but her kit and voice bank are hers. Full kit traced from the char's own .cmd and her author's move list: Cannon Spike, Spiral Arrow (ground and air dispatches), Hooligan Combination, Cannon Strike, Earth Direct, Mach Slide, and four supers. Earth Direct (1500) is her 360 command throw (S, ST) and ships as a kit grab. The Hooligan follow-ups (Razor Edge Slicer, Fatal Leg Twister, Cross Scissors Pressure) are sub-states of the 1300 entry and ride the parent's flow. Cannon Strike's strip is AIR 1400 via config (the header anim is an ifelse that resolves to the Hooligan flip, AIR 1300). Throws pinned from statedef 900 (S, NT): forward = AIR 901, back = AIR 911, attempt = AIR 900. Air throws (920/930) have no pack slot. Palette: pal4_rev was the best score (0.4167) and the .def's pal.defaults first entry; verified against her portrait (navy uniform, orange hair). Excluded as system mechanics: Guard Cancel (2800) and the recovery roll (5200)."
+   },
+   "story": {
+    "arc_id": "arc_interpol_file",
+    "arc_name": "The Interpol File",
+    "arc_status": "approved",
+    "cluster": [
+     "chunli",
+     "guile",
+     "cammy",
+     "decapre",
+     "juni",
+     "sakura",
+     "karin",
+     "sagat",
+     "bison"
+    ],
+    "required_characters": [
+     "chunli",
+     "guile",
+     "cammy",
+     "sakura",
+     "sagat",
+     "karin",
+     "decapre",
+     "juni",
+     "bison"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_metro_city",
+      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
+      "via": "rolento"
+     },
+     {
+      "arc_id": "arc_heart_of_battle",
+      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
+      "via": "sagat"
+     }
+    ],
+    "final_boss": "bison",
+    "role": "partner"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "bison_pack",
+   "name": "M. Bison — The Man Who Wrote the File",
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-bison-pack.zip",
+   "type": "fighter",
+   "version": 1,
+   "size_bytes": 2402031,
+   "sha256": "e66fbf3283f3b9d07b584675d9f80740c9d8f67b6dc4a10a9753d609c9e0c9f0",
+   "summary": "One new fighter: M. Bison, the final boss, with the full Fightcade kit. Built for arc 'The Interpol File' (Arc 12).",
+   "fighters": [
+    "bison"
+   ],
+   "contents": {
+    "headline": "One new fighter: M. Bison, with the full Fightcade kit — the final boss of 'The Interpol File'.",
+    "fighters": [
+     {
+      "id": "bison",
+      "name": "M. Bison",
+      "note": "full special/super kit in pack data (9 specials, 3 supers), 45 voice clips"
+     }
+    ],
+    "stages": [],
+    "story": "Final boss of 'The Interpol File' (Arc 12): the man who wrote the buyers' list, fought in Episode 6 and beaten by severing Psycho Power's feed. His boss def resolves its kit from this pack (kit_source: fighter_def). The arc ships as the arc_interpol_file storyline pack.",
+    "music": [],
+    "links": "Lucia's evidence and Rolento's seized ledger arrive as documents from 'Metro City Is Worth Saving' in Episode 1 (neither character appears); Sagat's name, spoken in 'The Answer in the Heart of Battle', is collected in this arc.",
+    "notes": "The final boss of 'The Interpol File'; his boss def resolves its kit from this pack (kit_source: fighter_def). Full kit traced from the char's own .cmd: Psycho Crusher, Double Knee Press, Psycho Vanish, Head Press, Devil Reverse, Vega Warp, Psycho Field, and three supers. Mega Psycho Crusher (3100) and Final Psycho Crusher (3200) dispatch through an ifelse on the Final-mode flag under one command name the generic parse cannot read; both ship as separate supers, and the Final-mode dispatches of Psycho Crusher (1600) and Psycho Vanish (1800) ship as their own kit entries. Devil Reverse's strip is AIR 1401, pinned by config: state 1400 is a setup state that leaps with the Head Press animation (AIR 1300) and ChangeStates into the dive at 1401; the dive is the move's identity, visually verified. Episode 6's body change is carried by the storyline's boss_phase2 scene, not by any pack mechanic; no body-swap move exists in this source or is claimed here. Palette: scores were weak for every candidate (best 0.129); pal4_rev is both the best score and the .def's pal.defaults first entry, verified against his portrait. Throws pinned from statedef 900 (S, NT): forward = AIR 901, back = AIR 911, attempt = AIR 900. Air throws have no pack slot. Excluded as system mechanics: Guard Cancel (2800) and the recovery roll (5200)."
+   },
+   "story": {
+    "arc_id": "arc_interpol_file",
+    "arc_name": "The Interpol File",
+    "arc_status": "approved",
+    "cluster": [
+     "chunli",
+     "guile",
+     "cammy",
+     "decapre",
+     "juni",
+     "sakura",
+     "karin",
+     "sagat",
+     "bison"
+    ],
+    "required_characters": [
+     "chunli",
+     "guile",
+     "cammy",
+     "sakura",
+     "sagat",
+     "karin",
+     "decapre",
+     "juni",
+     "bison"
+    ],
+    "links": [
+     {
+      "arc_id": "arc_metro_city",
+      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
+      "via": "rolento"
+     },
+     {
+      "arc_id": "arc_heart_of_battle",
+      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
+      "via": "sagat"
+     }
+    ],
+    "final_boss": "bison",
+    "role": "final_boss"
+   },
+   "supersedes": []
+  },
+  {
+   "id": "arc_interpol_file",
+   "name": "Storyline: The Interpol File",
+   "type": "storyline",
+   "version": 1,
+   "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-arc-interpol-file-pack.zip",
+   "size_bytes": 8536,
+   "sha256": "1c7bcf0fdfb2393de19fb2bfff0b49fdae485e92d7ca9bc97487d1df5b061c69",
+   "min_game": "0.3.0",
+   "requires": [],
+   "contents": {
+    "fighters": [
+     {
+      "id": "chunli",
+      "name": "Chun-Li",
+      "note": "Arc 12 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "guile",
+      "name": "Guile",
+      "note": "Arc 12 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "cammy",
+      "name": "Cammy White",
+      "note": "Arc 12 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "sakura",
+      "name": "Sakura Kasugano",
+      "note": "Arc 12 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "sagat",
+      "name": "Sagat",
+      "note": "Arc 12 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "karin",
+      "name": "Karin Kanzuki",
+      "note": "Arc 12 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "decapre",
+      "name": "Decapre",
+      "note": "Arc 12 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "juni",
+      "name": "Juni",
+      "note": "Arc 12 cast — arrives in their own fighter pack"
+     },
+     {
+      "id": "bison",
+      "name": "M. Bison",
+      "note": "Arc 12 cast — arrives in their own fighter pack"
+     }
+    ],
+    "stages": [],
+    "music": []
+   },
+   "story": {
+    "arc_id": "arc_interpol_file",
+    "arc_name": "The Interpol File",
+    "arc_status": "approved",
+    "cluster": [
+     "chunli",
+     "guile",
+     "cammy",
+     "decapre",
+     "juni",
+     "sakura",
+     "karin",
+     "sagat",
+     "bison"
+    ],
+    "final_boss": "bison",
+    "links": [
+     {
+      "arc_id": "arc_metro_city",
+      "note": "Lucia's evidence transfer and Rolento's seized ledger arrive as documents in Episode 1 — the file's first exhibits. Neither character appears; Arc 11's payoff is paperwork, at slate size.",
+      "via": "rolento"
+     },
+     {
+      "arc_id": "arc_heart_of_battle",
+      "note": "Sagat's name is spoken in Arc 2, Episode 3, as another man Gouki's path has marked; this arc is where that thread is collected.",
+      "via": "sagat"
+     }
+    ],
+    "required_characters": [
+     "chunli",
+     "guile",
+     "cammy",
+     "sakura",
+     "sagat",
+     "karin",
+     "decapre",
+     "juni",
+     "bison"
+    ],
+    "lead": "chunli",
+    "episodes": 6,
+    "scenes": 15,
+    "final_boss_name": "M. Bison",
+    "premise": "A complete storyline: the Interpol file on Shadaloo's fire sale, in six episodes — Chun-Li, Guile and Cammy chase the buyers' list to the man who wrote it."
+   }
   }
  ]
 }

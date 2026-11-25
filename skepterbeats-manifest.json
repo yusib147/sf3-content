@@ -238,11 +238,11 @@
    "id": "bundle_arc_swords_storms",
    "name": "Swords in a Country of Storms — Story + Full Cast",
    "type": "bundle",
-   "version": 2,
+   "version": 3,
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-swords-storms-pack.zip",
-   "size_bytes": 27044919,
-   "sha256": "4225c143c619210b1a9a5486f8c4ebf098e2ef22ba82650bffc0948456fa1a17",
-   "min_game": "0.5.1",
+   "size_bytes": 138518311,
+   "sha256": "4bfc1af4906465eae97b01de0512d6902c960c4fad03e1668e3d5d141ac8efee",
+   "min_game": "0.5.3",
    "requires": [],
    "contents": {
     "fighters": [

@@ -942,10 +942,10 @@
    "id": "bundle_arc_interpol_file",
    "name": "The Interpol File — Story + Full Cast",
    "type": "bundle",
-   "version": 2,
+   "version": 3,
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-interpol-file-pack.zip",
-   "size_bytes": 26220298,
-   "sha256": "ad15466bae75918a5d8c4f802ddab92fd94ebd22fb31c38e260dcf245d88fe8d",
+   "size_bytes": 94810250,
+   "sha256": "f3672fdf94feda14bdd045b8271a4ee2443d40bda700cdaba8035f632df55178",
    "requires": [],
    "contents": {
     "fighters": [

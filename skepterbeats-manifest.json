@@ -154,11 +154,11 @@
    "id": "bundle_arc_the_seal",
    "name": "The Seal Is Not a Weapon — Story + Full Cast",
    "type": "bundle",
-   "version": 2,
+   "version": 3,
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-bundle-arc-the-seal-pack.zip",
-   "size_bytes": 19265119,
-   "sha256": "a883515359f5119730b88c969b8cc929d660f9d1779df5ff32aabe9cf25fa5c3",
-   "min_game": "0.5.1",
+   "size_bytes": 111329331,
+   "sha256": "63606086b8e9274489ad69a7c88d246d215e0d5878938cb71bae64a069e3c588",
+   "min_game": "0.5.3",
    "requires": [],
    "contents": {
     "fighters": [

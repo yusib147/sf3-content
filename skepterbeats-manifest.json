@@ -847,10 +847,10 @@
    "id": "bundle_arc_metro_city",
    "name": "Metro City Is Worth Saving — Story + Full Cast",
    "type": "bundle",
-   "version": 2,
+   "version": 3,
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-bundle-arc-metro-city-pack.zip",
-   "size_bytes": 21000979,
-   "sha256": "0ded0ea8f33ef3d7b67db61c7f6643b00d070ad32e80e95fc6bf9235208737f8",
+   "size_bytes": 92204626,
+   "sha256": "e042d8bfb37a02432a2b991ea1ae93e965aeeef7a83dea79082a90f839f63144",
    "requires": [],
    "contents": {
     "fighters": [

@@ -622,10 +622,10 @@
    "id": "bundle_arc_machines_ghosts",
    "name": "Machines and Ghosts — Story + Full Cast",
    "type": "bundle",
-   "version": 2,
+   "version": 3,
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-machines-ghosts-pack.zip",
-   "size_bytes": 43642361,
-   "sha256": "d1cc3eeef0f3194a6dea30728c46d3aac7e449c6bc3f3d0914b341ab575f865d",
+   "size_bytes": 120324617,
+   "sha256": "3f6cf5bb1b22593123d136b5b6c054852c553c79321f73f33958ea4318c10b6f",
    "requires": [],
    "contents": {
     "fighters": [

@@ -448,11 +448,11 @@
    "id": "bundle_arc_outworld",
    "name": "Outworld Comes Collecting — Story + Full Cast",
    "type": "bundle",
-   "version": 2,
+   "version": 3,
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-bundle-arc-outworld-pack.zip",
-   "size_bytes": 8837838,
-   "sha256": "2aa2049978dc111c1b9e4e889e061677ef134aede15e93ca97d18c2f45bc5452",
-   "min_game": "0.5.1",
+   "size_bytes": 80863133,
+   "sha256": "ef9731e305b22514267927e4bcb9c6857875d465038d02f783c3b7b4a49e5980",
+   "min_game": "0.5.3",
    "requires": [],
    "contents": {
     "fighters": [

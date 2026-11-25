@@ -41,7 +41,7 @@
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-southtown-pack.zip",
    "size_bytes": 157775880,
    "sha256": "250c378f38c6bb8747fb878576f57bdf83479e41c191a0619a22e7604aabd193",
-   "min_game": "0.5.3",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [
@@ -158,7 +158,7 @@
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-bundle-arc-the-seal-pack.zip",
    "size_bytes": 111329331,
    "sha256": "63606086b8e9274489ad69a7c88d246d215e0d5878938cb71bae64a069e3c588",
-   "min_game": "0.5.3",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [
@@ -242,7 +242,7 @@
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-swords-storms-pack.zip",
    "size_bytes": 138518311,
    "sha256": "4bfc1af4906465eae97b01de0512d6902c960c4fad03e1668e3d5d141ac8efee",
-   "min_game": "0.5.3",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [
@@ -340,7 +340,7 @@
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-the-edge-pack.zip",
    "size_bytes": 160507038,
    "sha256": "8194fcffb44ade303016aa2951c059643e593e3e7d95c69a03160f6eb85a53aa",
-   "min_game": "0.5.3",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [
@@ -452,7 +452,7 @@
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-bundle-arc-outworld-pack.zip",
    "size_bytes": 80863133,
    "sha256": "ef9731e305b22514267927e4bcb9c6857875d465038d02f783c3b7b4a49e5980",
-   "min_game": "0.5.3",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [
@@ -534,7 +534,7 @@
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-the-night-pack.zip",
    "size_bytes": 105044093,
    "sha256": "a2fa7df9f8dd798746bd8be15e27c03e9fb2f55f1a93d3c69b7ddb3a73ffcec9",
-   "min_game": "0.5.3",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [
@@ -632,7 +632,7 @@
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-machines-ghosts-pack.zip",
    "size_bytes": 43642361,
    "sha256": "d1cc3eeef0f3194a6dea30728c46d3aac7e449c6bc3f3d0914b341ab575f865d",
-   "min_game": "0.5.1",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [
@@ -742,7 +742,7 @@
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-the-gear-pack.zip",
    "size_bytes": 55749434,
    "sha256": "ba41ed8ec7b7e2feeb05c5c5a330c429414b464b099665819c6f3d5f5d58250d",
-   "min_game": "0.5.1",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [
@@ -859,7 +859,7 @@
    "url": "https://raw.githubusercontent.com/yusib147/sf3-content/main/skepterbeats-bundle-arc-metro-city-pack.zip",
    "size_bytes": 21000979,
    "sha256": "0ded0ea8f33ef3d7b67db61c7f6643b00d070ad32e80e95fc6bf9235208737f8",
-   "min_game": "0.5.1",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [
@@ -955,7 +955,7 @@
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-interpol-file-pack.zip",
    "size_bytes": 26220298,
    "sha256": "ad15466bae75918a5d8c4f802ddab92fd94ebd22fb31c38e260dcf245d88fe8d",
-   "min_game": "0.5.1",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [
@@ -1065,7 +1065,7 @@
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-gods-demands-pack.zip",
    "size_bytes": 27956063,
    "sha256": "89cc6d9c77e8f5988c9d937c6fee399c7660d356bf1d850fa1670cec6bc393c6",
-   "min_game": "0.5.1",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [
@@ -1168,7 +1168,7 @@
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-mutant-underground-pack.zip",
    "size_bytes": 32832352,
    "sha256": "e8ed281f0ad49a3bf2c8ea3b6c26e38b3be532fddb640cc4d1b598b191cf93dd",
-   "min_game": "0.5.1",
+   "min_game": "0.4.3",
    "requires": [],
    "contents": {
     "fighters": [

@@ -530,11 +530,11 @@
    "id": "bundle_arc_the_night",
    "name": "The Night Is Not a Monster — Story + Full Cast",
    "type": "bundle",
-   "version": 2,
+   "version": 3,
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-the-night-pack.zip",
-   "size_bytes": 25634917,
-   "sha256": "94b439b644673505aab3a7516c79f657dcee7bd8156885ad4f82338cf6dc8d26",
-   "min_game": "0.5.1",
+   "size_bytes": 105044093,
+   "sha256": "a2fa7df9f8dd798746bd8be15e27c03e9fb2f55f1a93d3c69b7ddb3a73ffcec9",
+   "min_game": "0.5.3",
    "requires": [],
    "contents": {
     "fighters": [

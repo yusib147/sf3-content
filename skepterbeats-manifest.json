@@ -1153,10 +1153,10 @@
    "id": "bundle_arc_mutant_underground",
    "name": "The Mutant Underground Is a Promise — Story + Full Cast",
    "type": "bundle",
-   "version": 2,
+   "version": 3,
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-mutant-underground-pack.zip",
-   "size_bytes": 32832352,
-   "sha256": "e8ed281f0ad49a3bf2c8ea3b6c26e38b3be532fddb640cc4d1b598b191cf93dd",
+   "size_bytes": 116042733,
+   "sha256": "f78bab4919ea3823abef86d8e30da4966b8100aa807f793f0eac8c1056881f35",
    "requires": [],
    "contents": {
     "fighters": [

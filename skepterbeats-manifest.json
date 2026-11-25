@@ -731,10 +731,10 @@
    "id": "bundle_arc_the_gear",
    "name": "The Gear Is a Child — Story + Full Cast",
    "type": "bundle",
-   "version": 2,
+   "version": 3,
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-the-gear-pack.zip",
-   "size_bytes": 55749434,
-   "sha256": "ba41ed8ec7b7e2feeb05c5c5a330c429414b464b099665819c6f3d5f5d58250d",
+   "size_bytes": 135826754,
+   "sha256": "8463b35fdc53749f009cc8bea2fc5afba61b3b529ba31dcf3e104aef4c502856",
    "requires": [],
    "contents": {
     "fighters": [

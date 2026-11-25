@@ -1051,10 +1051,10 @@
    "id": "bundle_arc_gods_demands",
    "name": "Gods and Demands — Story + Full Cast",
    "type": "bundle",
-   "version": 2,
+   "version": 3,
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-gods-demands-pack.zip",
-   "size_bytes": 27956063,
-   "sha256": "89cc6d9c77e8f5988c9d937c6fee399c7660d356bf1d850fa1670cec6bc393c6",
+   "size_bytes": 99235576,
+   "sha256": "8c95ea7b51f6b3c2f6bf5da6ce876f5a63917d1b273db81b7b23911b66dd2243",
    "requires": [],
    "contents": {
     "fighters": [

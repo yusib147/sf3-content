@@ -336,11 +336,11 @@
    "id": "bundle_arc_the_edge",
    "name": "The Edge Is a Curse — Story + Full Cast",
    "type": "bundle",
-   "version": 2,
+   "version": 3,
    "url": "https://github.com/yusib147/sf3-content/releases/download/bundles-xl/skepterbeats-bundle-arc-the-edge-pack.zip",
-   "size_bytes": 57071145,
-   "sha256": "77a42ea9a75303bd7f32333d075ea2ef9d03ccb2a195b8f6d046cdc957725948",
-   "min_game": "0.5.1",
+   "size_bytes": 160507038,
+   "sha256": "8194fcffb44ade303016aa2951c059643e593e3e7d95c69a03160f6eb85a53aa",
+   "min_game": "0.5.3",
    "requires": [],
    "contents": {
     "fighters": [
